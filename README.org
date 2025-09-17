@@ -126,9 +126,12 @@ if you get screen tearing of any kind download picom and make a
     1. ~sudo nvim .config/picom.conf~
        - add this in the file 
          #+begin_src shell
-         # ~/.config/picom.conf
-         backend = "glx";
-         vsync = true;
+         backend="glx";
+         glx-no-stencil=true;
+         glx-copy-from-front=false;
+         glx-swap-method="buffer-age";
+         vsync=true;
+         fading=false;
          #+end_src
      2. and then inside the  /usr/local/bin/startdwm.sh before while loop add 
         - ~picom &~

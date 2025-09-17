@@ -26,10 +26,12 @@ when isntalling arch with arch installer, in the options
      - paste this in the file 
   #+begin_src shell
   [Desktop Entry]
+  Encoding=UTF-8
   Name=DWM
   Comment=Dynamic Window Manager
   Exec=dwm
-  Type=Application
+  Icon=dwm
+  Type=XSession
 
   #+end_src
   8. then go to .config/dwm/config.h and edit the keybinds and font size i recomend for 

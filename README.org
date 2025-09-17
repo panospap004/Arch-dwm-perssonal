@@ -6,6 +6,7 @@ when isntalling arch with arch installer, in the options
   4. audio profile
   5. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
   6. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu, brightnessctl
+  7. if you have multiple monitors i recomend xrandr 
 * After initial step is finished and you rebooted 
   1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service
   2. enable pipewire for audio with 
@@ -50,16 +51,24 @@ when isntalling arch with arch installer, in the options
   }
   trap cleanup TERM INT
 
+  # merge xresources
+  xrdb -merge ~/.Xresources
+
   #set wallpaper
   feh --bg-scale /usr/share/backgrounds/archlinux/arch-wallpaper.jpg 
   # key layout toggle
   setxkbmap -layout us,gr -option 'grp:alt_shift_toggle' 
 
+  # how fast keys repeat if you hold them down
+  xset r rate 200 50 ## delay 200ms, rate 50 keys per second
+
+  # if you have multiple monitors use xrandr to set them up and then download the config {xyzname.sh} with the last icon open it and copy paste it here 
+
   # keep windows open after exit
   while true; do
       dwm 2> ~/.dwm.log
   done &
-  
+
   # pollybar open 
   ~/.config/polybar/launch.sh &
 
@@ -67,7 +76,7 @@ when isntalling arch with arch installer, in the options
   * and dont forget to ~chmod +x /usr/local/bin/startdwm.sh~ else it wont run
   9. then go to .config/dwm/config.h and edit the keybinds and font size i recomend for 
      - font size 12-18 depending on your screen size
-     - change Mod1Mask to Mod4Mask (super/windows key)
+     - change Mod1Mask to Mod4Mask (super/windows key) check the modkeys in the terminal with ~xmodmap~
      - create a ~static const chat *term[] = { "kitty", NULL };~ to open terminal with super+enter
      - make/edit keybinds for
        * ~{ MODKEY,                       XK_Return,      spawn,          {.v = term } },~ to open kitty terminal

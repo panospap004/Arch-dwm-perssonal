@@ -1,11 +1,11 @@
 * Initial step 
 when isntalling arch with arch installer, in the options 
-  1. bootloader use sddd
+  1. bootloader use sddm
   2. filesystem use ext4
   3. profile desktop i recommend grub as backup in case something beaks and for initial setup
   4. audio profile
   5. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
-  6. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput
+  6. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu
 * After initial step is finished and you rebooted 
   1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service~
   2. Check your local in case its wrong and if you enabled multilib with the following commands
@@ -44,6 +44,7 @@ when isntalling arch with arch installer, in the options
      - ~xinput set-prop "your touchpad name" "libinput Natural Scrolling Enabled" 1~
      - to make it permanent create a file with ~sudo nvim /etc/X11/xorg.conf.d/40-libinput.conf~
      - paste this in the file 
+       #+begin_src shell
        Section "InputClass"
          Identifier "libinput touchpad catchall"
          MatchIsTouchpad "on"
@@ -51,7 +52,9 @@ when isntalling arch with arch installer, in the options
          Driver "libinput"
          Option "NaturalScrolling" "true"
        EndSection
+       #+end_src
      - if you want it for mouse aswell also add
+       #+begin_src shell
        Section "InputClass"
          Identifier "libinput pointer catchall"
          MatchIsPointer "on"
@@ -59,5 +62,6 @@ when isntalling arch with arch installer, in the options
          Driver "libinput"
          Option "NaturalScrolling" "true"
        EndSection
+       #+end_src
    10. now you can exit gnome and login to dwm with sddm
 * 

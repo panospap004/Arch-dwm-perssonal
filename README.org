@@ -81,7 +81,7 @@ when isntalling arch with arch installer, in the options
      - and reboot system
   2. open aplication in specific workspace
      - go to config.h and add in rules section for example for firefox
-       * ~{ "vivaldi",  NULL,       NULL,       1 << 0,       0,           -1 },~
+       * ~{ "Vivaldi-stable",  NULL,       NULL,       1 << 0,       0,           -1 },~
      - then run ~sudo make clean install~
      - now firefox will open in workspace 1
      - or for kitty terminal

@@ -5,23 +5,29 @@ when isntalling arch with arch installer, in the options
   3. profile desktop i recommend grub as backup in case something beaks and for initial setup
   4. audio profile
   5. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
-  6. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu
+  6. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu, brightnessctl
 * After initial step is finished and you rebooted 
-  1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service~
-  2. Check your local in case its wrong and if you enabled multilib with the following commands
+  1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service
+  2. enable pipewire for audio with 
+     - ~sudo systemctl enable --now pipewire pipewire-pulse.socket~
+     - ~sudo systemctl start pipewire pipewire-pulse.socket~
+       * if this commands dont work try but you might need to re do it in dwm later again
+         - ~systemctl --user enable pipewire pipewire-pulse~
+         - ~systemctl --user start pipewire pipewire-pulse~
+  3. Check your local in case its wrong and if you enabled multilib with the following commands
      - ~sudo nvim /etc/locale.gen~ for me its  el_GR.UTF-8 UTF-8
      - ~sudo locale-gen~
      - ~sudo nvim /etc/pacman.conf~ uncomment multilib
      - ~sudo pacman -Syu~
-  3. Change to fish shell with ~chsh -s /usr/bin/fish~
-  4. make a git dir with ~mkdir ~/git~
-  5. setup nvim with nvchad with 
+  4. Change to fish shell with ~chsh -s /usr/bin/fish~
+  5. make a git dir with ~mkdir ~/git~
+  6. setup nvim with nvchad with 
      - ~git clone https://github.com/NvChad/starter ~/.config/nvim && nvim~
-  6. now git clone dwm and st with 
+  7. now git clone dwm and st with 
      - ~git clone https://git.suckless.org/dwm ~~/.config/dwm~
      - ~git clone https://git.suckless.org/st ~~/.config/st~
      - now go to the dwm and st dir and run ~make clean install~
-  7. now create the sddm xsession file with 
+  8. now create the sddm xsession file with 
      - ~sudo nvim /usr/share/xsessions/dwm.desktop~
      - paste this in the file 
   #+begin_src shell
@@ -59,7 +65,7 @@ when isntalling arch with arch installer, in the options
 
   #+end_src
   * and dont forget to ~chmod +x /usr/local/bin/startdwm.sh~ else it wont run
-  8. then go to .config/dwm/config.h and edit the keybinds and font size i recomend for 
+  9. then go to .config/dwm/config.h and edit the keybinds and font size i recomend for 
      - font size 12-18 depending on your screen size
      - change Mod1Mask to Mod4Mask (super/windows key)
      - create a ~static const chat *term[] = { "kitty", NULL };~ to open terminal with super+enter
@@ -72,7 +78,7 @@ when isntalling arch with arch installer, in the options
        * ~{ MODKEY,ShiftMask            XK_r,          quit,          {0} },~ restart dwm changes 
        * ~{ MODKEY,ShiftMask            XK_q,          spawn,          {.v = (const char*[]){"pkill", "dwm", NULL}}},~ quit dwm
      - then run ~make clean install~
-  9. now if you are using an laptop and want to enable natural scroling like me do the following
+  10. now if you are using an laptop and want to enable natural scroling like me do the following
      - ~xinput list~ to find your touchpad name
      - ~xinput set-prop "your touchpad name" "libinput Natural Scrolling Enabled" 1~
      - to make it permanent create a file with ~sudo nvim /etc/X11/xorg.conf.d/40-libinput.conf~
@@ -96,7 +102,16 @@ when isntalling arch with arch installer, in the options
          Option "NaturalScrolling" "true"
        EndSection
        #+end_src
-   10. now you can exit gnome and login to dwm with sddm
+   11. for the fkeys add 
+       - ~#include <X11/XF86keysym.h>~ after thedefine under the modkeys 
+         * keybinds
+           - ~{ 0,                       XF86XK_AudioMute,          spawn,          {SHCMD("pactl set-sink-mute 0 toggle")} },~
+           - ~{ 0,                       XF86XK_AudioLowerVolume,   spawn,          {SHCMD("pactl set-sink-volume 0 -5%")} },~
+           - ~{ 0,                       XF86XK_AudioRaiseVolume,   spawn,          {SHCMD("pactl set-sink-volume 0 +5%")} },~
+           - ~{ 0,                       XF86XK_MonBrightnessDown,  spawn,          {SHCMD("brightnessctl set 5%-")} },~
+           - ~{ 0,                       XF86XK_MonBrightnessUp,    spawn,          {SHCMD("brightnessctl set 5%+")} },~
+         - then run ~sudo make clean install~
+   12. now you can exit gnome and login to dwm with sddm
 * Customization
   1. if you want to install a font for example my favorite monaspace radon [[https://github.com/githubnext/monaspace#monaspace][Download here]]
      - download the font and extract it

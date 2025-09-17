@@ -67,4 +67,29 @@ when isntalling arch with arch installer, in the options
        EndSection
        #+end_src
    10. now you can exit gnome and login to dwm with sddm
-* 
+* Customization
+  1. if you want to install a font for example my favorite monaspace radon [[https://github.com/githubnext/monaspace#monaspace][Download here]]
+     - download the font and extract it
+     - create a dir in 
+       * ~sudo mkdir -p /usr/local/share/fonts/m~
+     - copy the fonts there 
+       * ~sudo cp ~/Downloads/monaspace-0.0.0/NerdFonts/Monaspace\ Radon/* /usr/local/share/fonts/m/~
+     - then run ~fc-cache -fv~
+     - change the font in config.h 
+       * ~static const char *fonts[] = { "MonaspaceRadonNF:size=14" };~
+     - then run ~sudo make clean install~
+     - and reboot system
+  2. open aplication in specific workspace
+     - go to config.h and add in rules section for example for firefox
+       * ~{ "vivaldi",  NULL,       NULL,       1 << 0,       0,           -1 },~
+     - then run ~sudo make clean install~
+     - now firefox will open in workspace 1
+     - or for kitty terminal
+       * ~{ "kitty",  NULL,       NULL,       1 << 1,       0,           -1 },~
+     - then run ~sudo make clean install~
+   3. make custom open commands example rofi 
+        - go to config.h and add in commands section
+        * ~static const char *rofi[] = { "rofi", "-show", "drun", "-theme", "~~/.config/rofi/config.rasi" NULL };~
+        - then in keybinds section add
+        * ~{ MODKEY,                       XK_d,          spawn,          {.v = rofi } },~
+        - then run ~sudo make clean install~

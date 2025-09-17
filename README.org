@@ -149,7 +149,7 @@ when isntalling arch with arch installer, in the options
         * ~{ MODKEY,                       XK_d,          spawn,          {.v = rofi } },~
         - then run ~sudo make clean install~
 ** Patches 
-Patches are custom codes from dwm users to make dwm better 
+Patches are custom codes from dwm users to make dwm better {less patches == less change it breaks and its more stable} but if you want to add some cool features you can use them
 how to use them 
   1. go to [[https://dwm.suckless.org/patches/][patches site]] and find the patch you want
   2. download the patch file

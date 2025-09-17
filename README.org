@@ -1,0 +1,63 @@
+* Initial step 
+when isntalling arch with arch installer, in the options 
+  1. bootloader use sddd
+  2. filesystem use ext4
+  3. profile desktop i recommend grub as backup in case something beaks and for initial setup
+  4. audio profile
+  5. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
+  6. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput
+* After initial step is finished and you rebooted 
+  1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service~
+  2. Check your local in case its wrong and if you enabled multilib with the following commands
+     - ~sudo nvim /etc/locale.gen~ for me its  el_GR.UTF-8 UTF-8
+     - ~sudo locale-gen~
+     - ~sudo nvim /etc/pacman.conf~ uncomment multilib
+     - ~sudo pacman -Syu~
+  3. Change to fish shell with ~chsh -s /usr/bin/fish~
+  4. make a git dir with ~mkdir ~/git~
+  5. setup nvim with nvchad with 
+     - ~git clone https://github.com/NvChad/starter ~/.config/nvim && nvim~
+  6. now git clone dwm and st with 
+     - ~git clone https://git.suckless.org/dwm ~~/.config/dwm~
+     - ~git clone https://git.suckless.org/st ~~/.config/st~
+     - now go to the dwm and st dir and run ~make clean install~
+  7. now create the sddm xsession file with 
+     - ~sudo nvim /usr/share/xsessions/dwm.desktop~
+     - paste this in the file 
+       [Desktop Entry]
+       Name=DWM
+       Comment=Dynamic Window Manager
+       Exec=dwm
+       Type=Application
+  8. then go to .config/dwm/config.h and edit the keybinds and font size i recomend for 
+     - font size 12-18 depending on your screen size
+     - change Mod1Mask to Mod4Mask (super/windows key)
+     - create a ~static const chat *term[] = { "kitty", NULL };~ to open terminal with super+enter
+     - make/edit keybinds for
+       * ~{ MODKEY,                       XK_Return,      spawn,          {.v = term } },~ to open kitty terminal
+       * ~{ MODKEY,                       XK_z,          zoom,          {0} },~ change the zoom key
+       * ~{ MODKEY,ShiftMask            XK_q,          quit,          {0} },~ kill key to exit dwm when you make changes
+       * { MODKEY,                       XK_q,          killclient,          {0} },~ to close a window
+     - then run ~make clean install~
+  9. now if you are using an laptop and want to enable natural scroling like me do the following
+     - ~xinput list~ to find your touchpad name
+     - ~xinput set-prop "your touchpad name" "libinput Natural Scrolling Enabled" 1~
+     - to make it permanent create a file with ~sudo nvim /etc/X11/xorg.conf.d/40-libinput.conf~
+     - paste this in the file 
+       Section "InputClass"
+         Identifier "libinput touchpad catchall"
+         MatchIsTouchpad "on"
+         MatchDevicePath "/dev/input/event*"
+         Driver "libinput"
+         Option "NaturalScrolling" "true"
+       EndSection
+     - if you want it for mouse aswell also add
+       Section "InputClass"
+         Identifier "libinput pointer catchall"
+         MatchIsPointer "on"
+         MatchDevicePath "/dev/input/event*"
+         Driver "libinput"
+         Option "NaturalScrolling" "true"
+       EndSection
+   10. now you can exit gnome and login to dwm with sddm
+* 

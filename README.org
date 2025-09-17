@@ -29,11 +29,36 @@ when isntalling arch with arch installer, in the options
   Encoding=UTF-8
   Name=DWM
   Comment=Dynamic Window Manager
-  Exec=dwm
+  # Exec=dwm
+  Exec=/usr/local/bin/startdwm.sh # use script to set a wallpaper brefore dwm and other stuff
   Icon=dwm
   Type=XSession
 
   #+end_src
+  * script example
+  #+begin_src shell
+  #!/bin/sh
+  cleanup() {
+      pkill -f polybar
+      exit 0
+  }
+  trap cleanup TERM INT
+
+  #set wallpaper
+  feh --bg-scale /usr/share/backgrounds/archlinux/arch-wallpaper.jpg 
+  # key layout toggle
+  setxkbmap -layout us,gr -option 'grp:alt_shift_toggle' 
+
+  # keep windows open after exit
+  while true; do
+      dwm 2> ~/.dwm.log
+  done &
+  
+  # pollybar open 
+  ~/.config/polybar/launch.sh &
+
+  #+end_src
+  * and dont forget to ~chmod +x /usr/local/bin/startdwm.sh~ else it wont run
   8. then go to .config/dwm/config.h and edit the keybinds and font size i recomend for 
      - font size 12-18 depending on your screen size
      - change Mod1Mask to Mod4Mask (super/windows key)

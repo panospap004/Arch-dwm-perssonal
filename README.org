@@ -113,6 +113,7 @@ when isntalling arch with arch installer, in the options
          - then run ~sudo make clean install~
    12. now you can exit gnome and login to dwm with sddm
 * Customization
+ two good configs for ides are [[https://github.com/siduck/chadwm][chadwm]] and [[https://github.com/BreadOnPenguins/dwm][breadonpenguins dwm]]
   1. if you want to install a font for example my favorite monaspace radon [[https://github.com/githubnext/monaspace#monaspace][Download here]]
      - download the font and extract it
      - create a dir in 
@@ -138,3 +139,16 @@ when isntalling arch with arch installer, in the options
         - then in keybinds section add
         * ~{ MODKEY,                       XK_d,          spawn,          {.v = rofi } },~
         - then run ~sudo make clean install~
+** Patches 
+Patches are custom codes from dwm users to make dwm better 
+how to use them 
+  1. go to [[https://dwm.suckless.org/patches/][patches site]] and find the patch you want
+  2. download the patch file
+  3. go to your dwm dir in .config/dwm
+  4. run ~patch -p1 < /path/to/patch/file~
+     - bettter way to be able to check for errors undo patches etc is to use 
+       * ~git apply /path/to/patch/file~
+       
+  5. if it gives you an error read it carefully and see what is wrong usually its a missing ; or , or something small
+  6. then run ~sudo make clean install~
+  7. then restart dwm with super+shift+r

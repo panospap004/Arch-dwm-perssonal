@@ -66,8 +66,11 @@ when isntalling arch with arch installer, in the options
      - make/edit keybinds for
        * ~{ MODKEY,                       XK_Return,      spawn,          {.v = term } },~ to open kitty terminal
        * ~{ MODKEY,                       XK_z,          zoom,          {0} },~ change the zoom key
-       * ~{ MODKEY,ShiftMask            XK_q,          quit,          {0} },~ kill key to exit dwm when you make changes
        * ~{ MODKEY,                       XK_q,          killclient,          {0} },~ to close a window
+       * ~{ MODKEY,ShiftMask            XK_q,          quit,          {0} },~ kill key to exit dwm when you make changes
+     - if you used the script then instead of the modkey,shift q quit do this 
+       * ~{ MODKEY,ShiftMask            XK_r,          quit,          {0} },~ restart dwm changes 
+       * ~{ MODKEY,ShiftMask            XK_q,          spawn,          {.v = (const char*[]){"pkill", "dwm", NULL}}},~ quit dwm
      - then run ~make clean install~
   9. now if you are using an laptop and want to enable natural scroling like me do the following
      - ~xinput list~ to find your touchpad name

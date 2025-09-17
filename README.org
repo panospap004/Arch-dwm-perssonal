@@ -121,6 +121,21 @@ when isntalling arch with arch installer, in the options
            - ~{ 0,                       XF86XK_MonBrightnessUp,    spawn,          {SHCMD("brightnessctl set 5%+")} },~
          - then run ~sudo make clean install~
    12. now you can exit gnome and login to dwm with sddm
+* Scren-tearing {ducking nvidia}
+if you get screen tearing of any kind download picom and make a
+    1. ~sudo nvim .config/picom.conf~
+       - add this in the file 
+         #+begin_src shell
+         # ~/.config/picom.conf
+         backend = "glx";
+         vsync = true;
+         #+end_src
+     2. and then inside the  /usr/local/bin/startdwm.sh before while loop add 
+        - ~picom &~
+     3. also do ~sudo nvim /etc/default/grub~
+        -  add ~nvidia-drm.modeset=1~
+        - then run ~sudo update-grub~
+     4. reboot and check if its fixed
 * Customization
  two good configs for ides are [[https://github.com/siduck/chadwm][chadwm]] and [[https://github.com/BreadOnPenguins/dwm][breadonpenguins dwm]]
   1. if you want to install a font for example my favorite monaspace radon [[https://github.com/githubnext/monaspace#monaspace][Download here]]

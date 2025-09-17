@@ -154,10 +154,13 @@ how to use them
   1. go to [[https://dwm.suckless.org/patches/][patches site]] and find the patch you want
   2. download the patch file
   3. go to your dwm dir in .config/dwm
-  4. run ~patch -p1 < /path/to/patch/file~
+  4. crate a patches dir with ~mkdir patches~
+  5. move your patches or install them there
+  6. run ~patch -p1 < /path/to/patch/file~
      - bettter way to be able to check for errors undo patches etc is to use 
-       * ~git apply /path/to/patch/file~
-       
-  5. if it gives you an error read it carefully and see what is wrong usually its a missing ; or , or something small
-  6. then run ~sudo make clean install~
-  7. then restart dwm with super+shift+r
+       * ~git apply --check --verbose /path/to/patch/file~
+         - --check will see what will happen if we apply the patch so if we have an error we can see it
+         - if you get an error change --check to --reject and it will create a .rej file with the changes that didnt apply so you can manually add them to the config.h
+  7. if it gives you an error read it carefully and see what is wrong usually its a missing ; or , or something small
+  8. then run ~sudo make clean install~
+  9. then restart dwm with super+shift+r

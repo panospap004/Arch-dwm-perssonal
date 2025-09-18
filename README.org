@@ -151,7 +151,25 @@ sudo pacman -S  plasma-wayland-protocols
         - if this files baucuase boot is full you will need either to expand it or re install arch with bigger boot partition
       7. then reboot system
 * Customization
- two good configs for ides are [[https://github.com/siduck/chadwm][chadwm]] and [[https://github.com/BreadOnPenguins/dwm][breadonpenguins dwm]]
+
+** How do I modify config.h?
+config.h can be edited just like any other C source code file.
+It contains definitions of variables that are going to be used by dwm.c 
+and therefore it is vital that the file is always up to date. The default 
+Makefile distributed with dwm will not overwrite your customised config.h 
+with the contents of config.def.h, even if it was updated in the latest git pull.
+Therefore, you should always compare your customised config.h with config.def.h 
+and make sure you include any changes to the latter in your config.h.
+
+** How do I modify config.mk?
+config.mk can be edited just like any other text file.
+It contains definitions of variables that are going to 
+be used inside Makefile. Unlike config.h, config.mk does 
+not have a config.def.mk (a default Makefile). Therefore,
+during an update of your repository you may run into 
+conflicts if the original config.mk is edited.
+
+two good configs for ides are [[https://github.com/siduck/chadwm][chadwm]] and [[https://github.com/BreadOnPenguins/dwm][breadonpenguins dwm]]
   1. if you want to install a font for example my favorite monaspace radon [[https://github.com/githubnext/monaspace#monaspace][Download here]]
      - download the font and extract it
      - create a dir in 
@@ -173,9 +191,9 @@ sudo pacman -S  plasma-wayland-protocols
      - then run ~sudo make clean install~
    3. make custom open commands example rofi 
         - go to config.h and add in commands section
-        * ~static const char *rofi[] = { "rofi", "-show", "drun", "-theme", "~~/.config/rofi/config.rasi" NULL };~
+          * ~static const char *rofi[] = { "rofi", "-show", "drun", "-theme", "~~/.config/rofi/config.rasi" NULL };~
         - then in keybinds section add
-        * ~{ MODKEY,                       XK_d,          spawn,          {.v = rofi } },~
+          * ~{ MODKEY,                       XK_d,          spawn,          {.v = rofi } },~
         - then run ~sudo make clean install~
 ** Patches 
 Patches are custom codes from dwm users to make dwm better {less patches == less change it breaks and its more stable} but if you want to add some cool features you can use them

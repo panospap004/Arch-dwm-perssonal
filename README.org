@@ -195,9 +195,20 @@ two good configs for ides are [[https://github.com/siduck/chadwm][chadwm]] and [
         - then in keybinds section add
           * ~{ MODKEY,                       XK_d,          spawn,          {.v = rofi } },~
         - then run ~sudo make clean install~
+          
+if we don't want any window class to be treated in a special way, we need to 
+initialize rules with at least one element:
+#+begin_src shell
+static Rule rules[] = {
+	/* class      instance    title       tags mask     isfloating   monitor */
+	{ NULL,       NULL,       NULL,       0,            False,       -1 },
+};
+#+end_src
+
 ** Patches 
 Patches are custom codes from dwm users to make dwm better {less patches == less change it breaks and its more stable} but if you want to add some cool features you can use them
 how to use them 
+*Note that many patches make changes config.def.h instead of config.h. Either move those changes also to config.h, or add rm config.h to the clean target in the Makefile.*
   1. go to [[https://dwm.suckless.org/patches/][patches site]] and find the patch you want
   2. download the patch file
   3. go to your dwm dir in .config/dwm
@@ -211,3 +222,194 @@ how to use them
   7. if it gives you an error read it carefully and see what is wrong usually its a missing ; or , or something small
   8. then run ~sudo make clean install~
   9. then restart dwm with super+shift+r
+    
+  - *When patching i recommend to have 2 backups 1 of the original dwm so you can see where the the diff correct locations are meant to go and a 2 one that you will make after each patch so if something breaks you can go back to the last working version*
+  
+- *You should first make patches that change major behaivor of the wm and then visual ones since visual once have less change of breaking and are less important*
+    
+*** my patches listed by priority
+***** Alternative/extra to the ones billow
+https://dwm.suckless.org/patches/xresources/ #merge .xresources on start alternative to xrdb patch with extra that you can cange more stuff then just colors
+https://dwm.suckless.org/patches/windowfollow/ #alternative window following behavior to viewontag patch
+https://dwm.suckless.org/patches/mpdcontrol/ #mpd server controls for keybinds
+https://dwm.suckless.org/patches/decoration_hints/ #make dwm respect if some apps dont want borders cause it can cause issues like vlv, chromium, etc
+https://dwm.suckless.org/patches/canfocusfloating/ #skip floating windows when you cycle focus when enabled
+https://dwm.suckless.org/patches/tag-previews/ #preview workspaces by hovering dwm bar with mouse or dwmblocks bar {i dont think this will work with polybar or non dwmbars}
+https://dwm.suckless.org/patches/notitle/ #no titlebar
+https://dwm.suckless.org/patches/moveontagmon/ #move floating window if monitor is changed
+https://dwm.suckless.org/patches/floatrules/ #more advanced floating rules {can be nice if you dont use the center floating patch}
+https://dwm.suckless.org/patches/defaulttag/ #change the default tag dwm opens when it starts
+https://dwm.suckless.org/patches/colorschemes/ #alternative to xrdb and xresources patch to change colorschemes with a keybind from preset ones
+
+***** Both laptop and desktop
+https://dwm.suckless.org/patches/gaplessgrid/ OR https://dwm.suckless.org/patches/gridmode/ OR https://dwm.suckless.org/patches/nrowgrid/ #Grid layout for windows
+https://dwm.suckless.org/patches/ewmhtags/ AND https://dwm.suckless.org/patches/anybar/ #make polybar work
+https://dwm.suckless.org/patches/scratchpad/ #open a terminal with super+shift+enter that floats and is always on top
+https://dwm.suckless.org/patches/focusadjacenttag/ OR https://dwm.suckless.org/patches/stacker/ OR https://dwm.suckless.org/patches/movestack/ #focus window left/right or swap them
+https://dwm.suckless.org/patches/viewontag/ #follow the window to the send tag 
+https://dwm.suckless.org/patches/preventfocusshift/ #exit fullscreen when you open a new window
+https://dwm.suckless.org/patches/tiledmove/ #move windows with mouse but keep them tiled
+https://dwm.suckless.org/patches/sticky/ #make a window sticky so it shows in all workspaces
+https://dwm.suckless.org/patches/ispermanent/ #fix for killclient to not accidentaly close sticky windows
+https://dwm.suckless.org/patches/smartborders/ #no borders when only one window is open
+https://dwm.suckless.org/patches/fadeinactive/ OR https://dwm.suckless.org/patches/clientopacity/ #fade inactive windows
+https://dwm.suckless.org/patches/alttab2/ #alt tab like in windows
+https://dwm.suckless.org/patches/attachaside/ #when using tiled layout keep master window as master
+https://dwm.suckless.org/patches/center/ OR https://dwm.suckless.org/patches/togglefloatingcenter/ #open floating windows in the center of the screen first uses a rule secont always does it for all floating windows
+
+****** nice but not required 
+https://dwm.suckless.org/patches/xrdb/ #merge .Xresources on start so you can change colors without recompiling like if you use [[https://github.com/eylles/pywal16][pywal]]
+https://dwm.suckless.org/patches/preserveonrestart/ OR https://dwm.suckless.org/patches/restoreafterrestart/ #remember open windows and their tags on restart
+https://dwm.suckless.org/patches/restartsig/ #restart dwm without quitting it {here since my script can do it already but meabe some patch might need it to work}
+https://dwm.suckless.org/patches/cool_autostart/ OR https://dwm.suckless.org/patches/autostart/ #run a script on dwm start for example to set a wallpaper with feh, start pipewire, set xkbmap etc {its in nice but not required cause i think the startdwm.sh script can do what this does already *second one might be worth it tho since it gives you some nice options*}
+https://dwm.suckless.org/patches/vanitygaps/ OR https://dwm.suckless.org/patches/uselessgap/ OR https://dwm.suckless.org/patches/functionalgaps/ OR  #gaps between windows
+
+***** Desktop only
+https://dwm.suckless.org/patches/focusmonmouse/ #moves mouse to selected monitor {basicly a fix for multimonitor setups}
+https://dwm.suckless.org/patches/fixmultimon/ # if mouse goes to another monitor dont change focus to that monitor {basicly a fix for multimonitor setups}
+https://dwm.suckless.org/patches/torus/ #no matter what edge the mouse lives it goes to the other screen edge {i am not sure if it will work for more then 2 monitors}
+https://dwm.suckless.org/patches/autostarttags/ #open specific apps in specific workspaces on start { its here cause if you have 1 monitor it can be annoying to have apps open in workspaces you cant see}
+https://dwm.suckless.org/patches/single_tagset/ #only one tagset for all monitors instead of multiple ones
+
+***** Laptop only
+
+
+https://dwm.suckless.org/patches/gestures/ #use touchpad gestures to change workspace, open terminal etc
+if this dosent work try this 
+
+DWM itself doesn't handle touchpad gestures directly since it's a window manager, not an input handler. However, you can achieve 3-finger swipe gestures to switch workspaces/tags using **libinput-gestures** with DWM. Here's how:
+
+## **Install libinput-gestures:**
+
+```bash
+# Install dependencies
+sudo pacman -S libinput wmctrl xdotool
+
+# Install libinput-gestures from AUR
+yay -S libinput-gestures
+# or
+git clone https://aur.archlinux.org/libinput-gestures.git
+cd libinput-gestures
+makepkg -si
+```
+
+## **Add yourself to input group:**
+
+```bash
+sudo usermod -a -G input $USER
+# Log out and back in for group changes to take effect
+```
+
+## **Create gesture configuration:**
+
+```bash
+# Create config file
+mkdir -p ~/.config
+nano ~/.config/libinput-gestures.conf
+```
+
+Add this configuration:
+```bash
+# 3-finger swipe gestures for DWM tag switching
+# Swipe right (3 fingers) = go to next tag (right workspace)
+gesture swipe right 3 xdotool key super+Right
+
+# Swipe left (3 fingers) = go to previous tag (left workspace)  
+gesture swipe left 3 xdotool key super+Left
+
+# Alternative: Use DWM's default tag switching keys
+# gesture swipe right 3 xdotool key super+period
+# gesture swipe left 3 xdotool key super+comma
+
+# Optional: 4-finger gestures
+# gesture swipe up 4 xdotool key super+Return
+# gesture swipe down 4 xdotool key super+shift+c
+```
+
+## **Configure DWM for workspace cycling:**
+
+You'll need to add key bindings to your `config.h` if you don't have them:
+
+```c
+// In your dwm config.h, add these key bindings:
+static const Key keys[] = {
+    // ... your existing keys ...
+    
+    // Cycle through tags with Super+Left/Right
+    { MODKEY,              XK_Right,  view,           {.ui = ~0} },
+    { MODKEY,              XK_Left,   view,           {.ui = ~0} },
+    
+    // Or use focusmon for multi-monitor setups
+    { MODKEY,              XK_Right,  focusmon,       {.i = +1} },
+    { MODKEY,              XK_Left,   focusmon,       {.i = -1} },
+};
+```
+
+## **Alternative: Better tag cycling patch**
+
+For proper tag cycling, apply this function to your DWM:
+
+```c
+// Add this function to dwm.c
+void
+shiftview(const Arg *arg) {
+    Arg shifted;
+    if(arg->i > 0) // left circular shift
+        shifted.ui = (selmon->tagset[selmon->seltags] << arg->i)
+           | (selmon->tagset[selmon->seltags] >> (LENGTH(tags) - arg->i));
+    else // right circular shift
+        shifted.ui = selmon->tagset[selmon->seltags] >> (- arg->i)
+           | selmon->tagset[selmon->seltags] << (LENGTH(tags) + arg->i);
+    view(&shifted);
+}
+
+// Add to your key bindings:
+{ MODKEY,              XK_Right,  shiftview,      {.i = +1} },
+{ MODKEY,              XK_Left,   shiftview,      {.i = -1} },
+```
+
+## **Start libinput-gestures:**
+
+```bash
+# Start the service
+libinput-gestures-setup start
+
+# Enable it to start automatically
+libinput-gestures-setup autostart
+
+# Check status
+libinput-gestures-setup status
+```
+
+## **Test your setup:**
+
+```bash
+# Test if gestures are detected
+libinput-gestures -d
+
+# This will show debug output when you make gestures
+```
+
+## **Troubleshooting:**
+
+If gestures don't work:
+
+```bash
+# Check if you're in the input group
+groups $USER
+
+# Test libinput directly
+sudo libinput debug-events
+
+# Make sure your touchpad supports gestures
+libinput list-devices
+```
+
+## **Alternative tools:**
+
+- **Fusuma** (Ruby-based, more features)
+- **Touchegg** (More GUI-oriented)
+
+The libinput-gestures approach is the most lightweight and works well with DWM. The key is mapping the gestures to keyboard shortcuts that DWM understands.
+
+After setting this up, 3-finger swipe left will go to the previous tag, and 3-finger swipe right will go to the next tag, exactly as you requested.

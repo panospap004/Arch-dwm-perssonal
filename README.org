@@ -6,9 +6,9 @@ when isntalling arch with arch installer, in the options
   4. audio profile
   5. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
   6. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu, brightnessctl
-  7. if you have multiple monitors i recomend xrandr 
+  7. if you have multiple monitors i recomend arandr, xrandr 
 * After initial step is finished and you rebooted 
-  1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service
+  1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service~
   2. enable pipewire for audio with 
      - ~sudo systemctl enable --now pipewire pipewire-pulse.socket~
      - ~sudo systemctl start pipewire pipewire-pulse.socket~
@@ -62,7 +62,7 @@ when isntalling arch with arch installer, in the options
   # how fast keys repeat if you hold them down
   xset r rate 200 50 ## delay 200ms, rate 50 keys per second
 
-  # if you have multiple monitors use xrandr to set them up and then download the config {xyzname.sh} with the last icon open it and copy paste it here 
+  # if you have multiple monitors use arandr to set them up and then download the config {xyzname.sh} with the last icon open it and copy paste it here 
 
   # keep windows open after exit
   while true; do
@@ -122,7 +122,7 @@ when isntalling arch with arch installer, in the options
          - then run ~sudo make clean install~
    12. now you can exit gnome and login to dwm with sddm
 * Scren-tearing {ducking nvidia}
-if you get screen tearing of any kind download picom and make a
+if you get screen tearing of any kind download picom, nvidia-settings and make a
     1. ~sudo nvim .config/picom.conf~
        - add this in the file 
          #+begin_src shell

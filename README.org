@@ -25,9 +25,9 @@ when isntalling arch with arch installer, in the options
   6. setup nvim with nvchad with 
      - ~git clone https://github.com/NvChad/starter ~/.config/nvim && nvim~
   7. now git clone dwm and st with 
-     - ~git clone https://git.suckless.org/dwm ~~/.config/dwm~
-     - ~git clone https://git.suckless.org/st ~~/.config/st~
-     - now go to the dwm and st dir and run ~make clean install~
+     - ~git clone https://git.suckless.org/dwm ~/.config/dwm~
+     - ~git clone https://git.suckless.org/st ~/.config/st~
+     - now go to the dwm and st dir and run ~sudo make clean install~
   8. now create the sddm xsession file with 
      - ~sudo nvim /usr/share/xsessions/dwm.desktop~
      - paste this in the file 

@@ -127,18 +127,29 @@ if you get screen tearing of any kind download picom, nvidia-settings and make a
        - add this in the file 
          #+begin_src shell
          backend="glx";
-         glx-no-stencil=true;
-         glx-copy-from-front=false;
-         glx-swap-method="buffer-age";
          vsync=true;
          fading=false;
          #+end_src
      2. and then inside the  /usr/local/bin/startdwm.sh before while loop add 
         - ~picom &~
-     3. also do ~sudo nvim /etc/default/grub~
-        -  add ~nvidia-drm.modeset=1~
-        - then run ~sudo update-grub~
-     4. reboot and check if its fixed
+     3. if you are using grub do this  ~sudo vim /etc/default/grub~
+        - ~GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet nvidia-drm.modeset=1"~
+          #+begin_src shell
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -S  plasma-wayland-protocols
+          #+end_src
+     4. also check the following file for nvidia cards again
+        - ~sudo vim /etc/mkinitcpio.conf~
+        - modules should have this options in them ~MODULES=(... nvidia nvidia_modeset nvidia_uvm nvidia_drm ...)~
+     5. then create this file
+        - ~sudo vim /etc/modprobe.d/nvidia.conf~
+        - and add the following options ~nvidia_drm modeset=1 fbdev=1~
+     6. then run
+        #+begin_src shell
+        sudo mkinitcpio -P
+        #+end_src
+        - if this files baucuase boot is full you will need either to expand it or re install arch with bigger boot partition
+      7. then reboot system
 * Customization
  two good configs for ides are [[https://github.com/siduck/chadwm][chadwm]] and [[https://github.com/BreadOnPenguins/dwm][breadonpenguins dwm]]
   1. if you want to install a font for example my favorite monaspace radon [[https://github.com/githubnext/monaspace#monaspace][Download here]]

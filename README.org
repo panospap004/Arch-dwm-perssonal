@@ -223,58 +223,56 @@ how to use them
   8. then run ~sudo make clean install~
   9. then restart dwm with super+shift+r
     
-  - *When patching i recommend to have 2 backups 1 of the original dwm so you can see where the the diff correct locations are meant to go and a 2 one that you will make after each patch so if something breaks you can go back to the last working version*
+- *When patching i recommend to have 2 backups 1 of the original dwm so you can see where the the diff correct locations are meant to go and a 2 one that you will make after each patch so if something breaks you can go back to the last working version*
   
 - *You should first make patches that change major behaivor of the wm and then visual ones since visual once have less change of breaking and are less important*
     
 *** my patches listed by priority
 ***** Alternative/extra to the ones billow
-https://dwm.suckless.org/patches/xresources/ #merge .xresources on start alternative to xrdb patch with extra that you can cange more stuff then just colors
-https://dwm.suckless.org/patches/windowfollow/ #alternative window following behavior to viewontag patch
-https://dwm.suckless.org/patches/mpdcontrol/ #mpd server controls for keybinds
-https://dwm.suckless.org/patches/decoration_hints/ #make dwm respect if some apps dont want borders cause it can cause issues like vlv, chromium, etc
-https://dwm.suckless.org/patches/canfocusfloating/ #skip floating windows when you cycle focus when enabled
-https://dwm.suckless.org/patches/tag-previews/ #preview workspaces by hovering dwm bar with mouse or dwmblocks bar {i dont think this will work with polybar or non dwmbars}
-https://dwm.suckless.org/patches/notitle/ #no titlebar
-https://dwm.suckless.org/patches/moveontagmon/ #move floating window if monitor is changed
-https://dwm.suckless.org/patches/floatrules/ #more advanced floating rules {can be nice if you dont use the center floating patch}
-https://dwm.suckless.org/patches/defaulttag/ #change the default tag dwm opens when it starts
-https://dwm.suckless.org/patches/colorschemes/ #alternative to xrdb and xresources patch to change colorschemes with a keybind from preset ones
+- https://dwm.suckless.org/patches/xresources/ #merge .xresources on start alternative to xrdb patch with extra that you can cange more stuff then just colors
+- https://dwm.suckless.org/patches/windowfollow/ #alternative window following behavior to viewontag patch
+- https://dwm.suckless.org/patches/mpdcontrol/ #mpd server controls for keybinds
+- https://dwm.suckless.org/patches/decoration_hints/ #make dwm respect if some apps dont want borders cause it can cause issues like vlv, chromium, etc
+- https://dwm.suckless.org/patches/canfocusfloating/ #skip floating windows when you cycle focus when enabled
+- https://dwm.suckless.org/patches/tag-previews/ #preview workspaces by hovering dwm bar with mouse or dwmblocks bar {i dont think this will work with polybar or non dwmbars}
+- https://dwm.suckless.org/patches/notitle/ #no titlebar
+- https://dwm.suckless.org/patches/moveontagmon/ #move floating window if monitor is changed
+- https://dwm.suckless.org/patches/floatrules/ #more advanced floating rules {can be nice if you dont use the center floating patch}
+- https://dwm.suckless.org/patches/defaulttag/ #change the default tag dwm opens when it starts
+- https://dwm.suckless.org/patches/colorschemes/ #alternative to xrdb and xresources patch to change colorschemes with a keybind from preset ones
 
 ***** Both laptop and desktop
-https://dwm.suckless.org/patches/gaplessgrid/ OR https://dwm.suckless.org/patches/gridmode/ OR https://dwm.suckless.org/patches/nrowgrid/ #Grid layout for windows
-https://dwm.suckless.org/patches/ewmhtags/ AND https://dwm.suckless.org/patches/anybar/ #make polybar work
-https://dwm.suckless.org/patches/scratchpad/ #open a terminal with super+shift+enter that floats and is always on top
-https://dwm.suckless.org/patches/focusadjacenttag/ OR https://dwm.suckless.org/patches/stacker/ OR https://dwm.suckless.org/patches/movestack/ #focus window left/right or swap them
-https://dwm.suckless.org/patches/viewontag/ #follow the window to the send tag 
-https://dwm.suckless.org/patches/preventfocusshift/ #exit fullscreen when you open a new window
-https://dwm.suckless.org/patches/tiledmove/ #move windows with mouse but keep them tiled
-https://dwm.suckless.org/patches/sticky/ #make a window sticky so it shows in all workspaces
-https://dwm.suckless.org/patches/ispermanent/ #fix for killclient to not accidentaly close sticky windows
-https://dwm.suckless.org/patches/smartborders/ #no borders when only one window is open
-https://dwm.suckless.org/patches/fadeinactive/ OR https://dwm.suckless.org/patches/clientopacity/ #fade inactive windows
-https://dwm.suckless.org/patches/alttab2/ #alt tab like in windows
-https://dwm.suckless.org/patches/attachaside/ #when using tiled layout keep master window as master
-https://dwm.suckless.org/patches/center/ OR https://dwm.suckless.org/patches/togglefloatingcenter/ #open floating windows in the center of the screen first uses a rule secont always does it for all floating windows
+- https://dwm.suckless.org/patches/gaplessgrid/ OR https://dwm.suckless.org/patches/gridmode/ OR https://dwm.suckless.org/patches/nrowgrid/ #Grid layout for windows
+- https://dwm.suckless.org/patches/ewmhtags/ AND https://dwm.suckless.org/patches/anybar/ #make polybar work
+- https://dwm.suckless.org/patches/scratchpad/ #open a terminal with super+shift+enter that floats and is always on top
+- https://dwm.suckless.org/patches/focusadjacenttag/ OR https://dwm.suckless.org/patches/stacker/ OR https://dwm.suckless.org/patches/movestack/ #focus window left/right or swap them
+- https://dwm.suckless.org/patches/viewontag/ #follow the window to the send tag 
+- https://dwm.suckless.org/patches/preventfocusshift/ #exit fullscreen when you open a new window
+- https://dwm.suckless.org/patches/tiledmove/ #move windows with mouse but keep them tiled
+- https://dwm.suckless.org/patches/sticky/ #make a window sticky so it shows in all workspaces
+- https://dwm.suckless.org/patches/ispermanent/ #fix for killclient to not accidentaly close sticky windows
+- https://dwm.suckless.org/patches/smartborders/ #no borders when only one window is open
+- https://dwm.suckless.org/patches/fadeinactive/ OR https://dwm.suckless.org/patches/clientopacity/ #fade inactive windows
+- https://dwm.suckless.org/patches/alttab2/ #alt tab like in windows
+- https://dwm.suckless.org/patches/attachaside/ #when using tiled layout keep master window as master
+- https://dwm.suckless.org/patches/center/ OR https://dwm.suckless.org/patches/togglefloatingcenter/ #open floating windows in the center of the screen first uses a rule secont always does it for all floating windows
 
 ****** nice but not required 
-https://dwm.suckless.org/patches/xrdb/ #merge .Xresources on start so you can change colors without recompiling like if you use [[https://github.com/eylles/pywal16][pywal]]
-https://dwm.suckless.org/patches/preserveonrestart/ OR https://dwm.suckless.org/patches/restoreafterrestart/ #remember open windows and their tags on restart
-https://dwm.suckless.org/patches/restartsig/ #restart dwm without quitting it {here since my script can do it already but meabe some patch might need it to work}
-https://dwm.suckless.org/patches/cool_autostart/ OR https://dwm.suckless.org/patches/autostart/ #run a script on dwm start for example to set a wallpaper with feh, start pipewire, set xkbmap etc {its in nice but not required cause i think the startdwm.sh script can do what this does already *second one might be worth it tho since it gives you some nice options*}
-https://dwm.suckless.org/patches/vanitygaps/ OR https://dwm.suckless.org/patches/uselessgap/ OR https://dwm.suckless.org/patches/functionalgaps/ OR  #gaps between windows
+- https://dwm.suckless.org/patches/xrdb/ #merge .Xresources on start so you can change colors without recompiling like if you use [[https://github.com/eylles/pywal16][pywal]]
+- https://dwm.suckless.org/patches/preserveonrestart/ OR https://dwm.suckless.org/patches/restoreafterrestart/ #remember open windows and their tags on restart
+- https://dwm.suckless.org/patches/restartsig/ #restart dwm without quitting it {here since my script can do it already but meabe some patch might need it to work}
+- https://dwm.suckless.org/patches/cool_autostart/ OR https://dwm.suckless.org/patches/autostart/ #run a script on dwm start for example to set a wallpaper with feh, start pipewire, set xkbmap etc {its in nice but not required cause i think the startdwm.sh script can do what this does already *second one might be worth it tho since it gives you some nice options*}
+- https://dwm.suckless.org/patches/vanitygaps/ OR https://dwm.suckless.org/patches/uselessgap/ OR https://dwm.suckless.org/patches/functionalgaps/ OR  #gaps between windows
 
 ***** Desktop only
-https://dwm.suckless.org/patches/focusmonmouse/ #moves mouse to selected monitor {basicly a fix for multimonitor setups}
-https://dwm.suckless.org/patches/fixmultimon/ # if mouse goes to another monitor dont change focus to that monitor {basicly a fix for multimonitor setups}
-https://dwm.suckless.org/patches/torus/ #no matter what edge the mouse lives it goes to the other screen edge {i am not sure if it will work for more then 2 monitors}
-https://dwm.suckless.org/patches/autostarttags/ #open specific apps in specific workspaces on start { its here cause if you have 1 monitor it can be annoying to have apps open in workspaces you cant see}
-https://dwm.suckless.org/patches/single_tagset/ #only one tagset for all monitors instead of multiple ones
+- https://dwm.suckless.org/patches/focusmonmouse/ #moves mouse to selected monitor {basicly a fix for multimonitor setups}
+- https://dwm.suckless.org/patches/fixmultimon/ # if mouse goes to another monitor dont change focus to that monitor {basicly a fix for multimonitor setups}
+- https://dwm.suckless.org/patches/torus/ #no matter what edge the mouse lives it goes to the other screen edge {i am not sure if it will work for more then 2 monitors}
+- https://dwm.suckless.org/patches/autostarttags/ #open specific apps in specific workspaces on start { its here cause if you have 1 monitor it can be annoying to have apps open in workspaces you cant see}
+- https://dwm.suckless.org/patches/single_tagset/ #only one tagset for all monitors instead of multiple ones
 
 ***** Laptop only
-
-
-https://dwm.suckless.org/patches/gestures/ #use touchpad gestures to change workspace, open terminal etc
+- https://dwm.suckless.org/patches/gestures/ #use touchpad gestures to change workspace, open terminal etc
 if this dosent work try this 
 
 DWM itself doesn't handle touchpad gestures directly since it's a window manager, not an input handler. However, you can achieve 3-finger swipe gestures to switch workspaces/tags using **libinput-gestures** with DWM. Here's how:

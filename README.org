@@ -269,11 +269,11 @@ how to use them
 
 ****** nice but not required 
 - https://dwm.suckless.org/patches/xrdb/ #merge .Xresources on start so you can change colors without recompiling like if you use [[https://github.com/eylles/pywal16][pywal]]
-- https://dwm.suckless.org/patches/preserveonrestart/ OR https://dwm.suckless.org/patches/restoreafterrestart/ #remember open windows and their tags on restart
-- https://dwm.suckless.org/patches/restartsig/ #restart dwm without quitting it {here since my script can do it already but meabe some patch might need it to work}
+- https://dwm.suckless.org/patches/preserveonrestart/ ❓{need to try it with restartsig} OR https://dwm.suckless.org/patches/restoreafterrestart/ ❌ #remember open windows and their tags on restart
+- https://dwm.suckless.org/patches/restartsig/ ❓ #restart dwm without quitting it {here since my script can do it already but meabe some patch might need it to work}
 - https://dwm.suckless.org/patches/cool_autostart/ OR https://dwm.suckless.org/patches/autostart/ #run a script on dwm start for example to set a wallpaper with feh, start pipewire, set xkbmap etc {its in nice but not required cause i think the startdwm.sh script can do what this does already *second one might be worth it tho since it gives you some nice options*}
-- https://dwm.suckless.org/patches/vanitygaps/ OR https://dwm.suckless.org/patches/uselessgap/ OR https://dwm.suckless.org/patches/functionalgaps/ OR  #gaps between windows
-- https://dwm.suckless.org/patches/fadeinactive/ OR https://dwm.suckless.org/patches/clientopacity/ #fade inactive windows {picom does it already}
+- https://dwm.suckless.org/patches/vanitygaps/ ❌ OR https://dwm.suckless.org/patches/uselessgap/ ✔️ OR https://dwm.suckless.org/patches/functionalgaps/ ❌ OR  #gaps between windows
+- https://dwm.suckless.org/patches/fadeinactive/ ❌ OR https://dwm.suckless.org/patches/clientopacity/  ❌ #fade inactive windows {picom does it already}
 
 ***** Desktop only
 - https://dwm.suckless.org/patches/focusmonmouse/ #moves mouse to selected monitor {basicly a fix for multimonitor setups}

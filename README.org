@@ -247,7 +247,8 @@ how to use them
 - https://dwm.suckless.org/patches/ewmhtags/ ✔️ AND https://dwm.suckless.org/patches/anybar/ ✔️ #make polybar work
 - https://dwm.suckless.org/patches/scratchpad/ ✔️ ️#open a terminal with super+shift+enter that floats and is always on top
 - https://dwm.suckless.org/patches/focusadjacenttag/ ✔️ OR https://dwm.suckless.org/patches/stacker/ ✔️ OR https://dwm.suckless.org/patches/movestack/ ❌ #focus window left/right or swap them
-- https://dwm.suckless.org/patches/viewontag/ #follow the window to the send tag 
+- https://dwm.suckless.org/patches/viewontag/ ✔️ #follow the window to the send tag 
+- https://dwm.suckless.org/patches/actualfullscreen/ # fullscreen your window
 - https://dwm.suckless.org/patches/preventfocusshift/ #exit fullscreen when you open a new window
 - https://dwm.suckless.org/patches/tiledmove/ #move windows with mouse but keep them tiled
 - https://dwm.suckless.org/patches/sticky/ #make a window sticky so it shows in all workspaces

@@ -128,7 +128,16 @@ if you get screen tearing of any kind download picom, nvidia-settings and make a
          #+begin_src shell
          backend="glx";
          vsync=true;
-         fading=false;
+         fading=true;
+         fade-in-step=0.07;
+         fade-out-step=0.07;
+         fade-delta=10;
+         mark-wmwin-focused=true;
+         mark-ovredir-focused=true;
+         detect-client-opacity=true;
+         inactive-opacity=0.95;
+         active-opacity=1.0;
+         inactive-opacity-override=true;
          #+end_src
      2. and then inside the  /usr/local/bin/startdwm.sh before while loop add 
         - ~picom &~
@@ -240,6 +249,7 @@ how to use them
 - https://dwm.suckless.org/patches/floatrules/ #more advanced floating rules {can be nice if you dont use the center floating patch}
 - https://dwm.suckless.org/patches/defaulttag/ #change the default tag dwm opens when it starts
 - https://dwm.suckless.org/patches/colorschemes/ #alternative to xrdb and xresources patch to change colorschemes with a keybind from preset ones
+- https://dwm.suckless.org/patches/smartborders/ #no borders when only one window is open
 
 ***** Both laptop and desktop
 - https://dwm.suckless.org/patches/gaplessgrid/ ✔️ OR https://dwm.suckless.org/patches/gridmode/ ❌ OR https://dwm.suckless.org/patches/nrowgrid/ ❌ #Grid layout for windows
@@ -252,8 +262,6 @@ how to use them
 - https://dwm.suckless.org/patches/preventfocusshift/ ✔️ #exit fullscreen when you open a new window
 - https://dwm.suckless.org/patches/tiledmove/ ✔️ #move windows with mouse but keep them tiled
 - https://dwm.suckless.org/patches/sticky/ ✔️ #make a window sticky so it shows in all workspaces
-- https://dwm.suckless.org/patches/smartborders/ #no borders when only one window is open
-- https://dwm.suckless.org/patches/fadeinactive/ OR https://dwm.suckless.org/patches/clientopacity/ #fade inactive windows
 - https://dwm.suckless.org/patches/alttab2/ #alt tab like in windows
 - https://dwm.suckless.org/patches/center/ OR https://dwm.suckless.org/patches/togglefloatingcenter/ #open floating windows in the center of the screen first uses a rule secont always does it for all floating windows
 
@@ -263,6 +271,7 @@ how to use them
 - https://dwm.suckless.org/patches/restartsig/ #restart dwm without quitting it {here since my script can do it already but meabe some patch might need it to work}
 - https://dwm.suckless.org/patches/cool_autostart/ OR https://dwm.suckless.org/patches/autostart/ #run a script on dwm start for example to set a wallpaper with feh, start pipewire, set xkbmap etc {its in nice but not required cause i think the startdwm.sh script can do what this does already *second one might be worth it tho since it gives you some nice options*}
 - https://dwm.suckless.org/patches/vanitygaps/ OR https://dwm.suckless.org/patches/uselessgap/ OR https://dwm.suckless.org/patches/functionalgaps/ OR  #gaps between windows
+- https://dwm.suckless.org/patches/fadeinactive/ OR https://dwm.suckless.org/patches/clientopacity/ #fade inactive windows {picom does it already}
 
 ***** Desktop only
 - https://dwm.suckless.org/patches/focusmonmouse/ #moves mouse to selected monitor {basicly a fix for multimonitor setups}

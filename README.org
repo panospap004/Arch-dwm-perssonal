@@ -128,7 +128,7 @@ if you get screen tearing of any kind download picom, nvidia-settings and make a
          #+begin_src shell
          backend="glx";
          vsync=true;
-         fading=true;
+         fading=true; #if you have nvidia an the windows wigle set this to false
          fade-in-step=0.07;
          fade-out-step=0.07;
          fade-delta=10;

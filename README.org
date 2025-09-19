@@ -241,17 +241,17 @@ how to use them
 + ❌ == not used
 ***** Alternative/extra to the ones billow
 - https://dwm.suckless.org/patches/xresources/ #merge .xresources on start alternative to xrdb patch with extra that you can cange more stuff then just colors
-- https://dwm.suckless.org/patches/windowfollow/ #alternative window following behavior to viewontag patch
+- https://dwm.suckless.org/patches/windowfollow/ ❌ #alternative window following behavior to viewontag patch
 - https://dwm.suckless.org/patches/mpdcontrol/ #mpd server controls for keybinds
 - https://dwm.suckless.org/patches/decoration_hints/ #make dwm respect if some apps dont want borders cause it can cause issues like vlv, chromium, etc
-- https://dwm.suckless.org/patches/canfocusfloating/ #skip floating windows when you cycle focus when enabled
-- https://dwm.suckless.org/patches/tag-previews/ #preview workspaces by hovering dwm bar with mouse or dwmblocks bar {i dont think this will work with polybar or non dwmbars}
+- https://dwm.suckless.org/patches/canfocusfloating/ ❌ #skip floating windows when you cycle focus when enabled
+- https://dwm.suckless.org/patches/tag-previews/ ❌ #preview workspaces by hovering dwm bar with mouse or dwmblocks bar {dosent work with polybar or non dwmbars}
 - https://dwm.suckless.org/patches/notitle/ #no titlebar
 - https://dwm.suckless.org/patches/moveontagmon/ #move floating window if monitor is changed
-- https://dwm.suckless.org/patches/floatrules/ #more advanced floating rules {can be nice if you dont use the center floating patch}
+- https://dwm.suckless.org/patches/floatrules/ ❌ #more advanced floating rules {can be nice if you dont use the center floating patch}
 - https://dwm.suckless.org/patches/defaulttag/ #change the default tag dwm opens when it starts
-- https://dwm.suckless.org/patches/colorschemes/ #alternative to xrdb and xresources patch to change colorschemes with a keybind from preset ones
-- https://dwm.suckless.org/patches/smartborders/ #no borders when only one window is open
+- https://dwm.suckless.org/patches/colorschemes/ ❌ #alternative to xrdb and xresources patch to change colorschemes with a keybind from preset ones
+- https://dwm.suckless.org/patches/smartborders/ ❌ #no borders when only one window is open
 
 ***** Both laptop and desktop
 - https://dwm.suckless.org/patches/gaplessgrid/ ✔️ OR https://dwm.suckless.org/patches/gridmode/ ❌ OR https://dwm.suckless.org/patches/nrowgrid/ ❌ #Grid layout for windows
@@ -269,9 +269,9 @@ how to use them
 
 ****** nice but not required 
 - https://dwm.suckless.org/patches/xrdb/ #merge .Xresources on start so you can change colors without recompiling like if you use [[https://github.com/eylles/pywal16][pywal]]
-- https://dwm.suckless.org/patches/preserveonrestart/ ❓{need to try it with restartsig} OR https://dwm.suckless.org/patches/restoreafterrestart/ ❌ #remember open windows and their tags on restart
-- https://dwm.suckless.org/patches/restartsig/ ❓ #restart dwm without quitting it {here since my script can do it already but meabe some patch might need it to work}
-- https://dwm.suckless.org/patches/cool_autostart/ OR https://dwm.suckless.org/patches/autostart/ #run a script on dwm start for example to set a wallpaper with feh, start pipewire, set xkbmap etc {its in nice but not required cause i think the startdwm.sh script can do what this does already *second one might be worth it tho since it gives you some nice options*}
+- https://dwm.suckless.org/patches/preserveonrestart/ ❌ {need to try it with restartsig} OR https://dwm.suckless.org/patches/restoreafterrestart/ ❌ #remember open windows and their tags on restart
+- https://dwm.suckless.org/patches/restartsig/ ❌ #restart dwm without quitting it {here since my script can do it already but meabe some patch might need it to work}
+- https://dwm.suckless.org/patches/cool_autostart/ ❌ OR https://dwm.suckless.org/patches/autostart/ ❌ #run a script on dwm start for example to set a wallpaper with feh, start pipewire, set xkbmap etc {its in nice but not required cause i think the startdwm.sh script can do what this does already *second one might be worth it tho since it gives you some nice options*}
 - https://dwm.suckless.org/patches/vanitygaps/ ❌ OR https://dwm.suckless.org/patches/uselessgap/ ✔️ OR https://dwm.suckless.org/patches/functionalgaps/ ❌ OR  #gaps between windows
 - https://dwm.suckless.org/patches/fadeinactive/ ❌ OR https://dwm.suckless.org/patches/clientopacity/  ❌ #fade inactive windows {picom does it already}
 
@@ -283,9 +283,6 @@ how to use them
 - https://dwm.suckless.org/patches/single_tagset/ #only one tagset for all monitors instead of multiple ones
 
 ***** Laptop only
-- https://dwm.suckless.org/patches/gestures/ #use touchpad gestures to change workspace, open terminal etc
-if this dosent work try this 
-
 DWM itself doesn't handle touchpad gestures directly since it's a window manager, not an input handler. However, you can achieve 3-finger swipe gestures to switch workspaces/tags using **libinput-gestures** with DWM. Here's how:
 
 ## **Install libinput-gestures:**

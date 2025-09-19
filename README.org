@@ -237,6 +237,8 @@ how to use them
 - *You should first make patches that change major behaivor of the wm and then visual ones since visual once have less change of breaking and are less important*
     
 *** my patches listed by priority
++ ✔️ == used
++ ❌ == not used
 ***** Alternative/extra to the ones billow
 - https://dwm.suckless.org/patches/xresources/ #merge .xresources on start alternative to xrdb patch with extra that you can cange more stuff then just colors
 - https://dwm.suckless.org/patches/windowfollow/ #alternative window following behavior to viewontag patch

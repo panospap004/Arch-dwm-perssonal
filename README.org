@@ -252,7 +252,6 @@ how to use them
 - https://dwm.suckless.org/patches/preventfocusshift/ ✔️ #exit fullscreen when you open a new window
 - https://dwm.suckless.org/patches/tiledmove/ ✔️ #move windows with mouse but keep them tiled
 - https://dwm.suckless.org/patches/sticky/ ✔️ #make a window sticky so it shows in all workspaces
-- https://dwm.suckless.org/patches/ispermanent/ #fix for killclient to not accidentaly close sticky windows
 - https://dwm.suckless.org/patches/smartborders/ #no borders when only one window is open
 - https://dwm.suckless.org/patches/fadeinactive/ OR https://dwm.suckless.org/patches/clientopacity/ #fade inactive windows
 - https://dwm.suckless.org/patches/alttab2/ #alt tab like in windows

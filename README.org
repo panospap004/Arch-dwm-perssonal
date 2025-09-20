@@ -283,80 +283,46 @@ how to use them
 - https://dwm.suckless.org/patches/single_tagset/ #only one tagset for all monitors instead of multiple ones
 
 ***** Laptop only
-DWM itself doesn't handle touchpad gestures directly since it's a window manager, not an input handler. However, you can achieve 3-finger swipe gestures to switch workspaces/tags using **libinput-gestures** with DWM. Here's how:
-
-## **Install libinput-gestures:**
-
-```bash
+****** swipe gestures for workspace switching
+******* Install libinput-gestures:
+#+begin_src shell
 # Install dependencies
 sudo pacman -S libinput wmctrl xdotool
 
 # Install libinput-gestures from AUR
 yay -S libinput-gestures
-# or
-git clone https://aur.archlinux.org/libinput-gestures.git
-cd libinput-gestures
-makepkg -si
-```
 
-## **Add yourself to input group:**
+#+end_src
 
-```bash
+******* Add yourself to input group:
+#+begin_src shell
 sudo usermod -a -G input $USER
-# Log out and back in for group changes to take effect
-```
+#+end_src
 
-## **Create gesture configuration:**
-
-```bash
+******* Create gesture configuration:
+#+begin_src shell
 # Create config file
-mkdir -p ~/.config
-nano ~/.config/libinput-gestures.conf
-```
+nvim ~/.config/libinput-gestures.conf
+
+#+end_src
 
 Add this configuration:
-```bash
+#+begin_src shell
 # 3-finger swipe gestures for DWM tag switching
 # Swipe right (3 fingers) = go to next tag (right workspace)
-gesture swipe right 3 xdotool key super+Right
-
 # Swipe left (3 fingers) = go to previous tag (left workspace)  
-gesture swipe left 3 xdotool key super+Left
+gesture swipe left 3 xdotool key --clearmodifiers super+ctrl+bracketleft
+gesture swipe right 3 xdotool key --clearmodifiers super+ctrl+bracketright
 
-# Alternative: Use DWM's default tag switching keys
-# gesture swipe right 3 xdotool key super+period
-# gesture swipe left 3 xdotool key super+comma
+#+end_src
 
-# Optional: 4-finger gestures
-# gesture swipe up 4 xdotool key super+Return
-# gesture swipe down 4 xdotool key super+shift+c
-```
-
-## **Configure DWM for workspace cycling:**
-
-You'll need to add key bindings to your `config.h` if you don't have them:
-
-```c
-// In your dwm config.h, add these key bindings:
-static const Key keys[] = {
-    // ... your existing keys ...
-    
-    // Cycle through tags with Super+Left/Right
-    { MODKEY,              XK_Right,  view,           {.ui = ~0} },
-    { MODKEY,              XK_Left,   view,           {.ui = ~0} },
-    
-    // Or use focusmon for multi-monitor setups
-    { MODKEY,              XK_Right,  focusmon,       {.i = +1} },
-    { MODKEY,              XK_Left,   focusmon,       {.i = -1} },
-};
-```
-
-## **Alternative: Better tag cycling patch**
-
+******* Configure DWM for workspace cycling:
 For proper tag cycling, apply this function to your DWM:
-
-```c
+#+begin_src c
 // Add this function to dwm.c
+// under static void spawnbar(); add:
+static void shiftview(const Arg *arg);
+// and under void spawnbar(){ ... } add:
 void
 shiftview(const Arg *arg) {
     Arg shifted;
@@ -369,53 +335,29 @@ shiftview(const Arg *arg) {
     view(&shifted);
 }
 
-// Add to your key bindings:
+// Add to your key bindings config.h:
 { MODKEY,              XK_Right,  shiftview,      {.i = +1} },
 { MODKEY,              XK_Left,   shiftview,      {.i = -1} },
-```
 
-## **Start libinput-gestures:**
+#+end_src
 
-```bash
+******* Start libinput-gestures:
+#+begin_src shell
 # Start the service
 libinput-gestures-setup start
 
 # Enable it to start automatically
 libinput-gestures-setup autostart
 
-# Check status
-libinput-gestures-setup status
-```
+# If you make a change then run 
+libinput-gestures-setup restart
 
-## **Test your setup:**
-
-```bash
-# Test if gestures are detected
+# tou can check if they work by running 
 libinput-gestures -d
 
-# This will show debug output when you make gestures
-```
+# Check status
+libinput-gestures-setup status
 
-## **Troubleshooting:**
+#+end_src
 
-If gestures don't work:
-
-```bash
-# Check if you're in the input group
-groups $USER
-
-# Test libinput directly
-sudo libinput debug-events
-
-# Make sure your touchpad supports gestures
-libinput list-devices
-```
-
-## **Alternative tools:**
-
-- **Fusuma** (Ruby-based, more features)
-- **Touchegg** (More GUI-oriented)
-
-The libinput-gestures approach is the most lightweight and works well with DWM. The key is mapping the gestures to keyboard shortcuts that DWM understands.
-
-After setting this up, 3-finger swipe left will go to the previous tag, and 3-finger swipe right will go to the next tag, exactly as you requested.
+*if start dint work you might need to log out and back in or reboot and also run sudo usermod -a -G input $USER again*

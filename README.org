@@ -2,11 +2,12 @@
 when isntalling arch with arch installer, in the options 
   1. bootloader use sddm
   2. filesystem use ext4
-  3. profile desktop i recommend grub as backup in case something beaks and for initial setup
-  4. audio profile
-  5. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
-  6. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu, brightnessctl
-  7. if you have multiple monitors i recomend arandr, xrandr 
+  3. profile desktop i recommend gnome as backup in case something beaks and for initial setup
+  4. bootloader use grub
+  5. audio profile pipewire
+  6. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
+  7. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu, brightnessctl
+  8. if you have multiple monitors i recomend arandr, xrandr 
 * After initial step is finished and you rebooted 
   1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service~
   2. enable pipewire for audio with 

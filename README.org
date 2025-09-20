@@ -382,7 +382,7 @@ libinput-gestures-setup status
 - [[https://www.reddit.com/r/Polybar/][polybar theme ideas]]
 - [[https://github.com/adi1090x/polybar-themes][polybar themes]]
 - [[https://github.com/Murzchnvok/polybar-collection][more polybar themes]]
-- [[https://gitlab.com/urielzo/polybar-theme/-/tree/mains][even more polybar themes]]
+- [[https://gitlab.com/urielzo/polybar-theme/-/tree/main][even more polybar themes]]
 - [[https://github.com/polybar/polybar-scripts][polybar scripts]]
 
 **** notes 
@@ -442,13 +442,7 @@ libinput-gestures-setup status
  - pywal16 {install with} to try wal you do wal -i /path/to/image --backend {wal or modern_colorthief or colorthief or haishoku or colorz} [[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]]
  - pipx {to install pywal16 backends and other python apps} ~pipx install "pywal16[all]"~ to install the backends
  #+begin_src shell
-pipx install -e "pywal16[modern_colorthief]"
-pipx uninstall pywal16
-pipx install -e "pywal16[colorthief]"
-pipx uninstall pywal16
-pipx install -e "pywal16[haishoku]"
-pipx uninstall pywal16
-pipx install -e "pywal16[colorz]"
+pipx install -e "pywal16[modern_colorthief,colorthief,haishoku,colorz]"
 pipx ensurepath
  #+end_src
  - feh {wallpaper setter works with pywall}

@@ -438,8 +438,19 @@ libinput-gestures-setup status
  - polybar 
  - dmenu
  - picom
- - pywal16 {install with the aur name python-pywal16}
+ - cmake {to build}
+ - pywal16 {install with} to try wal you do wal -i /path/to/image --backend {wal or modern_colorthief or colorthief or haishoku or colorz} [[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]]
  - pipx {to install pywal16 backends and other python apps} ~pipx install "pywal16[all]"~ to install the backends
+ #+begin_src shell
+pipx install -e "pywal16[modern_colorthief]"
+pipx uninstall pywal16
+pipx install -e "pywal16[colorthief]"
+pipx uninstall pywal16
+pipx install -e "pywal16[haishoku]"
+pipx uninstall pywal16
+pipx install -e "pywal16[colorz]"
+pipx ensurepath
+ #+end_src
  - feh {wallpaper setter works with pywall}
  - dunst/notify-send/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]] {notify-send is inside libnotify}
  - rofi

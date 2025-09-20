@@ -422,15 +422,15 @@ libinput-gestures-setup status
 
 ** Main packages for the config to work {plus the obove ones for nvidia and install}
 *check the githubs/sites for install instructions*
-dwm
-polybar 
-dmenu
-picom
-pywall
-dunst
-rofi
-greenclip
-libinput-gestures # if on laptop
+ - dwm
+ - polybar 
+ - dmenu
+ - picom
+ - pywall
+ - dunst
+ - rofi
+ - greenclip
+ - libinput-gestures # if on laptop
 
 
 ****** clipboard manager 

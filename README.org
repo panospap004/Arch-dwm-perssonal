@@ -1,6 +1,6 @@
 * Initial step 
 when isntalling arch with arch installer, in the options 
-  1. bootloader use sddm
+  1. loginmanager use sddm
   2. filesystem use ext4
   3. profile desktop i recommend gnome as backup in case something beaks and for initial setup
   4. bootloader use grub
@@ -13,19 +13,19 @@ when isntalling arch with arch installer, in the options
   2. enable pipewire for audio with 
      - ~sudo systemctl enable --now pipewire pipewire-pulse.socket~
      - ~sudo systemctl start pipewire pipewire-pulse.socket~
-       * if this commands dont work try but you might need to re do it in dwm later again
+       * if this commands dont work try but you might need to redo it in dwm later again
          - ~systemctl --user enable pipewire pipewire-pulse~
          - ~systemctl --user start pipewire pipewire-pulse~
-  3. Check your local in case its wrong and if you enabled multilib with the following commands
+  3. Check your locals in case its wrong and if you enabled multilib with the following commands
      - ~sudo nvim /etc/locale.gen~ for me its  el_GR.UTF-8 UTF-8
      - ~sudo locale-gen~
      - ~sudo nvim /etc/pacman.conf~ uncomment multilib
      - ~sudo pacman -Syu~
   4. Change to fish shell with ~chsh -s /usr/bin/fish~
-  5. make a git dir with ~mkdir ~/git~
-  6. setup nvim with nvchad with 
+  5. make a git dir with ~mkdir ~/git~ #optional just to keep your git clonses organized
+  6. setup nvim with nvchad with to work with accept if you have your own config
      - ~git clone https://github.com/NvChad/starter ~/.config/nvim && nvim~
-  7. now git clone dwm and st with 
+  7. now git clone dwm and st with {st is not required but nice to have as a backup terminal} {if you are using mine dwm and download them from here and place those in the config}
      - ~git clone https://git.suckless.org/dwm ~/.config/dwm~
      - ~git clone https://git.suckless.org/st ~/.config/st~
      - now go to the dwm and st dir and run ~sudo make clean install~

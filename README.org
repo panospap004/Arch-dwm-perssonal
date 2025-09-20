@@ -438,15 +438,15 @@ libinput-gestures-setup status
  - polybar 
  - dmenu
  - picom
- - pywall
+ - pywal16 {install with the aur name python-pywal16}
  - feh {wallpaper setter works with pywall}
- - dunst/notify/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]]
+ - dunst/notify-send/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]] {notify-send is inside libnotify}
  - rofi
- - greenclip || xclip {clipboard manager} [[https://www.youtube.com/watch?v=pF7BCKWd1eM][xclip example]]
+ - greenclip || xclip {clipboard manager} [[https://www.youtube.com/watch?v=pF7BCKWd1eM][xclip example]] {grenclip install with yay greenclip-rofi}
  - slock {[[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]}, [[https://tools.suckless.org/slock/patches/][slock patches]]
- - libinput-gestures # if on laptop
  - mpd {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]]
  - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
+ - libinput-gestures  *if on laptop*
 
 
 ****** clipboard manager 

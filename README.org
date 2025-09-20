@@ -297,6 +297,7 @@ yay -S libinput-gestures
 ******* Add yourself to input group:
 #+begin_src shell
 sudo usermod -a -G input $USER
+
 #+end_src
 
 ******* Create gesture configuration:
@@ -361,3 +362,143 @@ libinput-gestures-setup status
 #+end_src
 
 *if start dint work you might need to log out and back in or reboot and also run sudo usermod -a -G input $USER again*
+
+*** pywall {wallpaper and colorscheme generator}
+**** links
+[[https://github.com/eylles/pywal16][pywal]]
+[[https://github.com/BreadOnPenguins/scripts][BreadOnPenguins scripts]]
+[[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
+
+**** notes 
+
+**** config
+
+*** poybar {status bar}
+**** links
+[[https://github.com/polybar/polybar/wiki][polybar wiki]]
+[[https://polybar.readthedocs.io/en/stable/][polybar docs]]
+[[https://www.reddit.com/r/Polybar/][polybar theme ideas]]
+[[https://github.com/adi1090x/polybar-themes][polybar themes]]
+[[https://github.com/Murzchnvok/polybar-collection][more polybar themes]]
+[[https://gitlab.com/urielzo/polybar-theme/-/tree/mains][even more polybar themes]]
+[[https://github.com/polybar/polybar-scripts][polybar scripts]]
+
+**** notes 
+
+**** config
+
+*** dmenu {app and script launcher}
+**** links
+[[https://tools.suckless.org/dmenu/][dmenu docs]] # i reccomend downloading my dmenu from here and building it like dwm so the scripts never break
+[[https://github.com/BreadOnPenguins/scripts][BreadOnPenguins scripts]]
+[[https://www.reddit.com/r/unixporn/comments/siynct/suckless_fully_integrated_themes_across_dwm_st/][idea for alternative to pywal]]
+[[https://github.com/debxp/dmenu-scripts][dmenu scripts]]
+[[https://tools.suckless.org/dmenu/scripts/][suckless dmenu scripts]]
+[[https://www.reddit.com/r/linuxquestions/comments/1gtj8gy/what_scripts_do_you_use_through_dmenurofi/][more dmenu scripts]]
+[[https://github.com/nsbgn/scripts][more dmenu and more scripts]]
+[[https://gitlab.com/dwt1/dmscripts][even more dmenu scripts]]
+
+**** notes 
+
+**** config
+
+*** picom {compositor}
+**** links
+[[https://picom.app][picom docs]]
+[[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
+
+**** notes 
+
+**** config
+
+*** Dunst {notification daemon}
+**** links
+[[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
+
+**** notes
+
+**** config
+
+
+** Main packages for the config to work {plus the obove ones for nvidia and install}
+*check the githubs/sites for install instructions*
+dwm
+polybar 
+dmenu
+picom
+pywall
+dunst
+rofi
+greenclip
+libinput-gestures # if on laptop
+
+
+****** clipboard manager 
+Greenclip	Probably one of the most popular. Small, fast. Has daemon mode + history + rofi integration. 
+ArchWiki
++1
+	Mostly text; image support is limited (or needs tweaking). You need to start the daemon (systemd user service or manually). 
+GitHub
++1
+
+Clipmenu / clipmenud	Minimalistic, solid. Works with xsel / xclip + clipnotify. Good if you want something simple. Has rofi / dmenu launcher. 
+LinuxLinks
++2
+openports.pl
++2
+	The UI is minimal; no fancy parsing or image support by default. Might need small scripting if you want extra features. Also, clipmenu doesn’t auto-paste (just puts things in clipboard).
+Clipton	Has two modes: a watcher (auto-recording copies) and a rofi frontend. More feature rich than super minimal managers. 
+GitHub
+	It’s mostly text only. Also you’ll need to configure it; may pull in Python dependencies.
+Clipcat	Written in Rust; supports X11 and has rofi menu integration. Some nice command / client/server options. 
+GitHub
+	More complex to set up (daemon + config). Might be overkill if you just want basic clipboard history.
+Qlipmon	Has a server + rofi plugin + DBus interface. Good if you want more control / want the clipboard history accessible via rofi directly. 
+GitHub
+	No persistence so far in some versions; might be less mature. If you need history across reboots, check if that’s supported.
+RahulGotrekiya/clipboard-manager	Script that works under X11 & Wayland, uses cliphist + rofi, auto-paste support. Could be nice. 
+GitHub
+	Depends on cliphist + other utilities; maybe less “packaged” out of the box. You may need to tweak for reliability.
+What I’d Recommend (for many setups)
+
+If I had to pick one for simplicity + reliability, I'd go with Greenclip. It’s well-documented, works cleanly with rofi, supports blacklist & configuration, etc.
+
+If you want very minimal, Clipmenu is also excellent.
+
+Example setup for Greenclip
+
+Here’s how you might get Greenclip working:
+
+Install it (on Arch: yay -S rofi-greenclip or similar) or build from source. 
+ArchWiki
++1
+
+Configure the config file: ~/.config/greenclip.toml. Some settings to consider:
+
+[greenclip]
+history_file = "$HOME/.cache/greenclip.history"
+max_history_length = 50
+use_primary_selection_as_input = false
+blacklisted_applications = ["some_app"]  # to avoid noisy clipboard sources
+enable_image_support = false  # unless you really need image picks
+
+
+Start the daemon:
+
+greenclip daemon
+
+
+Or enable via systemd --user if you want it to start with your session. 
+GitHub
++1
+
+Setup a keyboard shortcut (in your window manager) to launch the rofi picker. For example:
+
+rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+
+
+That command will show your history; when you pick one, it will be put in the clipboard. Then you can Ctrl+V (or middle-click depending on your setup) to paste. 
+ArchWiki
++1
+
+Optional: blacklist certain applications, avoid picking up every selection (so it’s not spammy). Also maybe combine with xdotool / some tool if you want auto pasting. But that’s more advanced.

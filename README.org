@@ -439,6 +439,7 @@ libinput-gestures-setup status
  - dmenu
  - picom
  - pywal16 {install with the aur name python-pywal16}
+ - pipx {to install pywal16 backends and other python apps} ~pipx install "pywal16[all]"~ to install the backends
  - feh {wallpaper setter works with pywall}
  - dunst/notify-send/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]] {notify-send is inside libnotify}
  - rofi

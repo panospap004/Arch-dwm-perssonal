@@ -366,10 +366,10 @@ libinput-gestures-setup status
 
 *** pywall {wallpaper and colorscheme generator}
 **** links
-[[https://github.com/eylles/pywal16][pywal]]
-[[https://github.com/BreadOnPenguins/scripts][BreadOnPenguins scripts]]
-[[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
-[[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]]
+- [[https://github.com/eylles/pywal16][pywal]]
+- [[https://github.com/BreadOnPenguins/scripts][BreadOnPenguins scripts]]
+- [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
+- [[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]]
 
 **** notes 
 
@@ -377,35 +377,35 @@ libinput-gestures-setup status
 
 *** poybar {status bar}
 **** links
-[[https://github.com/polybar/polybar/wiki][polybar wiki]]
-[[https://polybar.readthedocs.io/en/stable/][polybar docs]]
-[[https://www.reddit.com/r/Polybar/][polybar theme ideas]]
-[[https://github.com/adi1090x/polybar-themes][polybar themes]]
-[[https://github.com/Murzchnvok/polybar-collection][more polybar themes]]
-[[https://gitlab.com/urielzo/polybar-theme/-/tree/mains][even more polybar themes]]
-[[https://github.com/polybar/polybar-scripts][polybar scripts]]
+- [[https://github.com/polybar/polybar/wiki][polybar wiki]]
+- [[https://polybar.readthedocs.io/en/stable/][polybar docs]]
+- [[https://www.reddit.com/r/Polybar/][polybar theme ideas]]
+- [[https://github.com/adi1090x/polybar-themes][polybar themes]]
+- [[https://github.com/Murzchnvok/polybar-collection][more polybar themes]]
+- [[https://gitlab.com/urielzo/polybar-theme/-/tree/mains][even more polybar themes]]
+- [[https://github.com/polybar/polybar-scripts][polybar scripts]]
 
 **** notes 
-this might be usefull with polybar for weather widget 
-~curl wttr.in/athens-greece~
-[[https://www.youtube.com/watch?v=3mGgJbqQLNM][example]]
+- this might be usefull with polybar for weather widget 
+- ~curl wttr.in/athens-greece~
+- [[https://www.youtube.com/watch?v=3mGgJbqQLNM][example]]
 
 **** config
 
 *** dmenu {app and script launcher}
 **** links
-[[https://tools.suckless.org/dmenu/][dmenu docs]] # i reccomend downloading my dmenu from here and building it like dwm so the scripts never break
-[[https://tools.suckless.org/dmenu/patches/][dmenu patches]]
-[[https://tools.suckless.org/dmenu/scripts/][suckless dmenu scripts]]
-[[https://github.com/BreadOnPenguins/scripts][BreadOnPenguins scripts]]
-[[https://www.youtube.com/watch?v=4JWeU78A95c][BreadOnPenguins dmenu scripts video]]
-[[https://www.youtube.com/watch?v=h_E3ddNQ1xw][BreadOnPenguins dmenu old but usfule still video]]
-[[https://www.youtube.com/watch?v=6NeEJVghF_k][BreadOnPenguins dmenu+clipboard]]
-[[https://www.reddit.com/r/unixporn/comments/siynct/suckless_fully_integrated_themes_across_dwm_st/][idea for alternative to pywal]]
-[[https://github.com/debxp/dmenu-scripts][dmenu scripts]]
-[[https://www.reddit.com/r/linuxquestions/comments/1gtj8gy/what_scripts_do_you_use_through_dmenurofi/][more dmenu scripts]]
-[[https://github.com/nsbgn/scripts][more dmenu and more scripts]]
-[[https://gitlab.com/dwt1/dmscripts][even more dmenu scripts]]
+- [[https://tools.suckless.org/dmenu/][dmenu docs]] # i reccomend downloading my dmenu from here and building it like dwm so the scripts never break
+- [[https://tools.suckless.org/dmenu/patches/][dmenu patches]]
+- [[https://tools.suckless.org/dmenu/scripts/][suckless dmenu scripts]]
+- [[https://github.com/BreadOnPenguins/scripts][BreadOnPenguins scripts]]
+- [[https://www.youtube.com/watch?v=4JWeU78A95c][BreadOnPenguins dmenu scripts video]]
+- [[https://www.youtube.com/watch?v=h_E3ddNQ1xw][BreadOnPenguins dmenu old but usfule still video]]
+- [[https://www.youtube.com/watch?v=6NeEJVghF_k][BreadOnPenguins dmenu+clipboard]]
+- [[https://www.reddit.com/r/unixporn/comments/siynct/suckless_fully_integrated_themes_across_dwm_st/][idea for alternative to pywal]]
+- [[https://github.com/debxp/dmenu-scripts][dmenu scripts]]
+- [[https://www.reddit.com/r/linuxquestions/comments/1gtj8gy/what_scripts_do_you_use_through_dmenurofi/][more dmenu scripts]]
+- [[https://github.com/nsbgn/scripts][more dmenu and more scripts]]
+- [[https://gitlab.com/dwt1/dmscripts][even more dmenu scripts]]
 
 **** notes 
 
@@ -413,19 +413,19 @@ this might be usefull with polybar for weather widget
 
 *** picom {compositor}
 **** links
-[[https://picom.app][picom docs]]
-[[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
-[[https://www.youtube.com/watch?v=zRUe9fCs7Qs][BreadOnPenguins picom video]]
+- [[https://picom.app][picom docs]]
+- [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
+- [[https://www.youtube.com/watch?v=zRUe9fCs7Qs][BreadOnPenguins picom video]]
 
 **** notes 
-there is an example script in 
-~/etc/xdg/picom.conf.example~
+- there is an example script in 
+- ~/etc/xdg/picom.conf.example~
 
 **** config
 
 *** Dunst {notification daemon}
 **** links
-[[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
+- [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
 
 **** notes
 

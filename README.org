@@ -369,6 +369,7 @@ libinput-gestures-setup status
 [[https://github.com/eylles/pywal16][pywal]]
 [[https://github.com/BreadOnPenguins/scripts][BreadOnPenguins scripts]]
 [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
+[[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]]
 
 **** notes 
 
@@ -385,16 +386,23 @@ libinput-gestures-setup status
 [[https://github.com/polybar/polybar-scripts][polybar scripts]]
 
 **** notes 
+this might be usefull with polybar for weather widget 
+~curl wttr.in/athens-greece~
+[[https://www.youtube.com/watch?v=3mGgJbqQLNM][example]]
 
 **** config
 
 *** dmenu {app and script launcher}
 **** links
 [[https://tools.suckless.org/dmenu/][dmenu docs]] # i reccomend downloading my dmenu from here and building it like dwm so the scripts never break
+[[https://tools.suckless.org/dmenu/patches/][dmenu patches]]
+[[https://tools.suckless.org/dmenu/scripts/][suckless dmenu scripts]]
 [[https://github.com/BreadOnPenguins/scripts][BreadOnPenguins scripts]]
+[[https://www.youtube.com/watch?v=4JWeU78A95c][BreadOnPenguins dmenu scripts video]]
+[[https://www.youtube.com/watch?v=h_E3ddNQ1xw][BreadOnPenguins dmenu old but usfule still video]]
+[[https://www.youtube.com/watch?v=6NeEJVghF_k][BreadOnPenguins dmenu+clipboard]]
 [[https://www.reddit.com/r/unixporn/comments/siynct/suckless_fully_integrated_themes_across_dwm_st/][idea for alternative to pywal]]
 [[https://github.com/debxp/dmenu-scripts][dmenu scripts]]
-[[https://tools.suckless.org/dmenu/scripts/][suckless dmenu scripts]]
 [[https://www.reddit.com/r/linuxquestions/comments/1gtj8gy/what_scripts_do_you_use_through_dmenurofi/][more dmenu scripts]]
 [[https://github.com/nsbgn/scripts][more dmenu and more scripts]]
 [[https://gitlab.com/dwt1/dmscripts][even more dmenu scripts]]
@@ -407,8 +415,11 @@ libinput-gestures-setup status
 **** links
 [[https://picom.app][picom docs]]
 [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
+[[https://www.youtube.com/watch?v=zRUe9fCs7Qs][BreadOnPenguins picom video]]
 
 **** notes 
+there is an example script in 
+~/etc/xdg/picom.conf.example~
 
 **** config
 
@@ -428,10 +439,13 @@ libinput-gestures-setup status
  - dmenu
  - picom
  - pywall
- - dunst
+ - dunst/notify/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]]
  - rofi
- - greenclip
+ - greenclip || xclip {clipboard manager} [[https://www.youtube.com/watch?v=pF7BCKWd1eM][xclip example]]
+ - slock {[[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]}, [[https://tools.suckless.org/slock/patches/][slock patches]]
  - libinput-gestures # if on laptop
+ - mpd {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]]
+ - imagemagick {screenshot tools} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
 
 
 ****** clipboard manager 

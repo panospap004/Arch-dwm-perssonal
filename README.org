@@ -56,9 +56,9 @@ when isntalling arch with arch installer, in the options
   trap cleanup TERM INT
 
   # Background setup
-  # feh --bg-scale ~/Pictures/a.png # if you want to specify a wallpaper / you can stil 
+  # feh --bg-scale ~/Pictures/a.png # if you want to specify a wallpaper
   wal -R # if you use pywal to restore your theme and wallpaper
-  # you can you both wal and feh if you used the script that skips setting wallpaper so it wont matter
+  # you can use both wal and feh if you are using the wal script that skips setting the wallpaper bound to mainmod+shift+w
   setxkbmap -layout us,gr -option 'grp:alt_shift_toggle' 
   xset r rate 300 50
   picom &

@@ -46,32 +46,73 @@ when isntalling arch with arch installer, in the options
   * script example
   #+begin_src shell
   #!/bin/sh
+
+  # Fixed function name
   cleanup() {
       pkill -f polybar
       exit 0
   }
+
   trap cleanup TERM INT
 
-  # merge xresources
-  xrdb -merge ~/.Xresources
-
-  #set wallpaper
-  feh --bg-scale /usr/share/backgrounds/archlinux/arch-wallpaper.jpg 
-  # key layout toggle
+  # Background setup
+  feh --bg-scale ~/Pictures/a.png
   setxkbmap -layout us,gr -option 'grp:alt_shift_toggle' 
+  xset r rate 300 50
+  picom &
 
-  # how fast keys repeat if you hold them down
-  xset r rate 200 50 ## delay 200ms, rate 50 keys per second
+  # Function to start polybar with retry logic
+  start_polybar() {
+      # Kill any existing polybar instances
+      pkill -f polybar 2>/dev/null
+      sleep 0.2
+      
+      # Start polybar in background
+      # polybar &
+      # Alternative: use your themed polybar
+      # ~/git/polybar-collection/launch.sh &
+      # ~/.config/polybar/launch.sh --blocks &
 
-  # if you have multiple monitors use arandr to set them up and then download the config {xyzname.sh} with the last icon open it and copy paste it here 
+      # Method 1: Auto-detect and launch on all monitors
+      if type "xrandr" > /dev/null; then
+          # Get all connected monitors
+          for monitor in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+              MONITOR=$monitor ~/.config/polybar/launch.sh --blocks &
+          done
+      else
+          # Fallback to single monitor
+          ~/.config/polybar/launch.sh --blocks &
+      fi
+      
+      # Method 2: Manual monitor specification (uncomment and modify as needed)
+      # MONITOR=DP-1 ~/.config/polybar/launch.sh --blocks &
+      # MONITOR=HDMI-A-1 ~/.config/polybar/launch.sh --blocks &
+      # MONITOR=eDP-1 ~/.config/polybar/launch.sh --blocks &
 
-  # keep windows open after exit
+  }
+
+  # Start polybar initially
+  start_polybar
+
+  # DWM loop with polybar management
   while true; do
+      # Start DWM and capture its exit code
       dwm 2> ~/.dwm.log
-  done &
+      exit_code=$?
+      
+      # If DWM exits cleanly (user logout), break the loop
+      if [ $exit_code -eq 0 ]; then
+          break
+      fi
+      
+      # Otherwise, restart polybar and continue
+      echo "DWM crashed with exit code $exit_code, restarting..." >> ~/.dwm.log
+      start_polybar
+      sleep 1
+  done
 
-  # pollybar open 
-  ~/.config/polybar/launch.sh &
+  # Cleanup on exit
+  cleanup
 
   #+end_src
   * and dont forget to ~chmod +x /usr/local/bin/startdwm.sh~ else it wont run

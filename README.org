@@ -314,7 +314,7 @@ how to use them
 
 ***** Desktop only
 - https://dwm.suckless.org/patches/focusmonmouse/ #moves mouse to selected monitor {basicly a fix for multimonitor setups}
-- https://dwm.suckless.org/patches/fixmultimon/ # if mouse goes to another monitor dont change focus to that monitor {basicly a fix for multimonitor setups}
+- https://dwm.suckless.org/patches/fixmultimon/ #if mouse goes to another monitor dont change focus to that monitor {basicly a fix for multimonitor setups}
 - https://dwm.suckless.org/patches/torus/ #no matter what edge the mouse lives it goes to the other screen edge {i am not sure if it will work for more then 2 monitors}
 - https://dwm.suckless.org/patches/autostarttags/ #open specific apps in specific workspaces on start { its here cause if you have 1 monitor it can be annoying to have apps open in workspaces you cant see}
 - https://dwm.suckless.org/patches/single_tagset/ #only one tagset for all monitors instead of multiple ones
@@ -427,7 +427,6 @@ libinput-gestures-setup status
 - ~curl wttr.in/athens-greece~
 - [[https://www.youtube.com/watch?v=3mGgJbqQLNM][example]]
 
-**** config
 
 *** dmenu {app and script launcher}
 **** links
@@ -446,7 +445,44 @@ libinput-gestures-setup status
 
 **** notes 
 
-**** config
+**** patches
+******* Used
+
+******* Could be good but not used
+
+**** Scripts
+******* Used
+
+******* Could be good but not used
+
+*** Slock {lock screen}******* Used
+
+******* Could be good but nut used
+
+**** links 
+- [[https://tools.suckless.org/slock/][slock website]]
+- [[https://tools.suckless.org/slock/patches/][slock patches]]
+- [[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]
+
+**** notes 
+
+**** patches
+******* Used
+- https://tools.suckless.org/slock/patches/auto-timeout/  OR https://tools.suckless.org/slock/patches/dpms/ #screen automaticly locks after a period of time
+- https://tools.suckless.org/slock/patches/mediakeys/ OR https://tools.suckless.org/slock/patches/passthrough/ #allow some keybinds to work even when locked
+- https://tools.suckless.org/slock/patches/quickcancel/ #stop screen from locking withen a period of time
+- https://tools.suckless.org/slock/patches/xresources/ #use xresources for colors {pywal}
+- https://tools.suckless.org/slock/patches/noxbell/ #lets you disable the bell sound when you use a wrong pass
+- https://tools.suckless.org/slock/patches/foreground-and-background/ #makes your background blured or pixalated and uses a dwm logo for displaying colors for inputs instead of the whole screen OR https://tools.suckless.org/slock/patches/background-image/ #use an image as a background
+- https://tools.suckless.org/slock/patches/capscolor/ #add an extra color if capslock is enabled 
+- https://tools.suckless.org/slock/patches/message/ OR https://tools.suckless.org/slock/patches/colormessage/ #put a message in the lockscreen
+
+******* Could be good but not used
+- https://tools.suckless.org/slock/patches/user/ #use the $USER variable to determen the correct pass
+- https://tools.suckless.org/slock/patches/blur-pixelated-screen/ #blurs or pixalated background for lock screen
+- https://tools.suckless.org/slock/patches/dwmlogo/ #use the dwm logo to dislay inputs instead of the whole screen 
+- https://tools.suckless.org/slock/patches/alternate-colors/ #use more alternative colors when typing
+- https://tools.suckless.org/slock/patches/squares/ #use scuares for background instead of solid color
 
 *** picom {compositor}
 **** links
@@ -494,8 +530,6 @@ blur-background-exclude = [
 
 #+end_src
 
-**** config
-
 *** Dunst {notification daemon}
 **** links
 - [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
@@ -521,7 +555,7 @@ pipx ensurepath
  - feh {wallpaper setter works with pywall}
  - dunst/notify-send/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]] {notify-send is inside libnotify}
  - rofi
- - greenclip || xclip {clipboard manager} [[https://www.youtube.com/watch?v=pF7BCKWd1eM][xclip example]] {grenclip install with yay greenclip-rofi}
+ - greenclip {clipboard manager} {grenclip install with yay greenclip-rofi}
  - slock {[[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]}, [[https://tools.suckless.org/slock/patches/][slock patches]]
  - mpd {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]]
  - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]

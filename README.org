@@ -451,12 +451,21 @@ libinput-gestures-setup status
 *** picom {compositor}
 **** links
 - [[https://picom.app][picom docs]]
+- [[https://wiki.archlinux.org/title/Picom][arch wiki picom]]
 - [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
-- [[https://www.youtube.com/watch?v=zRUe9fCs7Qs][BreadOnPenguins picom video]]
+- [[https://www.youtube.com/watch?v=zRUe9fCs7Qs][BreadOnPenguins picom ideo]]
 
 **** notes 
 - there is an example script in 
-- ~/etc/xdg/picom.conf.example~
+- ~/etc/xdg/picom.conf~
+  
++ Multihead
+-  If a [[https://wiki.archlinux.org/title/Multihead][multihead]] configuration is used without xinerama - meaning that X server is started with more than one screen - then picom will start on only one screen by default. It can be started on all screens by using the DISPLAY environment variable. For example, to run on X screen 0 in the background:
+
+ ~DISPLAY=":0" picom -b~
+ - The above should work on all monitors. If it does not then try an older method that manually specifies each display:
+
+~seq 0 3 | xargs -l1 -I@ picom -b -d :0.@~
 
 **** config
 

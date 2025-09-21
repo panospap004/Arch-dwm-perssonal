@@ -403,6 +403,7 @@ libinput-gestures-setup status
 *** pywall {wallpaper and colorscheme generator}
 **** links
 - [[https://github.com/eylles/pywal16][pywal]]
+- [[https://github.com/eylles/pywal-extra][pywal extras]]
 - [[https://github.com/BreadOnPenguins/scripts][BreadOnPenguins scripts]]
 - [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
 - [[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]]

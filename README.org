@@ -98,13 +98,6 @@ when isntalling arch with arch installer, in the options
   while true; do
       # Start DWM and capture its exit code
       dwm 2> ~/.dwm.log
-      exit_code=$?
-      
-      # If DWM exits cleanly (user logout), break the loop
-      if [ $exit_code -eq 0 ]; then
-          break
-      fi
-      
       # Otherwise, restart polybar and continue
       echo "DWM crashed with exit code $exit_code, restarting..." >> ~/.dwm.log
       start_polybar
@@ -282,7 +275,7 @@ how to use them
 + ✔️ == used
 + ❌ == not used
 ***** Alternative/extra to the ones billow
-- https://dwm.suckless.org/patches/xresources/ #merge .xresources on start alternative to xrdb patch with extra that you can cange more stuff then just colors
+- https://dwm.suckless.org/patches/xresources/ ❌ #merge .xresources on start alternative to xrdb patch with extra that you can cange more stuff then just colors
 - https://dwm.suckless.org/patches/windowfollow/ ❌ #alternative window following behavior to viewontag patch
 - https://dwm.suckless.org/patches/mpdcontrol/ #mpd server controls for keybinds
 - https://dwm.suckless.org/patches/decoration_hints/ #make dwm respect if some apps dont want borders cause it can cause issues like vlv, chromium, etc
@@ -310,7 +303,7 @@ how to use them
 - https://dwm.suckless.org/patches/center/ ❌ OR https://dwm.suckless.org/patches/togglefloatingcenter/ ✔️ #open floating windows in the center of the screen first uses a rule secont always does it for all floating windows
 
 ****** nice but not required 
-- https://dwm.suckless.org/patches/xrdb/ #merge .Xresources on start so you can change colors without recompiling like if you use [[https://github.com/eylles/pywal16][pywal]]
+- https://dwm.suckless.org/patches/xrdb/ ✔️ #merge .Xresources on start so you can change colors without recompiling like if you use [[https://github.com/eylles/pywal16][pywal]]
 - https://dwm.suckless.org/patches/preserveonrestart/ ❌ {need to try it with restartsig} OR https://dwm.suckless.org/patches/restoreafterrestart/ ❌ #remember open windows and their tags on restart
 - https://dwm.suckless.org/patches/restartsig/ ❌ #restart dwm without quitting it {here since my script can do it already but meabe some patch might need it to work}
 - https://dwm.suckless.org/patches/cool_autostart/ ❌ OR https://dwm.suckless.org/patches/autostart/ ❌ #run a script on dwm start for example to set a wallpaper with feh, start pipewire, set xkbmap etc {its in nice but not required cause i think the startdwm.sh script can do what this does already *second one might be worth it tho since it gives you some nice options*}

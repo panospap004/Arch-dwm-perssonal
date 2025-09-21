@@ -500,10 +500,7 @@ libinput-gestures-setup status
 - https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch and https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch-sources #web serach
 
 
-*** Slock {lock screen}******* Used
-
-******* Could be good but nut used
-
+*** Slock {lock screen}
 **** links 
 - [[https://tools.suckless.org/slock/][slock website]]
 - [[https://tools.suckless.org/slock/patches/][slock patches]]

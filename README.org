@@ -61,6 +61,15 @@ when isntalling arch with arch installer, in the options
   # you can use both wal and feh if you are using the wal script that skips setting the wallpaper bound to mainmod+shift+w
   setxkbmap -layout us,gr -option 'grp:alt_shift_toggle' 
   xset r rate 300 50
+
+  #xlock
+  xautolock -time 10 -locker slock &
+  # time in minutes
+  # if you want to disable it use 
+  # xautolock -disable &
+  # or toggle 
+  # xautolock -toggle &
+
   picom &
 
   # Function to start polybar with retry logic
@@ -511,7 +520,8 @@ libinput-gestures-setup status
 
 **** patches
 ******* Used
-- https://tools.suckless.org/slock/patches/auto-timeout/  OR https://tools.suckless.org/slock/patches/dpms/ #screen automaticly locks after a period of time
+- https://tools.suckless.org/slock/patches/user/ ✔️ #use the $USER instead of specific group and user
+- https://tools.suckless.org/slock/patches/auto-timeout/ ❌ OR https://tools.suckless.org/slock/patches/dpms/ ✔️ #screen automaticly closes after n amount of time if slock is active
 - https://tools.suckless.org/slock/patches/mediakeys/ OR https://tools.suckless.org/slock/patches/passthrough/ #allow some keybinds to work even when locked
 - https://tools.suckless.org/slock/patches/quickcancel/ #stop screen from locking withen a period of time
 - https://tools.suckless.org/slock/patches/xresources/ #use xresources for colors {pywal}
@@ -521,7 +531,6 @@ libinput-gestures-setup status
 - https://tools.suckless.org/slock/patches/message/ OR https://tools.suckless.org/slock/patches/colormessage/ #put a message in the lockscreen
 
 ******* Could be good but not used
-- https://tools.suckless.org/slock/patches/user/ #use the $USER variable to determen the correct pass
 - https://tools.suckless.org/slock/patches/blur-pixelated-screen/ #blurs or pixalated background for lock screen
 - https://tools.suckless.org/slock/patches/dwmlogo/ #use the dwm logo to dislay inputs instead of the whole screen 
 - https://tools.suckless.org/slock/patches/alternate-colors/ #use more alternative colors when typing
@@ -599,7 +608,7 @@ pipx ensurepath
  - dunst/notify-send/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]] {notify-send is inside libnotify}
  - rofi
  - greenclip {clipboard manager} {grenclip install with yay greenclip-rofi}
- - slock {[[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]}, [[https://tools.suckless.org/slock/patches/][slock patches]]
+ - slock/xautolock {[[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]}, [[https://tools.suckless.org/slock/patches/][slock patches]] {xautolock automaticly locks scren and calls slock install with yay }
  - mpd {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]]
  - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
  - libinput-gestures  *if on laptop*

@@ -522,12 +522,12 @@ libinput-gestures-setup status
 ******* Used
 - https://tools.suckless.org/slock/patches/user/ ✔️ #use the $USER instead of specific group and user
 - https://tools.suckless.org/slock/patches/auto-timeout/ ❌ OR https://tools.suckless.org/slock/patches/dpms/ ✔️ #screen automaticly closes after n amount of time if slock is active
-- https://tools.suckless.org/slock/patches/mediakeys/ OR https://tools.suckless.org/slock/patches/passthrough/ #allow some keybinds to work even when locked
-- https://tools.suckless.org/slock/patches/quickcancel/ #stop screen from locking withen a period of time
-- https://tools.suckless.org/slock/patches/xresources/ #use xresources for colors {pywal}
-- https://tools.suckless.org/slock/patches/noxbell/ #lets you disable the bell sound when you use a wrong pass
+- https://tools.suckless.org/slock/patches/mediakeys/ ❌ OR https://tools.suckless.org/slock/patches/passthrough/ ✔️ #allow some keybinds to work even when locked
+- https://tools.suckless.org/slock/patches/quickcancel/ ✔️ #stop screen from locking withen a period of time
+- https://tools.suckless.org/slock/patches/xresources/ ✔️ #use xresources for colors {pywal}
+- https://tools.suckless.org/slock/patches/noxbell/ ✔️ #lets you disable the bell sound when you use a wrong pass
 - https://tools.suckless.org/slock/patches/foreground-and-background/ #makes your background blured or pixalated and uses a dwm logo for displaying colors for inputs instead of the whole screen OR https://tools.suckless.org/slock/patches/background-image/ #use an image as a background
-- https://tools.suckless.org/slock/patches/capscolor/ #add an extra color if capslock is enabled 
+- https://tools.suckless.org/slock/patches/capscolor/ ✔️ #add an extra color if capslock is enabled 
 - https://tools.suckless.org/slock/patches/message/ OR https://tools.suckless.org/slock/patches/colormessage/ #put a message in the lockscreen
 
 ******* Could be good but not used

@@ -63,7 +63,7 @@ when isntalling arch with arch installer, in the options
   xset r rate 300 50
 
   #xlock
-  xautolock -time 10 -locker slock &
+  xautolock -time 10 -locker slock -detectsleep &
   # time in minutes
   # if you want to disable it use 
   # xautolock -disable &
@@ -526,15 +526,15 @@ libinput-gestures-setup status
 - https://tools.suckless.org/slock/patches/quickcancel/ ✔️ #stop screen from locking withen a period of time
 - https://tools.suckless.org/slock/patches/xresources/ ✔️ #use xresources for colors {pywal}
 - https://tools.suckless.org/slock/patches/noxbell/ ✔️ #lets you disable the bell sound when you use a wrong pass
-- https://tools.suckless.org/slock/patches/foreground-and-background/ #makes your background blured or pixalated and uses a dwm logo for displaying colors for inputs instead of the whole screen OR https://tools.suckless.org/slock/patches/background-image/ #use an image as a background
+- https://tools.suckless.org/slock/patches/foreground-and-background/ ✔️ #makes your background blured or pixalated and uses a dwm logo for displaying colors for inputs instead of the whole screen OR https://tools.suckless.org/slock/patches/background-image/ ❌ #use an image as a background
 - https://tools.suckless.org/slock/patches/capscolor/ ✔️ #add an extra color if capslock is enabled 
 - https://tools.suckless.org/slock/patches/message/ OR https://tools.suckless.org/slock/patches/colormessage/ #put a message in the lockscreen
 
 ******* Could be good but not used
-- https://tools.suckless.org/slock/patches/blur-pixelated-screen/ #blurs or pixalated background for lock screen
-- https://tools.suckless.org/slock/patches/dwmlogo/ #use the dwm logo to dislay inputs instead of the whole screen 
-- https://tools.suckless.org/slock/patches/alternate-colors/ #use more alternative colors when typing
-- https://tools.suckless.org/slock/patches/squares/ #use scuares for background instead of solid color
+- https://tools.suckless.org/slock/patches/blur-pixelated-screen/ ❌ #blurs or pixalated background for lock screen
+- https://tools.suckless.org/slock/patches/dwmlogo/ ❌ #use the dwm logo to dislay inputs instead of the whole screen 
+- https://tools.suckless.org/slock/patches/alternate-colors/ ❌ #use more alternative colors when typing
+- https://tools.suckless.org/slock/patches/squares/ ❌ #use scuares for background instead of solid color
 
 *** picom {compositor} ✔️
 **** links
@@ -612,6 +612,7 @@ pipx ensurepath
  - mpd {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]]
  - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
  - libinput-gestures  *if on laptop*
+ - caffeine-ng {to stop screen from locking when watching videos or going to idle install with yay}
 
 
 ****** clipboard manager 

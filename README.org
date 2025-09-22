@@ -510,7 +510,7 @@ libinput-gestures-setup status
 - https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch and https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch-sources #web serach
 
 
-*** Slock {lock screen}
+*** Slock {lock screen} ✔️
 **** links 
 - [[https://tools.suckless.org/slock/][slock website]]
 - [[https://tools.suckless.org/slock/patches/][slock patches]]
@@ -612,8 +612,6 @@ pipx ensurepath
  - mpd {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]]
  - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
  - libinput-gestures  *if on laptop*
- - caffeine-ng {to stop screen from locking when watching videos or going to idle install with yay}
-
 
 ****** clipboard manager 
 Greenclip	Probably one of the most popular. Small, fast. Has daemon mode + history + rofi integration. 

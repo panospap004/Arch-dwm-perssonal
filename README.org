@@ -467,9 +467,9 @@ libinput-gestures-setup status
 - https://tools.suckless.org/dmenu/patches/border/ ✔️ #gives a border like the window border
 - https://tools.suckless.org/dmenu/patches/no-input/ ✔️ #add a flag to remove input field in scripts
 - https://tools.suckless.org/dmenu/patches/date/ ✔️ #add the date in dmenu
+- https://tools.suckless.org/dmenu/patches/qalc/ ✔️ #calc mode using flag in dmenu
 
 ******* Could be good but not used
-- https://tools.suckless.org/dmenu/patches/qalc/ #calc mode using flag in dmenu {center uses the same flag causing a config needs to adjustment to work}
 - https://tools.suckless.org/dmenu/patches/png_images/ ❌ #preview images in clipboard mode
 - https://tools.suckless.org/dmenu/patches/preselect/ ❌ #preselct input to create stuff like in the example
 - https://tools.suckless.org/dmenu/patches/alpha/ ❌ #transparency {adds to much code and can break stuff}
@@ -613,6 +613,7 @@ pipx ensurepath
  - mpd {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]]
  - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
  - libinput-gestures  *if on laptop*
+ - menu-qalc {calc for dmenu} ~yay -S menu-qalc~
 
 ****** clipboard manager 
 Greenclip	Probably one of the most popular. Small, fast. Has daemon mode + history + rofi integration. 

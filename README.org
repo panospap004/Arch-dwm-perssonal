@@ -463,11 +463,11 @@ libinput-gestures-setup status
 - https://tools.suckless.org/dmenu/patches/numbers/ ✔️ #total and matched items number 
 - https://tools.suckless.org/dmenu/patches/fuzzymatch/ ✔️ and https://tools.suckless.org/dmenu/patches/fuzzyhighlight/ ✔️ #fuzzy matching and highting
 - https://tools.suckless.org/dmenu/patches/dmenupadding/ ✔️ #a bit more powerfull padding
-- https://tools.suckless.org/dmenu/patches/xresources-alt/ OR https://tools.suckless.org/dmenu/patches/xresources/ #Use xresources colors {pywal}
-- https://tools.suckless.org/dmenu/patches/border/ #gives a border like the window border
+- https://tools.suckless.org/dmenu/patches/xresources-alt/ ✔️ OR https://tools.suckless.org/dmenu/patches/xresources/ ❌ #Use xresources colors {pywal}
+- https://tools.suckless.org/dmenu/patches/border/ ✔️ #gives a border like the window border
 - https://tools.suckless.org/dmenu/patches/alpha/ #transparency
 - https://tools.suckless.org/dmenu/patches/no-input/ #add a flag to remove input field in scripts
-- https://tools.suckless.org/dmenu/patches/xresources/ #preview images in clipboard mode
+- https://tools.suckless.org/dmenu/patches/png_images/ #preview images in clipboard mode
 
 ******* Could be good but not used
 - https://tools.suckless.org/dmenu/patches/qalc/ #calc mode using flag in dmenu {center uses the same flag causing a config needs to adjustment to work}

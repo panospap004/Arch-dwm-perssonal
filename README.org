@@ -31,11 +31,112 @@ when isntalling arch with arch installer, in the options
          * ~cd yay~
          * ~makepkg -si~
          * if for soem reason it dodesnt work go out of the yay directory make a new yay-n dir cp all the yay conters for the initial one to the new one and then run makepkg -si there
-     - now for the packages
+     - now for the packages 
   #+begin_src shell
-     yay
-     sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq pulseaudio slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl
-     yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-application-glib menu-qalc rofi-calc greenclip-rofi youtube-dl 
+    yay
+    sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq pulseaudio slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl pavucontrol
+    yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-application-glib menu-qalc rofi-calc greenclip-rofi youtube-dl 
+    
+    adobe-source-code-pro-fonts 
+    noto-fonts-emoji
+    otf-font-awesome 
+    ttf-droid 
+    ttf-fira-code
+    ttf-jetbrains-mono 
+    ttf-jetbrains-mono-nerd 
+  yay -S ttf-gabarito-git
+  yay -S ttf-material-symbols-variable-git
+  yay -S ttf-readex-pro
+  yay -S ttf-rubik-vf
+  yay -S ttf-space-mono-nerd
+  noto-fonts
+  noto-fonts-cjk
+  noto-fonts-emoji
+  ttf-dejavu
+  ttf-liberation
+  ttf-fira-sans
+  ttf-droid
+  ttf-ubuntu-font-family
+  ttf-hack
+  noto-fonts
+  noto-fonts-cjk
+  noto-fonts-emoji
+  ttf-dejavu
+  ttf-liberation
+  ttf-fira-sans
+  ttf-droid
+  ttf-ubuntu-font-family
+  ttf-hack fcitx5
+
+    thunar 
+    thunar-volman 
+    tumbler
+    ffmpegthumbnailer 
+    thunar-archive-plugin
+    xarchiver
+
+  bluez
+  bluez-utils
+  blueman
+  blueberry
+  bluedevil
+
+  sudo pacman -S axel coreutils ddcutil fontconfig gammastep
+  electon25-bin
+  electon33-bin
+  electon34-bin
+  electon35-bin
+  electon36-bin
+  electon37-bin
+
+    qt5ct
+    qt5-graphicaleffects
+    qt5-quickcontrols
+    qt5-quickcontrols2
+    qt6ct
+    qt6-svg
+    qt6-5compat 
+    qt6-declarative 
+    kvantum
+    gsettings-desktop-schemas
+    gsettings-system-schemas
+    gsfonts
+    fcitx5
+    fcitx5-mozc
+    fcitx5-rime
+    fcitx5-configtool
+  	
+    tectonic
+    linux-headers
+    linux-firmware
+    linux
+    exfatprogs
+    evtest
+    efibootmgr
+    dosfstools
+    dhcpcd
+    poppler
+    libretro-core-info
+    grim
+    wireplumber
+    xdg-desktop-portal
+    alsa-lib
+    mesa
+    libx11
+    libxrandr
+    libxi
+    libxcursor
+    libxinerama
+    tlp
+    alsa-lib
+    mesa
+    libx11
+    libxrandr
+    libxi
+    libxcursor
+    libxinerama
+    appimagelauncher
+    gnome-network-displays
   #+end_src
   7. now also install the folowing cursor theme , icon theme and font or you will have to manualy edit several stuff later
      - cursor theme ~yay -S vimix-cursors~
@@ -631,3 +732,217 @@ pipx ensurepath
  - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
  - libinput-gestures  *if on laptop* ✔️
  - menu-qalc and rofi-calc {calc for dmenu} ~yay -S menu-qalc rofi-calc~ ✔️
+ - sddm-theme 
+ - grub-theme 
+
+* Personal stuff 
+- apps 
+#+begin_src shell
+  gvfs-mtp 
+  gvfs-gphoto2
+  vivaldi-ffmpeg-codecs
+  msty-bin
+  typescript-language-server
+  tailwindcss-language-server
+  # morgen-bin
+  clang
+  cppdap
+  ddcutil
+  debugedit
+  ebook-tools
+  fontconfig
+  fuzzel
+  go-tools
+  gradle
+  grep
+  gzip
+  ldb
+  lld
+  llvm
+  lmdb
+  make
+  mariadb
+  mariadb-clients
+  mariadb-libs
+  ninja
+  perl
+  playerctl
+  sassc
+  sqlite
+  typescript
+  yarn
+  ydotool
+  zig
+  unzip
+  vivaldi
+  neovim
+  fish
+  libvips
+  lua
+  go
+  rust
+  7zip
+  zram-generator
+  xdg-utils
+  xmake
+  wpa_supplicant
+  vim
+  unrar
+  ueberzug
+  # sqlitebrowser
+  rz-cutter
+  ruby
+  rofi
+  retroarch-assets-xmb
+  retroarch-assets-ozone
+  retroarch-assets-glui
+  retroarch
+  renderdoc
+  raylib
+  python
+  python-pytest-mpl
+  python-pygments
+  python-pipx
+  python-pip
+  python-pandas
+  python-matplotlib
+  python-ipympl
+  premake
+  network-manager-applet
+  netctl
+  love
+  less
+  kate
+  jre-openjdk
+  htop
+  grub
+  flatpak
+  fisher
+  feh
+  base
+  ark
+  amberol
+  perl-image-exiftool
+  mediainfo
+  zip
+  gnome-epub-thumbnailer
+  imagemagick
+  zoxide
+  ripgrep
+  fd
+  jq
+  p7zip
+  ffmpeg
+  yazi
+  trash-cli
+  atuin
+  docker
+  docker-compose
+  ollama
+  gutenprint
+  system-config-printer
+  cups
+  cups-pdf
+  zed
+  lutris
+  git
+  lazygit
+  gnome-disk-utility
+  gwenview
+  fastfetch
+  btop
+  wine
+  wine-mono
+  wine-gecko
+  winetricks
+  nodejs
+  npm
+  vlc
+  fzf
+  tldr
+  lsd
+  bat
+  dolphin
+  thunar
+  nautilus
+  audacity
+  blender
+  cmake
+  cool-retro-term
+  discord
+  fbreader
+  gimp
+  godot
+  flameshot
+  gparted
+  krita
+  inkscape
+  kitty
+  libreoffice
+  lmms
+  eclipse-clp
+  swi-prolog
+  projog
+  lolcat
+  # mysql
+  # mysql-workbench
+  obsidian
+  steam
+  okular
+  thunderbird
+  tiled
+  wacomtablet
+  lldb
+  mingw-w64-winpthreads
+  mingw-w64-headers
+  mingw-w64-crt
+  mingw-w64-gcc
+  mingw-w64
+  mingw-w64-binutils
+  starship
+  mingw-w64-gcc
+  mingw-w64
+  mingw-w64-binutils
+  pokemon-colorscripts-git
+  docker-desktop
+  cnijfilter2
+  scangearmp2
+  cht.sh-git
+  nodejs-live-server 
+  zen-browser-bin
+  oterm
+  oatmeal-bin
+  heroic-games-launcher-bin
+  bolt-launcher
+  vesktop
+  raylib-cpp-git
+  mingw-w64-raylib
+  playonlinux
+  csharp-ls
+  jdk
+  jdk17-openjdk
+  jdk21-openjdk
+  jdk-openjdk
+  openjdk-src
+  sublime-text-4
+  betterdiscord-git
+  bottles
+  beeref
+  cavalier
+  famistudio-bin
+  nodejs
+  gitkraken
+  koodo-reader-bin
+  stremio
+  wacom-settings
+  webex-bin
+  youtube-dl-gui
+  lib32-vulkan-tools
+  nodejs-live-server
+  opentabletdriver
+  libvips
+  raylib-cpp-git
+  mingw-w64-raylib
+  aseprite
+  # github-desktop
+#+end_src

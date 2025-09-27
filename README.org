@@ -732,8 +732,8 @@ pipx ensurepath
  - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
  - libinput-gestures  *if on laptop* ✔️
  - menu-qalc and rofi-calc {calc for dmenu} ~yay -S menu-qalc rofi-calc~ ✔️
- - sddm-theme 
- - grub-theme 
+ - sddm-theme  https://github.com/JaKooLit/simple-sddm-2, https://www.google.com/search?q=cyber+grub+theme&oq=cyver+grub+&sourceid=chrome&ie=UTF-8
+ - grub-theme  https://www.gnome-look.org/p/1420727
 
 * Personal stuff 
 - apps 

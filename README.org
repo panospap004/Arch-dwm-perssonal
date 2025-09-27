@@ -34,8 +34,8 @@ when isntalling arch with arch installer, in the options
      - now for the packages
   #+begin_src shell
      yay
-     sudo pacman -S 
-     yay -S
+     sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq pulseaudio slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl
+     yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-application-glib menu-qalc rofi-calc greenclip-rofi youtube-dl 
   #+end_src
   7. now also install the folowing cursor theme , icon theme and font or you will have to manualy edit several stuff later
      - cursor theme ~yay -S vimix-cursors~
@@ -211,7 +211,6 @@ if you get screen tearing of any kind download picom, nvidia-settings and make a
         - ~GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet nvidia-drm.modeset=1"~
           #+begin_src shell
 sudo grub-mkconfig -o /boot/grub/grub.cfg
-sudo pacman -S  plasma-wayland-protocols
           #+end_src
      4. also check the following file for nvidia cards again
         - ~sudo vim /etc/mkinitcpio.conf~

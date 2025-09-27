@@ -1,8 +1,9 @@
+* READ THE COMPLETE README OR YOU WILL HAVE ISSUES
 * Initial step 
 when isntalling arch with arch installer, in the options 
   1. loginmanager use sddm
   2. filesystem use ext4
-  3. profile desktop i recommend gnome as backup in case something beaks and for initial setup
+  3. profile desktop i recommend gnome as backup in case something beaks and for initial setup plus parts of it are being used in later scripts
   4. bootloader use grub
   5. audio profile pipewire
   6. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
@@ -23,13 +24,32 @@ when isntalling arch with arch installer, in the options
      - ~sudo pacman -Syu~
   4. Change to fish shell with ~chsh -s /usr/bin/fish~
   5. make a git dir with ~mkdir ~/git~ #optional just to keep your git clonses organized
-  6. setup nvim with nvchad with to work with accept if you have your own config
+  6. now install all the following packages that are being used in either dwm or scripts or somewhere in the congigs
+     - starting with yay the aur helper 
+         * cd ~/git/
+         * ~git clone https://aur.archlinux.org/yay.git~
+         * ~cd yay~
+         * ~makepkg -si~
+         * if for soem reason it dodesnt work go out of the yay directory make a new yay-n dir cp all the yay conters for the initial one to the new one and then run makepkg -si there
+     - now for the packages
+  #+begin_src shell
+     yay
+     sudo pacman -S 
+     yay -S
+  #+end_src
+  7. now also install the folowing cursor theme , icon theme and font or you will have to manualy edit several stuff later
+     - cursor theme ~yay -S vimix-cursors~
+     - font look at the how to edit config.mk you need the monaspaceRadon NF at least 
+     - icon pack https://github.com/4e6anenk0/Rowaita-icon-theme
+  8. setup nvim with nvchad with to work with accept if you have your own config
      - ~git clone https://github.com/NvChad/starter ~/.config/nvim && nvim~
-  7. now git clone dwm and st with {st is not required but nice to have as a backup terminal} {if you are using mine dwm and download them from here and place those in the config}
+  9. now copy my dwm, slock and st from the config folder ou want for either desktop or laptop to your .config and run ~sudo make clean install~ for each dir like i explain bellow for a pure dwm install *do not git clone them tho in the part bellow if you are going to use my configs only to the sudo make install part*
+  10. now if you instead want a pure start then git clone dwm, slock and st with {st is not required but nice to have as a backup terminal} {if you are using mine dwm and download them from here and place those in the config}
      - ~git clone https://git.suckless.org/dwm ~/.config/dwm~
+     - ~git clone https://git.suckless.org/slock ~/.config/slock~
      - ~git clone https://git.suckless.org/st ~/.config/st~
-     - now go to the dwm and st dir and run ~sudo make clean install~
-  8. now create the sddm xsession file with 
+     - now go to the dwm, slock and st dir and run ~sudo make clean install~
+  11. now create the sddm xsession file with 
      - ~sudo nvim /usr/share/xsessions/dwm.desktop~
      - paste this in the file 
   #+begin_src shell
@@ -120,7 +140,7 @@ when isntalling arch with arch installer, in the options
 
   #+end_src
   * and dont forget to ~chmod +x /usr/local/bin/startdwm.sh~ else it wont run
-  9. then go to .config/dwm/config.h and edit the keybinds and font size i recomend for 
+  12. *if you are using my config you can skip this step* then go to .config/dwm/config.h and edit the keybinds and font size i recomend for 
      - font size 12-18 depending on your screen size
      - change Mod1Mask to Mod4Mask (super/windows key) check the modkeys in the terminal with ~xmodmap~
      - create a ~static const chat *term[] = { "kitty", NULL };~ to open terminal with super+enter
@@ -128,12 +148,12 @@ when isntalling arch with arch installer, in the options
        * ~{ MODKEY,                       XK_Return,      spawn,          {.v = term } },~ to open kitty terminal
        * ~{ MODKEY,                       XK_z,          zoom,          {0} },~ change the zoom key
        * ~{ MODKEY,                       XK_q,          killclient,          {0} },~ to close a window
-       * ~{ MODKEY,ShiftMask            XK_q,          quit,          {0} },~ kill key to exit dwm when you make changes
+       * ~{ MODKEY,ShiftMask              XK_q,          quit,          {0} },~ kill key to exit dwm when you make changes
      - if you used the script then instead of the modkey,shift q quit do this 
        * ~{ MODKEY,ShiftMask            XK_r,          quit,          {0} },~ restart dwm changes 
        * ~{ MODKEY,ShiftMask            XK_q,          spawn,          {.v = (const char*[]){"pkill", "dwm", NULL}}},~ quit dwm
      - then run ~make clean install~
-  10. now if you are using an laptop and want to enable natural scroling like me do the following
+  13. now if you are using an laptop and want to enable natural scroling like me do the following
      - ~xinput list~ to find your touchpad name
      - ~xinput set-prop "your touchpad name" "libinput Natural Scrolling Enabled" 1~
      - to make it permanent create a file with ~sudo nvim /etc/X11/xorg.conf.d/40-libinput.conf~
@@ -157,7 +177,7 @@ when isntalling arch with arch installer, in the options
          Option "NaturalScrolling" "true"
        EndSection
        #+end_src
-   11. for the fkeys add 
+   14. *if you are using my config you can skip this step* for the fkeys add 
        - ~#include <X11/XF86keysym.h>~ after thedefine under the modkeys 
          * keybinds
            - ~{ 0,                       XF86XK_AudioMute,          spawn,          {SHCMD("pactl set-sink-mute 0 toggle")} },~
@@ -166,8 +186,8 @@ when isntalling arch with arch installer, in the options
            - ~{ 0,                       XF86XK_MonBrightnessDown,  spawn,          {SHCMD("brightnessctl set 5%-")} },~
            - ~{ 0,                       XF86XK_MonBrightnessUp,    spawn,          {SHCMD("brightnessctl set 5%+")} },~
          - then run ~sudo make clean install~
-   12. now you can exit gnome and login to dwm with sddm
-* Scren-tearing {ducking nvidia}
+   15. now you can exit gnome and login to dwm with sddm
+* Scren-tearing {ducking nvidia} [use picom even if not in nvidia]
 if you get screen tearing of any kind download picom, nvidia-settings and make a
     1. ~sudo nvim .config/picom.conf~
        - add this in the file 
@@ -439,7 +459,7 @@ libinput-gestures-setup status
 - [[https://www.youtube.com/watch?v=3mGgJbqQLNM][example]]
 
 
-*** dmenu {app and script launcher}
+*** dmenu {app and script launcher} ✔️
 **** links
 - [[https://tools.suckless.org/dmenu/][dmenu docs]] # i reccomend downloading my dmenu from here and building it like dwm so the scripts never break
 - [[https://tools.suckless.org/dmenu/patches/][dmenu patches]]
@@ -453,12 +473,9 @@ libinput-gestures-setup status
 - [[https://github.com/nsbgn/scripts][more dmenu scripts]]
 - [[https://gitlab.com/dwt1/dmscripts][even more dmenu scripts]]
 
-**** notes 
-
 **** patches
 ******* Used
 - https://tools.suckless.org/dmenu/patches/center/ ✔️ #center dmenu with a flag
-- https://tools.suckless.org/dmenu/patches/case-insensitive/ #Case-insensitive
 - https://tools.suckless.org/dmenu/patches/grid/ ✔️ and https://tools.suckless.org/dmenu/patches/gridnav/ ✔️ and  https://tools.suckless.org/dmenu/patches/no-default-select/ ✔️ #add a grid layout nad navigation for it
 - https://tools.suckless.org/dmenu/patches/numbers/ ✔️ #total and matched items number 
 - https://tools.suckless.org/dmenu/patches/fuzzymatch/ ✔️ and https://tools.suckless.org/dmenu/patches/fuzzyhighlight/ ✔️ #fuzzy matching and highting
@@ -470,6 +487,7 @@ libinput-gestures-setup status
 - https://tools.suckless.org/dmenu/patches/qalc/ ✔️ #calc mode using flag in dmenu
 
 ******* Could be good but not used
+- https://tools.suckless.org/dmenu/patches/case-insensitive/ ❌ #Case-insensitive
 - https://tools.suckless.org/dmenu/patches/png_images/ ❌ #preview images in clipboard mode
 - https://tools.suckless.org/dmenu/patches/preselect/ ❌ #preselct input to create stuff like in the example
 - https://tools.suckless.org/dmenu/patches/alpha/ ❌ #transparency {adds to much code and can break stuff}
@@ -481,34 +499,38 @@ libinput-gestures-setup status
 
 **** Scripts
 ******* Used
-- https://github.com/cdown/clipmenu #Clipboard for dmenu
-- https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu OR https://github.com/nsbgn/scripts/blob/master/dmenu-mpv #mpv controls with dmenu
-- https://github.com/cdown/mpdmenu #mpd controls with dmenu
-- https://codeberg.org/mehrad/dmenu_shot #dmenu flameshot to imagemack screen shot tool
-- https://github.com/NikitaIvanovV/dmenu-translate #dmenu translate
-- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_audioswitch_prev #audio manu picker
-- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_sys #dmenu restart kill close picker
-- http://efe.kim/files/scripts/dmenu_websearch #web search
-  
-+ for the following you might need and case-insensitive patch might break them
-- https://gitlab.com/dwt1/dmscripts/-/blob/master/config/config?ref_type=heads AND https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/_dm-helper.sh?ref_type=heads
-- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-colpick?ref_type=heads #color picker
-- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-music?ref_type=heads #Music player{need mpd and mpc}
-- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-radio?ref_type=heads #Radio player
-- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-setbg?ref_type=heads #wallpaper picker {need xwallpaper and sxiv}
-- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-weather?ref_type=heads #get weather
-- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-websearch?ref_type=heads #web search 
-- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-wifi?ref_type=heads #wifi picker 
-
+- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_audioswitch_prev ✔️ #audio manu picker
+- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_sys ✔️ #dmenu restart kill close picker
+- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_mpv ✔️ #video picker using mpv
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-weather?ref_type=heads ✔️ #get weather
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-websearch?ref_type=heads ✔️ #web search 
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-wifi?ref_type=heads ✔️ #wifi picker 
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-man?ref_type=heads ✔️ #man pages
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-dictionary?ref_type=heads ✔️ #dictionary
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-wiki?ref_type=heads ✔️ #arch wiki
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-eq-profiles?ref_type=heads ✔️ #sound equalizer profiles
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-documents?ref_type=heads ✔️ #pdf opener
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-sounds?ref_type=heads ✔️ #white noise
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-pipewire-out-switcher?ref_type=heads ✔️ #audio output picker
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-spellcheck?ref_type=heads ✔️ #spellcheck
+- and many more custom ones
 
 ******* Could be good but not used
-- https://tools.suckless.org/dmenu/scripts/dbdb.sh OR  https://github.com/amarakon/dfm #Dmenu directory browser 
-- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_cliphist #alternative clip hist using xclip
-- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_mpv #video picker using mpv
-- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_musicpicker #music picker using mpc
-- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_tempconvert #temp c-f conterter
-- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_timer #timer
-- https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch and https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch-sources #web serach
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-colpick?ref_type=heads ❌ #color picker
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-setbg?ref_type=heads ❌ #wallpaper picker {need xwallpaper and sxiv}
+- https://gitlab.com/dwt1/dmscripts/-/blob/master/scripts/dm-music?ref_type=heads ❌ #Music player{need mpd and mpc}
+- http://efe.kim/files/scripts/dmenu_websearch ❌ #web search
+- https://github.com/cdown/clipmenu ❌ #Clipboard for dmenu
+- https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu ❌ OR https://github.com/nsbgn/scripts/blob/master/dmenu-mpv ❌ #mpv controls with dmenu
+- https://github.com/cdown/mpdmenu ❌ #mpd controls with dmenu
+- https://codeberg.org/mehrad/dmenu_shot ❌ #dmenu flameshot to imagemack screen shot tool
+- https://github.com/NikitaIvanovV/dmenu-translate ❌ #dmenu translate
+- https://tools.suckless.org/dmenu/scripts/dbdb.sh ❌ OR  https://github.com/amarakon/dfm ❌ #Dmenu directory browser 
+- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_cliphist ❌ #alternative clip hist using xclip
+- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_musicpicker ❌ #music picker using mpc
+- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_tempconvert ❌ #temp c-f conterter
+- https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_timer ❌ #timer
+- https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch ❌ and https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch-sources ❌ #web serach
 
 
 *** Slock {lock screen} ✔️
@@ -583,104 +605,30 @@ blur-background-exclude = [
 
 #+end_src
 
-*** Dunst {notification daemon}
+*** Dunst {notification daemon} ✔️
 **** links
 - [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
-
-**** notes
-
-**** config
-
+- [[https://dunst-project.org/documentation/][dunst website]]
 
 ** Main packages for the config to work {plus the obove ones for nvidia and install}
 *check the githubs/sites for install instructions*
- - dwm
+ - dwm ~
  - polybar 
- - dmenu
+ - dmenu ✔️
  - picom ✔️
  - cmake {to build}
  - pywal16 {install with} to try wal you do wal -i /path/to/image --backend {wal or modern_colorthief or colorthief or haishoku or colorz} [[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]]
- - pipx {to install pywal16 backends and other python apps} ~pipx install "pywal16[all]"~ to install the backends
+ - pipx {to install pywal16 backends and other python apps} ~pipx install "pywal16[all]"~ to install the backends ✔️
  #+begin_src shell
 pipx install -e "pywal16[modern_colorthief,colorthief,haishoku,colorz]"
 pipx ensurepath
  #+end_src
- - feh {wallpaper setter works with pywall}
- - dunst/notify-send/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]] {notify-send is inside libnotify}
- - rofi
- - greenclip {clipboard manager} {grenclip install with yay greenclip-rofi}
- - slock/xautolock {[[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]}, [[https://tools.suckless.org/slock/patches/][slock patches]] {xautolock automaticly locks scren and calls slock install with yay }
- - mpd {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]]
+ - feh {wallpaper setter works with pywall} ✔️
+ - dunst/notify-send/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]] {notify-send is inside libnotify}✔️
+ - rofi ✔️
+ - greenclip and xclip {clipboard manager} {grenclip install with yay greenclip-rofi} ✔️
+ - slock/xautolock {[[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]}, [[https://tools.suckless.org/slock/patches/][slock patches]] {xautolock automaticly locks scren and calls slock install with yay } ✔️
+ - mpd and mpc and mpv {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]] ✔️
  - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
- - libinput-gestures  *if on laptop*
- - menu-qalc {calc for dmenu} ~yay -S menu-qalc~
-
-****** clipboard manager 
-Greenclip	Probably one of the most popular. Small, fast. Has daemon mode + history + rofi integration. 
-ArchWiki
-+1
-	Mostly text; image support is limited (or needs tweaking). You need to start the daemon (systemd user service or manually). 
-GitHub
-+1
-
-Clipmenu / clipmenud	Minimalistic, solid. Works with xsel / xclip + clipnotify. Good if you want something simple. Has rofi / dmenu launcher. 
-LinuxLinks
-+2
-openports.pl
-+2
-	The UI is minimal; no fancy parsing or image support by default. Might need small scripting if you want extra features. Also, clipmenu doesn’t auto-paste (just puts things in clipboard).
-Clipton	Has two modes: a watcher (auto-recording copies) and a rofi frontend. More feature rich than super minimal managers. 
-GitHub
-	It’s mostly text only. Also you’ll need to configure it; may pull in Python dependencies.
-Clipcat	Written in Rust; supports X11 and has rofi menu integration. Some nice command / client/server options. 
-GitHub
-	More complex to set up (daemon + config). Might be overkill if you just want basic clipboard history.
-Qlipmon	Has a server + rofi plugin + DBus interface. Good if you want more control / want the clipboard history accessible via rofi directly. 
-GitHub
-	No persistence so far in some versions; might be less mature. If you need history across reboots, check if that’s supported.
-RahulGotrekiya/clipboard-manager	Script that works under X11 & Wayland, uses cliphist + rofi, auto-paste support. Could be nice. 
-GitHub
-	Depends on cliphist + other utilities; maybe less “packaged” out of the box. You may need to tweak for reliability.
-What I’d Recommend (for many setups)
-
-If I had to pick one for simplicity + reliability, I'd go with Greenclip. It’s well-documented, works cleanly with rofi, supports blacklist & configuration, etc.
-
-If you want very minimal, Clipmenu is also excellent.
-
-Example setup for Greenclip
-
-Here’s how you might get Greenclip working:
-
-Install it (on Arch: yay -S rofi-greenclip or similar) or build from source. 
-ArchWiki
-+1
-
-Configure the config file: ~/.config/greenclip.toml. Some settings to consider:
-
-[greenclip]
-history_file = "$HOME/.cache/greenclip.history"
-max_history_length = 50
-use_primary_selection_as_input = false
-blacklisted_applications = ["some_app"]  # to avoid noisy clipboard sources
-enable_image_support = false  # unless you really need image picks
-
-
-Start the daemon:
-
-greenclip daemon
-
-
-Or enable via systemd --user if you want it to start with your session. 
-GitHub
-+1
-
-Setup a keyboard shortcut (in your window manager) to launch the rofi picker. For example:
-
-rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
-
-
-That command will show your history; when you pick one, it will be put in the clipboard. Then you can Ctrl+V (or middle-click depending on your setup) to paste. 
-ArchWiki
-+1
-
-Optional: blacklist certain applications, avoid picking up every selection (so it’s not spammy). Also maybe combine with xdotool / some tool if you want auto pasting. But that’s more advanced.
+ - libinput-gestures  *if on laptop* ✔️
+ - menu-qalc and rofi-calc {calc for dmenu} ~yay -S menu-qalc rofi-calc~ ✔️

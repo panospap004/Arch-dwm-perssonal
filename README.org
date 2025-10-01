@@ -7,8 +7,7 @@ when isntalling arch with arch installer, in the options
   4. bootloader use grub
   5. audio profile pipewire
   6. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
-  7. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu, brightnessctl
-  8. if you have multiple monitors i recomend arandr, xrandr 
+  7. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu, brightnessctl, arandr, xrandr
 * After initial step is finished and you rebooted 
   1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service~
   2. enable pipewire for audio with 
@@ -34,16 +33,15 @@ when isntalling arch with arch installer, in the options
      - now for the packages 
   #+begin_src shell
     yay
-    sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq pulseaudio slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl pavucontrol
-    yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-application-glib menu-qalc rofi-calc greenclip-rofi youtube-dl 
+    sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq pulseaudio slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl pavucontrol lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme ttf-jetbrains-mono ttf-jetbrains-mono-nerd
+    yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-application-glib menu-qalc rofi-calc greenclip-rofi youtube-dl font-mangar arc-gtk-theme
     
     adobe-source-code-pro-fonts 
     noto-fonts-emoji
     otf-font-awesome 
     ttf-droid 
     ttf-fira-code
-    ttf-jetbrains-mono 
-    ttf-jetbrains-mono-nerd 
+     
   yay -S ttf-gabarito-git
   yay -S ttf-material-symbols-variable-git
   yay -S ttf-readex-pro
@@ -89,15 +87,12 @@ when isntalling arch with arch installer, in the options
   electon36-bin
   electon37-bin
 
-    qt5ct
     qt5-graphicaleffects
     qt5-quickcontrols
     qt5-quickcontrols2
-    qt6ct
     qt6-svg
     qt6-5compat 
     qt6-declarative 
-    kvantum
     gsettings-desktop-schemas
     gsettings-system-schemas
     gsfonts
@@ -138,13 +133,13 @@ when isntalling arch with arch installer, in the options
     appimagelauncher
     gnome-network-displays
   #+end_src
-  7. now also install the folowing cursor theme , icon theme and font or you will have to manualy edit several stuff later
+  7. now also install the folowing cursor theme, icon theme and font or you will have to manualy edit several stuff later
      - cursor theme ~yay -S vimix-cursors~
-     - font look at the how to edit config.mk you need the monaspaceRadon NF at least 
+     - font look at the how to edit config.mk section below you need the monaspaceRadon NF at least 
      - icon pack https://github.com/4e6anenk0/Rowaita-icon-theme
   8. setup nvim with nvchad with to work with accept if you have your own config
      - ~git clone https://github.com/NvChad/starter ~/.config/nvim && nvim~
-  9. now copy my dwm, slock and st from the config folder ou want for either desktop or laptop to your .config and run ~sudo make clean install~ for each dir like i explain bellow for a pure dwm install *do not git clone them tho in the part bellow if you are going to use my configs only to the sudo make install part*
+  9. now copy my dwm, slock and st from the config folder if you want for either desktop or laptop to your .config and run ~sudo make clean install~ for each dir like i explain bellow for a pure dwm install *do not git clone them tho in the part bellow if you are going to use my configs only do the sudo make install part*
   10. now if you instead want a pure start then git clone dwm, slock and st with {st is not required but nice to have as a backup terminal} {if you are using mine dwm and download them from here and place those in the config}
      - ~git clone https://git.suckless.org/dwm ~/.config/dwm~
      - ~git clone https://git.suckless.org/slock ~/.config/slock~
@@ -326,6 +321,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
         - if this files baucuase boot is full you will need either to expand it or re install arch with bigger boot partition
       7. then reboot system
 * Customization
+** add all my configs etc to your .config or home folder i symbolized with ~ so all the syles and stuff you need are ready to go for some explination of what i did {but not everything or it would be way to long so if you want to see why sine folders or something else exist read the scripts since more then likely thats why they exist}:
 ** Sddm
 its very simple thanks to a great configuration you just run 
 - ~sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"~
@@ -336,6 +332,19 @@ once again grub is farly simple you do the folowing
 - then we begin 
   + extract the gz file and go in and run ~sudo ./install.sh~
   + else you can follow the manual steps in the page
+** Icons, cursor, font 
+in this config i use the vimix-cursor , the rowaita icon pack and the monaspace radon font
+- for the font install i have explained already so i wont repeat it here 
+- for the vimix cursor just install it with yay like i said abive 
+- for the rowaita icons 
+  + download the zip and extract it 
+  + with the terminal run sudo yazi 
+  + then mark with space+space the Rowaita folders all of them and press c for copy
+  + and then with backspace go to root and then press . if hidden folders dont show and navigate using the arrows in /usr/share/icons and when you are in icons press G to go to bottom and then p to paste
+- to theme everything gtk,yad,qt,kde,sxfce i used the following tools you just need to copy the configs i made
++ lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look font-mangar arc-gtk-theme adw-gtk-theme
+- you will only need to add in sudo nvim /etc/environment the following lines at the end 
+  + ~QT_QPA_PLATFORMTHEME=qt5ct~ and under it ~QT_STYLE_OVERRIDE=kvantum~
 ** How do I modify config.h?
 config.h can be edited just like any other C source code file.
 It contains definitions of variables that are going to be used by dwm.c 

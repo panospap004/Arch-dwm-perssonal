@@ -326,7 +326,16 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
         - if this files baucuase boot is full you will need either to expand it or re install arch with bigger boot partition
       7. then reboot system
 * Customization
-
+** Sddm
+its very simple thanks to a great configuration you just run 
+- ~sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"~
+- you can check the themes here https://github.com/Keyitdev/sddm-astronaut-theme
+** Grub
+once again grub is farly simple you do the folowing 
+- first install this config https://www.gnome-look.org/p/1420727
+- then we begin 
+  + extract the gz file and go in and run ~sudo ./install.sh~
+  + else you can follow the manual steps in the page
 ** How do I modify config.h?
 config.h can be edited just like any other C source code file.
 It contains definitions of variables that are going to be used by dwm.c 
@@ -531,7 +540,7 @@ libinput-gestures-setup status
 
 - *To make the 2 x11 idle scripts to work you will need to edit the home path since to work it needs to be hard coded so from the /home/dwm-test that is currently set make it home/your_name if you dont know how to type exactly your home name in the terminal do ~cd~ and ~pwd~ to see the exact way it is written and ofcorse you will need to also fix the keybind inside dwm in the config.h*
 
-*** pywall {wallpaper and colorscheme generator}
+*** pywall {wallpaper and colorscheme generator} ✔️
 **** links
 - [[https://github.com/eylles/pywal16][pywal]]
 - [[https://github.com/eylles/pywal-extra][pywal extras]]
@@ -539,11 +548,7 @@ libinput-gestures-setup status
 - [[https://github.com/BreadOnPenguins/dots][Breadonpenguins dots]]
 - [[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]]
 
-**** notes 
-
-**** config
-
-*** poybar {status bar}
+*** poybar {status bar} ✔️
 **** links
 - [[https://github.com/polybar/polybar/wiki][polybar wiki]]
 - [[https://polybar.readthedocs.io/en/stable/][polybar docs]]
@@ -557,7 +562,6 @@ libinput-gestures-setup status
 - this might be usefull with polybar for weather widget 
 - ~curl wttr.in/athens-greece~
 - [[https://www.youtube.com/watch?v=3mGgJbqQLNM][example]]
-
 
 *** dmenu {app and script launcher} ✔️
 **** links
@@ -631,7 +635,6 @@ libinput-gestures-setup status
 - https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_tempconvert ❌ #temp c-f conterter
 - https://github.com/BreadOnPenguins/scripts/blob/master/dmenu_timer ❌ #timer
 - https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch ❌ and https://github.com/debxp/dmenu-scripts/blob/master/dmenu-websearch-sources ❌ #web serach
-
 
 *** Slock {lock screen} ✔️
 **** links 
@@ -716,24 +719,24 @@ blur-background-exclude = [
  - polybar 
  - dmenu ✔️
  - picom ✔️
- - cmake {to build}
- - pywal16 {install with} to try wal you do wal -i /path/to/image --backend {wal or modern_colorthief or colorthief or haishoku or colorz} [[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]]
+ - cmake {to build} ✔️
+ - pywal16 {install with} to try wal you do wal -i /path/to/image --backend {wal or modern_colorthief or colorthief or haishoku or colorz} [[https://www.youtube.com/watch?v=O5VVdFWJcak][BreadOnPenguins pywal video]] ✔️
  - pipx {to install pywal16 backends and other python apps} ~pipx install "pywal16[all]"~ to install the backends ✔️
  #+begin_src shell
 pipx install -e "pywal16[modern_colorthief,colorthief,haishoku,colorz]"
 pipx ensurepath
  #+end_src
- - feh {wallpaper setter works with pywall} ✔️
- - dunst/notify-send/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]] {notify-send is inside libnotify}✔️
- - rofi ✔️
- - greenclip and xclip {clipboard manager} {grenclip install with yay greenclip-rofi} ✔️
- - slock/xautolock {[[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]}, [[https://tools.suckless.org/slock/patches/][slock patches]] {xautolock automaticly locks scren and calls slock install with yay } ✔️
- - mpd and mpc and mpv {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]] ✔️
- - imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
- - libinput-gestures  *if on laptop* ✔️
- - menu-qalc and rofi-calc {calc for dmenu} ~yay -S menu-qalc rofi-calc~ ✔️
- - sddm-theme  https://github.com/JaKooLit/simple-sddm-2, https://www.google.com/search?q=cyber+grub+theme&oq=cyver+grub+&sourceid=chrome&ie=UTF-8
- - grub-theme  https://www.gnome-look.org/p/1420727
+ + feh {wallpaper setter works with pywall} ✔️
+ + dunst/notify-send/libnotify {dunst recives notifications and notify sends them and libnotify is a dependacy} [[https://www.youtube.com/watch?v=cBx9P3bvDCk][example]] {notify-send is inside libnotify}✔️
+ + rofi ✔️
+ + greenclip and xclip {clipboard manager} {grenclip install with yay greenclip-rofi} ✔️
+ + slock/xautolock {[[https://www.reddit.com/r/unixporn/comments/momw76/slock_high_performance_blur_effect_for_suckless/][simple slock example]]}, [[https://tools.suckless.org/slock/patches/][slock patches]] {xautolock automaticly locks scren and calls slock install with yay } ✔️
+ + mpd and mpc and mpv {thinking about it might change to sth else} [[https://www.youtube.com/watch?v=6EAID9yopIE][example]] ✔️
+ + imagemagick {screenshot tools that helps pywall pic colors} [[https://www.youtube.com/watch?v=_qSgTc97bzk&t=27s][example]]
+ + libinput-gestures  *if on laptop* ✔️
+ + menu-qalc and rofi-calc {calc for dmenu} ~yay -S menu-qalc rofi-calc~ ✔️
+ + sddm-theme  https://github.com/JaKooLit/simple-sddm-2, https://github.com/Keyitdev/sddm-astronaut-theme ✔️
+ + grub-theme  https://www.gnome-look.org/p/1420727 ✔️
 
 * Personal stuff 
 - apps 

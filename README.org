@@ -34,30 +34,11 @@ when isntalling arch with arch installer, in the options
      - now for the packages 
   #+begin_src shell
     yay
-    sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq pulseaudio slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl pavucontrol lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme ttf-jetbrains-mono ttf-jetbrains-mono-nerd
-    yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-application-glib menu-qalc rofi-calc greenclip-rofi youtube-dl font-mangar arc-gtk-theme
+    sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq pulseaudio slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl pavucontrol lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme ttf-jetbrains-mono ttf-jetbrains-mono-nerd adobe-source-code-pro-fonts noto-fonts-emoji otf-font-awesome ttf-droid ttf-fira-code ttf-space-mono-nerd noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-dejavu ttf-droid ttf-fira-sans ttf-liberation ttf-ubuntu-font-family ttf-hack noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu ttf-liberation ttf-fira-sans ttf-droid ttf-ubuntu-font-family ttf-hack fcitx5 lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme axel coreutils ddcutil gammastep
+    yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-application-glib menu-qalc rofi-calc greenclip-rofi youtube-dl font-mangar arc-gtk-theme ttf-gabarito-git ttf-material-symbols-variable-git ttf-readex-pro ttf-rubik-vf font-manager arc-gtk-theme electron25-bin electron33-bin electron34-bin electron35-bin electron36-bin electron37-bin
     
-  	sudo pacman -S adobe-source-code-pro-fonts noto-fonts-emoji otf-font-awesome ttf-droid ttf-fira-code ttf-space-mono-nerd
-  yay -S ttf-gabarito-git ttf-material-symbols-variable-git ttf-readex-pro ttf-rubik-vf
-
-  noto-fonts
-  noto-fonts-cjk
-  noto-fonts-emoji
-  ttf-dejavu
-  ttf-liberation
-  ttf-fira-sans
-  ttf-droid
-  ttf-ubuntu-font-family
-  ttf-hack
-  noto-fonts
-  noto-fonts-cjk
-  noto-fonts-emoji
-  ttf-dejavu
-  ttf-liberation
-  ttf-fira-sans
-  ttf-droid
-  ttf-ubuntu-font-family
-  ttf-hack fcitx5
+  sudo pacman -S 
+  yay -S 
 
     thunar 
     thunar-volman 
@@ -66,19 +47,11 @@ when isntalling arch with arch installer, in the options
     thunar-archive-plugin
     xarchiver
 
-  bluez
-  bluez-utils
-  blueman
-  blueberry
-  bluedevil
-
-  sudo pacman -S axel coreutils ddcutil fontconfig gammastep
-  electon25-bin
-  electon33-bin
-  electon34-bin
-  electon35-bin
-  electon36-bin
-  electon37-bin
+    bluez
+    bluez-utils
+    blueman
+    blueberry
+    bluedevil
 
     qt5-graphicaleffects
     qt5-quickcontrols
@@ -505,7 +478,7 @@ in this config i use the vimix-cursor , the rowaita icon pack and the monaspace 
   + with the terminal run sudo yazi 
   + then mark with space+space the Rowaita folders all of them and press c for copy
   + and then with backspace go to root and then press . if hidden folders dont show and navigate using the arrows in /usr/share/icons and when you are in icons press G to go to bottom and then p to paste
-- to theme everything gtk,yad,qt,kde,sxfce i used the following tools you just need to copy the configs i made
+- to theme everything gtk,yad,qt,kde,xfce,mate i used the following tools you just need to copy the configs i made
 + lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look font-mangar arc-gtk-theme adw-gtk-theme
 - you will only need to add in sudo nvim /etc/environment the following lines at the end 
   + ~QT_QPA_PLATFORMTHEME=qt5ct~ and under it ~QT_STYLE_OVERRIDE=kvantum~

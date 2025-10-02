@@ -34,41 +34,15 @@ when isntalling arch with arch installer, in the options
      - now for the packages 
   #+begin_src shell
     yay
-    sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq pulseaudio slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl pavucontrol lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme ttf-jetbrains-mono ttf-jetbrains-mono-nerd adobe-source-code-pro-fonts noto-fonts-emoji otf-font-awesome ttf-droid ttf-fira-code ttf-space-mono-nerd noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-dejavu ttf-droid ttf-fira-sans ttf-liberation ttf-ubuntu-font-family ttf-hack noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu ttf-liberation ttf-fira-sans ttf-droid ttf-ubuntu-font-family ttf-hack fcitx5 lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme axel coreutils ddcutil gammastep thunar-volman tumbler ffmpegthumbnailer thunar-archive-plugin xarchiver bluez bluez-utils blueman blueberry bluedevil fcitx5 fcitx5-mozc fcitx5-rime fcitx5-configtool gsfonts gsettings-system-schemas gsettings-desktop-schemas qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 qt6-svg qt6-5compat qt6-declarative
+    sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq pulseaudio slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl pavucontrol lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme ttf-jetbrains-mono ttf-jetbrains-mono-nerd adobe-source-code-pro-fonts noto-fonts-emoji otf-font-awesome ttf-droid ttf-fira-code ttf-space-mono-nerd noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-dejavu ttf-droid ttf-fira-sans ttf-liberation ttf-ubuntu-font-family ttf-hack noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu ttf-liberation ttf-fira-sans ttf-droid ttf-ubuntu-font-family ttf-hack fcitx5 lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme axel coreutils ddcutil gammastep thunar-volman tumbler ffmpegthumbnailer thunar-archive-plugin xarchiver bluez bluez-utils blueman blueberry bluedevil fcitx5 fcitx5-mozc fcitx5-rime fcitx5-configtool gsfonts gsettings-system-schemas gsettings-desktop-schemas qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 qt6-svg qt6-5compat qt6-declarative tectonic exfat-utils evtest efibootmgr dosfstools dhcpcd libretro-core-info poppler wireplumber xdg-desktop-portal alsa-lib mesa
     yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-application-glib menu-qalc rofi-calc greenclip-rofi youtube-dl font-mangar arc-gtk-theme ttf-gabarito-git ttf-material-symbols-variable-git ttf-readex-pro ttf-rubik-vf font-manager arc-gtk-theme electron25-bin electron33-bin electron34-bin electron35-bin electron36-bin electron37-bin
     
-  sudo pacman -S 
-  yay -S 
-
-    linux
-    linux-firmware
-    linux-headers
-    tectonic
-    exfatprogs
-    evtest
-    efibootmgr
-    dosfstools
-    dhcpcd
-    libretro-core-info
-    grim
-    poppler
-    wireplumber
-    xdg-desktop-portal
-    alsa-lib
-    mesa
     libx11
     libxrandr
     libxi
     libxcursor
     libxinerama
     tlp
-    alsa-lib
-    mesa
-    libx11
-    libxrandr
-    libxi
-    libxcursor
-    libxinerama
     appimagelauncher
     gnome-network-displays
   #+end_src

@@ -49,10 +49,9 @@ when isntalling arch with arch installer, in the options
     sudo systemctl enable --now snapd.apparmor
     sudo systemctl enable --now bluetooth.service
     sudo systemctl enable --now bluetooth
+    sudo systemctl start bluetooth
     sudo systemctl enable tlp
     sudo systemctl start tlp
-    sudo systemctl start bluetooth
-    systemctl status bluetooth || true
     systemctl --user enable --now pipewire.socket pipewire-pulse.socket wireplumber.service
     systemctl --user enable --now pipewire.service
 

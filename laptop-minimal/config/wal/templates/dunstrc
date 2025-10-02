@@ -1,0 +1,165 @@
+[global]
+monitor = 0
+    # Display notification on focused monitor.  Possible modes are:
+    #   mouse: follow mouse pointer
+    #   keyboard: follow window with keyboard focus
+    #   none: don't follow anything
+follow = mouse
+origin = top-right # options top-center or top-right or top-left , conter or rigjt or left, bottom-center or bottom-right or bottom-left  
+
+width = (0, 500)
+height = (0, 750)
+offset = (28, 36)
+
+# progress_bar_horizontal_alignment = center
+# progress_bar_height = 10
+progress_bar_corner_radius = 5
+    # Corner radius for the icon image.
+icon_corner_radius = 5
+
+    # Define which corners to round when drawing the icon image. If icon_corner_radius
+    # is set to 0 this option will be ignored.
+icon_corners = all
+   # Size of gap to display between notifications - requires a compositor.
+    # If value is greater than 0, separator_height will be ignored and a border
+    # of size frame_width will be drawn around each notification instead.
+    # Click events on gaps do not currently propagate to applications below.
+gap_size = 0
+
+min_icon_size = 32
+max_icon_size = 60
+text_icon_padding = 0
+    # Align icons left/right/top/off
+icon_position = left
+    # Set icon theme (only used for recursive icon lookup)
+icon_theme = Adwaita
+    # You can also set multiple icon themes, with the leftmost one being used first.
+# icon_theme = "Adwaita, breeze"
+# icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+
+
+notification_limit = 3
+indicate_hidden = yes
+# shrink = no
+transparency = 30
+separator_height = 3
+padding = 12
+horizontal_padding = 12
+frame_width = 2
+frame_color = "{color1}"
+    # hihhlight conrols stuff like the progress bar color
+highlight = "{color1}, {color4}"
+    #separator_color (values: [auto/foreground/frame/#RRGGBB], default: frame)
+        #Sets the color of the separator line between two notifications.
+        #auto
+        #Dunst tries to find a color that fits the rest of the notification color scheme automatically.
+        #foreground
+        #The color will be set to the same as the foreground color of the topmost notification that's being separated.
+        #frame
+        #The color will be set to the frame color of the notification with the highest urgency between the 2 notifications that are being separated.
+        #anything else
+        #Any other value is interpreted as a color, see COLORS
+separator_color = frame
+    # Sort type.
+    # possible values are:
+    #  * id: sort by id
+    #  * urgency_ascending: sort by urgency (low then normal then critical)
+    #  * urgency_descending: sort by urgency (critical then normal then low)
+    #  * update: sort by update (most recent always at the top)
+sort = update
+    # Don't remove messages, if the user is idle (no mouse or keyboard input)
+    # for longer than idle_threshold seconds.
+    # Set to 0 to disable.
+idle_threshold = 120
+    # Defines list of actions for each mouse event
+    # Possible values are:
+    # * none: Don't do anything.
+    # * do_action: Invoke the action determined by the action_name rule. If there is no
+    #              such action, open the context menu.
+    # * open_url: If the notification has exactly one url, open it. If there are multiple
+    #             ones, open the context menu.
+    # * close_current: Close current notification.
+    # * remove_current: Remove current notification from history.
+    # * close_all: Close all notifications.
+    # * context: Open context menu for the notification.
+    # * context_all: Open context menu for all notifications.
+    # These values can be strung together for each mouse event, and
+    # will be executed in sequence.
+mouse_left_click = do_action, context, close_current
+mouse_right_click = close_current
+mouse_middle_click = close_all
+
+font = "MonaspaceRadonNF 9"
+    # Possible values are:
+    # full: Allow a small subset of html markup in notifications:
+    #        <b>bold</b>
+    #        <i>italic</i>
+    #        <s>strikethrough</s>
+    #        <u>underline</u>
+    #
+    #        For a complete reference see
+    #        <https://docs.gtk.org/Pango/pango_markup.html>.
+    #
+    # strip: This setting is provided for compatibility with some broken
+    #        clients that send markup even though it's not enabled on the
+    #        server. Dunst will try to strip the markup but the parsing is
+    #        simplistic so using this option outside of matching rules for
+    #        specific applications *IS GREATLY DISCOURAGED*.
+    #
+    # no:    Disable markup parsing, incoming notifications will be treated as
+    #        plain text. Dunst will not advertise that it has the body-markup
+    #        capability if this is set as a global setting.
+    #
+    # It's important to note that markup inside the format option will be parsed
+    # regardless of what this is set to.
+markup = full
+format = "<b>%s </b>\n%b"
+alignment = left
+vertical_alignment = center
+show_age_threshold = 60
+word_wrap = yes
+ellipsize = middle
+ignore_newline = no
+stack_duplicates = true
+hide_duplicate_count = false
+show_indicators = yes
+sticky_history = true
+history_length = 50
+
+
+dmenu = /usr/bin/rofi -dmenu
+# dmenu = /usr/bin/dmenu -p dunst
+browser = /usb/bin/xdg-open
+
+# Keyboard shortcuts
+    #close
+    #Specifies the keyboard shortcut for closing a notification.
+    #close_all
+    #Specifies the keyboard shortcut for closing all currently displayed notifications. 
+    #history
+    #Specifies the keyboard shortcut for recalling a single notification from history.
+    #context
+    #Specifies the keyboard shortcut that opens the context menu.
+close_all = ctrl+space
+history = ctrl+shift+space
+context = ctrl+shift+period
+
+[urgency_low]
+background = "{background}"
+foreground = "{foreground}"
+timeout = 10
+
+[urgency_normal]
+background = "{background}"
+foreground = "{foreground}"
+timeout = 10
+
+[urgency_critical]
+background = "{background}"
+foreground = "{foreground}"
+frame_color = "{color1}"
+timeout = 10
+
+[play_sound]
+summary = "*"
+script = /home/dwm-test/.config/dunst/alert.sh

@@ -1,0 +1,100 @@
+2025-09-24T22:45:57 exception: Failed to open "/home/dwm-test/.config/mpd/state": No such file or directory
+2025-09-24T22:45:57 update: added Music/lofi/Aesthetic.mp3
+2025-09-24T22:45:57 update: added Music/lofi/6 out of 600.mp3
+2025-09-24T22:45:57 update: added Music/lofi/Afterlight.mp3
+2025-09-24T22:45:57 update: added Music/lofi/Aesthetic_1.mp3
+2025-09-24T22:45:57 update: added Music/lofi/A First Date.mp3
+2025-09-24T22:45:57 update: added Music/fev/_Join Us For A Bite (Remastered)_ by JT Music (FNAF SISTER LOCATION Song) [SFM].mp3
+2025-09-24T22:45:57 update: added Music/fev/norm/7 Years.mp3
+2025-09-24T22:45:57 update: added Music/fev/norm/5 Seconds of Summer ‒ Teeth (Lyrics).mp3
+2025-09-24T22:45:57 update: added Music/fev/night/All My Friends Are Toxic - Nightcore (Lyrics).mp3
+2025-09-24T22:45:57 update: added Music/fev/night/AViVA - Psycho「Nightcore」.mp3
+2025-09-24T22:45:57 update: added Music/fev/jp/【349】[feat. はしメロ, maeshima soshi] けーたいみしてよ ⧸ MAISONdes.mp3
+2025-09-24T22:45:57 update: added Music/fev/jp/【239】[feat. 花譜, ツミキ] トウキョウ・シャンディ・ランデヴ _ MAISONdes.mp3
+2025-09-24T22:50:41 player: played "Music/fev/jp/【239】[feat. 花譜, ツミキ] トウキョウ・シャンディ・ランデヴ _ MAISONdes.mp3"
+2025-09-24T22:52:16 player: played "Music/fev/_Join Us For A Bite (Remastered)_ by JT Music (FNAF SISTER LOCATION Song) [SFM].mp3"
+2025-09-24T22:58:18 player: played "Music/fev/night/AViVA - Psycho「Nightcore」.mp3"
+2025-09-25T14:22:11 exception: Failed to decode "https://youtube.com/playlist?list=PLMIbmfP_9vb8BCxRoraJpoo4q1yMFg4CE"; avformat_open_input() failed: Invalid data found when processing input
+2025-09-25T14:22:11 player: played "https://youtube.com/playlist?list=PLMIbmfP_9vb8BCxRoraJpoo4q1yMFg4CE"
+2025-09-25T14:22:32 player: played "Music/fev/norm/7 Years.mp3"
+2025-09-25T14:31:41 player: played "Music/fev/_Join Us For A Bite (Remastered)_ by JT Music (FNAF SISTER LOCATION Song) [SFM].mp3"
+2025-09-25T14:34:10 player: played "Music/fev/_Join Us For A Bite (Remastered)_ by JT Music (FNAF SISTER LOCATION Song) [SFM].mp3"
+2025-09-25T14:35:02 player: played "Music/fev/_Join Us For A Bite (Remastered)_ by JT Music (FNAF SISTER LOCATION Song) [SFM].mp3"
+2025-09-25T15:00:38 player: played "Music/fev/night/AViVA - Psycho「Nightcore」.mp3"
+2025-09-25T15:47:39 exception: Not playing
+2025-09-25T21:54:17 exception: Failed to decode "https://www.youtube.com/watch?v=7uB-Eh9XVZQ"; avformat_open_input() failed: Invalid data found when processing input
+2025-09-25T21:54:17 player: played "https://www.youtube.com/watch?v=7uB-Eh9XVZQ"
+2025-09-25T21:58:41 player: played "https://play.streamafrica.net/lofiradio"
+2025-09-25T21:58:46 exception: Failed to open /home/dwm-test/.config/mpd/playlists: No such file or directory
+2025-09-25T21:59:29 player: played "Music/fev/_Join Us For A Bite (Remastered)_ by JT Music (FNAF SISTER LOCATION Song) [SFM].mp3"
+2025-09-26T00:09:26 player: played "https://play.streamafrica.net/lofiradio"
+2025-09-26T12:26:55 player: played "https://play.streamafrica.net/lofiradio"
+2025-09-26T12:26:55 exception: Failed to decode "https://www.youtube.com/watch?v=7uB-Eh9XVZQ"; avformat_open_input() failed: Invalid data found when processing input
+2025-09-26T12:26:55 player: played "https://www.youtube.com/watch?v=7uB-Eh9XVZQ"
+2025-09-26T12:27:56 exception: Failed to decode "https://youtube.com/playlist?list=PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i&si=5jsyfqcoUXBCSLeu"; avformat_open_input() failed: Invalid data found when processing input
+2025-09-26T12:27:56 player: played "https://youtube.com/playlist?list=PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i&si=5jsyfqcoUXBCSLeu"
+2025-09-26T12:28:34 exception: Failed to decode "https://onlineradio.ph/126-96-3-wrock.html"; avformat_open_input() failed: Invalid data found when processing input
+2025-09-26T12:28:34 player: played "https://onlineradio.ph/126-96-3-wrock.html"
+2025-09-26T12:28:52 exception: Failed to decode "https://tunein.com/radio/mETaLmuSicRaDio-s119867/"; avformat_open_input() failed: Invalid data found when processing input
+2025-09-26T12:28:52 player: played "https://tunein.com/radio/mETaLmuSicRaDio-s119867/"
+2025-09-26T12:29:25 exception: Failed to decode "https://play.streamafrica.net/lofiradio"; Connection timed out after 10402 milliseconds: Timeout was reached
+2025-09-26T12:29:25 player: played "https://play.streamafrica.net/lofiradio"
+2025-09-26T12:32:15 exception: Failed to decode "https://www.youtube.com/watch?v=7uB-Eh9XVZQ"; avformat_open_input() failed: Invalid data found when processing input
+2025-09-26T12:32:15 player: played "https://www.youtube.com/watch?v=7uB-Eh9XVZQ"
+2025-09-26T12:41:40 player: played "Music/fev/norm/7 Years.mp3"
+2025-09-26T21:59:18 player: played "Music/fev/_Join Us For A Bite (Remastered)_ by JT Music (FNAF SISTER LOCATION Song) [SFM].mp3"
+2025-09-26T22:15:25 player: played "Music/fev/night/AViVA - Psycho「Nightcore」.mp3"
+2025-09-26T22:17:00 player: played "Music/fev/jp/【239】[feat. 花譜, ツミキ] トウキョウ・シャンディ・ランデヴ _ MAISONdes.mp3"
+2025-09-26T22:30:37 exception: Access to local files via TCP is not allowed
+2025-09-26T22:30:37 exception: Access to local files via TCP is not allowed
+2025-09-26T22:30:37 exception: Access to local files via TCP is not allowed
+2025-09-26T22:30:37 exception: Access to local files via TCP is not allowed
+2025-09-26T22:30:37 exception: Access to local files via TCP is not allowed
+2025-09-26T22:30:37 exception: Access to local files via TCP is not allowed
+2025-09-26T22:30:37 exception: Access to local files via TCP is not allowed
+2025-09-26T22:30:58 player: played "Music/fev/_Join Us For A Bite (Remastered)_ by JT Music (FNAF SISTER LOCATION Song) [SFM].mp3"
+2025-09-26T22:31:03 exception: Access to local files via TCP is not allowed
+2025-09-26T22:31:03 exception: Access to local files via TCP is not allowed
+2025-09-26T22:31:03 exception: Access to local files via TCP is not allowed
+2025-09-26T22:31:03 exception: Access to local files via TCP is not allowed
+2025-09-26T22:31:03 exception: Access to local files via TCP is not allowed
+2025-09-26T22:31:03 exception: Access to local files via TCP is not allowed
+2025-09-26T22:31:03 exception: Access to local files via TCP is not allowed
+2025-09-26T22:33:25 exception: Access to local files via TCP is not allowed
+2025-09-26T22:33:25 exception: Access to local files via TCP is not allowed
+2025-09-26T22:33:25 exception: Access to local files via TCP is not allowed
+2025-09-26T22:33:25 exception: Access to local files via TCP is not allowed
+2025-09-26T22:33:25 exception: Access to local files via TCP is not allowed
+2025-09-26T22:33:25 exception: Access to local files via TCP is not allowed
+2025-09-26T22:33:25 exception: Access to local files via TCP is not allowed
+2025-09-26T22:38:24 player: played "Music/fev/night/AViVA - Psycho「Nightcore」.mp3"
+2025-09-26T22:39:29 player: played "Music/fev/jp/【239】[feat. 花譜, ツミキ] トウキョウ・シャンディ・ランデヴ _ MAISONdes.mp3"
+2025-09-27T19:02:39 player: played "Music/fev/norm/5 Seconds of Summer ‒ Teeth (Lyrics).mp3"
+2025-09-27T22:09:17 player: played "Music/fev/jp/【349】[feat. はしメロ, maeshima soshi] けーたいみしてよ ⧸ MAISONdes.mp3"
+2025-09-27T22:46:21 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T22:56:21 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T23:05:05 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T23:05:20 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T23:08:22 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T23:08:27 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T23:08:52 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T23:13:34 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T23:13:38 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T23:13:44 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-27T23:13:51 player: played "Music/lofi/6 out of 600.mp3"
+2025-09-28T15:42:29 player: played "Music/lofi/6 out of 600.mp3"
+2025-09-28T18:32:39 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-28T18:46:06 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-28T18:58:06 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-28T19:02:31 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-28T20:56:58 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-28T21:08:47 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-28T21:10:35 player: played "Music/lofi/Aesthetic.mp3"
+2025-09-28T21:13:31 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-28T21:13:32 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-28T21:13:37 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-28T21:13:37 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-28T21:14:00 player: played "Music/lofi/6 out of 600.mp3"
+2025-09-28T21:14:01 player: played "Music/lofi/Aesthetic.mp3"
+2025-10-01T17:38:47 player: played "Music/lofi/Aesthetic.mp3"
+2025-10-01T19:14:38 player: played "Music/lofi/Aesthetic.mp3"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DWM
+Comment=Dynamic Window Mnager
+# Exec=dwm
+Exec=/usr/local/bin/startdwm.sh
+Icom=dwm
+Type=XSession

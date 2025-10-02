@@ -142,90 +142,133 @@ when isntalling arch with arch installer, in the options
      - ~sudo nvim /usr/share/xsessions/dwm.desktop~
      - paste this in the file 
   #+begin_src shell
-  [Desktop Entry]
-  Encoding=UTF-8
-  Name=DWM
-  Comment=Dynamic Window Manager
-  # Exec=dwm
-  Exec=/usr/local/bin/startdwm.sh # use script to set a wallpaper brefore dwm and other stuff
-  Icon=dwm
-  Type=XSession
+[Desktop Entry]
+Encoding=UTF-8
+Name=DWM
+Comment=Dynamic Window Mnager
+# Exec=dwm
+Exec=/usr/local/bin/startdwm.sh
+Icom=dwm
+Type=XSession
 
   #+end_src
   * script example
   #+begin_src shell
-  #!/bin/sh
+#!/bin/sh
 
-  # Fixed function name
-  cleanup() {
-      pkill -f polybar
-      exit 0
-  }
+# Cleanup function
+cleanup() {
+    pkill -f polybar
+    pkill -f mpd
+    exit 0
+}
+trap cleanup TERM INT
 
-  trap cleanup TERM INT
+# Background setup
+# wal -R
+# if you want to use hard set wallpapers on its monitor uncomend this line and put you wallpapers (you need to do the same in 2 scripts in multiple lines the scripts are wallpaper-menu.sh, Wallpaper-select.sh)
+# feh --bg-scale ~/Pictures/1190404.jpg ~/Pictures/1351901.png
 
-  # Background setup
-  # feh --bg-scale ~/Pictures/a.png # if you want to specify a wallpaper
-  wal -R # if you use pywal to restore your theme and wallpaper
-  # you can use both wal and feh if you are using the wal script that skips setting the wallpaper bound to mainmod+shift+w
-  setxkbmap -layout us,gr -option 'grp:alt_shift_toggle' 
-  xset r rate 300 50
+# # Background setup
+# # feh --bg-scale ~/Pictures/a.png # if you are using a specific wallpaper
+# wal -R # if you are using pywal for theme and wallpaper
 
-  #xlock
-  xautolock -time 10 -locker slock -detectsleep &
-  # time in minutes
-  # if you want to disable it use 
-  # xautolock -disable &
-  # or toggle 
-  # xautolock -toggle &
+# Start MPD
+mpd ~/.config/mpd/mpd.conf &
 
-  picom &
+# Disable the annoying x11 bell sound
+xset -b &
 
-  # Function to start polybar with retry logic
-  start_polybar() {
-      # Kill any existing polybar instances
-      pkill -f polybar 2>/dev/null
-      sleep 0.2
-      
-      # Start polybar in background
-      # polybar &
-      # Alternative: use your themed polybar
-      # ~/git/polybar-collection/launch.sh &
-      # ~/.config/polybar/launch.sh --blocks &
+# Keyboard layout
+setxkbmap -layout us,gr -option 'grp:alt_shift_toggle' 
+xset r rate 300 50
 
-      # Method 1: Auto-detect and launch on all monitors
-      if type "xrandr" > /dev/null; then
-          # Get all connected monitors
-          for monitor in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-              MONITOR=$monitor ~/.config/polybar/launch.sh --blocks &
-          done
-      else
-          # Fallback to single monitor
-          ~/.config/polybar/launch.sh --blocks &
-      fi
-      
-      # Method 2: Manual monitor specification (uncomment and modify as needed)
-      # MONITOR=DP-1 ~/.config/polybar/launch.sh --blocks &
-      # MONITOR=HDMI-A-1 ~/.config/polybar/launch.sh --blocks &
-      # MONITOR=eDP-1 ~/.config/polybar/launch.sh --blocks &
+# Start xautolock
+xautolock -time 10 -locker "slock -d" -detectsleep &
+# # time in minutes
+#
+# # disable
+# # you can run: xautolock -disable
+#
+# # or toggle
+# # xautolock -toggle
 
-  }
+# Other services
+picom &
+libinput-gestures-setup restart &
+greenclip daemon &
 
-  # Start polybar initially
-  start_polybar
+# Apply your arandr layout if you have one saved
+# Uncomment this line and set the correct path:
+if type "xrandr" > /dev/null; then
+	~/.screenlayout/default.sh &
+fi
+# Background setup
+wal -R
+# if you want to use hard set wallpapers on its monitor uncomend this line and put you wallpapers (you need to do the same in 2 scripts in multiple lines the scripts are wallpaper-menu.sh, Wallpaper-select.sh)
+feh --bg-scale ~/Pictures/1190404.jpg ~/Pictures/1351901.png
 
-  # DWM loop with polybar management
-  while true; do
-      # Start DWM and capture its exit code
-      dwm 2> ~/.dwm.log
-      # Otherwise, restart polybar and continue
-      echo "DWM crashed with exit code $exit_code, restarting..." >> ~/.dwm.log
-      start_polybar
-      sleep 1
-  done
+# Wait a moment for monitors to be ready
+sleep 1
 
-  # Cleanup on exit
-  cleanup
+# Function to start polybar
+start_polybar() {
+    # Kill any existing polybar instances
+    pkill -f polybar 2>/dev/null
+    sleep 0.5
+    
+    # Start polybar on all monitors
+    if type "xrandr" > /dev/null; then
+        for monitor in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+            echo "Starting polybar on $monitor"
+            MONITOR=$monitor polybar -q main -c "$HOME/.config/polybar/blocks/config.ini" &
+        done
+    else
+        polybar -q main -c "$HOME/.config/polybar/blocks/config.ini" &
+    fi
+
+
+#     # Method 2: Manual monitor specification (uncomment and modify as needed)
+#     # MONITOR=DP-1 ~/.config/polybar/launch.sh &
+#     # MONITOR=HDMI-A-1 ~/.config/polybar/launch.sh &
+#     # MONITOR=eDP-1 ~/.config/polybar/launch.sh &
+    
+    # Wait for main bars to start
+    sleep 1
+    
+    # Launch popup bars
+    polybar -q popup_bluetooth -c "$HOME/.config/polybar/blocks/config.ini" &
+    polybar -q popup_sysinfo -c "$HOME/.config/polybar/blocks/config.ini" &
+    polybar -q popup_general -c "$HOME/.config/polybar/blocks/config.ini" &
+    polybar -q popup_tray -c "$HOME/.config/polybar/blocks/config.ini" &
+    
+    # Hide all popups initially
+    sleep 0.5
+    "$HOME/.config/polybar/blocks/scripts/popup-manager.sh" bluetooth --hide
+    "$HOME/.config/polybar/blocks/scripts/popup-manager.sh" sysinfo --hide
+    "$HOME/.config/polybar/blocks/scripts/popup-manager.sh" general --hide
+    "$HOME/.config/polybar/blocks/scripts/popup-manager.sh" tray --hide
+}
+
+# Start polybar initially
+start_polybar
+
+# DWM loop with polybar management
+while true; do
+    # Start DWM and capture its exit code
+    dwm 2> ~/.dwm.log
+    exit_code=$?
+    
+    # Log restart
+    echo "DWM exited with code $exit_code at $(date), restarting..." >> ~/.dwm.log
+    
+    # Restart polybar
+    start_polybar
+    sleep 1
+done
+
+# Cleanup on exit
+cleanup
 
   #+end_src
   * and dont forget to ~chmod +x /usr/local/bin/startdwm.sh~ else it wont run
@@ -281,18 +324,146 @@ if you get screen tearing of any kind download picom, nvidia-settings and make a
     1. ~sudo nvim .config/picom.conf~
        - add this in the file 
          #+begin_src shell
-         backend="glx";
-         vsync=true;
-         fading=true; #if you have nvidia an the windows wigle first restart dwm just in case it bugs sometimes else set this to false
-         fade-in-step=0.07;
-         fade-out-step=0.07;
-         fade-delta=10;
-         mark-wmwin-focused=true;
-         mark-ovredir-focused=true;
-         detect-client-opacity=true;
-         inactive-opacity=0.95;
-         active-opacity=1.0;
-         inactive-opacity-override=true;
+# ~/.config/picom.conf
+
+###################################
+#             Backend             #
+###################################
+# xrender , glx, egl, or xr_glx_hybrid
+backend = "glx"
+vsync = true
+
+# Use higher precision during rendering, and apply dither when presenting the
+# rendered screen. Reduces banding artifacts, but may cause performance
+# degradation. Only works with OpenGL.
+dithered-present = false;
+
+# Make transparent windows clip other windows like non-transparent windows do,
+# instead of blending on top of them. e.g. placing a transparent window on top
+# of another window will cut a "hole" in that window, and show the desktop background
+# underneath.
+#
+# Default: false
+transparent-clipping = false
+
+###################################
+#             Fading              #
+###################################
+fading=true
+fade-in-step = 0.07
+fade-out-step = 0.07
+fade-delta = 13
+# Do not fade on window open/close.
+# no-fading-openclose = false
+
+###################################
+#             Opacity             #
+###################################
+inactive-opacity = 0.85;
+active-opacity = 1;
+inactive-opacity-override = true
+
+#################################
+#           Corners             #
+#################################
+
+# Sets the radius of rounded window corners. When > 0, the compositor will
+# round the corners of windows. Does not interact well with
+# `transparent-clipping`.
+#
+# Default: 0 (disabled)
+corner-radius = 0
+
+#################################
+#            Blur               #
+#################################
+
+# Parameters for background blurring, see BLUR section in the man page for more information.
+# methods = {none, gaussian, box, kernel (define custom for kernel), dual_kawase}
+blur-method = "dual_kawase";
+# blur-size = 10 # this is for box and gaussian
+#
+# blur-deviation = false
+#
+blur-strength = 6
+
+# Blur background of semi-transparent / ARGB windows.
+# Can be set per-window using rules.
+#
+# Default: false
+blur-background = true
+
+# Blur background of windows when the window frame is not opaque.
+# Implies:
+#    blur-background
+#
+# Default: false
+# blur-background-frame = true
+
+# Use fixed blur strength rather than adjusting according to window opacity.
+#
+# Default: false
+blur-background-fixed = true
+
+###################################
+#             Animation           #
+###################################
+animations = ({
+  triggers = [ "open"];
+  preset = "appear";
+  scale = 0.7;
+  duration = 0.2;
+  suppressions = ["menu", "popup_menu", "dropdown_menu", "tooltip"];
+  },
+  {
+  triggers = [ "close"];
+  preset = "disappear";
+  scale = 0.7;
+  duration = 0.2;
+  suppressions = ["menu", "popup_menu", "dropdown_menu", "tooltip"];
+  },
+  {
+  triggers = [ "move", "geometry"];
+  preset = "geometry-change";
+  duration = 0.2;
+  }
+  )
+
+
+###################################
+#             General             #
+###################################
+mark-wmwin-focused = true
+mark-ovredir-focused = true
+detect-client-opacity = true
+
+# Rule-based per-window options.
+#
+# wintypes are the following 
+#
+# unknown, desktop, dock, toolbar, menu, utility, splash, dialog, normal, dropdown_menu, popup_menu, tooltip, notification, combo, dnd
+#
+# its one has the following options 
+#
+# fade, shadow = controls window type specific shadow gade settings
+# opacity = its opacity 
+# focus = considers if its always on focus or not 
+# blur-background = if it has a background blur 
+# full-shadow = if it has a shadow under it 
+# clip-shadow-above = above shadow 
+# redir-ignore = if the window of this screen should be redirected again
+#
+# simple way to find witch one you are looking for just set the opacity of each one at a time at 0.1 if tis brearly visible its that option
+wintypes:
+{
+
+# menu is the right click in browsers 
+  menu = { fade = true; shadow = false; opacity = 1.0; focus = true; full-shadow = false; opacity = 1.0; blur-background = false; animations = false;}
+  notification = { fade = true; shadow = false; opacity = 1.0; focus = true; full-shadow = false; opacity = 1.0; blur-background = false; animations = false;}
+
+ # this is polybar # dock = { fade = true; shadow = false; opacity = 1.0; focus = true; full-shadow = false; opacity = 1.0; blur-background = false;}
+
+}
          #+end_src
      2. and then inside the  /usr/local/bin/startdwm.sh before while loop add 
         - ~picom &~

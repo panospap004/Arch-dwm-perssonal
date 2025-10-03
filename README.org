@@ -1139,15 +1139,16 @@ aseprite
 # github-desktop
 #+end_src
 
-
 - extras:
 pureref -> appimage for drawing refrences
 flstudio -> use it with bottles
 sfxia and pixitracker -> from itch sound making tools
 raylib tools -> from there itch website
+
+- Ai:
 ollamas -> use them with msty
 some personal ollama models:
-```
+#+begin_src shell
 ollama pull mistral:7b-text-q8_0
 ollama pull qwen2:7b-instruct-q8_0
 ollama pull orca-mini:7b-q8_0
@@ -1156,9 +1157,11 @@ ollama pull deepseek-coder:6.7b-instruct-q8_0
 ollama pull codellama:7b-code-q8_0
 ollama pull codegemma:7b-instruct-q8_0
 ollama pull llama3:8b-instruct-q8_0
-```
-if you want my fzf theme run the following in the terminal
-```
+
+#+end_src
+
+- if you want my fzf theme run the following in the terminal
+  #+begin_src shell
 export FZF_DEFAULT_OPTS='
               --color=fg:#cdd6f4,fg+:#cdd6f4,bg:#1e1e2e,bg+:#313244
               --color=hl:#f38ba8,hl+:#f38ba8,info:#cba6f7,marker:#7ddd8f
@@ -1170,61 +1173,72 @@ export FZF_DEFAULT_OPTS='
               --pointer="" --separator="_" --scrollbar="" --info="right"
               --height=~65% --layout=default
               --preview "bat --color=always --style=header,grid --line-range :500 {}"'
-```
 
-if you want to create an ssh key for your github so you can use git on the terminal you do the following steps
-```
+  #+end_src
+
+- if you want to create an ssh key for your github so you can use git on the terminal you do the following steps
+  #+begin_src shell
 ssh-keygen -t ed25519 -C "mymail@gmail.com"
-```
-press enter for all 
-```
+
+  #+end_src
+  + press enter for all 
+#+begin_src shell
 cat ~/.ssh/id_ed25519.pub
-```
-copy the cat file contents then go to github icon -> setttings -> SHH and GPG keys -> new SSH key -> give name for pc and paste key in key box -> add SSH key and lastly
-```
+
+#+end_src
+  + copy the cat file contents then go to github icon -> setttings -> SHH and GPG keys -> new SSH key -> give name for pc and paste key in key box -> add SSH key and lastly
+    #+begin_src shell
 bash
-```
-```
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 git config --global gpg.format ssh
 git config --global user.signingkey ~/.ssh/id_ed25519.pub
 fish
-```
+
+    #+end_src
 
 - [ ] if you have a problem with NetWorkManager connect to the wifi create the following file /etc/NetworkManager/conf.d/wifi_backend.conf and open it in sudo with vim nano neovim etc then add the following 2 lines
-```
+#+begin_src shell
 [device]
 wifi.backend=iwd
-```
-this will make NetWorkManager use iwd and it should fix the issue after running sudo systemctl restart NetworkManager.service or rebooting
+
+#+end_src
+  + this will make NetWorkManager use iwd and it should fix the issue after running sudo systemctl restart NetworkManager.service or rebooting
+
 - [ ] if cnijfilter2 fails to install (its used for canon printers) do the following
-```
+#+begin_src shell
 yay -G cnijfilter2 
 cd cnijfilter2 
 vim malloc.patch
-```
-copy that file and also copy this files contents
-```
+
+#+end_src
+
+  +  copy that file and also copy this files contents
+    #+begin_src shell
 vim PKGBUILD
-```
-and ask chatgpt or any ai tool to help you fix the issues in it it might be an incorect sha256sums key for the version or something harder
 
-The extra packages script also includes raylib raylib-cpp and raylib-tmx a tiled app plugin
-to compile raylib you can do the following check for more detail in my obsidian notes
-for c
-```
+    #+end_src
+  
+  +  and ask chatgpt or any ai tool to help you fix the issues in it it might be an incorect sha256sums key for the version or something harder
+
+-  The extra packages script also includes raylib raylib-cpp and raylib-tmx a tiled app plugin to compile raylib you can do the following check for more detail in my obsidian notes
+  + for c
+#+begin_src shell
 gcc main.c -o main -O1 -Wall -std=c99 -Wno-missing-braces -L ./lib -lraylib
-```
-for c++
-```
-g++ -o main main.cpp -O1 -Wall -L ./lib/ -lraylib
-```
-It also includes rust with bevy to build any rust projects you do 
-```
-cargo run
-```
 
+#+end_src
+
+  + for c++
+  #+begin_src shell
+g++ -o main main.cpp -O1 -Wall -L ./lib/ -lraylib
+
+  #+end_src
+
+  + It also includes rust with bevy to build any rust projects you do 
+#+begin_src shell
+cargo run
+
+  #+end_src
 
 # Config directories
 IFS=$'\n'
@@ -1319,34 +1333,3 @@ remove_vivaldi_lock(){
   rm ~/.config/vivaldi/SingletonSocket
 }
 remove_vivaldi_lock
-
-# Cleanup of ~/.config/ backups
-cleanup_backups() {
-  CONFIG_DIR=~/.config
-  BACKUP_PREFIX="-backup"
-
-  for DIR in "$CONFIG_DIR"/*; do
-    if [ -d "$DIR" ]; then
-      BACKUP_DIRS=()
-      for BACKUP in "$DIR"$BACKUP_PREFIX*; do
-        [ -d "$BACKUP" ] && BACKUP_DIRS+=("$BACKUP")
-      done
-
-      if [ ${#BACKUP_DIRS[@]} -gt 1 ]; then
-        echo -e "${INFO} Performing cleanup for ${ORANGE}${DIR##*/}${RESET}"
-        latest_backup="${BACKUP_DIRS[0]}"
-        for BACKUP in "${BACKUP_DIRS[@]}"; do
-          [ "$BACKUP" -nt "$latest_backup" ] && latest_backup="$BACKUP"
-        done
-
-        for BACKUP in "${BACKUP_DIRS[@]}"; do
-          if [ "$BACKUP" != "$latest_backup" ]; then
-            echo "Deleting: ${BACKUP##*/}"
-            rm -rf "$BACKUP"
-          fi
-        done
-        echo "Old backups deleted, kept: ${YELLOW}${latest_backup##*/}${RESET}"
-      fi
-    fi
-  done
-}

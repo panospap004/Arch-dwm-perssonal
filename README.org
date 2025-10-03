@@ -1,5 +1,8 @@
 * READ THE COMPLETE README OR YOU WILL HAVE ISSUES
-*When you download and use one of the configs before you start copying folders open the config and rename all the lines from dwm-test to your username there are several files that use hardcoded paths so they need fixing before using*
+- *When you download and use one of the configs before you start copying folders open the config and rename all the lines from dwm-test to your username there are several files that use hardcoded paths so they need fixing before using*
+- Also to see keybinds there are 2 option 
+  + windowsKey+/ to be able to search but less clear
+  + WindowsKey+shift+/ For more clear but not searchable
 * Initial step 
 when isntalling arch with arch installer, in the options 
   1. loginmanager use sddm
@@ -426,6 +429,25 @@ once again grub is farly simple you do the folowing
 - then we begin 
   + extract the gz file and go in and run ~sudo ./install.sh~
   + else you can follow the manual steps in the page
+** if you want to dual boot install refind 
+- how to setup refind with a recomended theme 
+#+begin_src shell
+yay refind
+refind-install
+sudo su
+cd /boot/EFI/refind
+mkdir themes
+cd themes
+git clone https://github.com/catppuccin/refind.git catppuccin
+cd ..
+nvim refind.conf
+
+#+end_src
+- add the following line at the bottom of the conf
+#+begin_src shell
+include themes/catppuccin/frappe.conf
+
+#+end_src
 ** Icons, cursor, font 
 in this config i use the vimix-cursor , the rowaita icon pack and the monaspace radon font
 - for the font install i have explained already so i wont repeat it here 
@@ -874,6 +896,10 @@ pipx ensurepath
     wget -P "$(bat --config-dir)/themes" "https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Macchiato.tmTheme"
     wget -P "$(bat --config-dir)/themes" "https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Mocha.tmTheme"
     bat cache --build
+		
+    # Wallaper 
+		
+    git clone "https://github.com/panospap004/wallpapers.git"
 
     # Raylib Setup
     git clone https://github.com/raysan5/raylib.git raylib
@@ -1112,3 +1138,215 @@ mingw-w64-raylib
 aseprite
 # github-desktop
 #+end_src
+
+
+- extras:
+pureref -> appimage for drawing refrences
+flstudio -> use it with bottles
+sfxia and pixitracker -> from itch sound making tools
+raylib tools -> from there itch website
+ollamas -> use them with msty
+some personal ollama models:
+```
+ollama pull mistral:7b-text-q8_0
+ollama pull qwen2:7b-instruct-q8_0
+ollama pull orca-mini:7b-q8_0
+ollama pull llava:7b-v1.6-vicuna-q8_0
+ollama pull deepseek-coder:6.7b-instruct-q8_0
+ollama pull codellama:7b-code-q8_0
+ollama pull codegemma:7b-instruct-q8_0
+ollama pull llama3:8b-instruct-q8_0
+```
+if you want my fzf theme run the following in the terminal
+```
+export FZF_DEFAULT_OPTS='
+              --color=fg:#cdd6f4,fg+:#cdd6f4,bg:#1e1e2e,bg+:#313244
+              --color=hl:#f38ba8,hl+:#f38ba8,info:#cba6f7,marker:#7ddd8f
+              --color=prompt:#c95056,spinner:#ffe1db,pointer:#c95056,header:#f38ba8
+              --color=border:#3d235d,preview-bg:#1e1e2e,preview-scrollbar:#3d235d,label:#7897ec
+              --color=query:#9caaf5
+              --border="double" --border-label="󰈔 Find Files " --border-label-pos="2" --preview-window="border-rounded"
+              --padding="0,1" --margin="1,2" --prompt="󰧂 " --marker=" "
+              --pointer="" --separator="_" --scrollbar="" --info="right"
+              --height=~65% --layout=default
+              --preview "bat --color=always --style=header,grid --line-range :500 {}"'
+```
+
+if you want to create an ssh key for your github so you can use git on the terminal you do the following steps
+```
+ssh-keygen -t ed25519 -C "mymail@gmail.com"
+```
+press enter for all 
+```
+cat ~/.ssh/id_ed25519.pub
+```
+copy the cat file contents then go to github icon -> setttings -> SHH and GPG keys -> new SSH key -> give name for pc and paste key in key box -> add SSH key and lastly
+```
+bash
+```
+```
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
+fish
+```
+
+- [ ] if you have a problem with NetWorkManager connect to the wifi create the following file /etc/NetworkManager/conf.d/wifi_backend.conf and open it in sudo with vim nano neovim etc then add the following 2 lines
+```
+[device]
+wifi.backend=iwd
+```
+this will make NetWorkManager use iwd and it should fix the issue after running sudo systemctl restart NetworkManager.service or rebooting
+- [ ] if cnijfilter2 fails to install (its used for canon printers) do the following
+```
+yay -G cnijfilter2 
+cd cnijfilter2 
+vim malloc.patch
+```
+copy that file and also copy this files contents
+```
+vim PKGBUILD
+```
+and ask chatgpt or any ai tool to help you fix the issues in it it might be an incorect sha256sums key for the version or something harder
+
+The extra packages script also includes raylib raylib-cpp and raylib-tmx a tiled app plugin
+to compile raylib you can do the following check for more detail in my obsidian notes
+for c
+```
+gcc main.c -o main -O1 -Wall -std=c99 -Wno-missing-braces -L ./lib -lraylib
+```
+for c++
+```
+g++ -o main main.cpp -O1 -Wall -L ./lib/ -lraylib
+```
+It also includes rust with bevy to build any rust projects you do 
+```
+cargo run
+```
+
+
+# Config directories
+IFS=$'\n'
+DIRS=(
+  "anythingllm-desktop"
+  "atuin"
+  "bat"
+  "BetterDiscord"
+  "BetterDiscord Installer"
+  "bolt-launcher"
+  "BraveSoftware"
+  "cool-retro-term"
+  "discord"
+  "fish"
+  "fontconfig"
+  "github-copilot"
+  "godot"
+  "gtk-3.0"
+  "gtk-4.0"
+  "heroic"
+  "kate"
+  "KDE"
+  "kdedefaults"
+  "koodo-reader"
+  "lazygit"
+  "LazyVim-moded"
+  "lvim"
+  "moosync"
+  "nora"
+  "nvim"
+  "OpenTabletDriver"
+  "QtProject"
+  "ranger"
+  "Slack"
+  "vesktop"
+  "vivaldi"
+  "yazi"
+  "youtube-dl-gui"
+  "zed"
+)
+
+# Handle individual files in .config
+FILES=(
+  "kritadisplayrc"
+  "kritarc"
+  "kritashortcutsrc"
+  "okularpartrc"
+  "okularrc"
+  "PureRef.ini"
+  "starship.toml"
+  "starship_backup.toml"
+  "starship_secondary.toml"
+  "user-dirs.locale"
+)
+
+# Directory Copying (HomeFolder)
+DIRS_HOME=(
+  ".codeium"
+  ".icons"
+  ".thunderbird"
+  ".youtube-dl-gui"
+  ".zen"
+  "Desktop"
+  "Downloads"
+  "oh-my-zsh"
+  "pc-zsh-bash"
+)
+
+# Handle files in the home directory
+FILES=(
+  ".azotebg-hyprland"
+  ".bash_history"
+  ".bash_logout"
+  ".bash_profile"
+  ".bashrc"
+  ".bashrc.bak"
+  ".nvidia-settings-rc"
+  ".screenrc"
+  ".viminfo"
+  ".zcompdump-pappanos-x1carbon-5.9"
+  ".zcompdump-pappanos-x1carbon-5.9.zwc"
+  ".zsh_history"
+  ".zshenv"
+  ".zshrc"
+  ".zshrc.bak"
+  "main-edge-tabs.json"
+)
+
+remove_vivaldi_lock(){
+  rm ~/.config/vivaldi/SingletonLock
+  rm ~/.config/vivaldi/SingletonCookie
+  rm ~/.config/vivaldi/SingletonSocket
+}
+remove_vivaldi_lock
+
+# Cleanup of ~/.config/ backups
+cleanup_backups() {
+  CONFIG_DIR=~/.config
+  BACKUP_PREFIX="-backup"
+
+  for DIR in "$CONFIG_DIR"/*; do
+    if [ -d "$DIR" ]; then
+      BACKUP_DIRS=()
+      for BACKUP in "$DIR"$BACKUP_PREFIX*; do
+        [ -d "$BACKUP" ] && BACKUP_DIRS+=("$BACKUP")
+      done
+
+      if [ ${#BACKUP_DIRS[@]} -gt 1 ]; then
+        echo -e "${INFO} Performing cleanup for ${ORANGE}${DIR##*/}${RESET}"
+        latest_backup="${BACKUP_DIRS[0]}"
+        for BACKUP in "${BACKUP_DIRS[@]}"; do
+          [ "$BACKUP" -nt "$latest_backup" ] && latest_backup="$BACKUP"
+        done
+
+        for BACKUP in "${BACKUP_DIRS[@]}"; do
+          if [ "$BACKUP" != "$latest_backup" ]; then
+            echo "Deleting: ${BACKUP##*/}"
+            rm -rf "$BACKUP"
+          fi
+        done
+        echo "Old backups deleted, kept: ${YELLOW}${latest_backup##*/}${RESET}"
+      fi
+    fi
+  done
+}

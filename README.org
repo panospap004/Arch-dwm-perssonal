@@ -3,6 +3,7 @@
 - Also to see keybinds there are 2 option 
   + windowsKey+/ to be able to search but less clear
   + WindowsKey+shift+/ For more clear but not searchable
+- dont forget to chmod +x all the scripts you use 
 * Initial step 
 when isntalling arch with arch installer, in the options 
   1. loginmanager use sddm
@@ -11,7 +12,7 @@ when isntalling arch with arch installer, in the options
   4. bootloader use grub
   5. audio profile pipewire
   6. kernals , linux and if you are in nvidia gpu use linux-zen else linux-lts
-  7. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, dmenu, brightnessctl, arandr, xrandr
+  7. aditional packages git, base-devel, vivaldi(personal choice), neovim, fish, networkmanager, yazi, kitty, ttf-jetbrains-mono-nerd, ripgrep, gcc, make, xorg-xinput, brightnessctl, arandr, xrandr
 * After initial step is finished and you rebooted 
   1. Enable networkmanager with ~sudo systemctl enable --now NetworkManager.service~
   2. enable pipewire for audio with 
@@ -29,35 +30,36 @@ when isntalling arch with arch installer, in the options
   5. make a git dir with ~mkdir ~/git~ #optional just to keep your git clonses organized
   6. now install all the following packages that are being used in either dwm or scripts or somewhere in the congigs
      - starting with yay the aur helper 
-         * cd ~/git/
+         * ~cd ~/git/~
          * ~git clone https://aur.archlinux.org/yay.git~
          * ~cd yay~
          * ~makepkg -si~
          * if for soem reason it dodesnt work go out of the yay directory make a new yay-n dir cp all the yay conters for the initial one to the new one and then run makepkg -si there
      - now for the packages 
   #+begin_src shell
-    yay
-    sudo pacman -S curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl pavucontrol lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme ttf-jetbrains-mono ttf-jetbrains-mono-nerd adobe-source-code-pro-fonts noto-fonts-emoji otf-font-awesome ttf-droid ttf-fira-code ttf-space-mono-nerd noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-dejavu ttf-droid ttf-fira-sans ttf-liberation ttf-ubuntu-font-family ttf-hack noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu ttf-liberation ttf-fira-sans ttf-droid ttf-ubuntu-font-family ttf-hack fcitx5 lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme axel coreutils ddcutil gammastep thunar-volman tumbler ffmpegthumbnailer thunar-archive-plugin xarchiver bluez bluez-utils blueman blueberry bluedevil fcitx5 fcitx5-mozc fcitx5-rime fcitx5-configtool gsfonts gsettings-system-schemas gsettings-desktop-schemas qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 qt6-svg qt6-5compat qt6-declarative tectonic exfat-utils evtest efibootmgr dosfstools dhcpcd libretro-core-info poppler wireplumber xdg-desktop-portal alsa-lib mesa libx11 libxrandr libxi libxcursor libxinerama tlp
-    yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-appindicator-glib menu-qalc rofi-calc rofi-greenclip youtube-dl arc-gtk-theme ttf-gabarito-git ttf-material-symbols-variable-git ttf-readex-pro ttf-rubik-vf font-manager arc-gtk-theme electron25-bin electron33-bin electron34-bin electron35-bin electron36-bin electron37-bin appimagelauncher gnome-network-displays
-    
+  yay
+  sudo pacman -S iw cava curl thunar dolphin polybar feh libinput wmctrl xdotool dunst libnotify rofi mpd mpc mpv cmake python python-pip python-setuptools python-wheel pkgconf libayatana-appindicator man dbus libxrandr libxss pango yad pamixer gvfs-mtp gvfs-gphoto2 playerctl mpv-mpris mpd-mpris jq slop ffmpeg libx11 libxfixes fzf sxiv translate-shell mupdf easyeffects wildmidi timidity++ arch-wiki-docs iputils nsxiv python-pipx xclip imagemagick yt-dlp yelp xcolor brightnessctl pavucontrol lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme ttf-jetbrains-mono ttf-jetbrains-mono-nerd adobe-source-code-pro-fonts noto-fonts-emoji otf-font-awesome ttf-droid ttf-fira-code ttf-space-mono-nerd noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-dejavu ttf-droid ttf-fira-sans ttf-liberation ttf-ubuntu-font-family ttf-hack noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu ttf-liberation ttf-fira-sans ttf-droid ttf-ubuntu-font-family ttf-hack fcitx5 lxappearance qt5ct qt6ct mate-control-center xsettingsd kvantum nwg-look adw-gtk-theme axel coreutils ddcutil gammastep thunar-volman tumbler ffmpegthumbnailer thunar-archive-plugin xarchiver bluez bluez-utils blueman blueberry bluedevil fcitx5 fcitx5-mozc fcitx5-rime fcitx5-configtool gsfonts gsettings-system-schemas gsettings-desktop-schemas qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 qt6-svg qt6-5compat qt6-declarative tectonic exfat-utils evtest efibootmgr dosfstools dhcpcd libretro-core-info poppler wireplumber xdg-desktop-portal alsa-lib mesa libx11 libxrandr libxi libxcursor libxinerama tlp ttf-iosecka-nerd picom
+  yay -S didyoumean-bin libinput-gestures xautolock caffeine-ng libayatana-appindicator-glib menu-qalc rofi-calc rofi-greenclip youtube-dl arc-gtk-theme ttf-icomoon-feather ttf-gabarito-git ttf-material-symbols-variable-git ttf-readex-pro ttf-rubik-vf font-manager arc-gtk-theme electron25-bin electron33-bin electron34-bin electron35-bin electron36-bin electron37-bin appimagelauncher gnome-network-displays
+
   #+end_src
   - also for packages you need to do some extra stuff to activate them and to install some more manualy 
     #+begin_src shell
-    yay -S snapd && sudo systemctl enable --now snapd.socket
-    sudo ln -s /var/lib/snapd/snap /snap
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    brew || true
-    snap warnings || true
-    sudo systemctl enable --now snapd.apparmor
-    sudo systemctl enable --now snapd.apparmor
-    sudo systemctl enable --now bluetooth.service
-    sudo systemctl enable --now bluetooth
-    sudo systemctl start bluetooth
-    sudo systemctl enable tlp
-    sudo systemctl start tlp
-    systemctl --user enable --now pipewire.socket pipewire-pulse.socket wireplumber.service
-    systemctl --user enable --now pipewire.service
-
+        yay -S snapd && sudo systemctl enable --now snapd.socket
+        sudo ln -s /var/lib/snapd/snap /snap
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        brew || true
+        snap warnings || true
+        sudo systemctl enable --now snapd.apparmor
+        sudo systemctl enable --now snapd.apparmor
+        sudo systemctl enable --now bluetooth.service
+        sudo systemctl enable --now bluetooth
+        sudo systemctl start bluetooth
+        sudo systemctl enable tlp
+        sudo systemctl start tlp
+        systemctl --user enable --now pipewire.socket pipewire-pulse.socket wireplumber.service
+        systemctl --user enable --now pipewire.service
+    		pipx install -e "pywal16[modern_colorthief,colorthief,haishoku,colorz]"
+    		pipx ensurepath
     #+end_src
   7. now also install the folowing cursor theme, icon theme and font or you will have to manualy edit several stuff later
      - cursor theme ~yay -S vimix-cursors~

@@ -20,7 +20,7 @@ static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
 static const char *alttrayname      = "tray";    /* Polybar tray instance name */
 // dont need the line bellow our launch script handles polybar launch
 static const char *altbarcmd        = ""; /* Alternate bar launch command */
-// static const char *altbarcmd        = "/home/dwm-test/bar.sh"; /* Alternate bar launch command */
+// static const char *altbarcmd        = "/home/pappanos/bar.sh"; /* Alternate bar launch command */
 // static const char *fonts[]          = { "monospace:size=12" };
 // static const char *fonts[]          = {"MonaspaceRadonNF:size=10"};
 static const char *fonts[] = {
@@ -143,70 +143,70 @@ static const char *dmenuClipboard[] = {
   "greenclip print | grep . | dmenu -l 10 -g 4 -i -p clipboard | xargs -r -d '\\n' -I '{}' greenclip print '{}'",
   NULL
 };
-const char *dmenuMusic[] ={"/home/dwm-test/.config/scripts/DmenuBeats.sh", NULL}; // change the dwm-test with your username
-const char *dmenuQuit[] ={"/home/dwm-test/.config/scripts/dmenu_sys.sh", NULL}; // change the dwm-test with your username
-const char *dmenuWallpaper[] ={"/home/dwm-test/.config/scripts/wallpaper-menu.sh", NULL}; // change the dwm-test with your username
-const char *dmenuWebSearch[] ={"/home/dwm-test/.config/scripts/websearch.sh", NULL}; // change the dwm-test with your username
-const char *dmenuVideo[] ={"/home/dwm-test/.config/scripts/dmenu_mpv_player.sh", NULL}; // change the dwm-test with your username
-const char *dmenuDoc[] ={"/home/dwm-test/.config/scripts/documents.sh", NULL}; // change the dwm-test with your username
-const char *dmenuEq[] ={"/home/dwm-test/.config/scripts/eq-profiles.sh", NULL}; // change the dwm-test with your username
-const char *dmenuManPage[] ={"/home/dwm-test/.config/scripts/man.sh", NULL}; // change the dwm-test with your username
-const char *dmenuArchWiki[] ={"/home/dwm-test/.config/scripts/wiki.sh", NULL}; // change the dwm-test with your username
-const char *dmenuRelaxingSounds[] ={"/home/dwm-test/.config/scripts/RelaxingSounds.sh", NULL}; // change the dwm-test with your username
-const char *dmenuDictionary[] ={"/home/dwm-test/.config/scripts/dictionary.sh", NULL}; // change the dwm-test with your username
-const char *dmenuSpellCheck[] ={"/home/dwm-test/.config/scripts/spellcheck.sh", NULL}; // change the dwm-test with your username
+const char *dmenuMusic[] ={"/home/pappanos/.config/scripts/DmenuBeats.sh", NULL}; 
+const char *dmenuQuit[] ={"/home/pappanos/.config/scripts/dmenu_sys.sh", NULL};
+const char *dmenuWallpaper[] ={"/home/pappanos/.config/scripts/wallpaper-menu.sh", NULL};
+const char *dmenuWebSearch[] ={"/home/pappanos/.config/scripts/websearch.sh", NULL};
+const char *dmenuVideo[] ={"/home/pappanos/.config/scripts/dmenu_mpv_player.sh", NULL};
+const char *dmenuDoc[] ={"/home/pappanos/.config/scripts/documents.sh", NULL};
+const char *dmenuEq[] ={"/home/pappanos/.config/scripts/eq-profiles.sh", NULL};
+const char *dmenuManPage[] ={"/home/pappanos/.config/scripts/man.sh", NULL};
+const char *dmenuArchWiki[] ={"/home/pappanos/.config/scripts/wiki.sh", NULL};
+const char *dmenuRelaxingSounds[] ={"/home/pappanos/.config/scripts/RelaxingSounds.sh", NULL};
+const char *dmenuDictionary[] ={"/home/pappanos/.config/scripts/dictionary.sh", NULL};
+const char *dmenuSpellCheck[] ={"/home/pappanos/.config/scripts/spellcheck.sh", NULL};
 // not used
 // static const char *dmenuCmd[] = { "dmenu_run", "-c", "-F", "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbordercolor, "-sf", selfgcolor, NULL };
 // static const char *dmenuCmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 
 /* rofi */
-const char *rofiClipboard[] ={"/home/dwm-test/.config/scripts/ClipManager.sh", NULL}; // change the dwm-test with your username
-const char *rofiCalc[] ={"/home/dwm-test/.config/scripts/RofiCalc.sh", NULL}; // change the dwm-test with your username
-const char *rofiEmoji[] ={"/home/dwm-test/.config/scripts/RofiEmoji.sh", NULL}; // change the dwm-test with your username
-const char *rofiKeybinds[] ={"/home/dwm-test/.config/scripts/KeyBinds.sh", NULL}; // change the dwm-test with your username
-const char *rofiKeyHints[] ={"/home/dwm-test/.config/scripts/KeyHints.sh", NULL}; // change the dwm-test with your username
-const char *rofiWallpaper[] ={"/home/dwm-test/.config/scripts/WallpaperSelect.sh", NULL}; // change the dwm-test with your username
-const char *rofiQuit[] ={"/home/dwm-test/.config/rofi/powermenu/type-5/powermenu.sh", NULL}; // change the dwm-test with your username
-const char *rofiMusic[] ={"/home/dwm-test/.config/scripts/RofiBeats.sh", NULL}; // change the dwm-test with your username
-const char *rofiRun[] ={"rofi", "-show", "drun", NULL}; // change the dwm-test with your username
-const char *rofiWebSearch[] ={"/home/dwm-test/.config/scripts/websearch.sh", "-r", NULL}; // change the dwm-test with your username
-const char *rofiQuickEdit[] ={"/home/dwm-test/.config/scripts/QuickEdit.sh", NULL}; // change the dwm-test with your username
-const char *rofiDoc[] ={"/home/dwm-test/.config/scripts/documents.sh", "-r", NULL}; // change the dwm-test with your username
-const char *rofiEq[] ={"/home/dwm-test/.config/scripts/eq-profiles.sh", "-r", NULL}; // change the dwm-test with your username
-const char *rofiManPage[] ={"/home/dwm-test/.config/scripts/man.sh", "-r", NULL}; // change the dwm-test with your username
-const char *rofiArchWiki[] ={"/home/dwm-test/.config/scripts/wiki.sh", "-r", NULL}; // change the dwm-test with your username
-const char *rofiRelaxingSounds[] ={"/home/dwm-test/.config/scripts/RelaxingSounds.sh", "-r", NULL}; // change the dwm-test with your username
-const char *rofiDictionary[] ={"/home/dwm-test/.config/scripts/dictionary.sh", "-r", NULL}; // change the dwm-test with your username
-const char *rofiSpellCheck[] ={"/home/dwm-test/.config/scripts/spellcheck.sh", "-r", NULL}; // change the dwm-test with your username
+const char *rofiClipboard[] ={"/home/pappanos/.config/scripts/ClipManager.sh", NULL};
+const char *rofiCalc[] ={"/home/pappanos/.config/scripts/RofiCalc.sh", NULL};
+const char *rofiEmoji[] ={"/home/pappanos/.config/scripts/RofiEmoji.sh", NULL};
+const char *rofiKeybinds[] ={"/home/pappanos/.config/scripts/KeyBinds.sh", NULL};
+const char *rofiKeyHints[] ={"/home/pappanos/.config/scripts/KeyHints.sh", NULL};
+const char *rofiWallpaper[] ={"/home/pappanos/.config/scripts/WallpaperSelect.sh", NULL};
+const char *rofiQuit[] ={"/home/pappanos/.config/rofi/powermenu/type-5/powermenu.sh", NULL};
+const char *rofiMusic[] ={"/home/pappanos/.config/scripts/RofiBeats.sh", NULL};
+const char *rofiRun[] ={"rofi", "-show", "drun", NULL};
+const char *rofiWebSearch[] ={"/home/pappanos/.config/scripts/websearch.sh", "-r", NULL};
+const char *rofiQuickEdit[] ={"/home/pappanos/.config/scripts/QuickEdit.sh", NULL};
+const char *rofiDoc[] ={"/home/pappanos/.config/scripts/documents.sh", "-r", NULL};
+const char *rofiEq[] ={"/home/pappanos/.config/scripts/eq-profiles.sh", "-r", NULL};
+const char *rofiManPage[] ={"/home/pappanos/.config/scripts/man.sh", "-r", NULL};
+const char *rofiArchWiki[] ={"/home/pappanos/.config/scripts/wiki.sh", "-r", NULL};
+const char *rofiRelaxingSounds[] ={"/home/pappanos/.config/scripts/RelaxingSounds.sh", "-r", NULL};
+const char *rofiDictionary[] ={"/home/pappanos/.config/scripts/dictionary.sh", "-r", NULL};
+const char *rofiSpellCheck[] ={"/home/pappanos/.config/scripts/spellcheck.sh", "-r", NULL};
 // not used
 // static const char *rofi[] = {"rofi", "-show", "drun", "-theme", "~/.config/rofi/config.rasi", NULL};
-const char *rofiOldWebSearch[] ={"/home/dwm-test/.config/scripts/RofiSearch.sh", NULL}; // change the dwm-test with your username
+const char *rofiOldWebSearch[] ={"/home/pappanos/.config/scripts/RofiSearch.sh", NULL};
 
 /* scripts */
-const char *themeOnly[] ={"/home/dwm-test/.config/scripts/wallpaper-wal.sh", NULL}; // change the dwm-test with your username
-const char *idleToggle[] ={"/home/dwm-test/.config/scripts/x11-idle-inhibitor-toggle.sh", NULL}; // change the dwm-test with your username
-const char *BriUp[] ={"/home/dwm-test/.config/scripts/Brightness.sh", "--inc", NULL}; // change the dwm-test with your username
-const char *BriDown[] ={"/home/dwm-test/.config/scripts/Brightness.sh", "--dec", NULL}; // change the dwm-test with your username
-const char *BriKeyUp[] ={"/home/dwm-test/.config/scripts/BrightnessKbd.sh", "--inc", NULL}; // change the dwm-test with your username
-const char *BriKeyDown[] ={"/home/dwm-test/.config/scripts/BrightnessKbd.sh", "--dec", NULL}; // change the dwm-test with your username
-const char *VolUp[] ={"/home/dwm-test/.config/scripts/Volume.sh", "--inc", NULL}; // change the dwm-test with your username
-const char *VolDown[] ={"/home/dwm-test/.config/scripts/Volume.sh", "--dec", NULL}; // change the dwm-test with your username
-const char *VolToggle[] ={"/home/dwm-test/.config/scripts/Volume.sh", "--toggle", NULL}; // change the dwm-test with your username
-const char *MediaPrev[] ={"/home/dwm-test/.config/scripts/MediaCtrl.sh", "--prv", NULL}; // change the dwm-test with your username
-const char *MediaNext[] ={"/home/dwm-test/.config/scripts/MediaCtrl.sh", "--nxt", NULL}; // change the dwm-test with your username
-const char *MediaToggle[] ={"/home/dwm-test/.config/scripts/MediaCtrl.sh", "--pause", NULL}; // change the dwm-test with your username
-const char *MediaStop[] ={"/home/dwm-test/.config/scripts/MediaCtrl.sh", "--stop", NULL}; // change the dwm-test with your username
-const char *AirplaneMode[] ={"/home/dwm-test/.config/scripts/AirplaneMode.sh", NULL}; // change the dwm-test with your username
-const char *ColorPicker[] ={"/home/dwm-test/.config/scripts/screenshot_extra_features.sh", "color", NULL}; // change the dwm-test with your username
-const char *GenearlAudioOutSwitch[] ={"/home/dwm-test/.config/scripts/audio_output_switch.sh", NULL}; // change the dwm-test with your username
-const char *PersonalAudioOutSwitch[] ={"/home/dwm-test/.config/scripts/dmenu_audioswitch_prev.sh", NULL}; // change the dwm-test with your username
-const char *ForceKillActive[] ={"/home/dwm-test/.config/scripts/KillActiveProcess.sh", NULL}; // change the dwm-test with your username
-const char *ScreenShotSel[] ={"/home/dwm-test/.config/scripts/screenshot_extra_features.sh", NULL}; // change the dwm-test with your username
-const char *ScreenShotScreen[] ={"/home/dwm-test/.config/scripts/screenshot_extra_features.sh", "full", NULL}; // change the dwm-test with your username
-const char *RecordSelNoAudio[] ={"/home/dwm-test/.config/scripts/record.sh", "-s", NULL}; // change the dwm-test with your username
-const char *RecordSelAudio[] ={"/home/dwm-test/.config/scripts/record.sh", "-as", NULL}; // change the dwm-test with your username
-const char *RecordScreenNoAudio[] ={"/home/dwm-test/.config/scripts/record.sh", NULL}; // change the dwm-test with your username
-const char *RecordScreenAudio[] ={"/home/dwm-test/.config/scripts/record.sh", "-a", NULL}; // change the dwm-test with your username
+const char *themeOnly[] ={"/home/pappanos/.config/scripts/wallpaper-wal.sh", NULL};
+const char *idleToggle[] ={"/home/pappanos/.config/scripts/x11-idle-inhibitor-toggle.sh", NULL};
+const char *BriUp[] ={"/home/pappanos/.config/scripts/Brightness.sh", "--inc", NULL};
+const char *BriDown[] ={"/home/pappanos/.config/scripts/Brightness.sh", "--dec", NULL};
+const char *BriKeyUp[] ={"/home/pappanos/.config/scripts/BrightnessKbd.sh", "--inc", NULL};
+const char *BriKeyDown[] ={"/home/pappanos/.config/scripts/BrightnessKbd.sh", "--dec", NULL};
+const char *VolUp[] ={"/home/pappanos/.config/scripts/Volume.sh", "--inc", NULL};
+const char *VolDown[] ={"/home/pappanos/.config/scripts/Volume.sh", "--dec", NULL};
+const char *VolToggle[] ={"/home/pappanos/.config/scripts/Volume.sh", "--toggle", NULL};
+const char *MediaPrev[] ={"/home/pappanos/.config/scripts/MediaCtrl.sh", "--prv", NULL};
+const char *MediaNext[] ={"/home/pappanos/.config/scripts/MediaCtrl.sh", "--nxt", NULL};
+const char *MediaToggle[] ={"/home/pappanos/.config/scripts/MediaCtrl.sh", "--pause", NULL};
+const char *MediaStop[] ={"/home/pappanos/.config/scripts/MediaCtrl.sh", "--stop", NULL};
+const char *AirplaneMode[] ={"/home/pappanos/.config/scripts/AirplaneMode.sh", NULL};
+const char *ColorPicker[] ={"/home/pappanos/.config/scripts/screenshot_extra_features.sh", "color", NULL};
+const char *GenearlAudioOutSwitch[] ={"/home/pappanos/.config/scripts/audio_output_switch.sh", NULL};
+const char *PersonalAudioOutSwitch[] ={"/home/pappanos/.config/scripts/dmenu_audioswitch_prev.sh", NULL};
+const char *ForceKillActive[] ={"/home/pappanos/.config/scripts/KillActiveProcess.sh", NULL};
+const char *ScreenShotSel[] ={"/home/pappanos/.config/scripts/screenshot_extra_features.sh", NULL};
+const char *ScreenShotScreen[] ={"/home/pappanos/.config/scripts/screenshot_extra_features.sh", "full", NULL};
+const char *RecordSelNoAudio[] ={"/home/pappanos/.config/scripts/record.sh", "-s", NULL};
+const char *RecordSelAudio[] ={"/home/pappanos/.config/scripts/record.sh", "-as", NULL};
+const char *RecordScreenNoAudio[] ={"/home/pappanos/.config/scripts/record.sh", NULL};
+const char *RecordScreenAudio[] ={"/home/pappanos/.config/scripts/record.sh", "-a", NULL};
 // not used
 
 static const Key keys[] = {
@@ -316,6 +316,9 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_n,      spawn,                 {.v = MediaNext} },
 	{ MODKEY|ShiftMask,             XK_p,      spawn,                 {.v = MediaPrev} },
 	{ MODKEY|ControlMask,           XK_p,      spawn,                 {.v = MediaToggle} },
+	{ 0,                            XF86XK_AudioNext,          spawn, {.v = MediaNext} },
+	{ 0,                            XF86XK_AudioPrev,          spawn, {.v = MediaPrev} },
+	{ 0,                            XF86XK_AudioPlay,          spawn, {.v = MediaToggle} },
 	{ MODKEY|Mod1Mask,              XK_space,  spawn,                 {.v = MediaStop} },
 	{ MODKEY|Mod1Mask,              XK_a,      spawn,                 {.v = AirplaneMode} },
 	{ MODKEY|ShiftMask,             XK_a,      spawn,                 {.v = GenearlAudioOutSwitch} },

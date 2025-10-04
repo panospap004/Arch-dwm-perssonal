@@ -50,7 +50,7 @@ The following OPTIONS are accepted:
 Running $(basename "$0") without any argument defaults to using 'dmenu'
 
 PDF viewer: $PDF_VIEWER
-Search depth: 4 levels from home directory"
+Search depth: 6 levels from home directory"
 }
 
 main() {
@@ -59,11 +59,11 @@ main() {
         err "PDF viewer '${PDF_VIEWER}' is required but not installed"
     fi
 
-    # Find PDF files in home directory (max depth 4 to avoid too many results)
-    files="$(find "$HOME" -maxdepth 4 -iname "*.pdf" 2>/dev/null)"
+    # Find PDF files in home directory (max depth 6 to avoid too many results)
+    files="$(find "$HOME" -maxdepth 6 -iname "*.pdf" 2>/dev/null)"
     
     if [ -z "$files" ]; then
-        err "No PDF files found in home directory (searched 4 levels deep)"
+        err "No PDF files found in home directory (searched 6 levels deep)"
     fi
 
     # Format the file list for display

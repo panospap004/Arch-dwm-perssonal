@@ -877,8 +877,6 @@ cd ~/git
 git clone https://github.com/panospap004/Obsidian.git
 cd ~
 # Install Applications
-sudo snap install notion-snap-reborn 
-sudo snap install notion-calendar-snap 
 npm install --include=optional sharp
 npm rebuild
 npm cache clean --force
@@ -919,11 +917,6 @@ cd ~
 
 git clone https://github.com/RobLoach/raylib-tmx.git
 
-yay -S spotify
-yay -S spicetify-cli
-spicetify backup apply
-curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
-
 git clone https://github.com/RobLoach/raylib-cpp.git
 cd raylib-cpp
 mkdir build
@@ -933,13 +926,19 @@ make
 make test
 cd ~
 
+yay -S spotify
+yay -S spicetify-cli
+spicetify backup apply
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+
 # Install Spotify & Spicetify
 sudo chmod a+wr /opt/spotify
 sudo chmod -R a+wr /opt/spotify/apps
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-sudo pacman -S emacs perl sassc sqlite typescript typescript-language-server tailwindcss-language-server go-tools zig lua love go rust ruby gvfs-mtp gvfs-gphoto2 vivaldi vivaldi-ffmpeg-codecs clang cppdap ddcutil debugedit ebook-tools gradle grep ripgrep fd jq gzip unzip 7zip unrar p7zip ark zig ntfs-3g ldb lld llvm lmdb make cmake xmake premake ninja mariadb mariadb-clients mariadb-libs yarn ydotool vim neovim fish libvips zram-generator xdg-utils ueberzug rz-cutter retroarch-assets-xmb retroarch-assets-ozone retroarch-assets-glui retroarch renderdoc raylib python python-pytest-mpl python-pygments python-pipx python-pip python-pandas python-matplotlib python-ipympl network-manager-applet netctl less kate htop flatpak fisher base amberol perl-image-exiftool perl-image-exiftool mediainfo imagemagick gnome-epub-thumbnailer zoxide ffmpeg yazi trash-cli atuin docker ollama gutenprint system-config-printer cups cups-pdf zed lutris git lazygit gnome-disk-utility gwenview fastfetch btop wine wine-mono wine-gecko winetricks nodejs npm vlc fzf tldr lsd bat dolphin thunar nautilus audacity blender cool-retro-term discord fbreader gimp godot flameshot gparted krita inkscape kitty libreoffice lmms swi-prolog lolcat obsidian steam okular thunderbird tiled wacomtablet lldb mingw-w64-winpthreads mingw-w64-headers mingw-w64-crt mingw-w64-gcc mingw-w64 mingw-w64-binutils starship jdk17-openjdk jdk21-openjdk jdk-openjdk openjdk-src nodejs libvips
+sudo pacman -S superfile emacs perl sassc sqlite typescript typescript-language-server tailwindcss-language-server go-tools zig lua love go rust ruby gvfs-mtp gvfs-gphoto2 vivaldi vivaldi-ffmpeg-codecs clang cppdap ddcutil debugedit ebook-tools gradle grep ripgrep fd jq gzip unzip 7zip unrar p7zip ark zig ntfs-3g ldb lld llvm lmdb make cmake xmake premake ninja mariadb mariadb-clients mariadb-libs yarn ydotool vim neovim fish libvips zram-generator xdg-utils ueberzug rz-cutter retroarch-assets-xmb retroarch-assets-ozone retroarch-assets-glui retroarch renderdoc raylib python python-pytest-mpl python-pygments python-pipx python-pip python-pandas python-matplotlib python-ipympl network-manager-applet netctl less kate htop flatpak fisher base amberol perl-image-exiftool perl-image-exiftool mediainfo imagemagick gnome-epub-thumbnailer zoxide ffmpeg yazi trash-cli atuin docker ollama gutenprint system-config-printer cups cups-pdf zed lutris git lazygit gnome-disk-utility gwenview fastfetch btop wine wine-mono wine-gecko winetricks nodejs npm vlc fzf tldr lsd bat dolphin thunar nautilus audacity blender cool-retro-term discord fbreader gimp godot flameshot gparted krita inkscape kitty libreoffice lmms swi-prolog lolcat obsidian steam okular thunderbird tiled wacomtablet lldb mingw-w64-winpthreads mingw-w64-headers mingw-w64-crt mingw-w64-gcc mingw-w64 mingw-w64-binutils starship jdk17-openjdk jdk21-openjdk jdk-openjdk openjdk-src nodejs libvips
 
-yay -S msty-bin localsend-bin eclipse-clp projog pokemon-colorscripts-git cnijfilter2 zen-browser-bin oatmeal-bin heroic-games-launcher-bin famistudio-bin koodo-reader-bin webex-bin youtube-dl-gui aseprite-bin raylib-cpp-git betterdiscord-git cht.sh-git scangearmp2 docker-desktop nodejs-live-server oterm bolt-launcher vesktop mingw-w64-raylib playonlinux csharp-ls jdk bottles beeref cavalier sublime-text-4 gitkraken stremio wacom-settings lib32-vulkan-tools nodejs-live-server opentabletdriver notion-app-electron
+yay -S claude-desktop cursor-bin msty-bin localsend-bin eclipse-clp projog pokemon-colorscripts-git cnijfilter2 zen-browser-bin oatmeal-bin heroic-games-launcher-bin famistudio-bin koodo-reader-bin webex-bin youtube-dl-gui aseprite-bin raylib-cpp-git betterdiscord-git cht.sh-git scangearmp2 docker-desktop nodejs-live-server oterm bolt-launcher vesktop mingw-w64-raylib playonlinux csharp-ls jdk bottles beeref cavalier sublime-text-4 gitkraken stremio wacom-settings lib32-vulkan-tools nodejs-live-server opentabletdriver notion-app-electron notion-calendar-electron
 
 #+end_src
 
@@ -965,27 +964,7 @@ ollama pull llama3:8b-instruct-q8_0
 #+end_src
 
 - snap: 
-+ bare
-+ core18
-+ core20
-+ core22
-+ gnome-3-28-1804
-+ gtk-common-themes
 + notesnook
-+ notion-calendar-snap
-+ snapd
-
-- brew:
-+ binutils
-+ gcc
-+ gmp
-+ isl
-+ libmpc
-+ lz4
-+ mpfr
-+ xz
-+ zlib
-+ zstd
 
 - flatpal:
 + proton vpn
@@ -1069,100 +1048,6 @@ g++ -o main main.cpp -O1 -Wall -L ./lib/ -lraylib
 cargo run
 
   #+end_src
-
-# Config directories
-IFS=$'\n'
-DIRS=(
-  "anythingllm-desktop"
-  "atuin"
-  "bat"
-  "BetterDiscord"
-  "BetterDiscord Installer"
-  "bolt-launcher"
-  "BraveSoftware"
-  "cool-retro-term"
-  "discord"
-  "fish"
-  "fontconfig"
-  "github-copilot"
-  "godot"
-  "gtk-3.0"
-  "gtk-4.0"
-  "heroic"
-  "kate"
-  "KDE"
-  "kdedefaults"
-  "koodo-reader"
-  "lazygit"
-  "LazyVim-moded"
-  "lvim"
-  "moosync"
-  "nora"
-  "nvim"
-  "OpenTabletDriver"
-  "QtProject"
-  "ranger"
-  "Slack"
-  "vesktop"
-  "vivaldi"
-  "yazi"
-  "youtube-dl-gui"
-  "zed"
-)
-
-# Handle individual files in .config
-FILES=(
-  "kritadisplayrc"
-  "kritarc"
-  "kritashortcutsrc"
-  "okularpartrc"
-  "okularrc"
-  "PureRef.ini"
-  "starship.toml"
-  "starship_backup.toml"
-  "starship_secondary.toml"
-  "user-dirs.locale"
-)
-
-# Directory Copying (HomeFolder)
-DIRS_HOME=(
-  ".codeium"
-  ".icons"
-  ".thunderbird"
-  ".youtube-dl-gui"
-  ".zen"
-  "Desktop"
-  "Downloads"
-  "oh-my-zsh"
-  "pc-zsh-bash"
-)
-
-# Handle files in the home directory
-FILES=(
-  ".azotebg-hyprland"
-  ".bash_history"
-  ".bash_logout"
-  ".bash_profile"
-  ".bashrc"
-  ".bashrc.bak"
-  ".nvidia-settings-rc"
-  ".screenrc"
-  ".viminfo"
-  ".zcompdump-pappanos-x1carbon-5.9"
-  ".zcompdump-pappanos-x1carbon-5.9.zwc"
-  ".zsh_history"
-  ".zshenv"
-  ".zshrc"
-  ".zshrc.bak"
-  "main-edge-tabs.json"
-)
-
-remove_vivaldi_lock(){
-  rm ~/.config/vivaldi/SingletonLock
-  rm ~/.config/vivaldi/SingletonCookie
-  rm ~/.config/vivaldi/SingletonSocket
-}
-remove_vivaldi_lock
 
 - emacsclient and app launcher make the following 
   #+begin_src shell

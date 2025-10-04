@@ -1,4 +1,3 @@
-
 * READ THE COMPLETE README OR YOU WILL HAVE ISSUES
 - *When you download and use one of the configs before you start copying folders open the config and rename all the lines from dwm-test to your username there are several files that use hardcoded paths so they need fixing before using*
 - Also to see keybinds there are 2 option 

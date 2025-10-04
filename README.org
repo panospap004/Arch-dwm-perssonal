@@ -4,6 +4,11 @@
   + windowsKey+/ to be able to search but less clear
   + WindowsKey+shift+/ For more clear but not searchable
 - dont forget to chmod +x all the scripts you use 
+  + you can do it by going in the config folder you want to use and run 
+    #+begin_src shell
+    find . -type f -name "*.sh" -exec chmod +x {} \;
+    find . -type f -name "*.py" -exec chmod +x {} \;
+    #+end_src
 * Initial step 
 when isntalling arch with arch installer, in the options 
   1. loginmanager use sddm

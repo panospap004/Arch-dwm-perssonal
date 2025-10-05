@@ -1,0 +1,5 @@
+2025/09/14-19:27:10.455 a99aa Creating DB /home/pappanos/.config/claude-desktop/Session Storage since it was missing.
+2025/09/14-19:27:10.470 a99aa Reusing MANIFEST /home/pappanos/.config/claude-desktop/Session Storage/MANIFEST-000001
+2025/09/15-15:45:46.816 a99aa Level-0 table #5: started
+2025/09/15-15:45:46.821 a99aa Level-0 table #5: 12417 bytes OK
+2025/09/15-15:45:46.826 a99aa Delete type=0 #3

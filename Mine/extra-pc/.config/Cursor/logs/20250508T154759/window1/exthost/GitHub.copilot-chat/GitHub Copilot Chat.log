@@ -1,0 +1,24 @@
+2025-05-08 15:48:20.019 [info] Using the Electron fetcher.
+2025-05-08 15:48:20.019 [info] Initializing Git extension service.
+2025-05-08 15:48:20.019 [info] Successfully activated the vscode.git extension.
+2025-05-08 15:48:20.019 [info] Enablement state of the vscode.git extension: true.
+2025-05-08 15:48:20.019 [info] Successfully registered Git commit message provider.
+2025-05-08 15:48:21.785 [info] Logged in as panospap004
+2025-05-08 15:48:22.496 [info] Got Copilot token for panospap004
+2025-05-08 15:48:22.619 [info] copilot token chat_enabled: true, sku: free_educational
+2025-05-08 15:48:22.619 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-08 15:48:22.660 [info] Registering default platform agent...
+2025-05-08 15:48:23.192 [info] Fetched model metadata in 672ms ca1aba21-636e-4825-9dde-5a519957e0b0
+2025-05-08 15:48:23.321 [info] activationBlocker from 'languageModelAccess' took for 3326ms
+2025-05-08 15:48:45.368 [info] Using the Electron fetcher.
+2025-05-08 15:48:45.368 [info] Initializing Git extension service.
+2025-05-08 15:48:45.368 [info] Successfully activated the vscode.git extension.
+2025-05-08 15:48:45.368 [info] Enablement state of the vscode.git extension: true.
+2025-05-08 15:48:45.368 [info] Successfully registered Git commit message provider.
+2025-05-08 15:48:48.674 [info] Logged in as panospap004
+2025-05-08 15:48:49.185 [info] Got Copilot token for panospap004
+2025-05-08 15:48:49.417 [info] copilot token chat_enabled: true, sku: free_educational
+2025-05-08 15:48:49.417 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-08 15:48:49.444 [info] Registering default platform agent...
+2025-05-08 15:48:49.551 [info] Fetched model metadata in 354ms c9e42433-8f0c-4cf6-8f84-d18db8756f06
+2025-05-08 15:48:49.559 [info] activationBlocker from 'languageModelAccess' took for 4047ms

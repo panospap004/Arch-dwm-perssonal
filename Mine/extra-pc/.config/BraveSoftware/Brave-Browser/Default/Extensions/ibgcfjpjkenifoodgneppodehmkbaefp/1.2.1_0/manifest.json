@@ -1,0 +1,26 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "ga.min.js", "browser-polyfill.min.js", "background.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": "/images/logo-128.png",
+      "default_title": "Tab Session Master"
+   },
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'; img-src * data:;",
+   "default_locale": "en",
+   "description": "Save and restore the state of windows and tabs. It also supports automatic backup your current session",
+   "icons": {
+      "128": "/images/logo-128.png",
+      "16": "/images/logo-16.png",
+      "48": "/images/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiFukZXQPHa0DfMECI7AeTxdXTV0Rt2Z8uaSw7wan4T9hO5pxz9k8uNErjcTJPmIXQbcYnymUjEbpifxYt6XV38g2cW8K3SxxF3AoQlPxbOnZ1I1awl/xPjbte51GbNHT9wTS9ZY4H/YfB34Cdp9McyXMjIzA9x9vzSiCKfj+jlQn6SYM8fDL7SKm9OHb5MI/kKjb9WqWE3/Mi49owY1gvAZUpLa+mc29tGlkEAt4qs2rgHXhneJvRiHkWfQlOfEzFkqQOstGJ0G37lABG22s0EXKWb3VMYujp5K7FyxIbEzVvABKtYr/wUMwUTP2MkoJ8ClXoxwc+JrZ9cSmr7QM6wIDAQAB",
+   "manifest_version": 2,
+   "name": "Tab Session Master",
+   "optional_permissions": [ "bookmarks" ],
+   "permissions": [ "tabs", "storage", "contextMenus", "notifications", "alarms", "activeTab" ],
+   "short_name": "Tab Session Master",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.1"
+}

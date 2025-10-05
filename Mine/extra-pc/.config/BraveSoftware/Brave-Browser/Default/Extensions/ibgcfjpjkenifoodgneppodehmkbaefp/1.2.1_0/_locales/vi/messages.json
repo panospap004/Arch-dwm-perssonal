@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Sao lưu và quản lý phiên truy cập Web của bạn. Hệ thống tự động sao lưu không làm mất dữ liệu đột ngột"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Tab Session Master"
+   }
+}

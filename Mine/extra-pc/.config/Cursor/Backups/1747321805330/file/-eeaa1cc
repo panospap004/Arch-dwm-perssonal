@@ -1,0 +1,31 @@
+file:///etc/nftables.conf {"mtime":1747321505134,"ctime":1747321505134,"size":0,"etag":"3e8fp2fo80","orphaned":false,"typeId":""}
+#!/usr/bin/nft -f
+# vim:set ts=2 sw=2 et:
+
+# IPv4/IPv6 Simple & Safe firewall ruleset.
+# More examples in /usr/share/nftables/ and /usr/share/doc/nftables/examples/.
+
+destroy table inet filter
+table inet filter {
+  chain input {
+    type filter hook input priority filter
+    policy drop
+
+    ct state invalid drop comment "early drop of invalid connections"
+    ct state {established, related} accept comment "allow tracked connections"
+    iif lo accept comment "allow from loopback"
+    ip protocol icmp accept comment "allow icmp"
+    meta l4proto ipv6-icmp accept comment "allow icmp v6"
+    tcp dport ssh accept comment "allow sshd"
+    pkttype host limit rate 5/second counter reject with icmpx type admin-prohibited
+    counter
+    iif "lo" accept
+    ct state established,related accept
+    tcp dport { 47984-48010 } accept
+    udp dport { 47998-48002, 48010 } accept
+  }
+  chain forward {
+    type filter hook forward priority filter
+    policy drop
+  }
+}

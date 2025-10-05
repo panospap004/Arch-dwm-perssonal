@@ -1,0 +1,23 @@
+2025-05-07 20:58:52.021 [error] Failed to initialize Puppeteer browser: Cannot find module 'puppeteer'
+Require stack:
+- /opt/cursor/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js
+- /opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+2025-05-07 20:58:52.021 [error] Error: Cannot find module 'puppeteer'
+Require stack:
+- /opt/cursor/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js
+- /opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1232:15)
+    at Function.n._resolveFilename (node:electron/js2c/utility_init:2:16068)
+    at Function.t._resolveFilename (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:187:22877)
+    at Module._load (node:internal/modules/cjs/loader:1058:27)
+    at Function.c._load (node:electron/js2c/node_init:2:16955)
+    at Function.i._load (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:10964)
+    at Function.t._load (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:187:22595)
+    at Function.s._load (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:179:21601)
+    at Module.require (node:internal/modules/cjs/loader:1318:19)
+    at Module.require (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:238:34657)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.758 (/opt/cursor/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:4:2843228)
+    at i (/opt/cursor/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:4:3524675)
+    at /opt/cursor/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:4:2423331
+    at A.PuppeteerService.initializeBrowser (/opt/cursor/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:4:2423295)

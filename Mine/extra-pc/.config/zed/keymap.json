@@ -1,0 +1,36 @@
+// custom keymap example
+//[
+//  {
+//    "context": "Editor",
+//    "bindings": {
+//     "ctrl-w": "editor::SelectLargerSyntaxNode",
+//     "ctrl-shift-W": "editor::SelectSmallerSyntaxNode",
+//      "ctrl-c": "editor::Cancel"
+//    }
+//  }
+//]
+//
+// vim keybinds example
+//
+// [
+//  {
+//    "context": "VimControl && !menu",
+//    "bindings": {
+// put key-bindings here if you want them to work in normal & visual mode
+//    }
+//  },
+//  {
+//    "context": "vim_mode == insert",
+//    "bindings": {
+// "j k": "vim::NormalBefore" // remap jk in insert mode to escape.
+//    }
+//  },
+//  {
+//    "context": "EmptyPane || SharedScreen",
+//    "bindings": {
+// put key-bindings here (in addition to above) if you want them to
+// work when no editor exists
+// "space f": "file_finder::Toggle"
+//    }
+//  }
+//]

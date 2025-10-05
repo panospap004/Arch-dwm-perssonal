@@ -1,0 +1,590 @@
+2025-05-07 20:36:16.013 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.013 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.018 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.018 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.019 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.019 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.019 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.020 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-wsl' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.020 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-ssh' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.020 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-containers' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.020 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-tunnels' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.021 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cpptools' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.022 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cursorpyright' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:36:16.077 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.077 [warning] Missing property "mcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.077 [warning] Missing property "availableDefaultModels2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.078 [warning] Missing property "notepadState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.080 [warning] Missing property "bugbotState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.081 [warning] Missing property "backgroundComposerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.081 [warning] Missing property "dialogDontAskAgainPreferences" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.082 [warning] Missing property "aiFeaturesCopyPasteState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.082 [warning] Missing property "cursorIgnore" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.083 [warning] Missing property "teamAdminSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.083 [warning] Missing property "shouldShowViewZoneWhenPreviewBoxIsClipped6" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.084 [warning] Missing property "syncDevModeColorTheme" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.084 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.084 [warning] Missing property "isLinterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.085 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.085 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.085 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.085 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.086 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.086 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.086 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.087 [warning] Missing property "contextBankUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.087 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.087 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.087 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.088 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.088 [warning] Missing property "bcProxyUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.088 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.089 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.089 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.089 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.089 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.090 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.091 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.091 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.092 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.092 [warning] Missing property "cacheChatPrompts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.093 [warning] Missing property "cmdkDiffHistoryEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.093 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.094 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.095 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.095 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.095 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.095 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.095 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.096 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.096 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.097 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.098 [warning] Missing property "cppInCmdF" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.098 [warning] Missing property "cppManualTriggerWithOpToken" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.098 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.098 [warning] Missing property "cppShowWhitespaceOnlyChanges" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.099 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.099 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.099 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.099 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.099 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.100 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.100 [warning] Missing property "autoCreateNewChatAfterTimeout" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.100 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.100 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.101 [warning] Missing property "isFileSyncClientEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.101 [warning] Missing property "membershipType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.102 [warning] Missing property "useFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.102 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.102 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.103 [warning] Missing property "aiCursorHelpEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.103 [warning] Missing property "showAllCmdKContexts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.103 [warning] Missing property "markdownTestString" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.103 [warning] Missing property "cppInPeek" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.103 [warning] Missing property "fastSemanticSearchEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.104 [warning] Missing property "preferredEmbeddingModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.104 [warning] Missing property "cursorPredictionUIExperiments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.104 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.104 [warning] Missing property "indexingState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.105 [warning] Missing property "internalAnalyticsDebugMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.105 [warning] Missing property "fullContextOptions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.105 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.105 [warning] Missing property "goneThroughCodeSnippetOnboarding" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.106 [warning] Missing property "goneThroughCodeSnippetChangeManagement" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.107 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.107 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.107 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.108 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.108 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.108 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.109 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.109 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.109 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.109 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:16.110 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:17.599 [info] Started initializing default profile extensions in extensions installation folder. file:///home/pappanos/.cursor/extensions
+2025-05-07 20:36:18.692 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/pappanos/.cursor/extensions
+2025-05-07 20:36:19.381 [info] Started local extension host with pid 2430252.
+2025-05-07 20:36:22.561 [error] [Extension Host] (node:2430252) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-07 20:36:22.918 [info] [perf] Render performance baseline is 45ms
+2025-05-07 20:36:26.291 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-07 20:36:26.292 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-07 20:36:26.292 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-07 20:36:26.434 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2510:204519)
+    at async Object.availableDocs (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async yHt.availableDocs (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:600:43356)
+    at async mYt.z (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:935:95980) [unauthenticated] Error
+2025-05-07 20:36:26.435 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2510:204519)
+    at async Object.cppEditHistoryStatus (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async RPi.pollTelemEnabled (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5005:22237) [unauthenticated] Error
+2025-05-07 20:36:26.441 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2510:204519)
+    at async Object.availableDocs (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async yHt.availableDocs (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:600:43356)
+    at async Object.fn (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5006:43616) [unauthenticated] Error
+2025-05-07 20:36:26.441 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2510:204519)
+    at async Object.availableModels (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async EPi.keepCppModelStateUpdated (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4980:11879)
+    at async EPi.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4995:1027) [unauthenticated] Error
+2025-05-07 20:36:26.442 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2510:204519)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async yHt.performDefaultModelRequest (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:600:44119) [unauthenticated] Error
+2025-05-07 20:36:26.950 [info] Starting polling for login
+2025-05-07 20:36:27.149 [info] Beginning of Login Poll
+2025-05-07 20:36:27.348 [info] Beginning of Login Poll
+2025-05-07 20:36:27.416 [info] Got login result 404
+2025-05-07 20:36:27.548 [info] Beginning of Login Poll
+2025-05-07 20:36:27.662 [info] Got login result 404
+2025-05-07 20:36:27.750 [info] Beginning of Login Poll
+2025-05-07 20:36:27.766 [info] Got login result 404
+2025-05-07 20:36:27.906 [info] Got login result 404
+2025-05-07 20:36:27.952 [info] Beginning of Login Poll
+2025-05-07 20:36:28.116 [info] Got login result 404
+2025-05-07 20:36:28.149 [info] Beginning of Login Poll
+2025-05-07 20:36:28.301 [info] Got login result 404
+2025-05-07 20:36:28.359 [info] Beginning of Login Poll
+2025-05-07 20:36:28.557 [info] Beginning of Login Poll
+2025-05-07 20:36:28.563 [info] Got login result 404
+2025-05-07 20:36:28.716 [info] Got login result 404
+2025-05-07 20:36:28.752 [info] Beginning of Login Poll
+2025-05-07 20:36:28.926 [info] Got login result 404
+2025-05-07 20:36:28.958 [info] Beginning of Login Poll
+2025-05-07 20:36:29.100 [info] Got login result 404
+2025-05-07 20:36:29.166 [info] Beginning of Login Poll
+2025-05-07 20:36:29.312 [info] Got login result 404
+2025-05-07 20:36:29.940 [info] Beginning of Login Poll
+2025-05-07 20:36:30.086 [info] Got login result 404
+2025-05-07 20:36:30.932 [info] Beginning of Login Poll
+2025-05-07 20:36:31.081 [info] Got login result 404
+2025-05-07 20:36:31.930 [info] Beginning of Login Poll
+2025-05-07 20:36:32.100 [info] Got login result 404
+2025-05-07 20:36:32.937 [info] Beginning of Login Poll
+2025-05-07 20:36:33.079 [info] Got login result 404
+2025-05-07 20:36:33.934 [info] Beginning of Login Poll
+2025-05-07 20:36:34.087 [info] Got login result 404
+2025-05-07 20:36:34.944 [info] Beginning of Login Poll
+2025-05-07 20:36:35.209 [info] Got login result 404
+2025-05-07 20:36:35.932 [info] Beginning of Login Poll
+2025-05-07 20:36:36.128 [info] Got login result 404
+2025-05-07 20:36:36.931 [info] Beginning of Login Poll
+2025-05-07 20:36:37.074 [info] Got login result 404
+2025-05-07 20:36:37.931 [info] Beginning of Login Poll
+2025-05-07 20:36:38.097 [info] Got login result 404
+2025-05-07 20:36:38.931 [info] Beginning of Login Poll
+2025-05-07 20:36:39.076 [info] Got login result 404
+2025-05-07 20:36:39.933 [info] Beginning of Login Poll
+2025-05-07 20:36:40.078 [info] Got login result 404
+2025-05-07 20:36:40.931 [info] Beginning of Login Poll
+2025-05-07 20:36:41.074 [info] Got login result 404
+2025-05-07 20:36:41.932 [info] Beginning of Login Poll
+2025-05-07 20:36:42.077 [info] Got login result 404
+2025-05-07 20:36:42.930 [info] Beginning of Login Poll
+2025-05-07 20:36:43.070 [info] Got login result 404
+2025-05-07 20:36:43.935 [info] Beginning of Login Poll
+2025-05-07 20:36:44.117 [info] Got login result 404
+2025-05-07 20:36:44.936 [info] Beginning of Login Poll
+2025-05-07 20:36:45.144 [info] Got login result 404
+2025-05-07 20:36:45.942 [info] Beginning of Login Poll
+2025-05-07 20:36:46.080 [info] Got login result 404
+2025-05-07 20:36:46.932 [info] Beginning of Login Poll
+2025-05-07 20:36:47.194 [info] Got login result 404
+2025-05-07 20:36:47.932 [info] Beginning of Login Poll
+2025-05-07 20:36:48.115 [info] Got login result 200
+2025-05-07 20:36:48.123 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKVE5YNEM3UDRZQk1TVkdOWkNFTjhGMEUiLCJ0aW1lIjoiMTc0NjYzOTQwOCIsInJhbmRvbW5lc3MiOiJjODQwYjdkOS04ZTliLTQ3NzMiLCJleHAiOjE3NTE4MjM0MDgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.hlFP3sTT9uFd2BHiRSyptU6JZCGSyMKY4npH_Ri6XcQ","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKVE5YNEM3UDRZQk1TVkdOWkNFTjhGMEUiLCJ0aW1lIjoiMTc0NjYzOTQwOCIsInJhbmRvbW5lc3MiOiJjODQwYjdkOS04ZTliLTQ3NzMiLCJleHAiOjE3NTE4MjM0MDgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.hlFP3sTT9uFd2BHiRSyptU6JZCGSyMKY4npH_Ri6XcQ","challenge":"3KPwMmja6enxgQ9hb942BJ6kpZfiPYwI85WBdsVTur4","authId":"google-oauth2|user_01JTNX4C7P4YBMSVGNZCEN8F0E","uuid":"3fd2eda7-f79c-4e6a-97da-c8ff9f578041"}
+2025-05-07 20:36:48.940 [info] Beginning of Login Poll
+2025-05-07 20:36:49.089 [info] Got login result 200
+2025-05-07 20:36:49.090 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKVE5YNEM3UDRZQk1TVkdOWkNFTjhGMEUiLCJ0aW1lIjoiMTc0NjYzOTQwOCIsInJhbmRvbW5lc3MiOiJjODQwYjdkOS04ZTliLTQ3NzMiLCJleHAiOjE3NTE4MjM0MDgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.hlFP3sTT9uFd2BHiRSyptU6JZCGSyMKY4npH_Ri6XcQ","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKVE5YNEM3UDRZQk1TVkdOWkNFTjhGMEUiLCJ0aW1lIjoiMTc0NjYzOTQwOCIsInJhbmRvbW5lc3MiOiJjODQwYjdkOS04ZTliLTQ3NzMiLCJleHAiOjE3NTE4MjM0MDgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.hlFP3sTT9uFd2BHiRSyptU6JZCGSyMKY4npH_Ri6XcQ","challenge":"3KPwMmja6enxgQ9hb942BJ6kpZfiPYwI85WBdsVTur4","authId":"google-oauth2|user_01JTNX4C7P4YBMSVGNZCEN8F0E","uuid":"3fd2eda7-f79c-4e6a-97da-c8ff9f578041"}
+2025-05-07 20:36:51.107 [warning] Missing property "defaultModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:36:51.112 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:37:13.963 [error] [network] #3: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:37:14.606 [error] [network] #4: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:37:15.470 [error] [network] #6: https://marketplace.cursorapi.com/Catppuccin/catppuccin-vsc/3.17.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.471 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.480 [error] [network] #8: https://marketplace.cursorapi.com/ftsamoyed/theme-pink-cat-boo/1.3.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.482 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.484 [error] [network] #7: https://marketplace.cursorapi.com/Catppuccin/catppuccin-vsc-icons/1.21.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.485 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.489 [error] [network] #9: https://marketplace.cursorapi.com/antfu/icons-carbon/0.2.6/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.490 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.492 [error] [network] #10: https://marketplace.cursorapi.com/AlexDauenhauer/catppuccin-noctis/3.1.5/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.493 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.495 [error] [network] #15: https://marketplace.cursorapi.com/kenan-salar/calmppuccin-vscode/1.3.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.496 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.504 [error] [network] #16: https://marketplace.cursorapi.com/Pustur/calamity-vscode/1.2.9/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.512 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.514 [error] [network] #12: https://marketplace.cursorapi.com/pascalpixel/cameo/1.4.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.518 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.524 [error] [network] #14: https://marketplace.cursorapi.com/vincentriemer-vsc/vscode-theme-catalina/0.0.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.525 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.527 [error] [network] #13: https://marketplace.cursorapi.com/thang-nm/catppuccin-perfect-icons/0.21.33/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.527 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.529 [error] [network] #24: https://marketplace.cursorapi.com/vlchristos/carnation-vscode-theme/0.1.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.530 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.532 [error] [network] #25: https://marketplace.cursorapi.com/rampus-bit/cascade/1.2.5/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.533 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.534 [error] [network] #21: https://marketplace.cursorapi.com/KacperBiedka/one-candy-dark/1.0.3/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.536 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.538 [error] [network] #20: https://marketplace.cursorapi.com/SethCox/cadet/0.0.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.539 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.540 [error] [network] #22: https://marketplace.cursorapi.com/CalderaTheme/caldera/1.2.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.541 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.543 [error] [network] #19: https://marketplace.cursorapi.com/dooez/alt-catppuccin-vsc/2.7.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.544 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.545 [error] [network] #23: https://marketplace.cursorapi.com/PetsRoar/catsmeow/0.0.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.546 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.547 [error] [network] #11: https://marketplace.cursorapi.com/mayukhikhan/candyshop-theme/0.7.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.547 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:15.660 [error] [network] #18: https://marketplace.cursorapi.com/erik-rosengren/dark-candy/1.0.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:15.661 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:16.960 [error] [network] #17: https://marketplace.cursorapi.com/meganrogge/candy-theme/0.0.6/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:16.971 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.840 [error] [network] #27: https://marketplace.cursorapi.com/pixel-rain/alley-cat/0.1.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.841 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.907 [error] [network] #28: https://marketplace.cursorapi.com/MichaelMangialardi/cheshire-cat/0.1.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.908 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.946 [error] [network] #30: https://marketplace.cursorapi.com/jaredthejellyfish/barn-cat/0.4.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.949 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.950 [error] [network] #35: https://marketplace.cursorapi.com/MapleAtMorning/pink-cat-too/1.0.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.960 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.967 [error] [network] #36: https://marketplace.cursorapi.com/sape94/iroh-the-cat-night/1.0.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.967 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.969 [error] [network] #33: https://marketplace.cursorapi.com/cqb13/cat-dark/0.0.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.972 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.973 [error] [network] #38: https://marketplace.cursorapi.com/corolanvirus/pedro-with-me/0.2.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.974 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.975 [error] [network] #31: https://marketplace.cursorapi.com/daniloBrayann/cat-sleep/0.0.6/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.977 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.978 [error] [network] #29: https://marketplace.cursorapi.com/FranzGollhammer/spacecat/0.0.85/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.978 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.979 [error] [network] #37: https://marketplace.cursorapi.com/paumadi/purple-cat-theme/1.0.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.979 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.980 [error] [network] #32: https://marketplace.cursorapi.com/isaac20042012/Cat-Theme/0.0.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.981 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:18.988 [error] [network] #34: https://marketplace.cursorapi.com/hitoryanka/tortoiseshell-cat/1.0.3/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:18.988 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.308 [error] [network] #41: https://marketplace.cursorapi.com/ms-vscode/cpptools-themes/2.0.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.310 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.327 [error] [network] #43: https://marketplace.cursorapi.com/johnpapa/winteriscoming/1.4.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.329 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.347 [error] [network] #42: https://marketplace.cursorapi.com/Xen/ccpp-theme/0.3.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.351 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.362 [error] [network] #44: https://marketplace.cursorapi.com/Xen/vscode-theme-cenhanced/1.9.9/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.365 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.378 [error] [network] #45: https://marketplace.cursorapi.com/LFaudreeJr/perfect-c/0.0.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.379 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.387 [error] [network] #47: https://marketplace.cursorapi.com/LucasNovaes94/cool-with-a-c/0.0.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.388 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.391 [error] [network] #48: https://marketplace.cursorapi.com/COSMICHORSE/cosmic/0.0.3/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.393 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.394 [error] [network] #50: https://marketplace.cursorapi.com/jordanpetak/beautifulc/0.2.3/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.396 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.431 [error] [network] #49: https://marketplace.cursorapi.com/hikhhbro/hik-code-theme/1.0.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.434 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.444 [error] [network] #46: https://marketplace.cursorapi.com/martonsagi/nav-cside-color-theme/0.0.8/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.446 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.450 [error] [network] #51: https://marketplace.cursorapi.com/wesbos/theme-cobalt2/2.5.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.452 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.491 [error] [network] #53: https://marketplace.cursorapi.com/Vitaly-ruhl/intouch-language/1.4.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.492 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.494 [error] [network] #52: https://marketplace.cursorapi.com/EasyTurbo/hi-c-dark-neon/0.0.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.496 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.500 [error] [network] #54: https://marketplace.cursorapi.com/be5invis/vscode-custom-css/7.4.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.504 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.506 [error] [network] #55: https://marketplace.cursorapi.com/yinloonga/solarized-dark-cpp/1.44.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.509 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.513 [error] [network] #56: https://marketplace.cursorapi.com/TorShepherd/raining-in/1.1.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.515 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.517 [error] [network] #58: https://marketplace.cursorapi.com/EricGustafson/eag---c-and-c---vs-code-color-scheme/0.0.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.519 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.523 [error] [network] #59: https://marketplace.cursorapi.com/SolarLiner/linux-themes/1.0.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.524 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:22.639 [error] [network] #57: https://marketplace.cursorapi.com/max-SS/cyberpunk/1.2.14/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:22.640 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:24.151 [error] [network] #60: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:37:24.392 [error] [network] #61: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:37:25.310 [error] [network] #62: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:37:26.079 [error] [network] #64: https://marketplace.cursorapi.com/jdinhlife/gruvbox/1.26.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.080 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.120 [error] [network] #66: https://marketplace.cursorapi.com/tomphilbin/gruvbox-themes/1.0.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.122 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.151 [error] [network] #67: https://marketplace.cursorapi.com/JonathanHarty/gruvbox-material-icon-theme/1.1.5/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.154 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.189 [error] [network] #68: https://marketplace.cursorapi.com/wheredoesyourmindgo/gruvbox-concoctis/10.30.27/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.191 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.214 [error] [network] #70: https://marketplace.cursorapi.com/adamsome/vscode-theme-gruvbox-minor/2.7.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.215 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.237 [error] [network] #71: https://marketplace.cursorapi.com/sldobri/daily/6.0.3/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.240 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.251 [error] [network] #69: https://marketplace.cursorapi.com/JackPaget/gruvbox-glass/0.4.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.254 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.259 [error] [network] #75: https://marketplace.cursorapi.com/GracefulPotato/gruvbox-ish/0.8.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.261 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.263 [error] [network] #74: https://marketplace.cursorapi.com/mrwilford/theme-gruvball/1.0.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.265 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.269 [error] [network] #76: https://marketplace.cursorapi.com/NathanBarry/rust-gruvbox/0.0.3/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.270 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.274 [error] [network] #77: https://marketplace.cursorapi.com/Saffage/gruvbox-modern/0.0.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.275 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.279 [error] [network] #65: https://marketplace.cursorapi.com/sainnhe/gruvbox-material/6.5.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.282 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.286 [error] [network] #73: https://marketplace.cursorapi.com/CorreiaGitHubGruvbox/correia-github-gruvbox/2.2.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.287 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.290 [error] [network] #72: https://marketplace.cursorapi.com/Vizora/gruvboxer/0.3.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.292 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.293 [error] [network] #78: https://marketplace.cursorapi.com/HeavenAldrico/aldrico-s-gruvbox/0.2.3/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.296 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.297 [error] [network] #79: https://marketplace.cursorapi.com/DrakenLords/gruvbox-draken-lords/1.5.5/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.298 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.300 [error] [network] #83: https://marketplace.cursorapi.com/navernoedenis/gruvbox-material-icons/4.2.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.302 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.304 [error] [network] #82: https://marketplace.cursorapi.com/gsakkas/gruvbox-mix/1.0.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.305 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.307 [error] [network] #81: https://marketplace.cursorapi.com/anhoder/gruvbox-anhoder/1.8.6/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.309 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:26.311 [error] [network] #80: https://marketplace.cursorapi.com/azat-io/vscode-gruvbox-icon-theme/0.8.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:26.312 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:27.937 [error] [network] #87: https://marketplace.cursorapi.com/pureux/grueling-hare/1.1.3/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:27.941 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:27.963 [error] [network] #88: https://marketplace.cursorapi.com/MinaAlbertSaeed/grubppuccin/0.0.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:27.965 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:27.973 [error] [network] #85: https://marketplace.cursorapi.com/Silitonix/gru/0.1.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:27.975 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:27.978 [error] [network] #89: https://marketplace.cursorapi.com/tepaseointenso/gruvy-theme/0.0.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:27.981 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:27.983 [error] [network] #86: https://marketplace.cursorapi.com/Koujir/gruvchad/0.0.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:27.985 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.736 [error] [network] #92: https://marketplace.cursorapi.com/PKief/material-icon-theme/5.22.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.738 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.765 [error] [network] #94: https://marketplace.cursorapi.com/vscode-icons-team/vscode-icons/12.12.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.767 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.792 [error] [network] #93: https://marketplace.cursorapi.com/ms-vscode/PowerShell/2025.0.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.793 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.840 [error] [network] #97: https://marketplace.cursorapi.com/zhuangtongfa/Material-theme/3.19.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.843 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.855 [error] [network] #96: https://marketplace.cursorapi.com/akamud/vscode-theme-onedark/2.3.0/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.856 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.861 [error] [network] #99: https://marketplace.cursorapi.com/sdras/night-owl/2.1.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.862 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.866 [error] [network] #98: https://marketplace.cursorapi.com/dracula-theme/theme-dracula/2.25.1/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.872 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.876 [error] [network] #95: https://marketplace.cursorapi.com/GitHub/github-vscode-theme/6.3.5/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.879 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.884 [error] [network] #101: https://marketplace.cursorapi.com/azemoh/one-monokai/0.5.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.888 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.892 [error] [network] #102: https://marketplace.cursorapi.com/RobbOwen/synthwave-vscode/0.1.18/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.895 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.901 [error] [network] #104: https://marketplace.cursorapi.com/whizkydee/material-palenight-theme/2.0.4/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.904 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.908 [error] [network] #103: https://marketplace.cursorapi.com/monokai/theme-monokai-pro-vscode/2.0.6/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.910 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.911 [error] [network] #105: https://marketplace.cursorapi.com/ahmadawais/shades-of-purple/7.3.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.912 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.914 [error] [network] #107: https://marketplace.cursorapi.com/emmanuelbeziat/vscode-great-icons/2.1.117/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.915 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.918 [error] [network] #106: https://marketplace.cursorapi.com/enkia/tokyo-night/1.1.2/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.920 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:31.922 [error] [network] #100: https://marketplace.cursorapi.com/teabyii/ayu/1.0.5/extension/package.json - error undefined Failed to fetch
+2025-05-07 20:37:31.923 [error] Problem loading themes from marketplace Failed to fetch
+2025-05-07 20:37:50.324 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:37:51.793 [error] ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-07 20:38:01.671 [error] command 'workbench.action.installCommandLine' not found: Error: command 'workbench.action.installCommandLine' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+    at async u (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4941:28876) command 'workbench.action.installCommandLine' not found
+2025-05-07 20:38:04.795 [error] command 'workbench.action.installCommandLine' not found: Error: command 'workbench.action.installCommandLine' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+    at async u (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4941:28876) command 'workbench.action.installCommandLine' not found
+2025-05-07 20:39:09.367 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:39:35.213 [error] [network] #118: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:39:37.618 [error] [network] #120: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:39:40.339 [error] [network] #121: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:39:57.019 [error] [network] #125: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:39:58.400 [error] [network] #127: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:40:11.416 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:40:14.905 [error] [network] #136: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:40:15.417 [error] [network] #137: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:40:19.356 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:40:21.144 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 0 registered
+2025-05-07 20:40:21.147 [error] chatParticipant must be declared in package.json: dbclient: Error: chatParticipant must be declared in package.json: dbclient
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: dbclient
+2025-05-07 20:40:23.254 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:40:24.661 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:40:27.561 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue
+2025-05-07 20:40:27.562 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue
+2025-05-07 20:40:27.562 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:41:00.084 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:41:06.899 [error] [network] #159: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:41:27.635 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue
+2025-05-07 20:41:27.636 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue
+2025-05-07 20:41:27.715 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:41:43.717 [error] [network] #175: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:41:44.816 [error] [network] #176: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:41:48.703 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:41:55.662 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:41:58.828 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:42:02.343 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:42:19.165 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:42:30.354 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:42:32.238 [error] [network] #197: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:42:39.136 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:42:41.369 [error] [network] #203: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:42:50.708 [error] [network] #205: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:42:53.804 [error] [network] #207: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:42:56.734 [error] [network] #209: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:43:09.110 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:43:10.824 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:43:24.016 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:43:27.733 [error] [network] #224: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:43:42.393 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:43:46.190 [error] [network] #232: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:44:09.019 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-05-07 20:44:14.098 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/oderwat.indent-rainbow': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/oderwat.indent-rainbow'
+    at KDi.resolve (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4911:62131)
+    at async Nrs (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:92:23217) Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/oderwat.indent-rainbow'
+2025-05-07 20:44:18.070 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:44:18.072 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: crashReporting.enabled, aicontext.personalContext, testRunner.config
+2025-05-07 20:44:18.080 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:44:35.131 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.132 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.136 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.136 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.137 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.137 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.140 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.140 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.141 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.141 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-wsl' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.141 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-ssh' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.142 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-containers' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.148 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-tunnels' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.148 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cpptools' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.148 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cursorpyright' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:44:35.269 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:44:35.270 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:44:35.271 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:44:35.271 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:44:35.274 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:44:35.824 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:44:35.824 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: crashReporting.enabled, aicontext.personalContext, testRunner.config
+2025-05-07 20:44:35.844 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:44:36.363 [info] Started local extension host with pid 2435234.
+2025-05-07 20:44:37.061 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-05-07 20:44:37.251 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at oro.o (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:530:8348)
+    at oro.rerender (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:530:6809)
+    at Vhi.rerender (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:530:15706)
+    at hT.ad (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3301:55552)
+    at hT.Zc (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3301:55416)
+    at vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3301:54751
+    at Set.forEach (<anonymous>)
+    at hT.Xc (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3301:54735)
+    at Qle.value (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3301:38663)
+    at $.B (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:2392) TreeError [SettingsTree] Tree element not found: [object Object]
+2025-05-07 20:44:37.725 [info] Started local extension host with pid 2435251.
+2025-05-07 20:44:41.416 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:44:41.422 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:44:41.762 [error] [Extension Host] (node:2435234) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-07 20:44:42.000 [error] [Extension Host] (node:2435251) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-07 20:44:42.045 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-07 20:44:42.046 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-07 20:44:42.046 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-07 20:44:43.769 [error] ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-07 20:44:44.323 [info] [perf] Render performance baseline is 88ms
+2025-05-07 20:44:45.362 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:44:45.365 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:44:46.930 [info] Extension host (LocalProcess pid: 2435234) is unresponsive.
+2025-05-07 20:44:47.785 [info] Extension host (LocalProcess pid: 2435234) is responsive.
+2025-05-07 20:44:47.949 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-05-07 20:44:49.081 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 0 registered
+2025-05-07 20:44:49.701 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-05-07 20:44:50.096 [error] chatParticipant must be declared in package.json: dbclient: Error: chatParticipant must be declared in package.json: dbclient
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: dbclient
+2025-05-07 20:44:50.206 [warning] UNRESPONSIVE extension host: 'esbenp.prettier-vscode' took 86.88459502382213% of 13.13ms, saved PROFILE here: 'file:///tmp/exthost-f8b2d8.cpuprofile'
+2025-05-07 20:44:51.791 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:44:51.792 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:45:19.544 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:45:19.547 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:45:39.747 [error] [network] #22: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:45:43.765 [error] [network] #24: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:45:58.211 [error] [network] #29: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:46:45.242 [error] [network] #32: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:47:02.706 [error] [network] #39: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:49:19.637 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:49:19.647 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:50:22.782 [error] [network] #48: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:50:23.186 [error] [network] #49: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:50:25.215 [error] [network] #51: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:50:25.952 [error] [network] #52: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:51:31.865 [error] [network] #58: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:53:29.392 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:53:29.396 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:53:31.542 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-05-07 20:54:36.546 [error] this.d.delete is not a function: TypeError: this.d.delete is not a function
+    at $7t.add (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:7380)
+    at Tme.addToHistory (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:529:18281)
+    at vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:24437
+    at vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:47:77786 this.d.delete is not a function
+2025-05-07 20:54:57.048 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:54:57.057 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:55:22.208 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/codeium.codeium': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/codeium.codeium'
+    at KDi.resolve (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4911:62131)
+    at async Nrs (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:92:23217) Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/codeium.codeium'
+2025-05-07 20:55:51.401 [error] [network] #76: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:56:16.618 [error] [network] #88: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:56:19.974 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:56:19.976 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:56:20.078 [error] [GitHub.copilot-chat]: Menu item references a command `inlineChat.start` which is not defined in the 'commands' section.
+2025-05-07 20:56:20.579 [error] [GitHub.copilot-chat]: Menu item references a command `inlineChat.start` which is not defined in the 'commands' section.
+2025-05-07 20:56:21.468 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:56:21.469 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:56:30.221 [error] [network] #96: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:56:30.778 [error] [network] #97: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:56:44.724 [error] [network] #101: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:56:47.208 [error] [network] #103: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:56:47.894 [error] [network] #104: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:56:55.029 [error] [network] #109: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:57:04.793 [error] [network] #112: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:57:08.133 [error] [network] #114: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-07 20:57:10.761 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:57:10.763 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:57:22.423 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 20:57:22.450 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 20:58:02.165 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-05-07 20:58:02.166 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-05-07 20:58:02.191 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-05-07 20:58:02.192 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-05-07 20:58:02.290 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 1 registered
+2025-05-07 20:58:02.301 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 2 registered
+2025-05-07 20:58:02.302 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 3 registered
+2025-05-07 20:58:02.307 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 4 registered
+2025-05-07 20:58:02.313 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 5 registered
+2025-05-07 20:58:02.314 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 6 registered
+2025-05-07 20:58:02.315 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 7 registered
+2025-05-07 20:58:02.316 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 8 registered
+2025-05-07 20:58:02.331 [error] chatParticipant must be declared in package.json: github.copilot.default: Error: chatParticipant must be declared in package.json: github.copilot.default
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.default
+2025-05-07 20:58:02.338 [error] chatParticipant must be declared in package.json: github.copilot.editingSession: Error: chatParticipant must be declared in package.json: github.copilot.editingSession
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.editingSession
+2025-05-07 20:58:02.343 [error] chatParticipant must be declared in package.json: github.copilot.editor: Error: chatParticipant must be declared in package.json: github.copilot.editor
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.editor
+2025-05-07 20:58:02.344 [error] chatParticipant must be declared in package.json: github.copilot.notebook: Error: chatParticipant must be declared in package.json: github.copilot.notebook
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.notebook
+2025-05-07 20:58:02.349 [error] chatParticipant must be declared in package.json: github.copilot.workspace: Error: chatParticipant must be declared in package.json: github.copilot.workspace
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.workspace
+2025-05-07 20:58:02.349 [error] chatParticipant must be declared in package.json: github.copilot.vscode: Error: chatParticipant must be declared in package.json: github.copilot.vscode
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.vscode
+2025-05-07 20:58:02.367 [error] chatParticipant must be declared in package.json: github.copilot.terminal: Error: chatParticipant must be declared in package.json: github.copilot.terminal
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.terminal
+2025-05-07 20:58:02.371 [error] chatParticipant must be declared in package.json: github.copilot.terminalPanel: Error: chatParticipant must be declared in package.json: github.copilot.terminalPanel
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.terminalPanel
+2025-05-07 20:58:03.814 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 1 registered

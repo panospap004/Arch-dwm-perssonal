@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": "img/128.png"
+   },
+   "background": {
+      "service_worker": "script/background.js"
+   },
+   "description": "Easily and safely install local CRX files in Chrome",
+   "externally_connectable": {
+      "matches": [ "https://webcrx.io/*" ]
+   },
+   "homepage_url": "https://webcrx.io",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "32": "img/32.png",
+      "64": "img/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnNjpXxPZehIP9lsqH+zGfZBxP9Jn4BcXQqEEJQQ03tfqUdGDYAIq3ryyTJI+DER2v13fqouCLbJntDy3f5Z5tGnthhewl4wVzgmdki183JUkCRAexaKEIaJRBD88aRo0NjN2wk6rXasjTJtW/PhCzs+gREMrnkonJCTBUL0Vk9lv9kTQjyKiIKW/EZBrkkAvq9cT3sRSUxSz+vmstqAAP9l2srCvY4mLeuU7UN5gKB8VjEv/4dRP540N2SE5Po7xwqBphpSC5Xziy5YjuZwuODJaqRHuTaBQCuMPPuwpf38z/H288BhMp9a+BLvuotdZbzI3obORtt/uo7/3lzKoEQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "120",
+   "name": "WebCRX",
+   "optional_host_permissions": [ "http://*/*", "https://*/*" ],
+   "optional_permissions": [ "notifications" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "alarms", "storage", "unlimitedStorage", "offscreen", "scripting" ],
+   "sandbox": {
+      "pages": [ "sandbox.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.1"
+}

@@ -1,0 +1,90 @@
+2025-05-07 20:36:22.579 [info] Extension host with pid 2430252 started
+2025-05-07 20:36:22.619 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-07 20:36:22.713 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-07 20:36:22.725 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-07 20:36:22.852 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-07 20:36:23.061 [info] Eager extensions activated
+2025-05-07 20:36:23.086 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:36:23.464 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:36:23.838 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:36:23.972 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:36:24.506 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:36:24.513 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:36:56.886 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-07 20:36:56.938 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-07 20:36:57.192 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-07 20:37:50.545 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:37:51.788 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-07 20:39:10.029 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:40:19.714 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:40:21.007 [error] Error: chatParticipant must be declared in package.json: dbclient
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:40:23.690 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:41:00.300 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: false, activationEvent: '*'
+2025-05-07 20:41:28.055 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:41:49.172 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:42:30.968 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:43:24.383 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: false, activationEvent: '*'
+2025-05-07 20:44:09.267 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: false, activationEvent: '*'
+2025-05-07 20:44:32.664 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-07 20:44:32.826 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-07 20:44:32.829 [info] Extension host with pid 2430252 exiting with code 0
+2025-05-07 20:44:41.310 [info] Extension host with pid 2435234 started
+2025-05-07 20:44:41.799 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-07 20:44:41.895 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-07 20:44:41.899 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2025-05-07 20:44:41.986 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2025-05-07 20:44:41.991 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-05-07 20:44:42.199 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-07 20:44:42.734 [info] Extension host with pid 2435251 started
+2025-05-07 20:44:42.734 [info] Eager extensions activated
+2025-05-07 20:44:42.734 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:42.857 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-07 20:44:43.330 [info] Eager extensions activated
+2025-05-07 20:44:43.469 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:43.760 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-07 20:44:44.256 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:44.935 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:45.192 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:45.956 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:45.975 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:46.041 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:46.145 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:46.157 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:46.910 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:47.674 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:47.776 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:44:50.066 [error] Error: chatParticipant must be declared in package.json: dbclient
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:44:50.234 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-07 20:44:50.262 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-07 20:44:50.412 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-07 20:53:29.121 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:55:01.784 [error] Activating extension Codeium.codeium failed due to an error:
+2025-05-07 20:55:01.784 [error] User Cancelled
+2025-05-07 20:56:21.367 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:56:23.652 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:56:24.473 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-07 20:57:09.605 [info] ExtensionService#_doActivateExtension Kingleo.qwen, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 20:57:09.759 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onCommand:simpleBrowser.show'
+2025-05-07 20:58:02.295 [error] Error: chatParticipant must be declared in package.json: github.copilot.default
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:58:02.296 [error] Error: chatParticipant must be declared in package.json: github.copilot.editingSession
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:58:02.296 [error] Error: chatParticipant must be declared in package.json: github.copilot.editor
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:58:02.296 [error] Error: chatParticipant must be declared in package.json: github.copilot.notebook
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:58:02.297 [error] Error: chatParticipant must be declared in package.json: github.copilot.workspace
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:58:02.297 [error] Error: chatParticipant must be declared in package.json: github.copilot.vscode
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:58:02.297 [error] Error: chatParticipant must be declared in package.json: github.copilot.terminal
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:58:02.298 [error] Error: chatParticipant must be declared in package.json: github.copilot.terminalPanel
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-07 20:58:09.328 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-07 20:58:09.333 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-07 20:58:09.361 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-07 20:58:09.361 [info] Extension host with pid 2435251 exiting with code 0
+2025-05-07 20:58:10.009 [info] Extension host with pid 2435234 exiting with code 0

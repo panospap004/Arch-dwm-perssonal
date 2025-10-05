@@ -1,0 +1,38 @@
+(VSCode) 2025-05-08 15:48:43.389 [INFO]: No proxy settings found
+(VSCode) 2025-05-08 15:48:48.120 [ERROR]: Failed to initialize Unleash: FetchError: Unleash Repository error: Response timeout while trying to fetch https://unleash.codeium.com/api/client/features (over 2000ms)
+(VSCode) 2025-05-08 15:48:48.122 [INFO]: Checking network connection...
+(VSCode) 2025-05-08 15:48:49.093 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-05-08 15:48:49.513 [INFO]: Creating manager directory: /tmp/9806d81d-12aa-4fca-a218-50cc4224bff3/codeium/manager
+(VSCode) 2025-05-08 15:48:51.413 [INFO]: Using cached LS with valid crc32: /home/pappanos/.cursor/extensions/codeium.codeium-1.46.1/dist/3d77d36b54024ba2297f94bd63f3cdb90ad0ad66/language_server_linux_x64
+(VSCode) 2025-05-08 15:48:51.441 [INFO]: Language server started
+2025/05/08 15:48:51 maxprocs: Leaving GOMAXPROCS=4: CPU quota undefined
+I0508 15:48:51.629068 2501863 main.go:583] [Language Server Manager] Setting GOMAXPROCS to 4
+I0508 15:48:51.629135 2501863 main.go:725] [Language Server Manager] Release 1.46.1 (3d77d36b54024ba2297f94bd63f3cdb90ad0ad66)
+I0508 15:48:51.629167 2501863 main.go:804] [Language Server Manager] Starting language server manager with pid 2501863
+I0508 15:48:51.629247 2501863 main.go:125] [Language Server Manager] Manager acquired its lock file /tmp/9806d81d-12aa-4fca-a218-50cc4224bff3/codeium/manager/locks/manager.lock
+I0508 15:48:51.629879 2501863 main.go:266] [Language Server Manager] Waiting for random port file in /tmp/9806d81d-12aa-4fca-a218-50cc4224bff3/codeium/manager/child_random_port_1746708531629342744_930917034748165381 to be created
+2025/05/08 15:48:51 maxprocs: Leaving GOMAXPROCS=4: CPU quota undefined
+I0508 15:48:51.818037 2501897 main.go:583] Setting GOMAXPROCS to 4
+I0508 15:48:51.818192 2501897 main.go:798] Starting language server process with pid 2501897
+I0508 15:48:51.818237 2501897 server.go:272] Language server will attempt to listen on host 127.0.0.1
+I0508 15:48:51.818574 2501897 server.go:279] Language server listening on random port at 34899
+I0508 15:48:52.997402 2501897 web_server.go:262] Chat Web Server listening at ws://127.0.0.1:43067
+I0508 15:48:53.178562 2501897 server.go:938] Local search is enabled, will index local files.
+I0508 15:48:53.178593 2501897 server.go:942] Using 1 indexer workers
+I0508 15:48:53.185490 2501897 server.go:1095] Child process attempting to acquire lock file /tmp/9806d81d-12aa-4fca-a218-50cc4224bff3/codeium/manager/locks/child_lock_1746708531629368305_6030922452300363351
+I0508 15:48:53.185610 2501897 server.go:1103] Child process acquired lock file /tmp/9806d81d-12aa-4fca-a218-50cc4224bff3/codeium/manager/locks/child_lock_1746708531629368305_6030922452300363351
+44417
+I0508 15:48:53.243034 2501863 main.go:302] [Language Server Manager] Found random server port 34899
+I0508 15:48:53.243111 2501863 main.go:303] [Language Server Manager] Found random lsp port 44417
+I0508 15:48:53.243171 2501863 main.go:310] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:34899
+I0508 15:48:53.261455 2501863 main.go:179] [Language Server Manager] Fixing language server port at 34899
+I0508 15:48:53.261572 2501863 main.go:364] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:34899
+(VSCode) 2025-05-08 15:48:53.362 [INFO]: Found language server running on port 34899
+(VSCode) 2025-05-08 15:48:53.699 [INFO]: openAllTextDocuments took 7.842377000000852ms
+(VSCode) 2025-05-08 15:52:22.346 [INFO]: Disposing language server process
+(VSCode) 2025-05-08 15:52:22.347 [INFO]: Deleting manager directory: /tmp/9806d81d-12aa-4fca-a218-50cc4224bff3/codeium/manager
+(VSCode) 2025-05-08 15:52:22.350 [INFO]: Successfully disposed language server
+W0508 15:52:22.348695 2501863 main.go:129] [Language Server Manager] Got signal terminated, shutting down
+I0508 15:52:22.438566 2501897 server.go:1317] Exit requested on language server process 2501897
+I0508 15:52:22.439628 2501897 server.go:1290] Language server shutting down
+(VSCode) 2025-05-08 15:52:22.512 [INFO]: Language server exited with code 0

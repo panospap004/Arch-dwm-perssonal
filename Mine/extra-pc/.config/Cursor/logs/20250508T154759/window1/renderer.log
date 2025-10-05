@@ -1,0 +1,260 @@
+2025-05-08 15:48:00.806 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.807 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.808 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.808 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.810 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.810 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.811 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.812 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.815 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.816 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-wsl' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.816 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-ssh' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.817 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-containers' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.817 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-tunnels' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.818 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cpptools' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.821 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cursorpyright' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:00.913 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:00.917 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:00.918 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:00.919 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:00.919 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:01.018 [warning] Creation of workbench contribution 'workbench.contrib.bugbot' took 30ms.
+2025-05-08 15:48:01.717 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:48:01.718 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: crashReporting.enabled, aicontext.personalContext, testRunner.config
+2025-05-08 15:48:01.735 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:48:02.114 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered. lock() request could not be registered.
+2025-05-08 15:48:02.625 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-05-08 15:48:02.671 [error] [GitHub.copilot-chat]: Menu item references a command `inlineChat.start` which is not defined in the 'commands' section.
+2025-05-08 15:48:03.992 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:48:04.000 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:48:04.526 [info] Started local extension host with pid 2501155.
+2025-05-08 15:48:04.528 [info] Started local extension host with pid 2501156.
+2025-05-08 15:48:06.265 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:48:06.270 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:48:08.285 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:48:08.288 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:48:08.541 [error] [Extension Host] (node:2501156) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-08 15:48:08.628 [error] [Extension Host] (node:2501155) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-08 15:48:08.722 [info] [perf] Render performance baseline is 51ms
+2025-05-08 15:48:09.181 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:48:09.182 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:48:09.870 [error] ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-08 15:48:10.957 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:48:10.958 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:48:11.460 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-08 15:48:11.468 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-08 15:48:11.469 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-08 15:48:13.339 [info] Extension host (LocalProcess pid: 2501155) is unresponsive.
+2025-05-08 15:48:15.290 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-05-08 15:48:16.775 [info] Extension host (LocalProcess pid: 2501155) is responsive.
+2025-05-08 15:48:16.777 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-05-08 15:48:17.257 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 0 registered
+2025-05-08 15:48:17.436 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 46.82060521874507% of 697.723ms, saved PROFILE here: 'file:///tmp/exthost-bd0c3f.cpuprofile'
+2025-05-08 15:48:18.462 [error] chatParticipant must be declared in package.json: dbclient: Error: chatParticipant must be declared in package.json: dbclient
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: dbclient
+2025-05-08 15:48:18.665 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:48:18.670 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:48:22.122 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-05-08 15:48:22.660 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 1 registered
+2025-05-08 15:48:22.661 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 2 registered
+2025-05-08 15:48:22.663 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 3 registered
+2025-05-08 15:48:22.664 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 4 registered
+2025-05-08 15:48:22.664 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 5 registered
+2025-05-08 15:48:22.665 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 6 registered
+2025-05-08 15:48:22.665 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 7 registered
+2025-05-08 15:48:22.665 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 8 registered
+2025-05-08 15:48:22.675 [error] chatParticipant must be declared in package.json: github.copilot.default: Error: chatParticipant must be declared in package.json: github.copilot.default
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.default
+2025-05-08 15:48:22.677 [error] chatParticipant must be declared in package.json: github.copilot.editingSession: Error: chatParticipant must be declared in package.json: github.copilot.editingSession
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.editingSession
+2025-05-08 15:48:22.677 [error] chatParticipant must be declared in package.json: github.copilot.editor: Error: chatParticipant must be declared in package.json: github.copilot.editor
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.editor
+2025-05-08 15:48:22.679 [error] chatParticipant must be declared in package.json: github.copilot.notebook: Error: chatParticipant must be declared in package.json: github.copilot.notebook
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.notebook
+2025-05-08 15:48:22.681 [error] chatParticipant must be declared in package.json: github.copilot.workspace: Error: chatParticipant must be declared in package.json: github.copilot.workspace
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.workspace
+2025-05-08 15:48:22.682 [error] chatParticipant must be declared in package.json: github.copilot.vscode: Error: chatParticipant must be declared in package.json: github.copilot.vscode
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.vscode
+2025-05-08 15:48:22.682 [error] chatParticipant must be declared in package.json: github.copilot.terminal: Error: chatParticipant must be declared in package.json: github.copilot.terminal
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.terminal
+2025-05-08 15:48:22.683 [error] chatParticipant must be declared in package.json: github.copilot.terminalPanel: Error: chatParticipant must be declared in package.json: github.copilot.terminalPanel
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.terminalPanel
+2025-05-08 15:48:23.193 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 1 registered
+2025-05-08 15:48:24.207 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:48:24.208 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:48:31.719 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.719 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.720 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.720 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.720 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.721 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.721 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.722 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.722 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.722 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-wsl' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-ssh' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-containers' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-tunnels' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cpptools' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cursorpyright' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 15:48:31.769 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.769 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.769 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.769 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.769 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.770 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.771 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.771 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.771 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.771 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.772 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.772 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.772 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.772 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.772 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:31.772 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-08 15:48:32.285 [info] Started local extension host with pid 2501554.
+2025-05-08 15:48:33.234 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-05-08 15:48:33.300 [error] [GitHub.copilot-chat]: Menu item references a command `inlineChat.start` which is not defined in the 'commands' section.
+2025-05-08 15:48:33.810 [info] Started local extension host with pid 2501605.
+2025-05-08 15:48:35.658 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-08 15:48:35.659 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-08 15:48:35.660 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-08 15:48:35.697 [error] [Extension Host] (node:2501554) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-08 15:48:36.971 [error] [Extension Host] (node:2501605) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-08 15:48:37.331 [info] [perf] Render performance baseline is 128ms
+2025-05-08 15:48:38.384 [error] ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-08 15:48:40.521 [info] Extension host (LocalProcess pid: 2501554) is unresponsive.
+2025-05-08 15:48:41.992 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-05-08 15:48:43.207 [info] Extension host (LocalProcess pid: 2501554) is responsive.
+2025-05-08 15:48:43.208 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-05-08 15:48:43.413 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 51.94265550743057% of 705.401ms, saved PROFILE here: 'file:///tmp/exthost-8a647e.cpuprofile'
+2025-05-08 15:48:43.506 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 0 registered
+2025-05-08 15:48:44.226 [error] chatParticipant must be declared in package.json: dbclient: Error: chatParticipant must be declared in package.json: dbclient
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: dbclient
+2025-05-08 15:48:47.671 [error] [network] #32: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-05-08 15:48:48.129 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-05-08 15:48:49.445 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 1 registered
+2025-05-08 15:48:49.448 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 2 registered
+2025-05-08 15:48:49.449 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 3 registered
+2025-05-08 15:48:49.450 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 4 registered
+2025-05-08 15:48:49.451 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 5 registered
+2025-05-08 15:48:49.452 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 6 registered
+2025-05-08 15:48:49.453 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 7 registered
+2025-05-08 15:48:49.454 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 8 registered
+2025-05-08 15:48:49.503 [error] chatParticipant must be declared in package.json: github.copilot.default: Error: chatParticipant must be declared in package.json: github.copilot.default
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.default
+2025-05-08 15:48:49.504 [error] chatParticipant must be declared in package.json: github.copilot.editingSession: Error: chatParticipant must be declared in package.json: github.copilot.editingSession
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.editingSession
+2025-05-08 15:48:49.504 [error] chatParticipant must be declared in package.json: github.copilot.editor: Error: chatParticipant must be declared in package.json: github.copilot.editor
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.editor
+2025-05-08 15:48:49.505 [error] chatParticipant must be declared in package.json: github.copilot.notebook: Error: chatParticipant must be declared in package.json: github.copilot.notebook
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.notebook
+2025-05-08 15:48:49.505 [error] chatParticipant must be declared in package.json: github.copilot.workspace: Error: chatParticipant must be declared in package.json: github.copilot.workspace
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.workspace
+2025-05-08 15:48:49.506 [error] chatParticipant must be declared in package.json: github.copilot.vscode: Error: chatParticipant must be declared in package.json: github.copilot.vscode
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.vscode
+2025-05-08 15:48:49.506 [error] chatParticipant must be declared in package.json: github.copilot.terminal: Error: chatParticipant must be declared in package.json: github.copilot.terminal
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.terminal
+2025-05-08 15:48:49.506 [error] chatParticipant must be declared in package.json: github.copilot.terminalPanel: Error: chatParticipant must be declared in package.json: github.copilot.terminalPanel
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.terminalPanel
+2025-05-08 15:48:50.545 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 1 registered
+2025-05-08 15:49:05.908 [error] [Extension Host] TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at l (/home/pappanos/.cursor/extensions/fowind.material-icon-theme-with-jb-nf-4.34.0/dist/extension.js:1:25107)
+    at o.detectConfigChanges (/home/pappanos/.cursor/extensions/fowind.material-icon-theme-with-jb-nf-4.34.0/dist/extension.js:1:24940)
+    at /home/pappanos/.cursor/extensions/fowind.material-icon-theme-with-jb-nf-4.34.0/dist/extension.js:1:24467
+    at Generator.next (<anonymous>)
+    at i (/home/pappanos/.cursor/extensions/fowind.material-icon-theme-with-jb-nf-4.34.0/dist/extension.js:1:23984)
+2025-05-08 15:49:18.998 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:49:20.008 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:49:21.454 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:49:27.160 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:49:52.349 [error] Unable to resolve resource extension:ms-vscode.cpptools-extension-pack/extension: Error: Unable to resolve resource extension:ms-vscode.cpptools-extension-pack/extension
+    at _ai.r (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3030:21358)
+    at _ai.r (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3030:21344)
+    at async cNt.acquire (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:44:2317)
+    at async Bai.createModelReference (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3030:22679)
+    at async vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:643:11068 Unable to resolve resource extension:ms-vscode.cpptools-extension-pack/extension
+2025-05-08 15:49:52.350 [error] Unable to resolve resource cursor.aisettings:cursor/aisettings: Error: Unable to resolve resource cursor.aisettings:cursor/aisettings
+    at _ai.r (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3030:21358)
+    at _ai.r (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3030:21344)
+    at async cNt.acquire (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:44:2317)
+    at async Bai.createModelReference (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3030:22679)
+    at async vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:643:11068 Unable to resolve resource cursor.aisettings:cursor/aisettings
+2025-05-08 15:49:57.830 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:49:57.831 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: crashReporting.enabled, aicontext.personalContext, testRunner.config
+2025-05-08 15:49:57.839 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:50:04.135 [error] [GitHub.copilot-chat]: Menu item references a command `inlineChat.start` which is not defined in the 'commands' section.
+2025-05-08 15:50:05.064 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-08 15:50:05.064 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-08 15:51:26.796 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:34.648 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:35.905 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:37.551 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:38.914 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:39.929 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:40.934 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:42.147 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:49.736 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:51.192 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:51.999 [error] [canceled] This operation was aborted: ConnectError: [canceled] This operation was aborted
+    at t (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2510:204519)
+    at async Object.countTokens (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async sui.updateTokenCount (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3168:4766) [canceled] This operation was aborted
+2025-05-08 15:51:52.308 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:51:59.557 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:52:00.829 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:52:02.673 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:52:03.738 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:52:04.903 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:52:06.858 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found
+2025-05-08 15:52:17.752 [error] command 'inlineChat.hideHint' not found: Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364) command 'inlineChat.hideHint' not found

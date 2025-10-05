@@ -1,0 +1,45 @@
+2025-05-08 15:48:09.413 [info] [main] Log level: Info
+2025-05-08 15:48:09.413 [info] [main] Validating found git in: "git"
+2025-05-08 15:48:09.413 [info] [main] Using git "2.49.0" from "git"
+2025-05-08 15:48:09.413 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-08 15:48:09.413 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-08 15:48:19.663 [info] > git config --global user.name [91ms]
+2025-05-08 15:48:19.889 [info] > git config --global user.email [208ms]
+2025-05-08 15:48:19.889 [info] [main] Stored git author name in global state: panospap004 <pappanos004@gmail.com>
+2025-05-08 15:48:44.639 [info] [main] Log level: Info
+2025-05-08 15:48:44.639 [info] [main] Validating found git in: "git"
+2025-05-08 15:48:44.639 [info] [main] Using git "2.49.0" from "git"
+2025-05-08 15:48:44.639 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-08 15:48:44.639 [info] > git rev-parse --show-toplevel [55ms]
+2025-05-08 15:48:44.639 [info] > git rev-parse --show-toplevel [998ms]
+2025-05-08 15:48:45.084 [info] > git rev-parse --show-toplevel [425ms]
+2025-05-08 15:48:45.455 [info] > git rev-parse --show-toplevel [69ms]
+2025-05-08 15:48:45.607 [info] > git rev-parse --show-toplevel [35ms]
+2025-05-08 15:48:45.625 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-05-08 15:48:45.674 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-08 15:48:48.264 [info] > git config --global user.name [96ms]
+2025-05-08 15:48:48.336 [info] > git config --global user.email [44ms]
+2025-05-08 15:48:48.336 [info] [main] Stored git author name in global state: panospap004 <pappanos004@gmail.com>
+2025-05-08 15:49:01.747 [info] > git rev-parse --show-toplevel [33ms]
+2025-05-08 15:49:05.439 [info] > git rev-parse --show-toplevel [12ms]
+2025-05-08 15:49:10.847 [info] > git rev-parse --show-toplevel [12ms]
+2025-05-08 15:49:13.518 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-08 15:50:04.303 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-08 15:50:12.508 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-08 15:50:15.780 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-08 15:50:20.679 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-08 15:50:24.745 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-08 15:50:38.925 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-08 15:50:40.697 [info] > git rev-parse --show-toplevel [9ms]
+2025-05-08 15:50:42.979 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-08 15:50:46.096 [info] > git rev-parse --show-toplevel [9ms]
+2025-05-08 15:50:47.678 [info] > git rev-parse --show-toplevel [14ms]
+2025-05-08 15:51:18.647 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-08 15:51:21.913 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-08 15:51:25.166 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-08 15:51:36.460 [info] > git rev-parse --show-toplevel [48ms]
+2025-05-08 15:51:48.824 [info] > git rev-parse --show-toplevel [11ms]
+2025-05-08 15:51:50.179 [info] > git rev-parse --show-toplevel [11ms]
+2025-05-08 15:51:51.485 [info] > git rev-parse --show-toplevel [54ms]
+2025-05-08 15:52:01.632 [info] > git rev-parse --show-toplevel [20ms]
+2025-05-08 15:52:16.525 [info] > git rev-parse --show-toplevel [5ms]

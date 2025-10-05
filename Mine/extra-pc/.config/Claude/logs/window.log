@@ -1,0 +1,1681 @@
+2025-09-13 12:22:52 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 12:22:52 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 12:22:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:22:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:22:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:22:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:22:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:22:52 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 12:22:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:22:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:22:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:22:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:22:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:22:53 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 12:22:56 [warn] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web
+2025-09-13 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 12:25:23 [warn] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:27:06 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:27:06 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:27:06 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 12:27:08 [warn] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web
+2025-09-13 12:28:05 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 12:28:06 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 12:29:13 [error] Uncaught (in promise) Error: Error invoking remote method '$eipc_message$_9a0c4333-a6ba-4fc5-829f-86b159616eaa_$_claude.settings_$_Startup_$_isStartupOnLoginEnabled': Error: Result from method "isStartupOnLoginEnabled" in interface "Startup" failed to pass validation
+2025-09-13 12:29:17 [warn] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+2025-09-13 12:29:26 [warn] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:31:13 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:31:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:31:13 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 12:31:15 [warn] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:31:53 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:31:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:31:53 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 12:31:56 [warn] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web
+2025-09-13 12:32:53 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 12:32:54 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:33:26 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:33:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:33:26 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 12:33:28 [warn] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web
+2025-09-13 12:33:55 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:33:56 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:33:56 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:33:56 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:33:56 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:33:56 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 12:33:56 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 12:33:56 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 12:33:56 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 12:33:56 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 12:33:56 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 12:33:56 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 12:33:57 [warn] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web
+2025-09-13 12:34:01 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 12:34:02 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 13:25:21 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-13 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 13:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 13:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 13:25:26 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 13:25:27 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 14:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 14:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 14:25:28 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 14:25:29 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 14:30:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 14:30:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 14:30:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 14:30:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 14:30:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 14:30:43 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 14:30:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 14:30:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 14:30:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 14:30:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 14:30:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 14:30:44 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 14:30:50 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 14:30:51 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 15:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 15:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 15:25:26 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 15:25:27 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 16:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 16:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 16:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 16:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 16:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 16:25:26 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 16:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 16:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 16:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 16:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 16:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 16:25:28 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 16:25:40 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 16:25:41 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 17:25:26 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-13 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 17:25:26 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 17:25:27 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 17:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 17:25:37 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 18:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 18:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 18:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 18:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 18:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 18:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 18:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 18:25:30 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 18:25:31 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 19:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 19:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 19:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 19:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 19:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 19:25:26 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 19:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 19:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 19:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 19:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 19:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 19:25:27 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 19:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 19:25:37 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 20:25:18 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 20:25:19 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 20:25:30 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 20:25:30 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 20:26:27 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 20:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 20:26:27 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 20:26:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 20:26:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 21:23:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 21:23:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 21:23:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 21:23:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 21:23:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 21:23:18 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 21:23:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 21:23:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 21:23:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 21:23:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 21:23:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 21:23:19 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 21:23:28 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 21:23:29 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 21:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 21:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 21:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 21:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 21:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 21:25:19 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 21:25:20 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 21:25:26 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 21:25:27 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 22:25:19 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-13 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 22:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 22:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 22:25:32 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 22:25:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 23:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 23:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 23:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 23:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 23:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 23:25:26 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-13 23:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-13 23:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-13 23:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-13 23:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-13 23:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-13 23:25:27 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-13 23:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-13 23:25:37 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 00:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 00:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 00:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 00:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 00:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 00:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 00:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 00:25:30 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 00:25:31 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 12:02:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 12:02:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 12:02:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 12:02:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 12:02:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 12:02:47 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 12:02:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 12:02:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 12:02:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 12:02:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 12:02:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 12:02:48 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 12:03:00 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 12:03:01 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 12:25:17 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 12:25:17 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 12:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 12:25:17 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 12:25:24 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 12:25:25 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 12:30:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 12:30:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 12:30:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 12:30:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 12:30:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 12:30:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 12:30:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 12:30:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 12:30:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 12:30:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 12:30:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 12:30:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 12:30:28 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 12:30:28 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 13:25:18 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-14 13:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 13:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 13:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 13:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 13:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 13:25:18 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 13:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 13:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 13:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 13:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 13:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 13:25:19 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 13:25:30 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 13:25:30 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 14:25:19 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 14:25:19 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 14:25:28 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 14:25:29 [error] undefined
+2025-09-14 14:25:29 [error] undefined
+2025-09-14 14:25:29 [error] undefined
+2025-09-14 14:25:29 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 14:25:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 14:25:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 14:25:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 14:25:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 14:25:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 14:25:31 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 14:25:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 14:25:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 14:25:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 14:25:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 14:25:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 14:25:32 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 14:25:39 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 14:25:40 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 15:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 15:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 15:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 15:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 15:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 15:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 15:25:23 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 15:25:41 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 15:25:42 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 16:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 16:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 16:25:37 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 16:25:39 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 16:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 16:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 16:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 16:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 16:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 16:30:25 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 16:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 16:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 16:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 16:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 16:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 16:30:25 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 16:30:37 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 16:30:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 17:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 17:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 17:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 17:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 17:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 17:25:19 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 17:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 17:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 17:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 17:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 17:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 17:25:20 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 17:25:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 17:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 17:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 17:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 17:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 17:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 17:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 17:25:53 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 17:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 17:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 17:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 17:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 17:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 17:25:54 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 17:26:01 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 17:26:03 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 18:25:17 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 18:25:17 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 18:25:28 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 18:25:30 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 18:29:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 18:29:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 18:29:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 18:29:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 18:29:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 18:29:11 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 18:29:12 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 18:29:12 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 18:29:12 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 18:29:12 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 18:29:12 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 18:29:12 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 18:29:20 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 18:29:21 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 19:25:23 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-14 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 19:25:24 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 19:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 19:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 19:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 19:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 19:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 19:25:25 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 19:25:40 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 19:25:40 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 22:00:14 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 22:00:14 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 22:00:14 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 22:00:14 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 22:00:14 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 22:00:14 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 22:00:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 22:00:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 22:00:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 22:00:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 22:00:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 22:00:15 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 22:00:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 22:00:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 22:25:21 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-14 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 22:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 22:25:23 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 22:25:46 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 22:25:47 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 23:25:19 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-14 23:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-14 23:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-14 23:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-14 23:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-14 23:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-14 23:25:20 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-14 23:25:37 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-14 23:25:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 12:06:57 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 12:06:57 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 12:06:57 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 12:06:57 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 12:06:57 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 12:06:57 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 12:06:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 12:06:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 12:06:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 12:06:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 12:06:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 12:06:58 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 12:07:19 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 12:07:20 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 12:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 12:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 12:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 12:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 12:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 12:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 12:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 12:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 12:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 12:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 12:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 12:25:23 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 12:25:27 [warn] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web
+2025-09-15 12:25:44 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 12:25:47 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 12:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 12:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 12:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 12:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 12:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 12:25:51 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 12:25:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 12:25:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 12:25:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 12:25:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 12:25:52 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 12:25:52 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 12:26:07 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 12:26:12 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 13:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 13:25:23 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 13:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 13:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 13:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 13:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 13:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 13:25:23 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 13:25:48 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 13:25:50 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 13:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 13:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 13:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 13:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 13:26:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 13:26:27 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 13:26:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 13:26:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 13:26:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 13:26:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 13:26:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 13:26:28 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 13:26:42 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 13:26:43 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 14:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 14:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 14:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 14:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 14:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 14:25:26 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 14:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 14:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 14:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 14:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 14:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 14:25:27 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 14:25:45 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 14:25:45 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 15:25:25 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 15:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 15:25:25 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 15:25:44 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 15:25:44 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 16:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 16:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 16:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 16:25:48 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 16:25:49 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 16:27:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 16:27:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 16:27:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 16:27:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 16:27:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 16:27:31 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 16:27:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 16:27:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 16:27:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 16:27:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 16:27:32 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 16:27:32 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 16:27:50 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 16:27:51 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 17:25:24 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 17:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 17:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 17:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 17:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 17:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 17:25:25 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 17:25:46 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 17:25:49 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 18:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 18:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 18:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 18:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 18:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 18:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 18:25:24 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 18:25:44 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 18:25:45 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 19:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 19:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 19:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 19:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 19:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 19:25:23 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 19:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 19:25:24 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 19:25:40 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 19:25:42 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 20:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 20:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 20:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 20:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 20:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 20:25:18 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 20:25:19 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 20:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 20:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 20:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 20:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 20:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 20:25:27 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 20:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 20:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 20:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 20:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 20:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 20:25:29 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 20:25:46 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 20:25:47 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 21:08:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 21:08:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 21:08:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 21:08:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 21:08:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 21:08:37 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 21:08:38 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 21:08:38 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 21:08:38 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 21:08:38 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 21:08:38 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 21:08:38 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 21:08:51 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 21:08:53 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 21:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 21:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 21:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 21:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 21:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 21:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 21:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 21:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 21:25:39 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 21:25:40 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 22:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 22:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 22:25:42 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 22:25:43 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 23:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-15 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-15 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-15 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-15 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-15 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-15 23:25:23 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-15 23:25:46 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-15 23:25:46 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 12:02:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 12:02:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 12:02:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 12:02:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 12:02:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 12:02:45 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 12:02:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 12:02:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 12:02:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 12:02:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 12:02:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 12:02:46 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 12:03:14 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 12:03:15 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 12:12:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 12:12:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 12:12:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 12:12:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 12:12:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 12:12:49 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 12:12:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 12:12:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 12:12:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 12:12:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 12:12:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 12:12:50 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 12:13:09 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 12:13:09 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 12:25:21 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-16 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 12:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 12:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 12:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 12:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 12:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 12:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 12:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 12:25:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 12:25:40 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 13:25:19 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-16 13:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 13:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 13:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 13:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 13:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 13:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 13:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 13:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 13:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 13:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 14:25:18 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-16 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 14:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 14:25:19 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 14:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 14:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 14:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 14:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 14:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 14:25:20 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 14:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 14:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 14:25:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 14:25:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 14:25:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 14:25:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 14:25:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 14:25:50 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 14:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 14:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 14:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 14:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 14:25:51 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 14:25:51 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 14:26:03 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 14:26:04 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 15:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 15:25:24 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 15:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 15:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 15:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 15:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 15:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 15:25:24 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 15:25:57 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 15:25:58 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 16:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 16:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 16:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 16:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 16:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 16:25:18 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 16:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 16:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 16:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 16:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 16:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 16:25:19 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 16:25:39 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 16:25:40 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 16:32:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 16:32:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 16:32:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 16:32:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 16:32:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 16:32:39 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 16:32:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 16:32:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 16:32:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 16:32:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 16:32:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 16:32:40 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 16:32:53 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 16:32:55 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 17:25:15 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-16 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 17:25:15 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 17:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 17:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 17:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 17:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 17:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 17:25:16 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 17:25:32 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 17:25:32 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 17:49:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 17:49:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 17:49:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 17:49:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 17:49:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 17:49:42 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 17:49:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 17:49:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 17:49:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 17:49:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 17:49:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 17:49:43 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 17:49:53 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 17:49:54 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 18:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 18:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 18:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 18:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 18:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 18:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 18:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 18:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 18:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 18:25:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 18:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 18:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 18:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 18:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 18:30:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 18:30:24 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 18:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 18:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 18:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 18:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 18:30:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 18:30:25 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 18:30:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 18:30:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 19:25:19 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 19:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 19:25:19 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 19:25:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 19:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 19:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 19:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 19:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 19:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 19:25:53 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 19:25:53 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 19:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 19:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 19:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 19:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 19:25:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 19:25:54 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 19:26:01 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 19:26:05 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 20:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 20:25:19 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 20:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 20:25:19 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 20:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 20:25:37 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 21:48:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 21:48:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 21:48:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 21:48:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 21:48:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 21:48:27 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 21:48:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 21:48:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 21:48:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 21:48:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 21:48:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 21:48:28 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 21:48:43 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 21:48:44 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 22:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 22:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 22:25:23 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 22:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 22:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 23:25:19 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 23:25:19 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-16 23:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-16 23:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-16 23:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-16 23:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-16 23:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-16 23:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-16 23:25:32 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-16 23:25:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 00:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 00:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 00:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 00:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 00:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 00:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 00:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 00:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 00:25:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 00:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 12:21:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 12:21:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 12:21:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 12:21:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 12:21:47 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 12:21:48 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 12:21:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 12:21:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 12:21:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 12:21:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 12:21:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 12:21:48 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 12:21:58 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 12:21:58 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 12:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 12:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 12:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 12:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 12:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 12:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 13:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 13:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 13:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 13:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 13:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 13:25:24 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 13:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 13:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 13:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 13:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 13:25:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 13:25:25 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 13:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 13:25:37 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 14:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 14:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 14:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 14:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 14:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 14:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 15:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 15:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 15:25:30 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 15:25:31 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 16:25:22 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 16:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 16:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 16:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 16:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 17:25:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 17:25:27 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 17:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 17:25:27 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 17:25:45 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 17:25:47 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 18:25:16 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 18:25:16 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 18:25:17 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 18:25:37 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 18:25:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 18:25:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 18:25:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 18:25:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 18:25:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 18:25:48 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 18:25:48 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 18:25:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 18:25:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 18:25:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 18:25:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 18:25:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 18:25:49 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 18:25:59 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 18:26:02 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 19:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 19:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 19:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 19:25:32 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 19:25:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 21:14:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 21:14:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 21:14:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 21:14:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 21:14:49 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 21:14:49 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 21:14:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 21:14:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 21:14:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 21:14:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 21:14:50 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 21:14:50 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 21:15:04 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 21:15:05 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 21:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 21:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 21:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 21:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 21:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 21:25:23 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 21:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 21:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 21:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 21:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 21:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 21:25:24 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 21:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 21:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 22:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 22:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 22:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 22:25:32 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 22:25:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 23:25:24 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-17 23:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-17 23:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-17 23:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-17 23:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-17 23:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-17 23:25:24 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-17 23:25:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-17 23:25:39 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 11:05:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 11:05:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 11:05:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 11:05:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 11:05:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 11:05:26 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 11:05:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 11:05:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 11:05:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 11:05:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 11:05:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 11:05:27 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 11:05:43 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 11:05:44 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 11:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 11:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 11:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 11:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 11:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 11:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 11:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 11:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 11:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 11:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 11:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 11:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 11:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 11:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 12:10:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 12:10:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 12:10:20 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 12:10:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 12:10:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 13:03:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 13:03:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 13:03:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 13:03:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 13:03:58 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 13:03:58 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 13:04:01 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 13:04:01 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 13:04:01 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 13:04:01 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 13:04:01 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 13:04:01 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 13:04:12 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 13:04:15 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 13:18:37 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 13:18:37 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 13:18:37 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 13:18:49 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 13:18:51 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 13:35:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 13:35:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 13:35:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 13:35:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 13:35:44 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 13:35:44 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 13:35:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 13:35:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 13:35:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 13:35:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 13:35:46 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 13:35:46 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 13:35:58 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 13:36:02 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 14:39:39 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 14:39:39 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 14:39:39 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 14:39:51 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 14:39:52 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 15:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 15:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 15:25:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 15:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 16:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 16:25:21 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 16:25:22 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 16:25:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 16:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 17:25:23 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-18 17:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 17:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 17:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 17:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 17:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 17:25:23 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 17:25:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 17:25:24 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 17:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 17:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 18:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 18:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 18:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 18:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 18:25:27 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 18:25:28 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 18:25:29 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 18:25:59 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 18:26:03 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 19:25:42 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-18 19:25:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 19:25:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 19:25:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 19:25:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 19:25:42 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 19:25:42 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 19:25:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 19:25:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 19:25:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 19:25:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 19:25:43 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 19:25:43 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 19:25:48 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 19:25:50 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 21:48:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 21:48:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 21:48:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 21:48:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 21:48:54 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 21:48:54 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 21:48:55 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 21:48:55 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 21:48:55 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 21:48:55 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 21:48:55 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 21:48:55 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 21:49:08 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 21:49:09 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 22:25:20 [warn]   WARN  [Statsig] Failed to flush events.
+2025-09-18 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 22:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 22:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 22:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 22:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 22:25:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 22:25:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 23:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 23:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-18 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-18 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-18 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-18 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-18 23:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-18 23:25:23 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-18 23:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-18 23:25:39 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 11:41:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 11:41:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 11:41:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 11:41:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 11:41:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 11:41:10 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 11:41:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 11:41:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 11:41:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 11:41:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 11:41:11 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 11:41:11 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 11:41:27 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 11:41:27 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 12:01:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 12:01:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 12:01:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 12:01:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 12:01:10 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 12:01:10 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 12:01:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 12:01:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 12:01:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 12:01:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 12:01:13 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 12:01:13 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 12:01:23 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 12:01:26 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 12:35:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 12:35:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 12:35:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 12:35:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 12:35:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 12:35:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 12:35:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 12:35:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 12:35:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 12:35:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 12:35:25 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 12:35:25 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 12:35:35 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 12:35:39 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 12:37:05 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 12:37:05 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 12:37:05 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 12:37:05 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 12:37:05 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 12:37:05 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 12:37:08 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 12:37:08 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 12:37:08 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 12:37:08 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 12:37:08 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 12:37:08 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 12:37:18 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 12:37:20 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 13:06:19 [error] Error sending segment performance metrics TypeError: Failed to fetch (a-api.anthropic.com)
+2025-09-19 13:06:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 13:06:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 13:06:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 13:06:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 13:06:24 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 13:06:24 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 13:06:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 13:06:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 13:06:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 13:06:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 13:06:26 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 13:06:26 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 13:06:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 13:06:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 15:07:31 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 15:07:31 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 15:07:31 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 15:07:41 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 15:07:42 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 15:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 15:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 15:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 15:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 15:25:20 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 15:25:20 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 15:25:21 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 15:25:21 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 15:25:29 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 15:25:32 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 16:25:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 16:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 16:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 16:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 16:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 16:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 16:25:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 16:25:23 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 16:25:34 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 16:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 17:25:15 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 17:25:15 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 17:25:15 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 17:25:32 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 17:25:32 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 17:30:40 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 17:30:40 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 17:30:40 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 17:30:55 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 17:30:56 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 18:25:17 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 18:25:17 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 18:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 18:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 18:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 18:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 18:25:18 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 18:25:18 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 18:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 18:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 18:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 18:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 18:25:28 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 18:25:28 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-09-19 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.
+2025-09-19 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-09-19 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-09-19 18:25:29 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-09-19 18:25:29 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-09-19 18:25:36 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 18:25:38 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-09-19 19:25:22 [warn] (electron) 'webFrame.routingId' is deprecated and will be removed. Please use 'webFrame.frameToken' instead.
+2025-09-19 19:25:22 [warn] %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.

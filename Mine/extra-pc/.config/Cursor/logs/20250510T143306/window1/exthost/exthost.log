@@ -1,0 +1,233 @@
+2025-05-10 14:33:16.717 [info] Extension host with pid 2827896 started
+2025-05-10 14:33:16.717 [info] Skipping acquiring lock for /home/pappanos/.config/Cursor/User/workspaceStorage/a20cf1b900f0248739122bd2a932027a.
+2025-05-10 14:33:16.975 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-10 14:33:17.030 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2025-05-10 14:33:17.106 [info] Extension host with pid 2827918 started
+2025-05-10 14:33:17.106 [info] Skipping acquiring lock for /home/pappanos/.config/Cursor/User/workspaceStorage/a20cf1b900f0248739122bd2a932027a.
+2025-05-10 14:33:17.258 [info] Eager extensions activated
+2025-05-10 14:33:17.307 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:18.168 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-10 14:33:18.185 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2025-05-10 14:33:18.244 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2025-05-10 14:33:18.251 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-05-10 14:33:18.369 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-10 14:33:18.745 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-10 14:33:18.764 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-10 14:33:19.275 [info] Eager extensions activated
+2025-05-10 14:33:19.550 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:20.143 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:20.657 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:20.831 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:21.299 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:21.306 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:21.334 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:21.404 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:21.412 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:22.524 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:23.074 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:24.921 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:25.074 [info] ExtensionService#_doActivateExtension fowind.material-icon-theme-with-jb-nf, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:25.102 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:26.034 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:27.082 [info] ExtensionService#_doActivateExtension Kingleo.qwen, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:27.085 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-05-10 14:33:28.771 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-10 14:33:28.792 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-10 14:33:28.874 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-10 14:33:28.949 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-10 14:33:38.411 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2021
+2025-05-10 14:33:41.027 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2021
+2025-05-10 14:34:15.439 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:31.450 [error] Error: command 'workbench.panel.chat.view.copilot.focus' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:34.291 [error] Error: command 'workbench.panel.chat.view.copilot.focus' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:34.739 [error] Error: command 'workbench.panel.chat.view.copilot.focus' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:42.026 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:42.574 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:42.852 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:42.936 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:45.473 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:47.486 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:48.307 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:53.393 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:53.620 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:53.819 [error] Error: command 'inlineChat.hideHint' not found
+    at bwi.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1663)
+    at bwi.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3308:1364)
+2025-05-10 14:34:56.510 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-10 14:34:56.527 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-10 14:34:56.529 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-10 14:34:56.529 [info] Extension host with pid 2827918 exiting with code 0
+2025-05-10 14:34:56.717 [error] Canceled: Canceled
+    at new DPt (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111665)
+    at Wtt.U (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116303)
+    at Proxy.n.<computed>.a.charCodeAt.n.<computed> (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113795)
+    at GQ.g (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+    at GQ.executeCommand (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+    at e.registerCommand.description (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+    at GQ.h (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+    at GQ.g (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+    at GQ.executeCommand (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+    at Object.executeCommand (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42603)
+    at VU.N [as value] (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:978108)
+    at C.B (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2391)
+    at C (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2461)
+    at C.fire (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2678)
+    at Object.f [as dispose] (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+    at /opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+    at Array.forEach (<anonymous>)
+    at C.dispose (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+    at hY.<anonymous> (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+    at hY.dispose (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+    at hY.<anonymous> (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+    at hY.dispose (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+    at Gs (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+    at file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15392
+    at file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1018
+    at Object.dispose (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+    at qae.eb (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12173)
+    at file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10127
+    at Array.map (<anonymous>)
+    at qae.$ (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10115)
+    at qae.terminate (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10358)
+    at W1t.terminate (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+    at Xr (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15189)
+    at MessagePortMain.<anonymous> (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11717)
+    at MessagePortMain.emit (node:events:518:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-10 14:34:56.723 [error] Canceled: Canceled
+    at new DPt (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111665)
+    at Wtt.U (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116303)
+    at Proxy.n.<computed>.a.charCodeAt.n.<computed> (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113795)
+    at GQ.g (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+    at GQ.executeCommand (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+    at e.registerCommand.description (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+    at GQ.h (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+    at GQ.g (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+    at GQ.executeCommand (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+    at Object.executeCommand (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42603)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/opt/cursor/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:328629)
+    at /opt/cursor/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:329588
+    at VU.value (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1096223)
+    at C.B (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2391)
+    at C (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2461)
+    at C.fire (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2678)
+    at Object.f [as dispose] (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+    at /opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+    at Array.forEach (<anonymous>)
+    at C.dispose (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+    at hY.<anonymous> (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+    at hY.dispose (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+    at hY.<anonymous> (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+    at hY.dispose (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+    at Gs (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+    at file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15392
+    at file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1018
+    at Object.dispose (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+    at qae.eb (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12173)
+    at file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10127
+    at Array.map (<anonymous>)
+    at qae.$ (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10115)
+    at qae.terminate (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10358)
+    at W1t.terminate (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+    at Xr (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15189)
+    at MessagePortMain.<anonymous> (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11717)
+    at MessagePortMain.emit (node:events:518:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-10 14:34:56.725 [error] Canceled: Canceled
+    at new DPt (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111665)
+    at Wtt.U (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116303)
+    at Proxy.n.<computed>.a.charCodeAt.n.<computed> (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113795)
+    at GQ.g (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+    at GQ.executeCommand (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+    at e.registerCommand.description (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+    at GQ.h (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+    at GQ.g (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+    at GQ.executeCommand (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+    at Object.executeCommand (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42603)
+    at kF.updateReviewDiffReposContext (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:2185:3279)
+    at kF.updateRepositoryListeners (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:2185:3049)
+    at /home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:2185:2887
+    at VU.value (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1096223)
+    at C.B (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2391)
+    at C (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2461)
+    at C.fire (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2678)
+    at Object.f [as dispose] (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+    at /opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+    at Array.forEach (<anonymous>)
+    at C.dispose (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+    at hY.<anonymous> (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+    at hY.dispose (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+    at hY.<anonymous> (/opt/cursor/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+    at hY.dispose (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+    at Gs (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+    at file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15392
+    at file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1018
+    at Object.dispose (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+    at qae.eb (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12173)
+    at file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10127
+    at Array.map (<anonymous>)
+    at qae.$ (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10115)
+    at qae.terminate (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10358)
+    at W1t.terminate (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+    at Xr (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15189)
+    at MessagePortMain.<anonymous> (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11717)
+    at MessagePortMain.emit (node:events:518:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-10 14:34:56.726 [error] Error: Channel has been closed
+    at n (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2438)
+    at Object.appendLine (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2577)
+    at c (/opt/cursor/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:1558730)
+    at t.deactivate (/opt/cursor/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:1560386)
+    at /opt/cursor/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:298693
+    at Object.t.deactivate (/opt/cursor/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:298752)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 1)
+    at qae.$ (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10141)
+2025-05-10 14:34:56.782 [error] Error: Channel has been closed
+    at n (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2438)
+    at Object.appendLine (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2577)
+    at D.logOutputMessage (/opt/cursor/usr/share/cursor/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:3:285192)
+    at D.info (/opt/cursor/usr/share/cursor/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:3:284925)
+    at ChildProcess.<anonymous> (/opt/cursor/usr/share/cursor/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:3:503028)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-10 14:34:56.893 [error] [ms-vscode.cpptools] provider FAILED
+2025-05-10 14:34:56.893 [error] Error: Pending response rejected since connection got disposed
+    at Object.dispose (/home/pappanos/.cursor/extensions/ms-vscode.cpptools-1.23.6-linux-x64/dist/src/main.js:94334:27)
+    at Object.dispose (/home/pappanos/.cursor/extensions/ms-vscode.cpptools-1.23.6-linux-x64/dist/src/main.js:98086:35)
+    at /home/pappanos/.cursor/extensions/ms-vscode.cpptools-1.23.6-linux-x64/dist/src/main.js:97501:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.deactivate (/home/pappanos/.cursor/extensions/ms-vscode.cpptools-1.23.6-linux-x64/dist/src/main.js:115957:5)
+    at async Promise.all (index 25)
+    at qae.$ (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10141)
+2025-05-10 14:34:56.896 [info] Extension host with pid 2827896 exiting with code 0

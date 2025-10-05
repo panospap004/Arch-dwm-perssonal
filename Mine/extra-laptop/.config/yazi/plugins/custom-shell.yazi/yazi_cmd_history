@@ -1,0 +1,3 @@
+fish -c 'yazi_zoxide;exit'
+fish -c 'zs;exit'
+fish -c 'cd;exit'

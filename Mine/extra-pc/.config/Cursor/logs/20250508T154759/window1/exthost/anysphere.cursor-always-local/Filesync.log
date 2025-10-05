@@ -1,0 +1,64 @@
+2025-05-08 15:48:19.958 [error] Failed to check if file sync is enabled for user {}
+2025-05-08 15:48:19.958 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-08 15:48:19.958 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-08 15:48:19.958 [info] [registerEventListeners] Registering event listeners
+2025-05-08 15:48:19.958 [error] Failed to check if file sync is enabled for user {}
+2025-05-08 15:48:19.958 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-08 15:48:19.958 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-08 15:48:24.034 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-08 15:48:24.117 [info] Starting sync of visible tabs
+2025-05-08 15:48:24.117 [info] Synced all visible tabs in 0.21787400000175694ms
+2025-05-08 15:48:24.509 [info] Fetched fsConfig in 474.2124350000013ms
+2025-05-08 15:48:24.509 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-08 15:48:24.509 [info] File sync enabled status: true
+2025-05-08 15:48:24.509 [info] Starting sync of visible tabs
+2025-05-08 15:48:24.509 [info] Synced all visible tabs in 0.044432000002416316ms
+2025-05-08 15:48:24.510 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-08 15:48:24.660 [info] Fetched fsConfig in 148.97226800000135ms
+2025-05-08 15:48:24.660 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-08 15:48:45.154 [error] Failed to check if file sync is enabled for user {}
+2025-05-08 15:48:45.154 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-08 15:48:45.154 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-08 15:48:45.154 [info] [registerEventListeners] Registering event listeners
+2025-05-08 15:48:45.154 [error] Failed to check if file sync is enabled for user {}
+2025-05-08 15:48:45.154 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-08 15:48:45.154 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-08 15:48:50.162 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-08 15:48:50.222 [info] Starting sync of visible tabs
+2025-05-08 15:48:50.222 [info] Synced all visible tabs in 0.30463999999847147ms
+2025-05-08 15:48:50.698 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-08 15:48:50.704 [info] Fetched fsConfig in 541.0336590000006ms
+2025-05-08 15:48:50.704 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-08 15:48:50.704 [info] File sync enabled status: true
+2025-05-08 15:48:50.704 [info] Starting sync of visible tabs
+2025-05-08 15:48:50.704 [info] Synced all visible tabs in 0.08770300000105635ms
+2025-05-08 15:48:50.856 [info] Fetched fsConfig in 157.90697999999975ms
+2025-05-08 15:48:50.856 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-08 15:49:11.589 [info] Uploaded file src/1_pointer.cpp modelVersion=1 in 272.88187599999947ms
+2025-05-08 15:49:11.590 [info] Handled visible editors change in 817.8881949999995ms
+2025-05-08 15:49:25.969 [info] Handled visible editors change in 3.2682759999952395ms
+2025-05-08 15:51:25.130 [info] Handled visible editors change in 12.427288000006229ms
+2025-05-08 15:51:33.505 [info] Handled visible editors change in 3.0003929999948014ms
+2025-05-08 15:51:33.566 [info] Handled visible editors change in 3.1916629999759607ms
+2025-05-08 15:51:34.782 [info] Handled visible editors change in 1.1981340000056662ms
+2025-05-08 15:51:34.821 [info] Handled visible editors change in 2.244328000000678ms
+2025-05-08 15:51:36.333 [info] Handled visible editors change in 2.0319210000161547ms
+2025-05-08 15:51:36.370 [info] Handled visible editors change in 4.331858999998076ms
+2025-05-08 15:51:48.687 [info] Handled visible editors change in 2.4742869999899995ms
+2025-05-08 15:51:49.341 [info] Uploaded file src/4_static.cpp modelVersion=1 in 443.28882099999464ms
+2025-05-08 15:51:49.341 [info] Handled visible editors change in 576.8135959999927ms
+2025-05-08 15:51:50.012 [info] Handled visible editors change in 2.184041000000434ms
+2025-05-08 15:51:51.248 [info] Handled visible editors change in 1.2443870000133757ms
+2025-05-08 15:51:51.435 [info] Uploaded file src/4_part2.cpp modelVersion=1 in 1181.5732070000086ms
+2025-05-08 15:51:51.435 [info] Handled visible editors change in 1315.4258810000028ms
+2025-05-08 15:51:52.078 [info] Uploaded file src/3_classes_vs_struct.cpp modelVersion=1 in 151.44629999998142ms
+2025-05-08 15:51:52.078 [info] Handled visible editors change in 738.8673770000169ms
+2025-05-08 15:52:01.848 [info] Synced file src/3_classes_vs_struct.cpp modelVersion=2 in 232.00718700001016ms
+2025-05-08 15:52:02.780 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-08 15:52:02.926 [info] Fetched fsConfig in 146.40655799998785ms
+2025-05-08 15:52:02.926 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-08 15:52:02.927 [info] File sync enabled status: true
+2025-05-08 15:52:02.927 [info] Starting sync of visible tabs
+2025-05-08 15:52:02.927 [info] Synced all visible tabs in 0.3684969999885652ms
+2025-05-08 15:52:05.598 [info] Synced file src/3_classes_vs_struct.cpp modelVersion=3 in 143.41869200000656ms
+2025-05-08 15:52:16.466 [info] Handled visible editors change in 1.11353699999745ms

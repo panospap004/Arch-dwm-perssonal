@@ -1,0 +1,119 @@
+[[plugin.deps]]
+use = "ourongxing/fast-enter"
+rev = "738356f"
+hash = "b209b5db91df69bdc6a4656cb8276cd9"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "de53d90"
+hash = "56fdabc96fc1f4d53c96eb884b02a5be"
+
+[[plugin.deps]]
+use = "AnirudhG07/custom-shell"
+rev = "b04213d"
+hash = "3efc7ddc9bac120c618462eb994edf75"
+
+[[plugin.deps]]
+use = "imsi32/yatline"
+rev = "88bd1c5"
+hash = "981acbe9b758b1af3a8154c932bb936d"
+
+[[plugin.deps]]
+use = "wekauwau/yatline-created-time"
+rev = "d96b42b"
+hash = "695b2441885359206812dcd4e810633c"
+
+[[plugin.deps]]
+use = "lpanebr/yazi-plugins:yatline-symlink"
+rev = "ca18a2c"
+hash = "32939ad5b4738c2595a904997fd30ea6"
+
+[[plugin.deps]]
+use = "imsi32/yatline-githead"
+rev = "a6377a8"
+hash = "4f1a71eff1dd8f245ae2e3985e3e2f91"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "a1b678d"
+hash = "bcbf72738d4b7fb9a03cac84465b9ba4"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:chmod"
+rev = "a1b678d"
+hash = "2f1053f89d1a301a648ab181d0948e38"
+
+[[plugin.deps]]
+use = "KKV9/archive"
+rev = "60b24af"
+hash = "ee025be766240cc98e671754ac836da3"
+
+[[plugin.deps]]
+use = "KKV9/compress"
+rev = "60b24af"
+hash = "ee025be766240cc98e671754ac836da3"
+
+[[plugin.deps]]
+use = "kirasok/epub-preview"
+rev = "521feb1"
+hash = "9aed469134b5c89fc4014ce278307ae3"
+
+[[plugin.deps]]
+use = "Sonico98/exifaudio"
+rev = "de526f3"
+hash = "c2a8633171355b6e482a96a739a446c1"
+
+[[plugin.deps]]
+use = "boydaihungst/restore"
+rev = "a7a6e5e"
+hash = "4d6e6cc76c8ce08b5f6f344aa9413034"
+
+[[plugin.deps]]
+use = "Rolv-Apneseth/starship"
+rev = "6c639b4"
+hash = "5614c46d5de76623c283d415bfac8025"
+
+[[plugin.deps]]
+use = "pirafrank/what-size"
+rev = "b23e3a4"
+hash = "98e5f5af3efd3ba8bc2db0720187cc83"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "a1b678d"
+hash = "dd97eede8e20e59cd2604e8006e470e2"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "a1b678d"
+hash = "812fd49667ab6823250f0411f8cf793a"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "a1b678d"
+hash = "9dce00232a0e0e2502565c7aa2b0ed4e"
+
+[[plugin.deps]]
+use = "Lil-Dank/lazygit"
+rev = "9f924e3"
+hash = "2b0c33928986f126d5c5a4cac31a6b46"
+
+[[plugin.deps]]
+use = "AnirudhG07/plugins-yazi:copy-file-contents"
+rev = "524c52c"
+hash = "27c50e6bc15c09096505b805b238ade0"
+
+[[plugin.deps]]
+use = "grappas/wl-clipboard"
+rev = "c4edc4f"
+hash = "51ff959c3c26cb3889589a0f8d394f14"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-filter"
+rev = "a1b678d"
+hash = "f0c4b41b5d19a3144958383333eff6e7"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-mocha"
+rev = "c023460"
+hash = "2ac87e1b3a61f5887472899e86535d29"

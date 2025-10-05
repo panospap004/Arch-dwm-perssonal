@@ -1,0 +1,37 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"open"}
+{"signed_in":false,"milliseconds_since_first_event":30,"type":"Setting","setting":"theme","value":"One Dark"}
+{"signed_in":false,"milliseconds_since_first_event":30,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"assembly","version":"0.0.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"asteroid","version":"0.0.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"aura-theme","version":"1.0.0"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"autocorrect","version":"0.1.0"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"blackfox","version":"0.1.0"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"catbox","version":"0.0.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"catppuccin","version":"0.2.8"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"d","version":"0.0.4"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"everforest","version":"0.0.2"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"exquisite","version":"0.1.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"fish","version":"0.0.8"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"gdscript","version":"0.2.0"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"git-firefly","version":"0.0.3"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"html","version":"0.1.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"latex","version":"0.0.2"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"make","version":"1.0.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"matlab","version":"0.0.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"neocmake","version":"0.0.2"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"new-darcula","version":"1.0.5"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"nightfox","version":"0.0.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"nvim-nightfox","version":"0.2.0"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"odin","version":"0.1.0"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"slate","version":"0.0.2"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"snippets","version":"0.0.5"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"tokyo-night","version":"0.2.0"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"zedokai","version":"1.1.1"}
+{"signed_in":false,"milliseconds_since_first_event":703,"type":"Editor","operation":"open","file_extension":"cpp","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":46732,"type":"Action","source":"command palette","action":"theme selector: toggle"}
+{"signed_in":true,"milliseconds_since_first_event":59130,"type":"Action","source":"command palette","action":"theme selector: toggle"}
+{"signed_in":true,"milliseconds_since_first_event":122226,"type":"Setting","setting":"theme","value":"Aura Soft Dark"}
+{"signed_in":true,"milliseconds_since_first_event":232379,"type":"Action","source":"command palette","action":"editor: toggle inlay hints"}
+{"signed_in":true,"milliseconds_since_first_event":239225,"type":"Action","source":"command palette","action":"editor: toggle inlay hints"}
+{"signed_in":true,"milliseconds_since_first_event":239946,"type":"Memory","memory_in_bytes":355119104,"virtual_memory_in_bytes":83863113728}
+{"signed_in":true,"milliseconds_since_first_event":239946,"type":"Cpu","usage_as_percentage":5.477773,"core_count":12}

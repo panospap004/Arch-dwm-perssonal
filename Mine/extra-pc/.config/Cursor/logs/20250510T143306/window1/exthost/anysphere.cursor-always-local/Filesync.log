@@ -1,0 +1,33 @@
+2025-05-10 14:33:30.133 [error] Failed to check if file sync is enabled for user {}
+2025-05-10 14:33:30.133 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-10 14:33:30.133 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-10 14:33:30.133 [info] [registerEventListeners] Registering event listeners
+2025-05-10 14:33:30.133 [error] Failed to check if file sync is enabled for user {}
+2025-05-10 14:33:30.133 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-10 14:33:30.133 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-10 14:33:33.809 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-10 14:33:34.755 [info] Starting sync of visible tabs
+2025-05-10 14:33:34.830 [info] Fetched fsConfig in 1019.0223939999996ms
+2025-05-10 14:33:34.830 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-10 14:33:34.830 [info] File sync enabled status: true
+2025-05-10 14:33:34.830 [info] Starting sync of visible tabs
+2025-05-10 14:33:35.815 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-10 14:33:35.841 [info] Uploaded file src/3_classes_vs_struct.cpp modelVersion=1 in 994.3479619999998ms
+2025-05-10 14:33:35.841 [info] Synced all visible tabs in 1087.3611500000006ms
+2025-05-10 14:33:35.868 [info] Uploaded file src/3_classes_vs_struct.cpp modelVersion=1 in 206.64275700000144ms
+2025-05-10 14:33:35.869 [info] Synced all visible tabs in 1038.653075000002ms
+2025-05-10 14:33:35.970 [info] Fetched fsConfig in 154.28661300000022ms
+2025-05-10 14:33:35.970 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-10 14:33:46.209 [info] Handled visible editors change in 1.3605810000008205ms
+2025-05-10 14:34:14.370 [info] Handled visible editors change in 1.422143000003416ms
+2025-05-10 14:34:20.263 [info] Handled visible editors change in 26.857637000008253ms
+2025-05-10 14:34:44.948 [info] Synced file src/3_classes_vs_struct.cpp modelVersion=2 in 289.60163000000466ms
+2025-05-10 14:34:45.763 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-10 14:34:45.910 [info] Fetched fsConfig in 146.8169280000002ms
+2025-05-10 14:34:45.910 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-10 14:34:45.910 [info] File sync enabled status: true
+2025-05-10 14:34:45.910 [info] Starting sync of visible tabs
+2025-05-10 14:34:45.910 [info] Synced all visible tabs in 0.213845999998739ms
+2025-05-10 14:34:46.830 [info] Synced file src/3_classes_vs_struct.cpp modelVersion=3 in 141.0043480000022ms
+2025-05-10 14:34:47.689 [info] Synced file src/3_classes_vs_struct.cpp modelVersion=4 in 139.51279000000795ms
+2025-05-10 14:34:53.203 [info] Synced file src/3_classes_vs_struct.cpp modelVersion=7 in 142.85145299999567ms

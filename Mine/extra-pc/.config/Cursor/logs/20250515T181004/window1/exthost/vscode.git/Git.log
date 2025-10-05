@@ -1,0 +1,10 @@
+2025-05-15 18:10:27.566 [info] [main] Log level: Info
+2025-05-15 18:10:27.566 [info] [main] Validating found git in: "git"
+2025-05-15 18:10:27.566 [info] [main] Using git "2.49.0" from "git"
+2025-05-15 18:10:27.566 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-15 18:10:27.566 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-15 18:10:27.566 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-15 18:10:27.566 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-15 18:10:27.571 [info] > git config --global user.name [175ms]
+2025-05-15 18:10:28.051 [info] > git config --global user.email [454ms]
+2025-05-15 18:10:28.051 [info] [main] Stored git author name in global state: panospap004 <pappanos004@gmail.com>

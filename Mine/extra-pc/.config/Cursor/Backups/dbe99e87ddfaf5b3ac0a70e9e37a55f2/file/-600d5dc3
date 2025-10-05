@@ -1,0 +1,48 @@
+file:///home/pappanos/programming/C%2B%2B_Code/Cpp_lessons/cherno/src/3_classes_vs_struct.cpp {"mtime":1719779092000,"ctime":1740580761624,"size":1076,"etag":"3ck71o0ba13m","orphaned":false,"typeId":""}
+#include <iostream>
+
+class Player {
+public:
+  int x, y;
+  int speed;
+  void move(int xa, int ya) {
+    x += xa * speed;
+    y += ya * speed;
+  }
+};
+
+struct Vec2 {
+  int x, y;
+  void add(const Vec2 &other) {
+    x += other.x;
+    y += other.y;
+  }
+};
+
+// class and struct are basically the same thing, the only difference is that
+// class by default is private and struct is public so when do we use class or
+// struct do we even need to ever use struct : no we can purely use class but to
+// make our code more readable we can use struct for simple data variables like
+// vectors and for anything else like inheritance we should use class so
+// basically structs should only be used in C++ for readability and nothing else
+
+int main(void) {
+  Player player;
+  player.x = 1;
+  player.y = 2;
+  player.speed = 3;
+
+  Vec2 position;
+  position.x = 1;
+  position.y = 2;
+
+  player.move(position.x, position.y);
+
+  std::cout << player.x << ", " << player.y << std::endl;
+
+  position.add({1, 2});
+  // lets say for a speed upgrade
+  player.move(position.x, position.y);
+
+  return 0;
+}

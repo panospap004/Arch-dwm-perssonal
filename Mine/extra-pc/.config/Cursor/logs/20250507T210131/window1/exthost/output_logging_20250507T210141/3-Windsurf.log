@@ -1,0 +1,40 @@
+(VSCode) 2025-05-07 21:01:51.329 [INFO]: No proxy settings found
+(VSCode) 2025-05-07 21:01:56.896 [ERROR]: Failed to initialize Unleash: FetchError: Unleash Repository error: Response timeout while trying to fetch https://unleash.codeium.com/api/client/features (over 2000ms)
+(VSCode) 2025-05-07 21:01:56.898 [INFO]: Checking network connection...
+(VSCode) 2025-05-07 21:01:57.070 [INFO]: Creating manager directory: /tmp/06dad3ac-494b-46b1-8411-348e35cdeb7d/codeium/manager
+(VSCode) 2025-05-07 21:01:57.684 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-05-07 21:02:00.604 [INFO]: Using cached LS with valid crc32: /home/pappanos/.cursor/extensions/codeium.codeium-1.46.1/dist/3d77d36b54024ba2297f94bd63f3cdb90ad0ad66/language_server_linux_x64
+(VSCode) 2025-05-07 21:02:00.641 [INFO]: Language server started
+2025/05/07 21:02:00 maxprocs: Leaving GOMAXPROCS=4: CPU quota undefined
+I0507 21:02:00.860718 2446462 main.go:583] [Language Server Manager] Setting GOMAXPROCS to 4
+I0507 21:02:00.860816 2446462 main.go:725] [Language Server Manager] Release 1.46.1 (3d77d36b54024ba2297f94bd63f3cdb90ad0ad66)
+I0507 21:02:00.860853 2446462 main.go:804] [Language Server Manager] Starting language server manager with pid 2446462
+I0507 21:02:00.860974 2446462 main.go:125] [Language Server Manager] Manager acquired its lock file /tmp/06dad3ac-494b-46b1-8411-348e35cdeb7d/codeium/manager/locks/manager.lock
+I0507 21:02:00.861989 2446462 main.go:266] [Language Server Manager] Waiting for random port file in /tmp/06dad3ac-494b-46b1-8411-348e35cdeb7d/codeium/manager/child_random_port_1746640920861119139_5027792327485295197 to be created
+2025/05/07 21:02:00 maxprocs: Leaving GOMAXPROCS=4: CPU quota undefined
+I0507 21:02:01.062273 2446471 main.go:583] Setting GOMAXPROCS to 4
+I0507 21:02:01.063204 2446471 main.go:798] Starting language server process with pid 2446471
+I0507 21:02:01.063269 2446471 server.go:272] Language server will attempt to listen on host 127.0.0.1
+I0507 21:02:01.063573 2446471 server.go:279] Language server listening on random port at 42785
+I0507 21:02:02.803806 2446471 web_server.go:262] Chat Web Server listening at ws://127.0.0.1:40065
+I0507 21:02:03.071720 2446471 server.go:938] Local search is enabled, will index local files.
+I0507 21:02:03.071754 2446471 server.go:942] Using 1 indexer workers
+I0507 21:02:03.080412 2446471 server.go:1095] Child process attempting to acquire lock file /tmp/06dad3ac-494b-46b1-8411-348e35cdeb7d/codeium/manager/locks/child_lock_1746640920861188863_742760682568495908
+I0507 21:02:03.080523 2446471 server.go:1103] Child process acquired lock file /tmp/06dad3ac-494b-46b1-8411-348e35cdeb7d/codeium/manager/locks/child_lock_1746640920861188863_742760682568495908
+38897
+I0507 21:02:03.174902 2446462 main.go:302] [Language Server Manager] Found random server port 42785
+I0507 21:02:03.174942 2446462 main.go:303] [Language Server Manager] Found random lsp port 38897
+I0507 21:02:03.174973 2446462 main.go:310] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:42785
+I0507 21:02:03.188315 2446462 main.go:179] [Language Server Manager] Fixing language server port at 42785
+I0507 21:02:03.188368 2446462 main.go:364] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:42785
+(VSCode) 2025-05-07 21:02:03.271 [INFO]: Found language server running on port 42785
+(VSCode) 2025-05-07 21:02:03.796 [INFO]: openAllTextDocuments took 10.316814999998314ms
+(VSCode) 2025-05-07 21:03:38.042 [INFO]: Successfully logged in
+(VSCode) 2025-05-07 21:03:38.395 [INFO]: Successfully logged in
+(VSCode) 2025-05-07 21:03:38.415 [INFO]: Successfully logged in
+(VSCode) 2025-05-07 21:03:38.434 [INFO]: Successfully logged in
+(VSCode) 2025-05-07 21:03:38.458 [INFO]: Successfully logged in
+(VSCode) 2025-05-07 21:03:43.426 [INFO]: Disposing language server process
+(VSCode) 2025-05-07 21:03:43.427 [INFO]: Deleting manager directory: /tmp/06dad3ac-494b-46b1-8411-348e35cdeb7d/codeium/manager
+(VSCode) 2025-05-07 21:03:43.429 [INFO]: Successfully disposed language server
+W0507 21:03:43.430511 2446462 main.go:129] [Language Server Manager] Got signal terminated, shutting down

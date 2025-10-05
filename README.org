@@ -9,6 +9,7 @@
     find . -type f -name "*.sh" -exec chmod +x {} \;
     find . -type f -name "*.py" -exec chmod +x {} \;
     #+end_src
+ - also when you first login run windows+w or windows+shift+w to let pywal create the colors from a wallpaper so polybar/dmenu/slock/dwm etc get collored corectly { you will need a wallpaper for this to work isnide pictures}
 * Initial step 
 when isntalling arch with arch installer, in the options 
   1. loginmanager use sddm
@@ -454,11 +455,13 @@ include themes/catppuccin/frappe.conf
 
 #+end_src
 ** Polybar
-- about polybar if you are on desktop from config.ini remove the brightness modules since they dont work on destktop
+- about polybar multiple modules do stuff if you right / left or middle clock them
 - also if you have more then 2 monitors copy and replace the dwm-workspaces.sh code with the temp file code and read how to fix it inside i have added comments
-- also depending if you have intel or amd , etc motherboard / gpu you might need to ajust some modules 
+- also depending if you have intel or amd , etc motherboard / gpu you might need to ajust some modules in modules.ini bars.ini user_modules.ini {you can see the modules used inside config.ini in the line 149-151 and inside the popup tamplates for the rest} a simple way to see what modules dont work or have an issue if they do is to go inside .config/polybar and run the ./launch.sh script so you see the errors in the terminal 
 - and same goes for network you might need to ajust the network-status script i have notes also added in it to how to do it
 - and lastly if polybar workspaces dont work when you boot initially its beacause dwm dosent normaly use polybar and all you will need to do is either use the windows+shift+w or windows+shift+r to either reload dwm or change colors that reloads polybar
+** Inside startdwm.sh and wallpaper scripts {wallpaper-menu and wallpaperSelect}
+- you will need to ajust the feh lines in all the above scripts to your own wallpapers before loging in dwm or you will have issues
 ** Icons, cursor, font 
 in this config i use the vimix-cursor , the rowaita icon pack and the monaspace radon font
 - for the font install i have explained already bellow so i wont repeat it here but if you have in mind that you will need to ajust the font size in several places in my config if its either to small or large for you

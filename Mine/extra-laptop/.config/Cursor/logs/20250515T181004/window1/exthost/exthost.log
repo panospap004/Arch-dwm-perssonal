@@ -1,0 +1,50 @@
+2025-05-15 18:10:15.647 [info] Extension host with pid 265573 started
+2025-05-15 18:10:15.648 [info] Eager extensions activated
+2025-05-15 18:10:15.778 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:16.003 [info] Extension host with pid 265570 started
+2025-05-15 18:10:16.097 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-15 18:10:16.364 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-15 18:10:16.385 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2025-05-15 18:10:16.545 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2025-05-15 18:10:16.549 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-05-15 18:10:16.675 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-15 18:10:16.838 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-15 18:10:17.061 [info] Eager extensions activated
+2025-05-15 18:10:17.113 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:17.528 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-15 18:10:17.561 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:17.729 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:18.091 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:18.248 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:18.648 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:18.655 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:18.684 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:18.742 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:18.749 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:19.639 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:20.573 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:22.834 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:22.980 [info] ExtensionService#_doActivateExtension fowind.material-icon-theme-with-jb-nf, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:23.007 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:23.963 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:25.316 [info] ExtensionService#_doActivateExtension Kingleo.qwen, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:25.320 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-05-15 18:10:27.632 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-15 18:10:27.775 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-15 18:10:27.797 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-15 18:10:27.903 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-15 18:10:59.589 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-15 18:10:59.616 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-15 18:10:59.616 [info] Extension host with pid 265573 exiting with code 0
+2025-05-15 18:10:59.620 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-15 18:10:59.766 [error] Error: Channel has been closed
+    at n (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2438)
+    at Object.appendLine (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2577)
+    at c (/opt/cursor/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:1558023)
+    at t.deactivate (/opt/cursor/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:1559679)
+    at /opt/cursor/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:285747
+    at Object.t.deactivate (/opt/cursor/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:285806)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 1)
+    at Ioe.$ (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10141)
+2025-05-15 18:10:59.778 [info] Extension host with pid 265570 exiting with code 0

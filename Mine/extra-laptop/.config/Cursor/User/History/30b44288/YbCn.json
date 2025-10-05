@@ -1,0 +1,7 @@
+{
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "database-client.autoSync": true,
+    "indentRainbow.indicatorStyle": "light",
+    "workbench.iconTheme": "material-icon-theme"
+}

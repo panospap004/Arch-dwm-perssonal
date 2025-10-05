@@ -1,0 +1,53 @@
+2025-05-07 20:36:24.709 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-05-07 20:36:24.709 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-05-07 20:36:24.709 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-05-07 20:36:24.844 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-05-07 20:36:48.177 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-07 20:36:48.177 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-07 20:36:48.178 [error] NoWorkspaceUriError
+2025-05-07 20:36:49.098 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-07 20:36:49.098 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-07 20:36:49.098 [error] NoWorkspaceUriError
+2025-05-07 20:36:50.765 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-07 20:36:50.765 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-07 20:36:50.766 [error] NoWorkspaceUriError
+2025-05-07 20:36:51.126 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-07 20:36:51.126 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-07 20:36:51.131 [error] NoWorkspaceUriError
+2025-05-07 20:44:50.679 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-07 20:44:50.679 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-07 20:44:50.679 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-05-07 20:44:50.679 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-05-07 20:44:50.679 [error] Error: Command failed: git config --get remote.origin.url
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Pipe.<anonymous> (node:net:343:12)
+2025-05-07 20:44:50.679 [error] NoWorkspaceUriError
+2025-05-07 20:44:53.974 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-07 20:44:53.974 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-07 20:44:53.975 [error] NoWorkspaceUriError
+2025-05-07 20:54:35.923 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-05-07 20:54:35.923 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+

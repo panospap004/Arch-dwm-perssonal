@@ -1,0 +1,13 @@
+{
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "database-client.autoSync": true,
+    "indentRainbow.indicatorStyle": "light",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontSize",
+        "editor.tabSize"
+    ],
+    "editor.tabSize": 2
+}

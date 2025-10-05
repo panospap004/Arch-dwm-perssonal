@@ -1,0 +1,65 @@
+2025-05-07 20:56:24.736 [info] Using the Electron fetcher.
+2025-05-07 20:56:24.736 [info] Initializing Git extension service.
+2025-05-07 20:56:24.736 [info] Successfully activated the vscode.git extension.
+2025-05-07 20:56:24.736 [info] Enablement state of the vscode.git extension: true.
+2025-05-07 20:56:24.736 [info] Successfully registered Git commit message provider.
+2025-05-07 20:56:27.322 [warning] GitHub login failed
+2025-05-07 20:56:27.324 [info] copilot token chat_enabled: undefined, sku: 
+2025-05-07 20:56:27.328 [warning] GitHub login failed
+2025-05-07 20:56:27.333 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at IZ.waitForChatEnabled (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13713)
+    at IZ.run (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13432)
+    at w0.askToUpgradeAuthPermissions (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:12870): Failed to get copilot token
+2025-05-07 20:56:27.333 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-05-07 20:56:27.333 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-07 20:56:27.333 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-05-07 20:56:27.333 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-07 20:56:27.333 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+    at Y0._registerEmbeddings (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2787)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tB.waitForActivationBlockers (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:13668)
+    at /home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4201
+    at Frr (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4014)
+    at TY.n (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:4547)
+    at TY.m (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:4510)
+    at TY.l (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:3966)
+2025-05-07 20:56:27.334 [info] activationBlocker from 'languageModelAccess' took for 98ms
+2025-05-07 20:56:27.343 [warning] GitHub login failed
+2025-05-07 20:56:27.346 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-05-07 20:56:27.347 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-07 20:56:27.347 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+2025-05-07 20:56:27.356 [warning] GitHub login failed
+2025-05-07 20:56:27.357 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-07 20:56:27.357 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/pappanos/.cursor/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-05-07 20:58:01.310 [info] Logged in as panospap004
+2025-05-07 20:58:01.962 [info] Got Copilot token for panospap004
+2025-05-07 20:58:02.201 [info] copilot token chat_enabled: true, sku: free_educational
+2025-05-07 20:58:02.201 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-07 20:58:02.267 [info] Registering default platform agent...
+2025-05-07 20:58:02.698 [info] Fetched model metadata in 167ms 3b0e59cf-7c01-4f88-af67-6d1c9bc13b49

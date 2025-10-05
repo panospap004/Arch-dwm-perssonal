@@ -1,0 +1,25 @@
+2025/09/21-16:25:25.747 114a1c Reusing MANIFEST /home/pappanos/.config/claude-desktop/IndexedDB/https_claude.ai_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/21-16:25:25.747 114a1c Recovering log #700
+2025/09/21-16:25:25.747 114a1c Reusing old log /home/pappanos/.config/claude-desktop/IndexedDB/https_claude.ai_0.indexeddb.leveldb/000700.log 
+2025/09/21-16:25:25.748 114a1c Delete type=2 #699
+2025/09/21-16:25:27.882 114a2c Level-0 table #705: started
+2025/09/21-16:25:27.887 114a2c Level-0 table #705: 592 bytes OK
+2025/09/21-16:25:27.893 114a2c Delete type=0 #700
+2025/09/21-16:25:27.894 114a1b Manual compaction at level-0 from '\x00\xed\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xee\x00\x00\x00' @ 0 : 0; will stop at '\x00\xed\x00\x00\x05' @ 4614 : 1
+2025/09/21-16:25:27.894 114a1b Compacting 1@0 + 1@1 files
+2025/09/21-16:25:27.899 114a1b Generated table #706@0: 43 keys, 1297 bytes
+2025/09/21-16:25:27.899 114a1b Compacted 1@0 + 1@1 files => 1297 bytes
+2025/09/21-16:25:27.903 114a1b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/21-16:25:27.903 114a1b Delete type=2 #705
+2025/09/21-16:25:27.903 114a1b Manual compaction at level-0 from '\x00\xed\x00\x00\x05' @ 4614 : 1 .. '\x00\xee\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/21-16:25:31.313 114a1b Level-0 table #708: started
+2025/09/21-16:25:31.317 114a1b Level-0 table #708: 594 bytes OK
+2025/09/21-16:25:31.321 114a1b Delete type=2 #702
+2025/09/21-16:25:31.321 114a1b Delete type=0 #704
+2025/09/21-16:25:31.321 114a1b Manual compaction at level-0 from '\x00\xee\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xef\x00\x00\x00' @ 0 : 0; will stop at '\x00\xee\x00\x00\x05' @ 4631 : 1
+2025/09/21-16:25:31.321 114a1b Compacting 1@0 + 1@1 files
+2025/09/21-16:25:31.326 114a1b Generated table #709@0: 43 keys, 1295 bytes
+2025/09/21-16:25:31.326 114a1b Compacted 1@0 + 1@1 files => 1295 bytes
+2025/09/21-16:25:31.331 114a1b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/21-16:25:31.331 114a1b Delete type=2 #708
+2025/09/21-16:25:31.331 114a1b Manual compaction at level-0 from '\x00\xee\x00\x00\x05' @ 4631 : 1 .. '\x00\xef\x00\x00\x00' @ 0 : 0; will stop at (end)

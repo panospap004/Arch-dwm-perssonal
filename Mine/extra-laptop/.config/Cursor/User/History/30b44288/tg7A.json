@@ -1,0 +1,21 @@
+{
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "database-client.autoSync": true,
+    "indentRainbow.indicatorStyle": "light",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontSize",
+        "editor.tabSize",
+        "editor.fontFamily"
+    ],
+    "editor.tabSize": 2,
+    "editor.fontFamily": "'MonaspiceRn Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
+}

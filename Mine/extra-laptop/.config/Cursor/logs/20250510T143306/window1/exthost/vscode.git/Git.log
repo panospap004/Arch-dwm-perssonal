@@ -1,0 +1,62 @@
+2025-05-10 14:33:19.324 [info] [main] Log level: Info
+2025-05-10 14:33:19.324 [info] [main] Validating found git in: "git"
+2025-05-10 14:33:19.324 [info] [main] Using git "2.49.0" from "git"
+2025-05-10 14:33:19.324 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-10 14:33:19.324 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-10 14:33:19.351 [info] > git rev-parse --show-toplevel [14ms]
+2025-05-10 14:33:19.374 [info] > git rev-parse --show-toplevel [9ms]
+2025-05-10 14:33:19.391 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-10 14:33:19.402 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-05-10 14:33:28.711 [info] > git rev-parse --show-toplevel [171ms]
+2025-05-10 14:33:29.919 [info] > git config --global user.name [435ms]
+2025-05-10 14:33:29.954 [info] > git rev-parse --show-toplevel [501ms]
+2025-05-10 14:33:30.064 [info] > git config --global user.email [110ms]
+2025-05-10 14:33:30.064 [info] [main] Stored git author name in global state: panospap004 <pappanos004@gmail.com>
+2025-05-10 14:33:30.292 [info] > git rev-parse --show-toplevel [139ms]
+2025-05-10 14:33:30.893 [info] > git rev-parse --show-toplevel [145ms]
+2025-05-10 14:33:31.063 [info] > git rev-parse --show-toplevel [73ms]
+2025-05-10 14:33:31.265 [info] > git rev-parse --show-toplevel [76ms]
+2025-05-10 14:33:31.319 [info] > git rev-parse --show-toplevel [9ms]
+2025-05-10 14:33:37.496 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-10 14:33:37.549 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2025-05-10 14:33:37.637 [info] [Model][openRepository] Opened repository: /home/pappanos/programming/C++_Code/Cpp_lessons
+2025-05-10 14:33:37.860 [info] > git config --get commit.template [131ms]
+2025-05-10 14:33:37.990 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-05-10 14:33:38.079 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pappanos/programming/C++_Code/Cpp_lessons/.git/refs/remotes/origin/main'
+2025-05-10 14:33:38.089 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2025-05-10 14:33:38.256 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-05-10 14:33:38.263 [info] > git status -z -uall [62ms]
+2025-05-10 14:33:39.093 [info] > git check-ignore -v -z --stdin [569ms]
+2025-05-10 14:33:39.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [660ms]
+2025-05-10 14:33:39.570 [info] > git show --textconv :cherno/src/3_classes_vs_struct.cpp [207ms]
+2025-05-10 14:33:39.571 [info] > git ls-files --stage -- /home/pappanos/programming/C++_Code/Cpp_lessons/cherno/src/3_classes_vs_struct.cpp [149ms]
+2025-05-10 14:33:39.663 [info] > git config --local branch.main.vscode-merge-base [416ms]
+2025-05-10 14:33:39.663 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-10 14:33:39.774 [info] > git config --get commit.template [703ms]
+2025-05-10 14:33:39.849 [info] > git reflog main --grep-reflog=branch: Created from *. [74ms]
+2025-05-10 14:33:39.849 [info] fatal: ambiguous argument 'main': both revision and filename
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2025-05-10 14:33:39.937 [info] > git cat-file -s d8c6e4d49ab0439e4c15af4b911ef4aad0cfd6e5 [288ms]
+2025-05-10 14:33:40.042 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [106ms]
+2025-05-10 14:33:40.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [106ms]
+2025-05-10 14:33:40.224 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pappanos/programming/C++_Code/Cpp_lessons/.git/refs/remotes/origin/main'
+2025-05-10 14:33:40.228 [info] > git blame --root --incremental 89bd2a56b68e9ec3806d7cf3df1ef9bde6739ed7 -- /home/pappanos/programming/C++_Code/Cpp_lessons/cherno/src/3_classes_vs_struct.cpp [50ms]
+2025-05-10 14:33:40.232 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [89ms]
+2025-05-10 14:33:40.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [185ms]
+2025-05-10 14:33:40.360 [info] > git config --local branch.main.vscode-merge-base origin/main [39ms]
+2025-05-10 14:33:40.367 [info] > git rev-parse refs/remotes/origin/main [143ms]
+2025-05-10 14:33:40.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [73ms]
+2025-05-10 14:33:40.533 [info] > git config --local branch.main.vscode-merge-base [12ms]
+2025-05-10 14:33:40.578 [info] > git config --get commit.template [113ms]
+2025-05-10 14:33:40.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2025-05-10 14:33:40.678 [info] > git merge-base refs/heads/main refs/remotes/origin/main [48ms]
+2025-05-10 14:33:40.721 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2025-05-10 14:33:40.750 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pappanos/programming/C++_Code/Cpp_lessons/.git/refs/remotes/origin/main'
+2025-05-10 14:33:40.751 [info] > git diff --name-status -z --diff-filter=ADMR 429fa7487fabb0681b8514518beef28e61443fb9...refs/remotes/origin/main [39ms]
+2025-05-10 14:33:40.761 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2025-05-10 14:33:40.844 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-05-10 14:33:40.856 [info] > git status -z -uall [62ms]
+2025-05-10 14:33:41.817 [info] > git ls-files --stage -- /home/pappanos/programming/C++_Code/Cpp_lessons/cherno/src/3_classes_vs_struct.cpp [7ms]
+2025-05-10 14:33:41.920 [info] > git cat-file -s d8c6e4d49ab0439e4c15af4b911ef4aad0cfd6e5 [4ms]
+2025-05-10 14:33:42.192 [info] > git show --textconv :cherno/src/3_classes_vs_struct.cpp [7ms]

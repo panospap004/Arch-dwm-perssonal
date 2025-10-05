@@ -1,0 +1,79 @@
+2025-05-07 20:58:30.194 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.196 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.197 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.199 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.199 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.200 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.201 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.202 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.202 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.203 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-wsl' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.203 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-ssh' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.204 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-containers' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.204 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-tunnels' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.205 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cpptools' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.206 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cursorpyright' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-07 20:58:30.325 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:58:30.326 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:58:30.326 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:58:30.329 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:58:30.329 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-07 20:58:30.438 [warning] Creation of workbench contribution 'workbench.contrib.bugbot' took 24ms.
+2025-05-07 20:58:32.712 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-05-07 20:58:32.804 [error] [GitHub.copilot-chat]: Menu item references a command `inlineChat.start` which is not defined in the 'commands' section.
+2025-05-07 20:58:35.831 [info] Started local extension host with pid 2443991.
+2025-05-07 20:58:35.831 [info] Started local extension host with pid 2443992.
+2025-05-07 20:58:37.518 [info] [perf] Render performance baseline is 83ms
+2025-05-07 20:58:38.451 [error] [Extension Host] (node:2443992) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-07 20:58:38.519 [error] [Extension Host] (node:2443991) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-07 20:58:39.963 [error] ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-07 20:58:40.830 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-07 20:58:40.831 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-07 20:58:40.831 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-07 20:58:42.468 [info] Extension host (LocalProcess pid: 2443991) is unresponsive.
+2025-05-07 20:58:43.857 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-05-07 20:58:48.342 [info] Extension host (LocalProcess pid: 2443991) is responsive.
+2025-05-07 20:58:48.342 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-05-07 20:58:48.780 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 0 registered
+2025-05-07 20:58:50.172 [error] chatParticipant must be declared in package.json: dbclient: Error: chatParticipant must be declared in package.json: dbclient
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: dbclient
+2025-05-07 20:58:54.232 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-05-07 20:58:55.718 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 1 registered
+2025-05-07 20:58:55.719 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 2 registered
+2025-05-07 20:58:55.719 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 3 registered
+2025-05-07 20:58:55.720 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 4 registered
+2025-05-07 20:58:55.720 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 5 registered
+2025-05-07 20:58:55.720 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 6 registered
+2025-05-07 20:58:55.721 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 7 registered
+2025-05-07 20:58:55.722 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 8 registered
+2025-05-07 20:58:55.734 [error] chatParticipant must be declared in package.json: github.copilot.default: Error: chatParticipant must be declared in package.json: github.copilot.default
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.default
+2025-05-07 20:58:55.735 [error] chatParticipant must be declared in package.json: github.copilot.editingSession: Error: chatParticipant must be declared in package.json: github.copilot.editingSession
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.editingSession
+2025-05-07 20:58:55.736 [error] chatParticipant must be declared in package.json: github.copilot.editor: Error: chatParticipant must be declared in package.json: github.copilot.editor
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.editor
+2025-05-07 20:58:55.737 [error] chatParticipant must be declared in package.json: github.copilot.notebook: Error: chatParticipant must be declared in package.json: github.copilot.notebook
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.notebook
+2025-05-07 20:58:55.737 [error] chatParticipant must be declared in package.json: github.copilot.workspace: Error: chatParticipant must be declared in package.json: github.copilot.workspace
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.workspace
+2025-05-07 20:58:55.740 [error] chatParticipant must be declared in package.json: github.copilot.vscode: Error: chatParticipant must be declared in package.json: github.copilot.vscode
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.vscode
+2025-05-07 20:58:55.741 [error] chatParticipant must be declared in package.json: github.copilot.terminal: Error: chatParticipant must be declared in package.json: github.copilot.terminal
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.terminal
+2025-05-07 20:58:55.741 [error] chatParticipant must be declared in package.json: github.copilot.terminalPanel: Error: chatParticipant must be declared in package.json: github.copilot.terminalPanel
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611) chatParticipant must be declared in package.json: github.copilot.terminalPanel
+2025-05-07 20:58:56.018 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 1 registered
+2025-05-07 21:00:33.257 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/codeium.codeium': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/codeium.codeium'
+    at KDi.resolve (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4911:62131)
+    at async Nrs (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:92:23217) Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/codeium.codeium'
+2025-05-07 21:00:41.136 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/codeium.codeium': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/codeium.codeium'
+    at KDi.resolve (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4911:62131)
+    at async Nrs (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:92:23217) Unable to resolve nonexistent file 'vscode-userdata:/home/pappanos/.config/Cursor/User/globalStorage/codeium.codeium'
+2025-05-07 21:00:46.196 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 21:00:46.197 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: crashReporting.enabled, aicontext.personalContext, testRunner.config
+2025-05-07 21:00:46.212 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 21:00:47.498 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-05-07 21:00:47.501 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-05-07 21:01:01.459 [error] User Cancelled User Cancelled

@@ -1,0 +1,73 @@
+2025-05-08 15:48:57.545 [info] Getting Manifest... cweijan.vscode-mysql-client2
+2025-05-08 15:48:58.222 [info] Installing extension: cweijan.vscode-mysql-client2 {"productVersion":{"version":"0.49.6","date":"2025-04-25T04:44:33.500Z","vscodeVersion":"1.96.2"},"donotVerifySignature":true,"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json","path":"/home/pappanos/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-05-08 15:48:58.374 [info] Getting Manifest... entuent.fira-code-nerd-font
+2025-05-08 15:48:58.545 [info] Started downloading extension: cweijan.vscode-mysql-client2 8.2.9 file:///home/pappanos/.config/Cursor/CachedExtensionVSIXs/cursor-cweijan.vscode-mysql-client2-8.2.9
+2025-05-08 15:48:59.579 [info] Installing extension: entuent.fira-code-nerd-font {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json","path":"/home/pappanos/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.49.6","date":"2025-04-25T04:44:33.500Z","vscodeVersion":"1.96.2"}}
+2025-05-08 15:48:59.764 [info] Started downloading extension: entuent.fira-code-nerd-font 0.0.3 file:///home/pappanos/.config/Cursor/CachedExtensionVSIXs/cursor-entuent.fira-code-nerd-font-0.0.3
+2025-05-08 15:48:59.862 [info] Getting Manifest... fowind.material-icon-theme-with-jb-nf
+2025-05-08 15:49:00.394 [info] Extracted extension to file:///home/pappanos/.cursor/extensions/cweijan.vscode-mysql-client2-8.2.9: cweijan.vscode-mysql-client2
+2025-05-08 15:49:00.429 [info] Renamed to /home/pappanos/.cursor/extensions/cweijan.vscode-mysql-client2-8.2.9
+2025-05-08 15:49:00.487 [info] Marked extension as uninstalled cweijan.vscode-mysql-client2-8.2.8
+2025-05-08 15:49:00.515 [info] Installing extension: fowind.material-icon-theme-with-jb-nf {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json","path":"/home/pappanos/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.49.6","date":"2025-04-25T04:44:33.500Z","vscodeVersion":"1.96.2"}}
+2025-05-08 15:49:00.598 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40451)
+    at As (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40558)
+    at ao.ib (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:22778)
+    at ao.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:16010)
+    at async hu.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:92:3701)
+    at async ru.Ab (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:68123)
+2025-05-08 15:49:00.623 [info] Extension installed successfully: cweijan.vscode-mysql-client2 vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json
+2025-05-08 15:49:00.809 [info] Started downloading extension: fowind.material-icon-theme-with-jb-nf 4.34.0 file:///home/pappanos/.config/Cursor/CachedExtensionVSIXs/cursor-fowind.material-icon-theme-with-jb-nf-4.34.0
+2025-05-08 15:49:01.292 [info] Extracted extension to file:///home/pappanos/.cursor/extensions/entuent.fira-code-nerd-font-0.0.3: entuent.fira-code-nerd-font
+2025-05-08 15:49:01.297 [info] Renamed to /home/pappanos/.cursor/extensions/entuent.fira-code-nerd-font-0.0.3
+2025-05-08 15:49:01.386 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40451)
+    at As (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40558)
+    at ao.ib (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:22778)
+    at ao.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:16010)
+    at async hu.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:92:3701)
+    at async ru.Ab (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:68123)
+2025-05-08 15:49:01.388 [info] Extension installed successfully: entuent.fira-code-nerd-font vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json
+2025-05-08 15:49:05.234 [info] Extracted extension to file:///home/pappanos/.cursor/extensions/fowind.material-icon-theme-with-jb-nf-4.34.0: fowind.material-icon-theme-with-jb-nf
+2025-05-08 15:49:05.271 [info] Renamed to /home/pappanos/.cursor/extensions/fowind.material-icon-theme-with-jb-nf-4.34.0
+2025-05-08 15:49:05.331 [info] Extension installed successfully: fowind.material-icon-theme-with-jb-nf vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json
+2025-05-08 15:49:05.377 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40451)
+    at As (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40558)
+    at ao.ib (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:22778)
+    at ao.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:16010)
+    at async hu.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:92:3701)
+    at async ru.Ab (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:68123)
+2025-05-08 15:49:45.332 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2025-05-08 15:49:45.981 [info] Installing extension: ms-vscode.cpptools-extension-pack {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json","path":"/home/pappanos/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.49.6","date":"2025-04-25T04:44:33.500Z","vscodeVersion":"1.96.2"}}
+2025-05-08 15:49:59.767 [info] Getting Manifest... ms-vscode.cpptools
+2025-05-08 15:50:00.445 [info] Getting Manifest... ms-vscode.cmake-tools
+2025-05-08 15:50:01.078 [info] Getting Manifest... ms-vscode.cpptools-themes
+2025-05-08 15:50:01.835 [info] Installing extension: ms-vscode.cmake-tools {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json","path":"/home/pappanos/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.49.6","date":"2025-04-25T04:44:33.500Z","vscodeVersion":"1.96.2"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-05-08 15:50:01.836 [info] Installing extension: ms-vscode.cpptools-themes {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json","path":"/home/pappanos/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.49.6","date":"2025-04-25T04:44:33.500Z","vscodeVersion":"1.96.2"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-05-08 15:50:01.884 [info] Started downloading extension: ms-vscode.cpptools-extension-pack 1.3.1 file:///home/pappanos/.config/Cursor/CachedExtensionVSIXs/cursor-ms-vscode.cpptools-extension-pack-1.3.1
+2025-05-08 15:50:01.889 [info] Started downloading extension: ms-vscode.cpptools-themes 2.0.0 file:///home/pappanos/.config/Cursor/CachedExtensionVSIXs/cursor-ms-vscode.cpptools-themes-2.0.0
+2025-05-08 15:50:01.893 [info] Started downloading extension: ms-vscode.cmake-tools 1.20.53 file:///home/pappanos/.config/Cursor/CachedExtensionVSIXs/cursor-ms-vscode.cmake-tools-1.20.53
+2025-05-08 15:50:02.546 [info] Extracted extension to file:///home/pappanos/.cursor/extensions/ms-vscode.cpptools-extension-pack-1.3.1: ms-vscode.cpptools-extension-pack
+2025-05-08 15:50:02.556 [info] Renamed to /home/pappanos/.cursor/extensions/ms-vscode.cpptools-extension-pack-1.3.1
+2025-05-08 15:50:02.557 [info] Extracted extension to file:///home/pappanos/.cursor/extensions/ms-vscode.cpptools-themes-2.0.0: ms-vscode.cpptools-themes
+2025-05-08 15:50:02.567 [info] Renamed to /home/pappanos/.cursor/extensions/ms-vscode.cpptools-themes-2.0.0
+2025-05-08 15:50:02.650 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40451)
+    at As (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40558)
+    at ao.ib (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:22778)
+    at ao.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:16010)
+    at async hu.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:92:3701)
+    at async ru.Ab (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:68123)
+2025-05-08 15:50:03.832 [info] Extracted extension to file:///home/pappanos/.cursor/extensions/ms-vscode.cmake-tools-1.20.53: ms-vscode.cmake-tools
+2025-05-08 15:50:03.889 [info] Renamed to /home/pappanos/.cursor/extensions/ms-vscode.cmake-tools-1.20.53
+2025-05-08 15:50:03.967 [info] Extension installed successfully: ms-vscode.cpptools-extension-pack vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json
+2025-05-08 15:50:03.969 [info] Extension installed successfully: ms-vscode.cpptools-themes vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json
+2025-05-08 15:50:03.969 [info] Extension installed successfully: ms-vscode.cmake-tools vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json
+2025-05-08 15:50:03.997 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40451)
+    at As (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40558)
+    at ao.ib (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:22778)
+    at ao.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:16010)
+    at async hu.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:92:3701)
+    at async ru.Ab (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:68123)

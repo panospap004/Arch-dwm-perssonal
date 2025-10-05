@@ -1,0 +1,40 @@
+2025-05-10 14:33:30.245 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-10 14:33:30.245 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-10 14:33:30.245 [info] Using existing keys for an index
+2025-05-10 14:33:30.245 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-10 14:33:30.245 [info] Using existing keys for an index
+2025-05-10 14:33:30.245 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-10 14:33:30.245 [info] Setting global status from status tracker: synced
+2025-05-10 14:33:30.245 [info] Doing a startup handshake.
+2025-05-10 14:33:31.289 [info] Finished computing merkle tree in 364.10512799999924 ms.
+2025-05-10 14:33:31.317 [info] Doing the initial handshake with hash: 22f6b6d61cc5887e03764d01a4d15e024f7de228f06f9c2c289001d0edbbcb8f
+2025-05-10 14:33:31.372 [info] Computed simhash vector of length: 256
+2025-05-10 14:33:31.372 [info] Path key hash: 03a3174c2f3abc2e4aba6531007e47f2bd61fd9efa38a893864d01bc9b0aab3b
+2025-05-10 14:33:31.372 [info] Handshake start
+2025-05-10 14:33:33.276 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-10 14:33:33.276 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-10 14:33:33.280 [info] multiCodebaseIndexingJob dispose
+2025-05-10 14:33:33.280 [info] Aborting indexing job.
+2025-05-10 14:33:33.281 [info] Using existing keys for an index
+2025-05-10 14:33:33.281 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-10 14:33:33.282 [info] Indexing job successfully done or aborted.
+2025-05-10 14:33:33.335 [info] Setting global status from status tracker: synced
+2025-05-10 14:33:33.335 [info] Doing a startup handshake.
+2025-05-10 14:33:33.749 [info] Finished computing merkle tree in 137.34488899999997 ms.
+2025-05-10 14:33:33.750 [info] Doing the initial handshake with hash: 22f6b6d61cc5887e03764d01a4d15e024f7de228f06f9c2c289001d0edbbcb8f
+2025-05-10 14:33:33.755 [info] Computed simhash vector of length: 256
+2025-05-10 14:33:33.755 [info] Path key hash: 03a3174c2f3abc2e4aba6531007e47f2bd61fd9efa38a893864d01bc9b0aab3b
+2025-05-10 14:33:33.755 [info] Handshake start
+2025-05-10 14:33:34.835 [info] Handshake timing: 1080.668322999998, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"400397ca-8cbc-4861-97c6-afd62f635ef0","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-10 14:33:34.836 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"400397ca-8cbc-4861-97c6-afd62f635ef0","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-10 14:33:34.836 [info] Starting fast remote sync.
+2025-05-10 14:33:35.648 [info] Total num embeddable files: 490
+2025-05-10 14:33:35.667 [info] Root hash: 22f6b6d61cc5887e03764d01a4d15e024f7de228f06f9c2c289001d0edbbcb8f
+2025-05-10 14:33:35.669 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-10 14:33:35.842 [info] Finished indexing repository.
+2025-05-10 14:33:35.842 [info] Indexing job successfully done or aborted.
+2025-05-10 14:33:40.366 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-10 14:34:56.688 [info] multiCodebaseIndexingJob dispose
+2025-05-10 14:34:56.690 [info] Aborting indexing job.

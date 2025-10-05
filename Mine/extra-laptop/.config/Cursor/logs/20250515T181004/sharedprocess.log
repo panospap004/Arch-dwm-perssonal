@@ -1,0 +1,15 @@
+2025-05-15 18:10:14.604 [error] [uncaught exception in sharedProcess]: Channel name 'extensionRecommendationNotification' timed out after 1000ms
+2025-05-15 18:10:23.517 [info] Getting Manifest... cweijan.vscode-mysql-client2
+2025-05-15 18:10:24.033 [info] Installing extension: cweijan.vscode-mysql-client2 {"productVersion":{"version":"0.50.4","date":"2025-05-14T16:13:46.407Z","vscodeVersion":"1.96.2"},"donotVerifySignature":true,"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json","path":"/home/pappanos/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-05-15 18:10:24.247 [info] Started downloading extension: cweijan.vscode-mysql-client2 8.3.1 file:///home/pappanos/.config/Cursor/CachedExtensionVSIXs/cursor-cweijan.vscode-mysql-client2-8.3.1
+2025-05-15 18:10:26.901 [info] Extracted extension to file:///home/pappanos/.cursor/extensions/cweijan.vscode-mysql-client2-8.3.1: cweijan.vscode-mysql-client2
+2025-05-15 18:10:26.936 [info] Renamed to /home/pappanos/.cursor/extensions/cweijan.vscode-mysql-client2-8.3.1
+2025-05-15 18:10:27.010 [info] Marked extension as uninstalled cweijan.vscode-mysql-client2-8.2.9
+2025-05-15 18:10:27.074 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pappanos/.cursor/extensions/extensions.json.vsctmp'
+    at ky.create (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40451)
+    at As (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40558)
+    at ao.ib (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:23014)
+    at ao.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:16246)
+    at async hu.stat (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:92:3701)
+    at async ru.Ab (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:68123)
+2025-05-15 18:10:27.133 [info] Extension installed successfully: cweijan.vscode-mysql-client2 vscode-userdata:/home/pappanos/.cursor/extensions/extensions.json

@@ -1,0 +1,12 @@
+2025-05-15 18:10:04.787 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.50.4/b4c3ba3dea0fdf69b399b60f06243925e0b532f2df2e8c75298e830c7df7426a/stable
+2025-05-15 18:10:04.787 [info] update#setState idle
+2025-05-15 18:10:20.153 [error] [sudo-prompt] received stderr: /bin/bash: line 1: /opt/cursor/usr/share/cursor/bin/cursor: No such file or directory
+
+2025-05-15 18:10:33.082 [error] [sudo-prompt] received stderr: /bin/bash: line 1: /opt/cursor/usr/share/cursor/bin/cursor: No such file or directory
+
+2025-05-15 18:10:34.784 [info] update#setState checking for updates
+2025-05-15 18:10:34.925 [info] update#setState idle
+2025-05-15 18:10:48.885 [error] [sudo-prompt] received stderr: /bin/bash: line 1: /opt/cursor/usr/share/cursor/bin/cursor: No such file or directory
+
+2025-05-15 18:10:59.636 [info] Extension host with pid 265573 exited with code: 0, signal: unknown.
+2025-05-15 18:10:59.779 [info] Extension host with pid 265570 exited with code: 0, signal: unknown.

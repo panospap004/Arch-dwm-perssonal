@@ -1,0 +1,74 @@
+2025/09/14-19:27:09.493 a99ab Creating DB /home/pappanos/.config/claude-desktop/Local Storage/leveldb since it was missing.
+2025/09/14-19:27:09.512 a99ab Reusing MANIFEST /home/pappanos/.config/claude-desktop/Local Storage/leveldb/MANIFEST-000001
+2025/09/14-20:05:10.462 a99ab Level-0 table #5: started
+2025/09/14-20:05:10.476 a99ab Level-0 table #5: 18308 bytes OK
+2025/09/14-20:05:10.481 a99ab Delete type=0 #3
+2025/09/14-22:25:48.966 a99ab Level-0 table #7: started
+2025/09/14-22:25:48.971 a99ab Level-0 table #7: 17405 bytes OK
+2025/09/14-22:25:48.975 a99ab Delete type=0 #4
+2025/09/14-23:02:13.213 a99ab Level-0 table #9: started
+2025/09/14-23:02:13.227 a99ab Level-0 table #9: 17257 bytes OK
+2025/09/14-23:02:13.232 a99ab Delete type=0 #6
+2025/09/14-23:40:13.216 a99ab Level-0 table #11: started
+2025/09/14-23:40:13.220 a99ab Level-0 table #11: 17288 bytes OK
+2025/09/14-23:40:13.225 a99ab Delete type=0 #8
+2025/09/15-12:37:09.704 a99ab Level-0 table #13: started
+2025/09/15-12:37:09.709 a99ab Level-0 table #13: 17104 bytes OK
+2025/09/15-12:37:09.713 a99ab Delete type=0 #10
+2025/09/15-13:16:09.710 a99ab Level-0 table #15: started
+2025/09/15-13:16:09.723 a99ab Level-0 table #15: 16649 bytes OK
+2025/09/15-13:16:09.729 a99ab Delete type=0 #12
+2025/09/15-13:16:09.733 a99ab Compacting 4@0 + 1@1 files
+2025/09/15-13:16:09.742 a99ab Generated table #16@0: 14 keys, 1729 bytes
+2025/09/15-13:16:09.742 a99ab Compacted 4@0 + 1@1 files => 1729 bytes
+2025/09/15-13:16:09.747 a99ab compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/15-13:16:09.748 a99ab Delete type=2 #11
+2025/09/15-13:16:09.748 a99ab Delete type=2 #13
+2025/09/15-13:16:09.748 a99ab Delete type=2 #15
+2025/09/15-13:16:09.748 a99ab Delete type=2 #7
+2025/09/15-13:16:09.748 a99ab Delete type=2 #9
+2025/09/15-13:45:09.704 a99aa Level-0 table #18: started
+2025/09/15-13:45:09.710 a99aa Level-0 table #18: 16265 bytes OK
+2025/09/15-13:45:09.715 a99aa Delete type=0 #14
+2025/09/15-14:24:09.689 a99ab Level-0 table #20: started
+2025/09/15-14:24:09.701 a99ab Level-0 table #20: 16618 bytes OK
+2025/09/15-14:24:09.705 a99ab Delete type=0 #17
+2025/09/15-15:03:09.685 a99aa Level-0 table #22: started
+2025/09/15-15:03:09.689 a99aa Level-0 table #22: 18122 bytes OK
+2025/09/15-15:03:09.694 a99aa Delete type=0 #19
+2025/09/15-15:41:09.704 a99ab Level-0 table #24: started
+2025/09/15-15:41:09.710 a99ab Level-0 table #24: 17116 bytes OK
+2025/09/15-15:41:09.714 a99ab Delete type=0 #21
+2025/09/15-15:41:09.715 a99ab Compacting 4@0 + 1@1 files
+2025/09/15-15:41:09.720 a99ab Generated table #25@0: 15 keys, 1837 bytes
+2025/09/15-15:41:09.720 a99ab Compacted 4@0 + 1@1 files => 1837 bytes
+2025/09/15-15:41:09.724 a99ab compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/15-15:41:09.724 a99ab Delete type=2 #20
+2025/09/15-15:41:09.724 a99ab Delete type=2 #24
+2025/09/15-15:41:09.724 a99ab Delete type=2 #22
+2025/09/15-15:41:09.724 a99ab Delete type=2 #16
+2025/09/15-15:41:09.725 a99ab Delete type=2 #18
+2025/09/15-16:19:09.687 a99aa Level-0 table #27: started
+2025/09/15-16:19:09.691 a99aa Level-0 table #27: 17225 bytes OK
+2025/09/15-16:19:09.696 a99aa Delete type=0 #23
+2025/09/15-16:56:09.704 a99ab Level-0 table #29: started
+2025/09/15-16:56:09.710 a99ab Level-0 table #29: 17748 bytes OK
+2025/09/15-16:56:09.715 a99ab Delete type=0 #26
+2025/09/15-17:34:09.723 a99ab Level-0 table #31: started
+2025/09/15-17:34:09.728 a99ab Level-0 table #31: 17138 bytes OK
+2025/09/15-17:34:09.732 a99ab Delete type=0 #28
+2025/09/15-18:13:09.694 a99aa Level-0 table #33: started
+2025/09/15-18:13:09.699 a99aa Level-0 table #33: 16640 bytes OK
+2025/09/15-18:13:09.703 a99aa Delete type=0 #30
+2025/09/15-18:13:09.703 a99aa Compacting 4@0 + 1@1 files
+2025/09/15-18:13:09.708 a99aa Generated table #34@0: 15 keys, 1833 bytes
+2025/09/15-18:13:09.708 a99aa Compacted 4@0 + 1@1 files => 1833 bytes
+2025/09/15-18:13:09.712 a99aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/15-18:13:09.713 a99aa Delete type=2 #27
+2025/09/15-18:13:09.713 a99aa Delete type=2 #29
+2025/09/15-18:13:09.713 a99aa Delete type=2 #31
+2025/09/15-18:13:09.713 a99aa Delete type=2 #25
+2025/09/15-18:13:09.713 a99aa Delete type=2 #33
+2025/09/15-18:51:09.713 a99ab Level-0 table #36: started
+2025/09/15-18:51:09.718 a99ab Level-0 table #36: 17261 bytes OK
+2025/09/15-18:51:09.723 a99ab Delete type=0 #32

@@ -1,0 +1,422 @@
+2025-05-08 15:48:08.276 [info] Extension host with pid 2501156 started
+2025-05-08 15:48:08.442 [info] Eager extensions activated
+2025-05-08 15:48:08.605 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:08.628 [info] Extension host with pid 2501155 started
+2025-05-08 15:48:08.721 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-08 15:48:08.792 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-08 15:48:08.801 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2025-05-08 15:48:08.846 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2025-05-08 15:48:08.850 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-05-08 15:48:08.943 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-08 15:48:09.068 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-08 15:48:09.391 [info] Eager extensions activated
+2025-05-08 15:48:09.425 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:09.711 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:09.868 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-08 15:48:10.108 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:10.283 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:10.648 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:10.657 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:10.699 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:10.755 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:10.766 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:11.942 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:12.558 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:13.346 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:13.447 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:15.543 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:16.747 [info] ExtensionService#_doActivateExtension Kingleo.qwen, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:16.757 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:18.461 [error] Error: chatParticipant must be declared in package.json: dbclient
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:18.693 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-08 15:48:18.714 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-08 15:48:18.823 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-08 15:48:18.938 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-08 15:48:22.673 [error] Error: chatParticipant must be declared in package.json: github.copilot.default
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:22.674 [error] Error: chatParticipant must be declared in package.json: github.copilot.editingSession
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:22.674 [error] Error: chatParticipant must be declared in package.json: github.copilot.editor
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:22.675 [error] Error: chatParticipant must be declared in package.json: github.copilot.notebook
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:22.675 [error] Error: chatParticipant must be declared in package.json: github.copilot.workspace
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:22.676 [error] Error: chatParticipant must be declared in package.json: github.copilot.vscode
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:22.676 [error] Error: chatParticipant must be declared in package.json: github.copilot.terminal
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:22.676 [error] Error: chatParticipant must be declared in package.json: github.copilot.terminalPanel
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:30.533 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-08 15:48:30.543 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-08 15:48:30.544 [info] Extension host with pid 2501156 exiting with code 0
+2025-05-08 15:48:30.548 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-08 15:48:30.651 [info] Extension host with pid 2501155 exiting with code 0
+2025-05-08 15:48:35.597 [info] Extension host with pid 2501554 started
+2025-05-08 15:48:35.597 [info] Skipping acquiring lock for /home/pappanos/.config/Cursor/User/workspaceStorage/a20cf1b900f0248739122bd2a932027a.
+2025-05-08 15:48:35.746 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-08 15:48:35.769 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2025-05-08 15:48:35.857 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2025-05-08 15:48:35.862 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-05-08 15:48:36.212 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-08 15:48:36.447 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-08 15:48:36.690 [info] Eager extensions activated
+2025-05-08 15:48:36.788 [info] Extension host with pid 2501605 started
+2025-05-08 15:48:36.788 [info] Skipping acquiring lock for /home/pappanos/.config/Cursor/User/workspaceStorage/a20cf1b900f0248739122bd2a932027a.
+2025-05-08 15:48:36.828 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:36.895 [info] Eager extensions activated
+2025-05-08 15:48:37.035 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:37.262 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:37.599 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:37.702 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:37.958 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:37.963 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:37.990 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:38.038 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:38.045 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:38.382 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-08 15:48:38.730 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:39.304 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:40.017 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:40.114 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:41.923 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:43.152 [info] ExtensionService#_doActivateExtension Kingleo.qwen, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:43.162 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:48:44.217 [error] Error: chatParticipant must be declared in package.json: dbclient
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:44.263 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-08 15:48:44.390 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-08 15:48:44.410 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-08 15:48:44.503 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-08 15:48:44.577 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-08 15:48:49.492 [error] Error: chatParticipant must be declared in package.json: github.copilot.default
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:49.493 [error] Error: chatParticipant must be declared in package.json: github.copilot.editingSession
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:49.493 [error] Error: chatParticipant must be declared in package.json: github.copilot.editor
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:49.493 [error] Error: chatParticipant must be declared in package.json: github.copilot.notebook
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:49.493 [error] Error: chatParticipant must be declared in package.json: github.copilot.workspace
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:49.494 [error] Error: chatParticipant must be declared in package.json: github.copilot.vscode
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:49.494 [error] Error: chatParticipant must be declared in package.json: github.copilot.terminal
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:48:49.494 [error] Error: chatParticipant must be declared in package.json: github.copilot.terminalPanel
+    at b3s.$registerAgent (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2462:74611)
+2025-05-08 15:49:05.703 [info] ExtensionService#_doActivateExtension fowind.material-icon-theme-with-jb-nf, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 15:49:11.010 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2025-05-08 15:49:18.991 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:19.813 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:20.003 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:20.269 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:20.982 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.281 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.720 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.722 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.762 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.764 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.766 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.770 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.773 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.776 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.780 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.781 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.782 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.785 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.787 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.789 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.810 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:21.812 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:49:27.158 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:26.791 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:34.638 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:35.904 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:37.546 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:37.548 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:38.884 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.463 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.770 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.798 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.836 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.841 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.884 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.886 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.899 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.908 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.918 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.923 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.940 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.948 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.950 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.979 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:39.991 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:40.259 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:40.929 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:41.159 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:41.173 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:41.429 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:41.653 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:41.730 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.142 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.199 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.201 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.233 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.237 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.239 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.256 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.260 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.263 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:42.266 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:49.734 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:51.188 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:52.303 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:51:59.556 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:00.825 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:01.096 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:02.672 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:02.932 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.100 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.213 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.215 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.219 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.272 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.273 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.273 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.281 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.408 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.620 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.737 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:03.873 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:04.070 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:04.206 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:04.371 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:04.554 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:04.731 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:04.902 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:06.856 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:07.152 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:07.179 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:07.244 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:07.295 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:07.300 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:07.319 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:07.337 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:07.365 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:07.371 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:17.750 [error] Error: command 'inlineChat.hideHint' not found
+    at Kai.n (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1663)
+    at Kai.executeCommand (vscode-file://vscode-app/opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:1364)
+2025-05-08 15:52:22.258 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-08 15:52:22.262 [error] Error: ENOENT: no such file or directory, open '/home/pappanos/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-05-08 15:52:22.262 [info] Extension host with pid 2501605 exiting with code 0
+2025-05-08 15:52:22.270 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-08 15:52:22.441 [error] Error: Channel has been closed
+    at n (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2438)
+    at Object.appendLine (file:///opt/cursor/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2577)
+    at D.logOutputMessage (/opt/cursor/usr/share/cursor/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:3:285192)
+    at D.info (/opt/cursor/usr/share/cursor/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:3:284925)
+    at ChildProcess.<anonymous> (/opt/cursor/usr/share/cursor/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:3:503028)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-08 15:52:22.577 [info] Extension host with pid 2501554 exiting with code 0

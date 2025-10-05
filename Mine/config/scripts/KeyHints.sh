@@ -89,6 +89,28 @@ yad --width="$dynamic_width" --height="$dynamic_height" \
     " SHIFT enter"                "DropDown Terminal"               "Kitty-ScratchPad" \
     " F"                          "Open File Manager"               "Thunar" \
     " B"                          "Open Browser"                    "Vivaldi" \
+    " Alt P"                      "Open PureRef"                    "Image Refrences" \
+    " Shift L"                    "Open Llm"                        "Msty Ollama" \
+    " Control Z"                  "Zoom"                            "Boomer Zoom" \
+    " Control Enter"              "Open Cool Term"                  "Cool-Retro-Term" \
+    " N"                          "Open Notion"                     "Notion Todo" \
+    " Shift Control C"            "Open Notion"                     "Notion Calendar" \
+    " R"                          "Open Koodo"                      "Epub Reader" \
+    " O"                          "Open Obsidian"                   "Notes" \
+    " Shift O"                    "Open Office"                     "LibreOffice" \
+    " P"                          "Open Okular"                     "Pdf Reader" \
+    " G"                          "Open Git"                        "GitKraken" \
+    " Shift Z"                    "Open Zeditor"                    "Zed Editor" \
+    " Shift B"                    "Open Zen Browser"                "Zen" \
+    " K"                          "Open Kate"                       "Kate Editor" \
+    " Alt E"                      "Reload Emacs"                    "Reload Emacs Client" \
+    " E"                          "Open Emacs"                      "Emacs Client" \
+    " T"                          "Open Emacs"                      "Emacs Todo" \
+    " Alt N"                      "Open Emacs"                      "Emacs Notes" \
+    " Control N"                  "Open Emacs"                      "Emacs Notes Directory" \
+    " Control T"                  "Open Emacs"                      "Emacs Captures" \
+    " A"                          "Open Emacs"                      "Emacs Agenda" \
+    " Alt Shift E"                "Open Emacs"                      "Emacs Emal" \
     ""                             ""                                "" \
     ""                          "SCRIPT SECTION"                  ""\
     ""                             ""                                "" \

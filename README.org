@@ -424,7 +424,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
         - if this files baucuase boot is full you will need either to expand it or re install arch with bigger boot partition
       6. then reboot system
 * Customization
-** add all my configs etc to your .config or home folder i symbolized with ~ so all the syles and stuff you need are ready to go for some explination of what i did {but not everything or it would be way to long so if you want to see why sine folders or something else exist read the scripts since more then likely thats why they exist}:
+** add all my configs etc to your .config or home folder i symbolized with ~ so all the styles and stuff you need are ready to go for some explanation of what i did {but not everything or it would be way to long so if you want to see why some folders or something else exist read the scripts since more then likely thats why they exist}:
 ** Sddm
 its very simple thanks to a great configuration you just run 
 - ~sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"~
@@ -455,7 +455,7 @@ include themes/catppuccin/frappe.conf
 
 #+end_src
 ** Polybar
-- about polybar multiple modules do stuff if you right / left or middle clock them
+- about polybar multiple modules do stuff if you right / left or middle click them or scroll up and down
 - also if you have more then 2 monitors copy and replace the dwm-workspaces.sh code with the temp file code and read how to fix it inside i have added comments
 - also depending if you have intel or amd , etc motherboard / gpu you might need to ajust some modules in modules.ini bars.ini user_modules.ini {you can see the modules used inside config.ini in the line 149-151 and inside the popup tamplates for the rest} a simple way to see what modules dont work or have an issue if they do is to go inside .config/polybar and run the ./launch.sh script so you see the errors in the terminal 
 - and same goes for network you might need to ajust the network-status script i have notes also added in it to how to do it

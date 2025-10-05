@@ -61,6 +61,7 @@ static const Rule rules[] = {
 	// { "Gimp",              NULL,       NULL,                0,            1,           -1 },
 	{ "Yad",                  "yad",      "Keybindings",       0,            1,           -1 },
 	{ "Vivaldi-stable",       NULL,       NULL,              1 << 0,         0,           -1 },
+	{ "Emacs",                NULL,       NULL,              1 << 1,         0,           -1 },
 	{ "kitty",                NULL,       NULL,              1 << 2,         0,           -1 },
 	{ "Firefox",              NULL,       NULL,              1 << 8,         0,           -1 },
 };
@@ -124,6 +125,58 @@ const char *scratchpadcmd[] = { "kitty", "--class", scratchpadname,  "--title", 
 static const char *term[]  = { "kitty", NULL };
 static const char *browser[]  = { "vivaldi", NULL };
 static const char *fileManager[]  = { "Thunar", NULL };
+static const char *ref[]  = { "env", "QT_QPA_PLATFORM=xcb", "/home/pappanos/appImage/PureRef-1.11.1_x64.Appimage", NULL };
+static const char *llm[]  = { "/home/pappanos/appImage/Boscaceoil/Msty_x86_64_3ddf5414aacd25655ab546af90a0f247.AppImage", NULL };
+static const char *zoomer[]  = { "boomer", NULL };
+static const char *termColler[]  = { "cool-retro-term", NULL };
+static const char *notion[]  = { "notion-app", NULL };
+static const char *notionCal[]  = { "notion-calendar-electron", NULL };
+static const char *epub[]  = { "koodo-reader", NULL };
+static const char *notes[]  = { "obsidian", NULL };
+static const char *office[]  = { "libreoffice", NULL };
+static const char *pdf[]  = { "okular", NULL };
+static const char *git[]  = { "gitkraken", NULL };
+static const char *editor[]  = { "zeditor", NULL };
+static const char *browser2[]  = { "zen-browser", NULL };
+static const char *kate[]  = { "kate", NULL };
+/* emacs */ 
+// Reload Emacs daemon
+static const char *EmacsReload[] = { "/bin/sh", "-c", 
+    "emacsclient -s mainemacs -e '(kill-emacs)' || true; sleep 0.5; "
+    "/usr/bin/emacs --daemon=mainemacs --load $HOME/.config/MainEmacs/init.el "
+    "&& notify-send 'Emacs' 'Daemon reloaded' || notify-send 'Error' 'Failed to start daemon'", 
+    NULL };
+
+// Open Emacs client
+static const char *EmacsClient[] = { "emacsclient", "-c", "-s", "mainemacs", 
+    "-a", "emacs --init-directory=$HOME/.config/MainEmacs", NULL };
+
+// Open TODO.org fullscreen
+static const char *EmacsTodo[] = { "emacsclient", "-c", "-s", "mainemacs", 
+    "-e", "(progn (find-file \"~/.config/MainEmacs/Files-org/TODO.org\") (toggle-frame-fullscreen))", 
+    NULL };
+
+// Open NOTES.org fullscreen
+static const char *EmacsNotes[] = { "emacsclient", "-c", "-s", "mainemacs", 
+    "-e", "(progn (find-file \"~/.config/MainEmacs/Files-org/NOTES.org\") (toggle-frame-fullscreen))", 
+    NULL };
+
+// Open notes directory fullscreen
+static const char *EmacsNotesdir[] = { "emacsclient", "-c", "-s", "mainemacs", 
+    "-e", "(progn (dired \"~/git/emacs-notes/\") (toggle-frame-fullscreen))", 
+    NULL };
+
+// Org capture fullscreen
+static const char *EmacsCapture[] = { "emacsclient", "-c", "-s", "mainemacs", 
+    "-e", "(my/org-capture-fullframe)", NULL };
+
+// Org agenda fullscreen
+static const char *EmacsAgenda[] = { "emacsclient", "-c", "-s", "mainemacs", 
+    "-e", "(my/org-agenda-fullframe)", NULL };
+
+// Mu4e fullscreen
+static const char *EmacsMu4e[] = { "emacsclient", "-c", "-s", "mainemacs", 
+    "-e", "(my/mu4e-fullframe)", NULL };
 // not used 
 // static const char *termcmd[]  = { "st", NULL };
 
@@ -263,6 +316,29 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_b,      spawn,                 {.v = browser} },
 	{ MODKEY,                       XK_f,      spawn,                 {.v = fileManager} },
 	{ MODKEY|ShiftMask,             XK_Return, togglescratch,         {.v = scratchpadcmd } },
+	{ MODKEY|Mod1Mask,              XK_p,      spawn,                 {.v = ref} },
+	{ MODKEY|ShiftMask,             XK_l,      spawn,                 {.v = llm} },
+	{ MODKEY|ControlMask,           XK_z,      spawn,                 {.v = zoomer} },
+	{ MODKEY|ControlMask,           XK_Return, spawn,                 {.v = termColler} },
+	{ MODKEY,                       XK_n,      spawn,                 {.v = notion} },
+	{ MODKEY|ShiftMask|ControlMask, XK_c,      spawn,                 {.v = notionCal} },
+	{ MODKEY,                       XK_r,      spawn,                 {.v = epub} },
+	{ MODKEY,                       XK_o,      spawn,                 {.v = notes} },
+	{ MODKEY|ShiftMask,             XK_o,      spawn,                 {.v = office} },
+	{ MODKEY,                       XK_p,      spawn,                 {.v = pdf} },
+	{ MODKEY,                       XK_g,      spawn,                 {.v = git} },
+	{ MODKEY|ShiftMask,             XK_z,      spawn,                 {.v = editor} },
+	{ MODKEY|ShiftMask,             XK_b,      spawn,                 {.v = browser2} },
+	{ MODKEY,                       XK_k,      spawn,                 {.v = kate} },
+  // emacs
+	{ MODKEY|Mod1Mask,              XK_e,      spawn,                 {.v = EmacsReload} },
+	{ MODKEY,                       XK_e,      spawn,                 {.v = EmacsClient} },
+	{ MODKEY,                       XK_t,      spawn,                 {.v = EmacsTodo} },
+	{ MODKEY|Mod1Mask,              XK_n,      spawn,                 {.v = EmacsNotes} },
+	{ MODKEY|ControlMask,           XK_n,      spawn,                 {.v = EmacsNotesdir} },
+	{ MODKEY|ControlMask,           XK_t,      spawn,                 {.v = EmacsCapture} },
+	{ MODKEY,                       XK_a,      spawn,                 {.v = EmacsAgenda} },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_e,      spawn,                 {.v = EmacsMu4e} },
 
   // not used apps 
 	// { MODKEY|ShiftMask,          XK_Return, spawn,                 {.v = termcmd } },

@@ -1,0 +1,270 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+    "separator": "  "
+  },
+  "modules": [
+    {
+      "type": "custom", // HardwareStart
+      "format": "\u001b[97m────────────── \u001b[1mpappanos@pappanos-dell\u001b[0m\u001b[97m ────────────────\u001b[0m",
+      "formatColor": "green"
+    },
+    {
+      "type": "custom",
+      "format": "\u00A0" // Add padding before the next section (adjust spaces as needed)
+    },
+    {
+      "type": "custom", // HardwareStart
+      "key": " ",
+      "separator": false,
+      "format": "\u001b[36m┌──────────────── \u001b[1mSystem Information\u001b[0m \u001b[36m────────────────┐\u001b[0m"
+    },
+    {
+      "type": "custom", // InformationStart
+      "key": " ╭─ ",
+      "keyColor": "36",
+      "format": "Arch linux {btw}"
+    },
+    {
+      "type": "de",
+      "key": " ├─󰧨 ",
+      "keyColor": "36"
+    },
+    {
+      "type": "wm",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "lm",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "datetime",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "uptime",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "chassis",
+      "key": " ├─󰌢 ",
+      "keyColor": "36"
+    },
+    {
+      "type": "font",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "display",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "sound",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "brightness",
+      "key": " ├─󰃡 ",
+      "keyColor": "36"
+    },
+    {
+      "type": "camera",
+      "key": " ├─󰖠 ",
+      "keyColor": "36"
+    },
+    {
+      "type": "netio",
+      "key": " ├─󰑩 ",
+      "keyColor": "36"
+    },
+    {
+      "type": "wifi",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "localip",
+      "key": " ├─󰩠 ",
+      "keyColor": "36"
+    },
+    {
+      "type": "battery",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "poweradapter",
+      "key": " ├─ ",
+      "keyColor": "36"
+    },
+    /*{
+            "type": "weather",
+            "key": " ├─󰖐 ",
+            "keyColor": "36"
+        },*/
+    {
+      "type": "locale",
+      "key": " ╰─ ",
+      "keyColor": "36"
+    },
+    {
+      "type": "custom", // InformationEnd
+      "key": " ",
+      "separator": false,
+      "format": "\u001b[36m└───────────────────────────────────────────────────────┘\u001b[0m"
+    },
+    {
+      "type": "custom", // SoftwareStart
+      "key": " ",
+      "separator": false,
+      "format": "\u001b[94m┌───────────────── \u001b[1mTerminal Information\u001b[0m \u001b[94m────────────────┐\u001b[0m"
+    },
+    {
+      "type": "terminal",
+      "key": " ╭─ ",
+      "keyColor": "94",
+      "format": "{5} {6} \u001b[30m█\u001b[90m█ \u001b[31m█\u001b[91m█ \u001b[32m█\u001b[92m█ \u001b[33m█\u001b[93m█ \u001b[34m█\u001b[94m█ \u001b[35m█\u001b[95m█ \u001b[36m█\u001b[96m█ \u001b[37m█\u001b[97m█"
+    },
+    {
+      "type": "terminalsize",
+      "key": " ├─󰲏 ",
+      "keyColor": "94"
+    },
+    {
+      "type": "terminalfont",
+      "key": " ├─ ",
+      "keyColor": "94"
+    },
+    {
+      "type": "shell",
+      "key": " ├─ ",
+      "keyColor": "94"
+    },
+    {
+      "type": "kernel",
+      "key": " ├─ ",
+      "keyColor": "94"
+    },
+    {
+      "type": "bios",
+      "key": " ├─ ",
+      "keyColor": "94"
+    },
+    {
+      "type": "theme",
+      "key": " ├─󰸌 ",
+      "keyColor": "94"
+    },
+    {
+      "type": "bluetooth",
+      "key": " ├─ ",
+      "keyColor": "94"
+    },
+    {
+      "type": "icons",
+      "key": " ├─ ",
+      "keyColor": "94"
+    },
+    {
+      "type": "cursor",
+      "key": " ╰─󱄧 ",
+      "keyColor": "94"
+    },
+    {
+      "type": "custom", // InformationEnd
+      "key": " ",
+      "separator": false,
+      "format": "\u001b[94m└───────────────────────────────────────────────────────┘\u001b[0m"
+    },
+    {
+      "type": "custom", // SoftwareStart
+      "key": " ",
+      "separator": false,
+      "format": "\u001b[34m┌───────────────── \u001b[1mSoftware Information\u001b[0m \u001b[34m────────────────┐\u001b[0m"
+    },
+    {
+      "type": "cpu",
+      "key": " ╭─󰻠 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "cpuusage",
+      "key": " ├─󰓡 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "gpu",
+      "key": " ├─ ",
+      "keyColor": "34"
+    },
+    {
+      "type": "memory",
+      "key": " ├─󰑭 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "physicalmemory",
+      "key": " ├─󰑭 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "swap",
+      "key": " ├─󰑭 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "vulkan",
+      "key": " ├─ ",
+      "keyColor": "34"
+    },
+    {
+      "type": "opengl",
+      "key": " ├─󰨇 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "opencl",
+      "key": " ├─󰙱 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "disk",
+      "key": " ├─󰋊 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "packages",
+      "key": " ├─󰏔 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "player",
+      "key": " ├─ ",
+      "keyColor": "34"
+    },
+    {
+      "type": "gamepad",
+      "key": " ├─󰊴 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "version",
+      "key": " ╰─󰏋 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "custom", // InformationEnd
+      "key": " ",
+      "separator": false,
+      "format": "\u001b[34m└───────────────────────────────────────────────────────┘\u001b[0m"
+    }
+  ]
+}

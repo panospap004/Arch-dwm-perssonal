@@ -80,6 +80,8 @@ yad --width="$dynamic_width" --height="$dynamic_height" \
     " Shift 0"                    "Move Window"                     "Move Window To 0 Tag To Make It Show In All Tags" \
     " Shift S"                    "Select Window"                   "In View ALL Select Window To Move View To" \
     "Alt Tab"                      "Alt-Tab"                         "Like Windows Alt-Tab" \
+    " Shift Control Left/Right"   "Change Monitor"                  "Changed Focused Monitor" \
+    " Shift Control Down/Up"      "Change Monitor"                  "Move Window To Another Monitor And Focus Monitor" \
     " Alt Comma/Period"           "Change Monitor"                  "Changed Focused Monitor" \
     " Shift Comma/Period"         "Change Monitor"                  "Move Window To Another Monitor And Focus Monitor" \
     ""                             ""                                "" \

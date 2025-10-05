@@ -292,6 +292,10 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_0,      view,                  {.ui = ~0 } }, // go to tag 0 so you can see all windows
 	{ MODKEY|ShiftMask,             XK_0,      tag,                   {.ui = ~0 } }, // move to tag 0 so it shows in every tag
 	{ MODKEY|ShiftMask,             XK_s,      winview,               {0} }, // select selected window from the 0 tag to go there
+	{ MODKEY|ShiftMask|ControlMask, XK_Left,   focusmon,              {.i = -1 } }, // Move focus Between Multi monitors
+  { MODKEY|ShiftMask|ControlMask, XK_Right,  focusmon,              {.i = +1 } }, // Move focus Between Multi monitors
+	{ MODKEY|ShiftMask|ControlMask, XK_Down,   tagmonfollow,          {.i = -1 } }, // Move focus Between Multi monitors
+  { MODKEY|ShiftMask|ControlMask, XK_Up,     tagmonfollow,          {.i = +1 } }, // Move focus Between Multi monitors
 	{ MODKEY|Mod1Mask,              XK_comma,  focusmon,              {.i = -1 } }, // Move focus Between Multi monitors
   { MODKEY|Mod1Mask,              XK_period, focusmon,              {.i = +1 } }, // Move focus Between Multi monitors
   { MODKEY|ShiftMask,             XK_comma,  tagmonfollow,          {.i = -1 } }, // send Window To monitor and follow

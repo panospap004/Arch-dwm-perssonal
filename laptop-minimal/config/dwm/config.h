@@ -216,7 +216,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_q,      killclient,            {0} }, // kill active window normaly
 	{ MODKEY|Mod1Mask,              XK_b,      togglebar,             {0} }, // toggle polybar to hide or not
 	{ MODKEY,                       XK_space,  togglefloating,        {0} }, // make window float
-	{ MODKEY|ControlMask,           XK_p,      togglesticky,          {0} }, // pin floating window so it follows you
+	{ MODKEY|Mod1Mask,              XK_p,      togglesticky,          {0} }, // pin floating window so it follows you
 	{ MODKEY|ShiftMask,             XK_f,      togglefullscr,         {0} }, // enter full screen
 	{ MODKEY|ControlMask,           XK_bracketleft,   shiftview,      {.i = +1} }, // keybind for touchpad to change tags
 	{ MODKEY|ControlMask,           XK_bracketright,  shiftview,      {.i = -1} }, // keybind for touchpad to change tags
@@ -316,6 +316,9 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_n,      spawn,                 {.v = MediaNext} },
 	{ MODKEY|ShiftMask,             XK_p,      spawn,                 {.v = MediaPrev} },
 	{ MODKEY|ControlMask,           XK_p,      spawn,                 {.v = MediaToggle} },
+	{ 0,                            XF86XK_AudioNext,          spawn, {.v = MediaNext} },
+	{ 0,                            XF86XK_AudioPrev,          spawn, {.v = MediaPrev} },
+	{ 0,                            XF86XK_AudioPlay,          spawn, {.v = MediaToggle} },
 	{ MODKEY|Mod1Mask,              XK_space,  spawn,                 {.v = MediaStop} },
 	{ MODKEY|Mod1Mask,              XK_a,      spawn,                 {.v = AirplaneMode} },
 	{ MODKEY|ShiftMask,             XK_a,      spawn,                 {.v = GenearlAudioOutSwitch} },

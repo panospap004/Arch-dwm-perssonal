@@ -1,0 +1,83 @@
+#!/bin/bash
+# DWM workspaces script - hardcoded monitor order
+
+back="${1:-${COLOR_BACK:-#423949}}"
+fore="${2:-${COLOR_FORE:-#FFFFFF}}"
+prim="${3:-${COLOR_PRIM:-#D94085}}"
+occupied="${4:-${COLOR_OCCUPIED:-#FFFFFF}}"
+empty="${5:-${COLOR_EMPTY:-#9E9E9E}}"
+urgent="${6:-${COLOR_URGENT:-#EBD369}}"
+
+kanji=("一" "二" "三" "四" "五" "六" "七" "八" "九")
+
+format_workspace() {
+    local state="$1"
+    local index="$2"
+    local kanji_char="${kanji[$index]}"
+    
+    case "$state" in
+        a) echo -n "%{F$occupied}%{B$prim} $kanji_char %{B-}%{F-}" ;;
+        o) echo -n "%{F$occupied}%{B$back} $kanji_char %{B-}%{F-}" ;;
+        u) echo -n "%{F$occupied}%{B$urgent} $kanji_char %{B-}%{F-}" ;;
+        *) echo -n "%{F$empty}%{B$back} $kanji_char %{B-}%{F-}" ;;
+    esac
+}
+
+MONITOR_NAME="${MONITOR:-$(xrandr --query | grep " connected primary" | cut -d" " -f1)}"
+
+# Hardcoded monitor order matching your DWM setup
+# DWM orders monitors left-to-right, then top-to-bottom based on position 
+# if you want to find the monitors name do this 
+# pappanos@Pappanos ~> xrandr --query | grep " connected" | cut -d" " -f1
+# DVI-D-0
+# HDMI-0
+# DP-0
+# pappanos@Pappanos ~> xrandr --query | grep " connected primary" | cut -d" " -f1
+# HDMI-0
+case "$MONITOR_NAME" in
+    "HDMI-0")
+        MONITOR_INDEX=0  # Main monitor
+        ;;
+    "DVI-D-0")
+        MONITOR_INDEX=1  # Right of main
+        ;;
+    "DP-0")
+        MONITOR_INDEX=2  # Above the other two
+        ;;
+    *)
+        MONITOR_INDEX=0  # Fallback to first monitor
+        ;;
+esac
+
+DWM_PROPERTY="DWM_TAG_STATE_${MONITOR_INDEX}"
+
+init_output=""
+for i in {0..8}; do
+    init_output+=$(format_workspace "e" "$i")
+done
+echo "$init_output"
+
+xprop -spy -root "$DWM_PROPERTY" 2>/dev/null | {
+    while read -r line; do
+        if [[ $line =~ \"([^\"]+)\" ]]; then
+            tags="${BASH_REMATCH[1]}"
+            output=""
+            for i in {0..8}; do
+                if [[ ${#tags} -gt $i ]]; then
+                    output+=$(format_workspace "${tags:$i:1}" "$i")
+                else
+                    output+=$(format_workspace "e" "$i")
+                fi
+            done
+            echo "$output"
+        fi
+    done
+}
+
+if [[ $? -ne 0 ]]; then
+    fallback_output=""
+    for i in {0..8}; do
+        fallback_output+=$(format_workspace "e" "$i")
+    done
+    echo "$fallback_output"
+fi

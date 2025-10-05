@@ -62,7 +62,7 @@ yad --width="$dynamic_width" --height="$dynamic_height" \
     " Q"                          "Close"                           "Normal Close Window" \
     " Alt B"                      "Toggle Bar"                      "Show/Hide Polybar" \
     " Space"                      "Toggle Floating"                 "Make Window Floating" \
-    " Ctrl P"                     "Pin Floating"                    "Make Floating Window Follow" \
+    " Alt P"                      "Pin Floating"                    "Make Floating Window Follow" \
     " Shift F"                    "Toggle FullScreen"               "Make Window FullScreen" \
     " 3 Fingers Swipe Left/Right" "Move"                     "Move To Tag Left/Right" \
     " "                          "Focus Up/Down/Left/Right Window" "Change Focus" \

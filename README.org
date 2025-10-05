@@ -415,15 +415,12 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
      4. also check the following file for nvidia cards again
         - ~sudo vim /etc/mkinitcpio.conf~
         - modules should have this options in them ~MODULES=(... nvidia nvidia_modeset nvidia_uvm nvidia_drm ...)~
-     5. then create this file
-        - ~sudo vim /etc/modprobe.d/nvidia.conf~
-        - and add the following options ~nvidia_drm modeset=1 fbdev=1~
-     6. then run
+     5. then run
         #+begin_src shell
         sudo mkinitcpio -P
         #+end_src
         - if this files baucuase boot is full you will need either to expand it or re install arch with bigger boot partition
-      7. then reboot system
+      6. then reboot system
 * Customization
 ** add all my configs etc to your .config or home folder i symbolized with ~ so all the syles and stuff you need are ready to go for some explination of what i did {but not everything or it would be way to long so if you want to see why sine folders or something else exist read the scripts since more then likely thats why they exist}:
 ** Sddm
@@ -455,9 +452,15 @@ nvim refind.conf
 include themes/catppuccin/frappe.conf
 
 #+end_src
+** Polybar
+- about polybar if you are on desktop from config.ini remove the brightness modules since they dont work on destktop
+- also if you have more then 2 monitors copy and replace the dwm-workspaces.sh code with the temp file code and read how to fix it inside i have added comments
+- also depending if you have intel or amd , etc motherboard / gpu you might need to ajust some modules 
+- and same goes for network you might need to ajust the network-status script i have notes also added in it to how to do it
+- and lastly if polybar workspaces dont work when you boot initially its beacause dwm dosent normaly use polybar and all you will need to do is either use the windows+shift+w or windows+shift+r to either reload dwm or change colors that reloads polybar
 ** Icons, cursor, font 
 in this config i use the vimix-cursor , the rowaita icon pack and the monaspace radon font
-- for the font install i have explained already so i wont repeat it here 
+- for the font install i have explained already bellow so i wont repeat it here but if you have in mind that you will need to ajust the font size in several places in my config if its either to small or large for you
 - for the vimix cursor just install it with yay like i said abive 
 - for the rowaita icons 
   + download the zip and extract it 

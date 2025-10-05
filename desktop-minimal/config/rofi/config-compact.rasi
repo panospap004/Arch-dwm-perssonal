@@ -27,7 +27,7 @@ imagebox {
 /* ---- Entry input ---- */
 entry {
   width: 23%;
-  placeholder: "👀  View / Edit Hyprland Configs";
+  placeholder: "👀  View/Search";
 }
 
 /* ---- Listview ---- */

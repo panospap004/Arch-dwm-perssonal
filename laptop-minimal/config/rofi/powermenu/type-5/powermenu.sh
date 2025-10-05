@@ -13,13 +13,13 @@ uptime="`uptime -p | sed -e 's/up //g'`"
 
 # Options with icons
 kill='󰯈'
-lock=''
-suspend=''
-reboot=''
-logout=''
-shutdown=''
-yes=''
-no=''
+lock=''
+suspend=''
+reboot=''
+logout='󰍃'
+shutdown='⏻'
+yes=''
+no=''
 
 # Rofi CMD
 rofi_cmd() {

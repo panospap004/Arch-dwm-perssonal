@@ -20,8 +20,8 @@ declare -A player_icons=(
 play_icon=""
 pause_icon="󰐎"
 stop_icon=""
-prev_icon=""
-next_icon=""
+prev_icon="󰒮"
+next_icon="󰒭"
 
 # Colors (can be overridden by polybar)
 COLOR_PLAYING="${COLOR_PLAYING:-#61C766}"

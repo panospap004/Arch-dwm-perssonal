@@ -218,8 +218,8 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_space,  togglefloating,        {0} }, // make window float
 	{ MODKEY|ControlMask,           XK_p,      togglesticky,          {0} }, // pin floating window so it follows you
 	{ MODKEY|ShiftMask,             XK_f,      togglefullscr,         {0} }, // enter full screen
-	{ MODKEY|ControlMask,           XK_bracketleft,   shiftview,      {.i = +1} }, // keybind for touchpad to change tags
-	{ MODKEY|ControlMask,           XK_bracketright,  shiftview,      {.i = -1} }, // keybind for touchpad to change tags
+	/* { MODKEY|ControlMask,           XK_bracketleft,   shiftview,      {.i = +1} }, // keybind for touchpad to change tags */
+	/* { MODKEY|ControlMask,           XK_bracketright,  shiftview,      {.i = -1} }, // keybind for touchpad to change tags */
 	STACKKEYS(MODKEY,                          focus) // change window
 	STACKKEYS(MODKEY|ShiftMask,                push) // move window
 	{ MODKEY,                       XK_z,      zoom,                  {0} }, // swap master window with selected one

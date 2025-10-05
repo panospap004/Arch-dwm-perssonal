@@ -81,6 +81,7 @@ when isntalling arch with arch installer, in the options
   11. now create the sddm xsession file with 
      - ~sudo nvim /usr/share/xsessions/dwm.desktop~
      - paste this in the file 
+     - or even better copy it from the desktop or laptop config depending on what you are using
   #+begin_src shell
 [Desktop Entry]
 Encoding=UTF-8
@@ -301,8 +302,9 @@ fade-delta = 13
 ###################################
 inactive-opacity = 0.85;
 active-opacity = 1;
-inactive-opacity-override = true
-
+inactive-opacity-override = false
+# In your picom.conf file
+opacity-rule = [ "100:fullscreen" ]
 #################################
 #           Corners             #
 #################################
@@ -348,27 +350,25 @@ blur-background-fixed = true
 ###################################
 #             Animation           #
 ###################################
-animations = ({
-  triggers = [ "open"];
-  preset = "appear";
-  scale = 0.7;
-  duration = 0.2;
-  suppressions = ["menu", "popup_menu", "dropdown_menu", "tooltip"];
+animations = (
+  {
+    triggers = ["open"];
+    preset = "appear";
+    scale = 0.7;
+    duration = 0.15;
   },
   {
-  triggers = [ "close"];
-  preset = "disappear";
-  scale = 0.7;
-  duration = 0.2;
-  suppressions = ["menu", "popup_menu", "dropdown_menu", "tooltip"];
+    triggers = ["close"];
+    preset = "disappear";
+    scale = 0.7;
+    duration = 0.15;
   },
   {
-  triggers = [ "move", "geometry"];
-  preset = "geometry-change";
-  duration = 0.2;
+    triggers = ["geometry"];
+    preset = "geometry-change";
+    duration = 0.2;
   }
-  )
-
+)
 
 ###################################
 #             General             #
@@ -404,6 +404,7 @@ wintypes:
  # this is polybar # dock = { fade = true; shadow = false; opacity = 1.0; focus = true; full-shadow = false; opacity = 1.0; blur-background = false;}
 
 }
+
          #+end_src
      2. and then inside the  /usr/local/bin/startdwm.sh before while loop add 
         - ~picom &~

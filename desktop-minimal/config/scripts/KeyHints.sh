@@ -64,7 +64,6 @@ yad --width="$dynamic_width" --height="$dynamic_height" \
     " Space"                      "Toggle Floating"                 "Make Window Floating" \
     " Ctrl P"                     "Pin Floating"                    "Make Floating Window Follow" \
     " Shift F"                    "Toggle FullScreen"               "Make Window FullScreen" \
-    " 3 Fingers Swipe Left/Right" "Move"                     "Move To Tag Left/Right" \
     " "                          "Focus Up/Down/Left/Right Window" "Change Focus" \
     " Shift "                    "Move Window Up/Down/Left/Right"  "Move Window" \
     " Control Space"              "Swap Focus"                      "Swap Focus Between 2 Latest Windows" \

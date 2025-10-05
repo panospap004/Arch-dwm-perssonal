@@ -8,6 +8,11 @@ cleanup() {
 }
 trap cleanup TERM INT
 
+# Start Emacs daemon if not already running
+if ! emacsclient -s mainemacs -e '(version)' &>/dev/null; then
+    emacs --daemon=mainemacs --load ~/.config/MainEmacs/init.el &
+fi
+
 # Background setup
 # wal -R
 # if you want to use hard set wallpapers on its monitor uncomend this line and put you wallpapers (you need to do the same in 2 scripts in multiple lines the scripts are wallpaper-menu.sh, Wallpaper-select.sh)

@@ -39,7 +39,7 @@ xautolock -time 10 -locker "slock -d" -detectsleep &
 
 # Other services
 picom &
-libinput-gestures-setup restart &
+# libinput-gestures-setup restart &
 greenclip daemon &
 
 # Apply your arandr layout if you have one saved

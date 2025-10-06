@@ -112,7 +112,7 @@ yad --width="$dynamic_width" --height="$dynamic_height" \
     " Control N"                  "Open Emacs"                      "Emacs Notes Directory" \
     " Control T"                  "Open Emacs"                      "Emacs Captures" \
     " A"                          "Open Emacs"                      "Emacs Agenda" \
-    " Alt Shift E"                "Open Emacs"                      "Emacs Emal" \
+    " Shift Control E"            "Open Emacs"                      "Emacs Emal" \
     ""                             ""                                "" \
     ""                          "SCRIPT SECTION"                  ""\
     ""                             ""                                "" \
@@ -175,7 +175,7 @@ yad --width="$dynamic_width" --height="$dynamic_height" \
     " Shift Control D"            "Dmenu Document"                  "Open Pdfs With Dmenu" \
     " Alt Shift S"                "Dmenu Websearch"                 "Websearch From Anywhere" \
     " Shift Control M"            "Dmenu Man"                       "Open Man Pages" \
-    " Shift Control E"            "Dmenu Equalizer"                 "Output/Input Equalizer" \
+    " Shift Control E"            "Dmenu Equalizer"                 "{Removed}Output/Input Equalizer" \
     " Shift Alt A"                "Dmenu Arch Wiki"                 "Locale Arch Wiki" \
     " Shift Alt M"                "Dmenu Relaxing Sounds"           "Relaxing Sounds Like Rain Fire Etc" \
     " Shift Alt D"                "Dmenu Dictionary"                "Online Dictionary" \

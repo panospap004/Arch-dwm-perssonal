@@ -342,7 +342,7 @@ static const Key keys[] = {
 	{ MODKEY|ControlMask,           XK_n,      spawn,                 {.v = EmacsNotesdir} },
 	{ MODKEY|ControlMask,           XK_t,      spawn,                 {.v = EmacsCapture} },
 	{ MODKEY,                       XK_a,      spawn,                 {.v = EmacsAgenda} },
-	{ MODKEY|Mod1Mask|ShiftMask,    XK_e,      spawn,                 {.v = EmacsMu4e} },
+	{ MODKEY|ShiftMask|ControlMask, XK_e,      spawn,                 {.v = EmacsMu4e} },
 
   // not used apps 
 	// { MODKEY|ShiftMask,          XK_Return, spawn,                 {.v = termcmd } },
@@ -357,7 +357,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask|ControlMask, XK_d,      spawn,                 {.v = dmenuDoc } },
 	{ MODKEY|Mod1Mask|ShiftMask,    XK_s,      spawn,                 {.v = dmenuWebSearch} },
 	{ MODKEY|ShiftMask|ControlMask, XK_m,      spawn,                 {.v = dmenuManPage } },
-	{ MODKEY|ShiftMask|ControlMask, XK_e,      spawn,                 {.v = dmenuEq } },
+	/* { MODKEY|ShiftMask|ControlMask, XK_e,      spawn,                 {.v = dmenuEq } }, */
 	{ MODKEY|ShiftMask|Mod1Mask,    XK_a,      spawn,                 {.v = dmenuArchWiki } },
 	{ MODKEY|ShiftMask|Mod1Mask,    XK_m,      spawn,                 {.v = dmenuRelaxingSounds } },
 	{ MODKEY|ShiftMask|Mod1Mask,    XK_d,      spawn,                 {.v = dmenuDictionary } },

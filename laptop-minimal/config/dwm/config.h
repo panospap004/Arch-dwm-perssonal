@@ -331,11 +331,11 @@ static const Key keys[] = {
 	{ MODKEY|Mod1Mask,              XK_r,      spawn,                 {.v = RecordSelNoAudio} },
 	{ MODKEY|Mod1Mask|ControlMask,  XK_r,      spawn,                 {.v = RecordScreenAudio} },
 	{ MODKEY|Mod1Mask|ShiftMask,    XK_r,      spawn,                 {.v = RecordSelAudio} },
-	{ MODKEY|ShiftMask,             XK_r,      quit,           {0} }, // this reloads dwm due to a script
+	{ MODKEY|ShiftMask,             XK_r,      quit,                  {0} }, // this reloads dwm due to a script
 	{ MODKEY|ShiftMask,             XK_slash,  spawn,                 {.v = rofiKeyHints } },
-	{ MODKEY|ControlMask,           XK_x,      spawn,         {.v = (const char*[]){"pkill", "dwm", NULL}}}, // this quits dwm
+	{ MODKEY|ControlMask,           XK_x,      spawn,                 {.v = (const char*[]){"pkill", "dwm", NULL}}}, // this quits dwm
   // not used scripts
-	// { MODKEY,                    XK_F5,     xrdb,           {.v = NULL } }, // wallpaper-wal and menu does it with the script
+	{ MODKEY,                       XK_F5,     xrdb,                  {.v = NULL } }, // wallpaper-wal and menu does it with the script
   // {0,                             XF86XK_AudioMute,          spawn, SHCMD("pactl set-sink-mute 0 toggle")},
   // {0,                             XF86XK_AudioLowerVolume,   spawn, SHCMD("pactl set-sink-volume 0 -5%")},
   // {0,                             XF86XK_AudioRaiseVolume,   spawn, SHCMD("pactl set-sink-volume 0 +5%")},

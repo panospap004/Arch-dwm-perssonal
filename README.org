@@ -67,7 +67,8 @@ when isntalling arch with arch installer, in the options
     		pipx install -e "pywal16[modern_colorthief,colorthief,haishoku,colorz]"
     		pipx ensurepath
     #+end_src
-  7. now also install the folowing cursor theme, icon theme and font or you will have to manualy edit several stuff later
+    - if when you login and try to apply a wallpaper and pywal dont change colors the rerun ~pipx ensurepath~ and reboot again
+  7. now also install the following cursor theme, icon theme and font or you will have to manually edit several stuff later
      - cursor theme ~yay -S vimix-cursors~
      - font look at the how to edit config.mk section below you need the monaspaceRadon NF at least 
      - icon pack https://github.com/4e6anenk0/Rowaita-icon-theme

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "google/gemini-2.5-pro",
+  "small_model": "github-copilot/gpt-4.1",
+ "permission": {
+    "webfetch": "allow",
+    "todoread": "allow",
+    "todowrite": "allow",
+    "patch": "allow",
+    "list": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "read": "allow",
+    "edit": "ask",
+    "write": "ask",
+    "bash": "ask"
+  },
+}

@@ -1,0 +1,401 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"open"}
+{"signed_in":false,"milliseconds_since_first_event":29,"type":"Setting","setting":"theme","value":"One Dark"}
+{"signed_in":false,"milliseconds_since_first_event":29,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"catppuccin","version":"0.2.8"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"exquisite","version":"0.1.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"html","version":"0.1.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"nightfox","version":"0.0.1"}
+{"signed_in":false,"milliseconds_since_first_event":461,"type":"Editor","operation":"open","file_extension":"cpp","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":false,"milliseconds_since_first_event":462,"type":"Editor","operation":"open","file_extension":"cpp","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":12914,"type":"Action","source":"command palette","action":"zed: open settings"}
+{"signed_in":true,"milliseconds_since_first_event":12916,"type":"Editor","operation":"open","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":24489,"type":"InlineCompletion","provider":"copilot","suggestion_accepted":true,"file_extension":"json"}
+{"signed_in":true,"milliseconds_since_first_event":25396,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":107867,"type":"Edit","duration":5921,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":117189,"type":"InlineCompletion","provider":"copilot","suggestion_accepted":true,"file_extension":"json"}
+{"signed_in":true,"milliseconds_since_first_event":117823,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":141928,"type":"InlineCompletion","provider":"copilot","suggestion_accepted":true,"file_extension":"json"}
+{"signed_in":true,"milliseconds_since_first_event":142597,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":143537,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":167441,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":170336,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":239971,"type":"Memory","memory_in_bytes":333848576,"virtual_memory_in_bytes":23737675776}
+{"signed_in":true,"milliseconds_since_first_event":239971,"type":"Cpu","usage_as_percentage":6.156607,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"Editor","operation":"save","file_extension":"cpp","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":90244,"type":"Edit","duration":62053,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":94421,"type":"InlineCompletion","provider":"copilot","suggestion_accepted":true,"file_extension":"json"}
+{"signed_in":true,"milliseconds_since_first_event":94967,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":160865,"type":"Memory","memory_in_bytes":336674816,"virtual_memory_in_bytes":23737675776}
+{"signed_in":true,"milliseconds_since_first_event":160865,"type":"Cpu","usage_as_percentage":2.88268,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":198487,"type":"App","operation":"extensions page: open"}
+{"signed_in":true,"milliseconds_since_first_event":220929,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":222054,"type":"Extension","extension_id":"git-firefly","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":235012,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":235718,"type":"Extension","extension_id":"dracula","version":"0.9.2"}
+{"signed_in":true,"milliseconds_since_first_event":239531,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":247456,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":248297,"type":"Extension","extension_id":"make","version":"1.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":261632,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":262427,"type":"Extension","extension_id":"graphql","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":287529,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":296142,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":296818,"type":"Extension","extension_id":"xy-zed","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"Action","source":"command palette","action":"theme selector: toggle"}
+{"signed_in":true,"milliseconds_since_first_event":5735,"type":"Edit","duration":4742,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":10723,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":21138,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":21816,"type":"Extension","extension_id":"new-darcula","version":"1.0.5"}
+{"signed_in":true,"milliseconds_since_first_event":27673,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":28363,"type":"Extension","extension_id":"zedokai","version":"1.1.1"}
+{"signed_in":true,"milliseconds_since_first_event":55570,"type":"Editor","operation":"open","file_extension":"cpp","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":58470,"type":"Edit","duration":1355,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":62532,"type":"Action","source":"command palette","action":"theme selector: toggle"}
+{"signed_in":true,"milliseconds_since_first_event":97526,"type":"Memory","memory_in_bytes":343805952,"virtual_memory_in_bytes":24099315712}
+{"signed_in":true,"milliseconds_since_first_event":97526,"type":"Cpu","usage_as_percentage":6.396384,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":111565,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":113316,"type":"Extension","extension_id":"latex","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":119026,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":119747,"type":"Extension","extension_id":"fleet-themes","version":"1.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":124603,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":125733,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":126434,"type":"Extension","extension_id":"night-owlz","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":132769,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":138962,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":139683,"type":"Extension","extension_id":"synthwave","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":143062,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":147178,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":147998,"type":"Extension","extension_id":"fish","version":"0.0.8"}
+{"signed_in":true,"milliseconds_since_first_event":151445,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":152132,"type":"Extension","extension_id":"rainbow-csv","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":153953,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":172638,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":173335,"type":"Extension","extension_id":"everforest","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":184978,"type":"Action","source":"command palette","action":"theme selector: toggle"}
+{"signed_in":true,"milliseconds_since_first_event":195570,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":196263,"type":"Extension","extension_id":"zedspace","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":197332,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":203200,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":204287,"type":"Extension","extension_id":"snippets","version":"0.0.5"}
+{"signed_in":true,"milliseconds_since_first_event":206020,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":206728,"type":"Extension","extension_id":"nanowise","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":207938,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":208903,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":209931,"type":"Extension","extension_id":"nanowise","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":211699,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":213990,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":214692,"type":"Extension","extension_id":"napalm","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":215802,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":218219,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":218966,"type":"Extension","extension_id":"poimandres","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":226498,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":230668,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":232585,"type":"Extension","extension_id":"base16","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":3429,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":4133,"type":"Extension","extension_id":"indigo","version":"0.1.2"}
+{"signed_in":true,"milliseconds_since_first_event":10948,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":14381,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":15084,"type":"Extension","extension_id":"assembly","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":17714,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":18472,"type":"Extension","extension_id":"one-hunter","version":"0.0.4"}
+{"signed_in":true,"milliseconds_since_first_event":22321,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":23698,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":24419,"type":"Extension","extension_id":"serendipity","version":"0.0.6"}
+{"signed_in":true,"milliseconds_since_first_event":34136,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":36411,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":37137,"type":"Extension","extension_id":"serendipity","version":"0.0.6"}
+{"signed_in":true,"milliseconds_since_first_event":46546,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":48939,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":49649,"type":"Extension","extension_id":"ktrz-monokai","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":51040,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":54911,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":55617,"type":"Extension","extension_id":"nvim-nightfox","version":"0.2.0"}
+{"signed_in":true,"milliseconds_since_first_event":61723,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":62886,"type":"Extension","extension_id":"gdscript","version":"0.2.0"}
+{"signed_in":true,"milliseconds_since_first_event":62918,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":63646,"type":"Extension","extension_id":"kanagawa-themes","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":66003,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":72718,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":73434,"type":"Extension","extension_id":"srcery","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":76581,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":78727,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":79452,"type":"Extension","extension_id":"norrsken","version":"3.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":84893,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":87386,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":88386,"type":"Extension","extension_id":"nginx","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":89665,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":92343,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":93103,"type":"Extension","extension_id":"intellij-newui-theme","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":94868,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":95865,"type":"Memory","memory_in_bytes":368750592,"virtual_memory_in_bytes":50022240256}
+{"signed_in":true,"milliseconds_since_first_event":95865,"type":"Cpu","usage_as_percentage":11.198815,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":96295,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":97023,"type":"Extension","extension_id":"msun-dark","version":"0.0.4"}
+{"signed_in":true,"milliseconds_since_first_event":101409,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":107590,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":108344,"type":"Extension","extension_id":"modest-dark","version":"0.1.1"}
+{"signed_in":true,"milliseconds_since_first_event":110021,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":114678,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":115414,"type":"Extension","extension_id":"gentle-dark","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":116506,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":120772,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":121510,"type":"Extension","extension_id":"monosami","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":5832,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":6615,"type":"Extension","extension_id":"vitesse","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":10598,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":12636,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":13370,"type":"Extension","extension_id":"neosolarized","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":15026,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":208475,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":209614,"type":"Extension","extension_id":"quill","version":"0.2.2"}
+{"signed_in":true,"milliseconds_since_first_event":212010,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":212171,"type":"Memory","memory_in_bytes":369405952,"virtual_memory_in_bytes":50022764544}
+{"signed_in":true,"milliseconds_since_first_event":212171,"type":"Cpu","usage_as_percentage":6.618537,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":215231,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":216221,"type":"Extension","extension_id":"neocmake","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":219618,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":220356,"type":"Extension","extension_id":"oceanic-next","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":221835,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":229000,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":229712,"type":"Extension","extension_id":"warp-one-dark","version":"0.1.1"}
+{"signed_in":true,"milliseconds_since_first_event":230845,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":232673,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":233393,"type":"Extension","extension_id":"cosmos","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":234661,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":239710,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":240485,"type":"Extension","extension_id":"vesper","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":241775,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":244070,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":244802,"type":"Extension","extension_id":"horizon","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":247811,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":251449,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":252188,"type":"Extension","extension_id":"blackfox","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":258276,"type":"Setting","setting":"theme","value":"BlackFox"}
+{"signed_in":true,"milliseconds_since_first_event":271790,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":272518,"type":"Extension","extension_id":"unoflat","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":274545,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":280060,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":280789,"type":"Extension","extension_id":"mellow","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":282034,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":284164,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":284898,"type":"Extension","extension_id":"visual-assist-dark","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":286230,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":288022,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":288791,"type":"Extension","extension_id":"rose-pine-theme","version":"1.0.4"}
+{"signed_in":true,"milliseconds_since_first_event":292599,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":294349,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":295070,"type":"Extension","extension_id":"anya","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":296125,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":298057,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":298777,"type":"Extension","extension_id":"paraiso","version":"1.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":1950,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":2719,"type":"Extension","extension_id":"asteroid","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":9228,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":10258,"type":"Extension","extension_id":"twig","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":10999,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":12970,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":13700,"type":"Extension","extension_id":"blackula","version":"0.1.1"}
+{"signed_in":true,"milliseconds_since_first_event":14860,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":17713,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":18444,"type":"Extension","extension_id":"leblackque","version":"1.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":21890,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":26040,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":26766,"type":"Extension","extension_id":"muted","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":28712,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":29836,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":30563,"type":"Extension","extension_id":"0x96f","version":"1.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":32811,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":34863,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":35599,"type":"Extension","extension_id":"snowflake","version":"1.0.0"}
+{"signed_in":true,"milliseconds_since_first_event":44051,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":49583,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":50322,"type":"Extension","extension_id":"tsar","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":51693,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":55244,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":55965,"type":"Extension","extension_id":"palenight","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":57884,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":61563,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":62302,"type":"Extension","extension_id":"aura-theme","version":"1.0.0"}
+{"signed_in":true,"milliseconds_since_first_event":76065,"type":"Setting","setting":"theme","value":"Aura Soft Dark"}
+{"signed_in":true,"milliseconds_since_first_event":78149,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":78889,"type":"Extension","extension_id":"zedwaita","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":80603,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":85505,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":86374,"type":"Extension","extension_id":"matlab","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":91260,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":92004,"type":"Extension","extension_id":"chatgpt","version":"0.1.3"}
+{"signed_in":true,"milliseconds_since_first_event":93605,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":99543,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":100275,"type":"Extension","extension_id":"glazier","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":104090,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":106442,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":107190,"type":"Extension","extension_id":"codesandbox-theme","version":"0.0.4"}
+{"signed_in":true,"milliseconds_since_first_event":108426,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":111899,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":112639,"type":"Extension","extension_id":"alabaster","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":114187,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":116253,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":117000,"type":"Extension","extension_id":"struct-theme","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":118466,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":734,"type":"Extension","extension_id":"vapor-theme","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":2001,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":3607,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":4917,"type":"Extension","extension_id":"odin","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":6047,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":6790,"type":"Extension","extension_id":"gruber-darker","version":"0.0.4"}
+{"signed_in":true,"milliseconds_since_first_event":8436,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":9925,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":10688,"type":"Extension","extension_id":"halcyon","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":11783,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":13665,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":14396,"type":"Extension","extension_id":"denix","version":"0.0.6"}
+{"signed_in":true,"milliseconds_since_first_event":15882,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":31098,"type":"Memory","memory_in_bytes":383946752,"virtual_memory_in_bytes":67204775936}
+{"signed_in":true,"milliseconds_since_first_event":31098,"type":"Cpu","usage_as_percentage":11.402595,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":209660,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":210779,"type":"Extension","extension_id":"solarized-fp","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":213099,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":214088,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":214851,"type":"Extension","extension_id":"penumbra","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":216455,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":220828,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":221592,"type":"Extension","extension_id":"vintergata","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":222921,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":223814,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":224604,"type":"Extension","extension_id":"catbox","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":227938,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":229342,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":230084,"type":"Extension","extension_id":"catbox","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":231043,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":232084,"type":"Extension","extension_id":"scls","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":233271,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":234614,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":235361,"type":"Extension","extension_id":"frosted-theme","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":236584,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":241470,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":242530,"type":"Extension","extension_id":"autocorrect","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":243952,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":244734,"type":"Extension","extension_id":"evil-rabbit-theme","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":246204,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":248273,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":249036,"type":"Extension","extension_id":"simple-darker","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":250089,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":254862,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":255609,"type":"Extension","extension_id":"adwaita-pastel","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":256796,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":259089,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":259859,"type":"Extension","extension_id":"monokai","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":267027,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":756,"type":"Extension","extension_id":"gleam-theme","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":1899,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":2670,"type":"Memory","memory_in_bytes":389787648,"virtual_memory_in_bytes":75795476480}
+{"signed_in":true,"milliseconds_since_first_event":2670,"type":"Cpu","usage_as_percentage":8.143824,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":5306,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":6108,"type":"Extension","extension_id":"amber-monochrome-monitor-crt-phosphor","version":"0.1.3"}
+{"signed_in":true,"milliseconds_since_first_event":11790,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":14726,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":15477,"type":"Extension","extension_id":"terrible-theme","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":18314,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":21631,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":22418,"type":"Extension","extension_id":"slate","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":23684,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":25016,"type":"Extension","extension_id":"d","version":"0.0.4"}
+{"signed_in":true,"milliseconds_since_first_event":25999,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":26765,"type":"Extension","extension_id":"call-trans-opt-received","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":29603,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":81650,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":82704,"type":"Extension","extension_id":"blanche","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":83433,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":96640,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":97412,"type":"Extension","extension_id":"monolith","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":98633,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":101586,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":102336,"type":"Extension","extension_id":"wakfu-theme","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":105416,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":112054,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":112848,"type":"Extension","extension_id":"city-lights","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":114928,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":141544,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":142337,"type":"Extension","extension_id":"ocean-dark-motives","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":144364,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":147293,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":148035,"type":"Extension","extension_id":"one-dark-extended","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":149770,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":150713,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":151457,"type":"Extension","extension_id":"ocean-dark-motives","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":153903,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":156702,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":157443,"type":"Extension","extension_id":"s-dark-theme","version":"1.0.0"}
+{"signed_in":true,"milliseconds_since_first_event":158391,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":161543,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":162294,"type":"Extension","extension_id":"ocean-dark-motifs","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":163365,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":194728,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":195494,"type":"Extension","extension_id":"macos-classic","version":"0.0.8"}
+{"signed_in":true,"milliseconds_since_first_event":196928,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":203609,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":204360,"type":"Extension","extension_id":"dracula","version":"0.9.2"}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":2580,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":3315,"type":"Extension","extension_id":"tokyo-night","version":"0.2.0"}
+{"signed_in":true,"milliseconds_since_first_event":12884,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":13623,"type":"Extension","extension_id":"one-dark-pro","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":14975,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":20389,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":21139,"type":"Extension","extension_id":"vscode-dark-plus","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":22546,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":25116,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":26063,"type":"Extension","extension_id":"xy-zed","version":"0.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":27379,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":30937,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":31710,"type":"Extension","extension_id":"xcode-themes","version":"1.1.3"}
+{"signed_in":true,"milliseconds_since_first_event":36034,"type":"Memory","memory_in_bytes":394559488,"virtual_memory_in_bytes":84386525184}
+{"signed_in":true,"milliseconds_since_first_event":36034,"type":"Cpu","usage_as_percentage":9.372523,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":41520,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":55266,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":56055,"type":"Extension","extension_id":"smooth","version":"1.0.0"}
+{"signed_in":true,"milliseconds_since_first_event":57593,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":65434,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":66221,"type":"Extension","extension_id":"vscode-monokai-charcoal","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":69385,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":71647,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":72411,"type":"Extension","extension_id":"ultimate-dark-neo","version":"0.0.4"}
+{"signed_in":true,"milliseconds_since_first_event":76809,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":79576,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":80342,"type":"Extension","extension_id":"material-dark","version":"0.0.1"}
+{"signed_in":true,"milliseconds_since_first_event":81988,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":84120,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":84878,"type":"Extension","extension_id":"night-owlz","version":"0.0.3"}
+{"signed_in":true,"milliseconds_since_first_event":89496,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":92684,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":93470,"type":"Extension","extension_id":"fleet-themes","version":"1.1.0"}
+{"signed_in":true,"milliseconds_since_first_event":94327,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":106042,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":106820,"type":"Extension","extension_id":"graphene","version":"0.2.0"}
+{"signed_in":true,"milliseconds_since_first_event":107951,"type":"App","operation":"extensions: uninstall extension"}
+{"signed_in":true,"milliseconds_since_first_event":121641,"type":"Action","source":"command palette","action":"theme selector: toggle"}
+{"signed_in":true,"milliseconds_since_first_event":200101,"type":"Setting","setting":"theme","value":"Aura Soft Dark"}
+{"signed_in":true,"milliseconds_since_first_event":259398,"type":"Action","source":"command palette","action":"zed: open keymap"}
+{"signed_in":true,"milliseconds_since_first_event":259406,"type":"Editor","operation":"open","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":267507,"type":"Action","source":"command palette","action":"zed: open default keymap"}
+{"signed_in":true,"milliseconds_since_first_event":267511,"type":"Editor","operation":"open","file_extension":null,"vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":271204,"type":"Editor","operation":"open","file_extension":null,"vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":276034,"type":"Memory","memory_in_bytes":397922304,"virtual_memory_in_bytes":84389928960}
+{"signed_in":true,"milliseconds_since_first_event":276034,"type":"Cpu","usage_as_percentage":7.9017906,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"Edit","duration":1212,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":10897,"type":"InlineCompletion","provider":"copilot","suggestion_accepted":false,"file_extension":"json"}
+{"signed_in":true,"milliseconds_since_first_event":63572,"type":"Memory","memory_in_bytes":398209024,"virtual_memory_in_bytes":84389928960}
+{"signed_in":true,"milliseconds_since_first_event":63572,"type":"Cpu","usage_as_percentage":6.0692554,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"Memory","memory_in_bytes":398262272,"virtual_memory_in_bytes":84389928960}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"Cpu","usage_as_percentage":2.8702736,"core_count":12}
+{"signed_in":true,"milliseconds_since_first_event":48681,"type":"InlineCompletion","provider":"copilot","suggestion_accepted":false,"file_extension":"json"}
+{"signed_in":true,"milliseconds_since_first_event":49377,"type":"Edit","duration":30691,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":56017,"type":"InlineCompletion","provider":"copilot","suggestion_accepted":false,"file_extension":"json"}
+{"signed_in":true,"milliseconds_since_first_event":142230,"type":"Edit","duration":1806,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":148792,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":240001,"type":"Memory","memory_in_bytes":398778368,"virtual_memory_in_bytes":84390322176}
+{"signed_in":true,"milliseconds_since_first_event":240001,"type":"Cpu","usage_as_percentage":4.7028008,"core_count":12}

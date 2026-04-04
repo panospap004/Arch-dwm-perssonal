@@ -23,6 +23,12 @@ detect_player() {
 
 PLAYER=$(detect_player)
 
+# Online Playlists. Add your YouTube or other playlist links here
+declare -A online_playlists=(
+  ["YT - My Custom Playlist 📹🎶"]="https://www.youtube.com/playlist?list=PLWN6KAmpUSVP1VFyx3MYqfpN0mUEDzyOy"
+  ["YT - My Custom Lofi Playlist 📹🎶"]="https://www.youtube.com/playlist?list=PLWN6KAmpUSVMJpPj_bZAEdVu3-wq1GPvz"
+)
+
 # Online Stations. Edit as required
 declare -A online_music=(
 ["Radio - Oldies Radio 50s-60s 📻🎶"]="https://zeno.fm/radio/oldies-radio-50s-60s/"
@@ -204,6 +210,14 @@ play_with_mpd() {
       mpc repeat on
       mpc play
       ;;
+    "playlist_ordered")
+      for file in "${files[@]}"; do
+        local relative_path="${file#$mDIR}"
+        mpc add "$relative_path"
+      done
+      mpc repeat on
+      mpc play
+      ;;
     "stream")
       mpc add "${files[0]}"
       mpc play
@@ -237,6 +251,12 @@ play_with_mpv() {
       ;;
     "folder")
       mpv --shuffle --loop-playlist --vid=no "${files[0]}"
+      ;;
+    "playlist_ordered")
+      mpv --loop-playlist --vid=no "${files[@]}"
+      ;;
+    "online_playlist")
+      mpv --loop-playlist --vid=no --script-opts=ytdl_hook-ytdl_path=yt-dlp --ytdl-raw-options=yes-playlist= "${files[0]}"
       ;;
   esac
 }
@@ -314,6 +334,59 @@ play_local_music() {
       mapfile -t playlist < <(find "$current_dir" -type f \( -iname "*.mp3" -o -iname "*.flac" -o -iname "*.wav" -o -iname "*.ogg" -o -iname "*.mp4" \))
       [ "${#playlist[@]}" -eq 0 ] && { notify-send "No music files found in $current_dir"; continue; }
       play_music "playlist" "${playlist[@]}"
+      break
+    fi
+  done
+}
+
+# New function: Play local music in selected folder ONLY (Ordered, no children)
+play_local_music_no_children_ordered() {
+  local current_dir="$mDIR"
+  while true; do
+    # Build list: subdirectories first then music files (non-recursive)
+    items=()
+    while IFS= read -r item; do items+=("$item"); done < <(find "$current_dir" -mindepth 1 -maxdepth 1 -type d | sort)
+    while IFS= read -r item; do items+=("$item"); done < <(find "$current_dir" -mindepth 1 -maxdepth 1 -type f \( -iname "*.mp3" -o -iname "*.flac" -o -iname "*.wav" -o -iname "*.ogg" -o -iname "*.mp4" \) | sort)
+
+    if [ "$current_dir" != "$mDIR" ]; then
+      items=(".. (Parent Directory)" "${items[@]}")
+    fi
+
+    display_items=()
+    for item in "${items[@]}"; do
+      if [ "$item" == ".. (Parent Directory)" ]; then
+        display_items+=("$item")
+      else
+        display_items+=("$(basename "$item")")
+      fi
+    done
+
+    choice=$(printf "%s\n" "${display_items[@]}" | rofi -i -dmenu -config ~/.config/rofi/config-rofi-Beats.rasi -p "Play Ordered (No Children): $current_dir")
+    [ -z "$choice" ] && break
+
+    if [ "$choice" == ".. (Parent Directory)" ]; then
+      current_dir=$(dirname "$current_dir")
+      continue
+    fi
+
+    selected_path=""
+    for item in "${items[@]}"; do
+      [ "$item" == ".. (Parent Directory)" ] && continue
+      if [ "$(basename "$item")" == "$choice" ]; then
+        selected_path="$item"
+        break
+      fi
+    done
+
+    [ -z "$selected_path" ] && continue
+
+    if [ -d "$selected_path" ]; then
+      current_dir="$selected_path"
+    elif [ -f "$selected_path" ]; then
+      notification "$PLAYER" "$choice"
+      mapfile -t playlist < <(find "$current_dir" -maxdepth 1 -type f \( -iname "*.mp3" -o -iname "*.flac" -o -iname "*.wav" -o -iname "*.ogg" -o -iname "*.mp4" \) | sort)
+      [ "${#playlist[@]}" -eq 0 ] && { notify-send "No music files found in $current_dir"; continue; }
+      play_music "playlist_ordered" "${playlist[@]}"
       break
     fi
   done
@@ -429,6 +502,15 @@ play_online_music() {
   play_with_mpv "stream" "$link"
 }
 
+# Main function for playing online playlists (always uses MPV)
+play_online_playlists() {
+  choice=$(printf "%s\n" "${!online_playlists[@]}" | rofi -i -dmenu -config ~/.config/rofi/config-rofi-Beats.rasi -p "Online Playlists")
+  [ -z "$choice" ] && exit 1
+  link="${online_playlists[$choice]}"
+  notification "mpv" "$choice"
+  play_with_mpv "online_playlist" "$link"
+}
+
 # Check if music is playing and stop it, otherwise run the main function
 playing_player=$(is_music_playing)
 if [ $? -eq 0 ]; then
@@ -442,17 +524,23 @@ if pidof rofi > /dev/null; then
   pkill rofi
 fi
 
-user_choice=$(printf "Play from Online Stations\nShuffle and play (Selected and children folder)\nShuffle Play (Selected Folder Only)\nPlay all songs from Music\nShuffle Play from Music Folder" | rofi -dmenu -config ~/.config/rofi/config-rofi-Beats-menu.rasi -p "Select music source ($PLAYER)")
+user_choice=$(printf "Play from Online Stations\nPlay from Online Playlists\nShuffle and play (Selected and children folder)\nShuffle Play (Selected Folder Only)\nPlay Selected Folder Only\nPlay all songs from Music\nShuffle Play from Music Folder" | rofi -dmenu -config ~/.config/rofi/config-rofi-Beats-menu.rasi -p "Select music source ($PLAYER)")
 
 case "$user_choice" in
   "Play from Online Stations")
     play_online_music
+    ;;
+  "Play from Online Playlists")
+    play_online_playlists
     ;;
   "Shuffle and play (Selected and children folder)")
     play_local_music
     ;;
   "Shuffle Play (Selected Folder Only)")
     play_local_music_no_children
+    ;;
+  "Play Selected Folder Only")
+    play_local_music_no_children_ordered
     ;;
   "Play all songs from Music")
     play_all_local_music

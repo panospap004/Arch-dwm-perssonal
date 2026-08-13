@@ -1025,6 +1025,14 @@ fish
 
     #+end_src
 
+- [ ] if you have an issue where apps dont open a file manager when you try to open config folder from inside them or a similar scenario use one of the following commands depending on what file manager you use 
+
+  * Thunar: xdg-mime default thunar.desktop inode/directory
+  * PCManFM: xdg-mime default pcmanfm.desktop inode/directory
+  * Dolphin: xdg-mime default org.kde.dolphin.desktop inode/directory
+  * Nautilus: xdg-mime default org.gnome.Nautilus.desktop inode/directory
+  * Nemo: xdg-mime default nemo.desktop inode/directory
+
 - [ ] if you have a problem with NetWorkManager connect to the wifi create the following file /etc/NetworkManager/conf.d/wifi_backend.conf and open it in sudo with vim nano neovim etc then add the following 2 lines
 #+begin_src shell
 [device]

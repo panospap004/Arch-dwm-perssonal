@@ -1,0 +1,65 @@
+* What is piper-tts 
+ you can use piper-tts to have your computer read text aloud. It is a text-to-speech engine that uses neural networks to generate natural-sounding speech.
+ a good combination is Thorium ebook reader so it reads your books outloud with piper-tts.
+
+* What to install
+
+#+begin_src shell
+yay -S piper-tts-bin piper-voices-en-us
+#+end_src
+
+* Make a spd-conf connection to modify the configs with 
+
+#+begin_src shell
+spd-conf -uc
+#+end_src
+
+press enter for all the options
+
+* Create a folder and a file for piper-tts 
+
+#+begin_src shell
+mkdir -p ~/.config/speech-dispatcher/modules
+nvim ~/.config/speech-dispatcher/modules/piper-tts-generic.conf
+#+end_src
+
+** add the following in the file
+
+#+begin_src conf
+# ==========================================
+# HOW TO CHANGE THE PIPER TTS VOICE:
+# 1. In the GenericExecuteSynth line, change the file path right after '--model' 
+#    to point to your new .onnx voice file.
+# 2. In the AddVoice line, update "FEMALE1" to "MALE1" (if applicable) 
+#    and change the voice name (e.g., "kristin") to match your new voice.
+# 3. to see all the piper voices do  ls /usr/share/piper-voices/en/en_US/ 
+# 4. if you change a voice also run systemctl --user restart speech-dispatcher
+# ==========================================
+
+GenericExecuteSynth "echo \'$DATA\' | tr '[:space:]' ' ' | piper-tts --model /usr/share/piper-voices/en/en_US/kristin/medium/en_US-kristin-medium.onnx --output_file /tmp/piper-sd.wav 2>/dev/null && mpv --no-video /tmp/piper-sd.wav >/dev/null 2>&1"
+AddVoice "en-US" "FEMALE1" "kristin"
+
+#+end_src
+
+* Modify the speechd.conf file 
+
+find the 
+
+#+begin_src conf
+DefaultModule   espeak-ng
+#+end_src
+
+and commend it out and under it add 
+
+#+begin_src conf
+AddModule "piper-tts-generic" "sd_generic" "piper-tts-generic.conf"
+DefaultModule piper-tts-generic
+#+end_src
+
+save and quit
+
+* Restart it for changes to take effect 
+
+#+begin_src shell
+systemctl --user restart speech-dispatcher
+#+end_src

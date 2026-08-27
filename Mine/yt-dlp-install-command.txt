@@ -1,0 +1,18 @@
+yt-dlp -x --audio-format mp3 --audio-quality 320K --embed-metadata --embed-thumbnail -o "~/Music/new-downloads/%(title)s.%(ext)s" "https://www.youtube.com/playlist?list=PLWN6KAmpUSVN2MxSLLhwM3TapmDubNBfp"
+
+yt-dlp -x --audio-format mp3 --audio-quality 320K --embed-metadata --embed-thumbnail -o "~/Music/new-downloads/%(title)s.%(ext)s" "youtube-palylist or video like above command"
+
+https://www.youtube.com/playlist?list=PLWN6KAmpUSVN2MxSLLhwM3TapmDubNBfp
+
+https://www.youtube.com/watch?v=MhViuFoLkbs&list=PLWN6KAmpUSVN2MxSLLhwM3TapmDubNBfp&pp=sAgC
+
+you dont want the playlist name to have this part in the name like shown in the above 2 as an example
+https://www.youtube.com/   (watch?v=MhViuFoLkbs&)   list=PLWN6KAmpUSVN2MxSLLhwM3TapmDubNBfp  (&pp=sAgC)
+
+
+and to check if all the songs where installed in the correct bitrate run this in bash
+
+cd ~/Music/new-downloads && for file in *.mp3; do
+  bitrate=$(ffprobe -v error -select_streams a:0 -show_entries stream=bit_rate -of csv=p=0 "$file")
+  echo "${file%.mp3} , $((bitrate / 1000)) kbps"
+done

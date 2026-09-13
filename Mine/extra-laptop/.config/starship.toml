@@ -77,7 +77,160 @@ $os
 $character
 """
 
-palette = 'catppuccin_mocha'
+# palette = 'catppuccin_mocha'
+
+palette = 'everforest_medium'
+
+[palettes.everforest_medium]
+
+# ============================================================
+# EVERFOREST MEDIUM
+# ============================================================
+
+foreground = '#D3C6AA'
+background = '#2D353B'
+current_line = '#343F44'
+primary = '#3D484D'
+box = '#3D484D'
+
+
+# ============================================================
+# CORE EVERFOREST COLORS
+# ============================================================
+
+blue = '#7FBBB3'
+cyan = '#83C092'
+green = '#A7C080'
+pink = '#D699B6'
+purple = '#D699B6'
+red =    '#E67E80'
+orange = '#E69875'
+yellow = '#DBBC7F'
+yellow1 = "#e5c890"
+yellow2 = "#df8e1d"
+yellow3 = "#FFFF00"
+
+deep_red = "#d20f39"
+crimson = "#ad0034"
+deep_crimson = "#950606"
+
+# ============================================================
+# TEXT / SURFACES
+# ============================================================
+
+text_color = '#D3C6AA'
+
+gray_white = '#E0D5BC'
+white1 = '#E0D5BC'
+
+black_gray = '#4F585E'
+gray1 = '#4F585E'
+gray_dark = '#343F44'
+
+separator = '#475258'
+
+
+# ============================================================
+# BLUE FAMILY
+# ============================================================
+
+blue_light = '#8BC8BF'
+
+blue1 = '#7FBBB3'
+
+ghost_color = '#7FBBB3'
+username_color = '#7FBBB3'
+
+
+# ============================================================
+# ORANGE / PEACH FAMILY
+# ============================================================
+
+orange1 = '#E69875'
+orange2 = '#D08770'
+orange3 = '#E69875'
+
+git_color = '#E69875'
+duration = '#E69875'
+
+
+# ============================================================
+# RED FAMILY
+# ============================================================
+
+red_light = '#F08A8C'
+
+rust_color = '#E67E80'
+
+
+# ============================================================
+# PURPLE / PINK FAMILY
+# ============================================================
+
+purple1 = '#D699B6'
+
+
+# ============================================================
+# CYAN FAMILY
+# ============================================================
+
+cyan1 = '#83C092'
+
+
+# ============================================================
+# GREEN FAMILY
+# ============================================================
+
+green1 = '#B7C990'
+green2 = '#A7C080'
+green3 = '#9FB879'
+green4 = '#8FA96D'
+green5 = '#7F995F'
+green6 = '#83C092'
+green7 = '#A7C080'
+green11 = '#9cdb92'
+green22 = '#92d482'
+green33 = '#7dc464'
+green44 = '#69b545'
+green55 = '#54a627'
+green66 = '#73E0A4'
+green77 = "#40a02b"
+git_branch1 = "#31e268"
+git_status1 = "#31e268"
+
+
+# ============================================================
+# LANGUAGE COLORS
+# ============================================================
+
+# Rust
+# rust_color = '#E67E80'
+
+# C
+c_color = '#7FBBB3'
+
+# Python
+py_color = '#DBBC7F'
+
+# Node
+node_color = '#83C092'
+
+
+# ============================================================
+# PROMPT ELEMENTS
+# ============================================================
+
+directory = '#D699B6'
+directory_color = '#D699B6'
+
+git_branch = '#A7C080'
+git_status = '#A7C080'
+
+time_color = '#7FBBB3'
+
+status = '#E67E80'
+
+icon = '#2D353B'
 
 [palettes.catppuccin_mocha_custom]
 foreground = '#D9E0EE'
@@ -301,8 +454,9 @@ yellow = '#F1FA8C'
 # gray = "#2E2E3E"
 gray = "#44475A"
 
+
 [os]
-format = '[•• ](bold fg:cat_teal)[](bold fg:cat_blue10)[$symbol](fg:cat_primary bg:cat_blue10)[](bold fg:cat_blue10)'
+format = '[•• ](bold fg:blue)[](bold fg:purple)[ ](fg:gray1 bg:purple)[](bold fg:purple)'
 disabled = false
 
 [os.symbols]
@@ -342,7 +496,7 @@ Unknown = ' '
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character] # The name of the module we are configuring is "character"
-success_symbol = "[╰─• ](bold fg:cat_teal) "
+success_symbol = "[╰─• ](bold fg:blue) "
 error_symbol = "[╰─• 󰅙](bold fg:red_light) "
 
 # Disable the package module, hiding it from the prompt completely
@@ -353,14 +507,14 @@ disabled = false
 symbol = "󰘬"
 truncation_length = 4
 truncation_symbol = ""
-format = "[─](bold fg:cat_teal)[](bold fg:cat_sapphire6)[$symbol](fg:cat_primary bg:cat_sapphire6)[](bold fg:cat_sapphire6 bg:cat_surface1)[ $branch(:$remote_branch)](bold fg:cat_sapphire6 bg:cat_surface1)"
+format = "[─](bold fg:blue)[](bold fg:green6)[$symbol](fg:gray1 bg:green6)[](bold fg:green6 bg:gray_dark)[ $branch(:$remote_branch)](bold fg:green6 bg:gray_dark)"
 
 [git_metrics]
 disabled = false
 only_nonzero_diffs = true
-added_style = "fg:git_status bg:cat_sapphire6"
-deleted_style = "fg:deep_red bg:cat_sapphire6"
-format = "[](bold fg:cat_surface1 bg:cat_sapphire6)[  $added]($added_style)[/](fg:cat_primary bg:cat_sapphire6)[  $deleted]($deleted_style)"
+added_style = "fg:git_status1 bg:green6"
+deleted_style = "fg:red bg:green6"
+format = "[](bold fg:gray_dark bg:green6)[  $added]($added_style)[/](fg:gray1 bg:green6)[  $deleted]($deleted_style)"
 
 [git_status]
 ahead = ' ${count} '
@@ -383,21 +537,21 @@ stashed = ' ${count} '
 # yellow
 untracked = '󰈉 ${count} '
 # gray
-format = "[](bold fg:cat_sapphire6 bg:cat_sapphire4)[ $ahead](fg:cyan1 bg:cat_sapphire4)[$behind](fg:deep_crimson bg:cat_sapphire4)[$diverged](fg:directory bg:cat_sapphire4)[$conflicted](fg:deep_red bg:cat_sapphire4)[$deleted](fg:cat_overlay0 bg:cat_sapphire4)[$modified](fg:duration bg:cat_sapphire4)[$renamed](fg:cat_sky bg:cat_sapphire4)[$staged](fg:cat_sapphire3 bg:cat_sapphire4)[$stashed](fg:yellow1 bg:cat_sapphire4)[$untracked](fg:cat_surface1 bg:cat_sapphire4)[](bold fg:cat_sapphire4)[  ](bold fg:cat_teal)"
+format = "[](bold fg:green6 bg:green7)[ $ahead](fg:cyan1 bg:green7)[$behind](fg:deep_crimson bg:green7)[$diverged](fg:purple bg:green7)[$conflicted](fg:deep_red bg:green7)[$deleted](fg:black_gray bg:green7)[$modified](fg:yellow2 bg:green7)[$renamed](fg:blue_light bg:green7)[$staged](fg:green66 bg:green7)[$stashed](fg:yellow1 bg:green7)[$untracked](fg:gray_dark bg:green7)[](bold fg:green7)[  ](bold fg:blue)"
 
 [time]
 disabled = false
 time_format = "%R"
-style = "cat_blue9"
+style = "red"
 format = """
-[• ](bold fg:cat_teal)\
-[](fg:cat_surface1)[$time ](bold fg:$style bg:cat_surface1)\
-[](fg:$style bg:cat_surface1)[ ](bold fg:cat_primary bg:$style)[](fg:$style)\
+[• ](bold fg:blue)\
+[](fg:gray_dark)[$time ](bold fg:$style bg:gray_dark)\
+[](fg:$style bg:gray_dark)[ ](bold fg:gray1 bg:$style)[](fg:$style)\
 """
 
 [username]
 style_root = "crimson bold"
-format = "[• ](bold fg:cat_teal)[](bold fg:cat_surface1)[$user ](bold fg:cat_blue3 bg:cat_surface1)[](bold fg:cat_blue3 bg:cat_surface1)[ 󰇥 ]( fg:yellow2 bg:cat_blue3)[](bold fg:cat_blue3)"
+format = "[• ](bold fg:blue)[](bold fg:gray_dark)[$user ](bold fg:orange bg:gray_dark)[](bold fg:orange bg:gray_dark)[ 󰇥 ]( fg:yellow3 bg:orange)[](bold fg:orange)"
 disabled = false
 show_always = true
 
@@ -406,7 +560,7 @@ home_symbol = "  "
 read_only = " 󰏮 "
 truncation_length = 3
 truncation_symbol = "••/"
-format = '[](fg:cat_sapphire7)[ ](bold fg:cat_primary bg:cat_sapphire7)[](fg:cat_sapphire7 bg:cat_surface1)[ $read_only$truncation_symbol$path](bold fg:cat_sapphire7 bg:cat_surface1)[](fg:cat_surface1)[─](bold fg:cat_teal)'
+format = '[](fg:green)[ ](bold fg:gray1 bg:green)[](fg:green bg:gray_dark)[ $read_only$truncation_symbol$path](bold fg:green bg:gray_dark)[](fg:gray_dark)[─](bold fg:blue)'
 
 [directory.substitutions]
 "Desktop" = "  "
@@ -418,14 +572,14 @@ format = '[](fg:cat_sapphire7)[ ](bold fg:cat_primary bg:cat_sapphire7)[�
 
 [cmd_duration]
 min_time = 0
-format = '[╭─•](bold fg:cat_teal)[](bold fg:cat_sapphire9)[󱐋](fg:cat_primary bg:cat_sapphire9)[](bold fg:cat_sapphire9 bg:cat_surface1)[ $duration](bold fg:cat_sapphire9 bg:cat_surface1)[](bold fg:cat_surface1)[ ••](bold fg:cat_teal)'
+format = '[╭─•](bold fg:blue)[](bold fg:cyan)[󱐋](fg:gray1 bg:cyan)[](bold fg:cyan bg:gray_dark)[ $duration](bold fg:cyan bg:gray_dark)[](bold fg:gray_dark)[ ••](bold fg:blue)'
 
 [fill]
 symbol = '─'
-style = 'fg:cat_teal '
+style = 'fg:blue '
 
 [shell]
-format = '[  ](bold fg:cat_teal)[](fg:cat_surface1)[$indicator ](bold fg:cat_sapphire bg:cat_surface1)[](fg:cat_sapphire bg:cat_surface1)[ ](fg:cat_primary bg:cat_sapphire)[](fg:cat_sapphire)'
+format = '[  ](bold fg:blue)[](fg:gray_dark)[$indicator ](bold fg:yellow bg:gray_dark)[](fg:yellow bg:gray_dark)[ ](fg:gray1 bg:yellow)[](fg:yellow)'
 unknown_indicator = 'shell'
 powershell_indicator = 'powershell'
 fish_indicator = 'fish'
@@ -436,233 +590,235 @@ disabled = false
 [c]
 symbol = ' '
 detect_extensions = ['c', 'h']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sky bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue_light bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [custom.cpp]
 symbol = ' '
 detect_extensions = ['cpp', 'hpp']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sapphire bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [rust]
 symbol = '󱘗 '
 detect_extensions = ['rs']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_peach bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:orange1 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [python]
 symbol = ' '
 detect_extensions = ['py']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:green2 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [java]
 symbol = ' '
 detect_extensions = ['java']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_red bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:red bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [golang]
 symbol = ' '
 detect_extensions = ['go']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_teal bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [nodejs]
 symbol = ' '
 detect_extensions = ['js', 'jsx', 'ts', 'tsx']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:green2 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [deno]
 symbol = '🦕 '
 detect_extensions = ['ts', 'tsx']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_mauve bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:purple1 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [php]
 symbol = '󰌟 '
 detect_extensions = ['php']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [kotlin]
 symbol = ' '
 detect_extensions = ['kt']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_pink bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:pink bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [haskell]
 symbol = ' '
 detect_extensions = ['hs']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sky bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue_light bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
+
 
 [dotnet]
 symbol = ' '
 detect_extensions = ['cs', 'fs', 'vb']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_mauve bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:purple1 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [lua]
 symbol = ' '
 detect_extensions = ['lua']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [zig]
 symbol = ' '
 detect_extensions = ['zig']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:yellow bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [ruby]
 symbol = ' '
 detect_extensions = ['rb']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:deep_crimson bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:deep_crimson bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [elixir]
 symbol = ' '
 detect_extensions = ['ex', 'exs']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_mauve bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:purple1 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [julia]
 symbol = ' '
 detect_extensions = ['jl']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:green2 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [swift]
 symbol = ' '
 detect_extensions = ['swift']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_peach bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:orange1 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [docker_context]
 symbol = ' '
 detect_files = ['Dockerfile', 'docker-compose.yml']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [kubernetes]
 symbol = ' '
 detect_files = ['.kube/config']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sapphire bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [aws]
 symbol = ' '
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:yellow bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [gradle]
 symbol = ' '
 detect_files = ['build.gradle', 'settings.gradle']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_red bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:red bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [conda]
 symbol = 'Conda '
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:green2 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [terraform]
 symbol = ' '
 detect_files = ['.terraform', 'main.tf']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
+
 
 [bun]
 symbol = ' '
 detect_files = ['bunfig.toml', 'bun.lockb']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_peach bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:orange1 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [azure]
 symbol = ' '
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sapphire bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [gcloud]
 symbol = 'GCloud'
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sky bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue_light bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [buf]
 symbol = 'Buf '
 detect_files = ['buf.yaml', 'buf.work.yaml']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [cmake]
 symbol = ' '
 detect_files = ['CMakeLists.txt', 'xmake.lua', 'premake5.lua']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_mauve bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:purple1 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [cobol]
 symbol = 'Cobol'
 detect_extensions = ['cob', 'cbl', 'cpy']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:yellow bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [crystal]
 symbol = '󰬯 '
 detect_extensions = ['cr']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_flamingo bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:pink bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [daml]
 symbol = 'Daml '
 detect_extensions = ['daml']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:green2 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [dart]
 symbol = ' '
 detect_extensions = ['dart']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sky bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue_light bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [elm]
 symbol = ' '
 detect_extensions = ['elm']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_teal bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [erlang]
 symbol = ' '
 detect_extensions = ['erl', 'hrl']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_red bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:red bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [fennel]
 symbol = ' '
 detect_extensions = ['fnl']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:green2 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [gleam]
 symbol = 'Gleam'
 detect_extensions = ['gleam']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:blue bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [helm]
 symbol = ' '
 detect_files = ['Chart.yaml']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_cyan bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:cyan bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [ocaml]
 symbol = ' '
 detect_extensions = ['ml', 'mli']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:yellow bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [odin]
 symbol = 'Odin'
 detect_extensions = ['odin']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_cyan bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:cyan bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [perl]
 symbol = ' '
 detect_extensions = ['pl', 'pm']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_purple bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:purple bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [purescript]
 symbol = ' '
 detect_extensions = ['purs']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:green2 bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [raku]
 symbol = 'Raku '
 detect_extensions = ['raku', 'rakumod']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_purple bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:purple bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [scala]
 symbol = ' '
 detect_extensions = ['scala']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_red bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:red bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [solidity]
 symbol = ' '
 detect_extensions = ['sol']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:yellow bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [typst]
 symbol = ' '
 detect_extensions = ['typ']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_orange bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:orange bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 [haxe]
 symbol = ' '
 detect_extensions = ['hx']
-format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_cyan bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+format = '[─](bold fg:blue)[](fg:gray1)[$symbol](fg:cyan bg:gray1)[](bold fg:gray1)[─](bold fg:blue)'
 
 # dont need
 
@@ -690,3 +846,394 @@ format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_cyan bg:c
 # threshold = -1
 # symbol = " "
 # style = "bold dimmed green"
+
+
+# [os]
+# format = '[•• ](bold fg:cat_teal)[](bold fg:cat_blue10)[ ](fg:cat_primary bg:cat_blue10)[](bold fg:cat_blue10)'
+# disabled = false
+#
+# [os.symbols]
+# Alpine = ' '
+# Amazon = ' '
+# Android = ' '
+# Arch = ' '
+# CentOS = ' '
+# Debian = ' '
+# EndeavourOS = ' '
+# Fedora = ' '
+# FreeBSD = ' '
+# Garuda = ' '
+# Gentoo = ' '
+# Linux = ' '
+# Macos = ' '
+# Manjaro = ' '
+# Mariner = ' '
+# Mint = ' '
+# NetBSD = ' '
+# NixOS = ' '
+# OpenBSD = ' '
+# OpenCloudOS = ' '
+# openEuler = ' '
+# openSUSE = ' '
+# OracleLinux = '⊂⊃'
+# Pop = ' '
+# Raspbian = ' '
+# Redhat = ' '
+# RedHatEnterprise = ' '
+# Solus = ' '
+# SUSE = ' '
+# Ubuntu = ' '
+# Windows = ' '
+# Unknown = ' '
+#
+#
+# # Replace the "❯" symbol in the prompt with "➜"
+# [character] # The name of the module we are configuring is "character"
+# success_symbol = "[╰─• ](bold fg:cat_teal) "
+# error_symbol = "[╰─• 󰅙](bold fg:red_light) "
+#
+# # Disable the package module, hiding it from the prompt completely
+# [package]
+# disabled = false
+#
+# [git_branch]
+# symbol = "󰘬"
+# truncation_length = 4
+# truncation_symbol = ""
+# format = "[─](bold fg:cat_teal)[](bold fg:cat_sapphire6)[$symbol](fg:cat_primary bg:cat_sapphire6)[](bold fg:cat_sapphire6 bg:cat_surface1)[ $branch(:$remote_branch)](bold fg:cat_sapphire6 bg:cat_surface1)"
+#
+# [git_metrics]
+# disabled = false
+# only_nonzero_diffs = true
+# added_style = "fg:git_status bg:cat_sapphire6"
+# deleted_style = "fg:deep_red bg:cat_sapphire6"
+# format = "[](bold fg:cat_surface1 bg:cat_sapphire6)[  $added]($added_style)[/](fg:cat_primary bg:cat_sapphire6)[  $deleted]($deleted_style)"
+#
+# [git_status]
+# ahead = ' ${count} '
+# # cyan
+# behind = ' ${count} '
+# # crimson
+# conflicted = ' ${count} '
+# # red
+# deleted = ' ${count} '
+# # gray
+# diverged = '  ${ahead_count} /  ${behind_count} '
+# # purple
+# modified = ' ${count} '
+# # orange
+# renamed = '󰙏 ${count} '
+# # teal
+# staged = '󰏕 ${count} '
+# # green
+# stashed = ' ${count} '
+# # yellow
+# untracked = '󰈉 ${count} '
+# # gray
+# format = "[](bold fg:cat_sapphire6 bg:cat_sapphire4)[ $ahead](fg:cyan1 bg:cat_sapphire4)[$behind](fg:deep_crimson bg:cat_sapphire4)[$diverged](fg:directory bg:cat_sapphire4)[$conflicted](fg:deep_red bg:cat_sapphire4)[$deleted](fg:cat_overlay0 bg:cat_sapphire4)[$modified](fg:duration bg:cat_sapphire4)[$renamed](fg:cat_sky bg:cat_sapphire4)[$staged](fg:cat_sapphire3 bg:cat_sapphire4)[$stashed](fg:yellow1 bg:cat_sapphire4)[$untracked](fg:cat_surface1 bg:cat_sapphire4)[](bold fg:cat_sapphire4)[  ](bold fg:cat_teal)"
+#
+# [time]
+# disabled = false
+# time_format = "%R"
+# style = "cat_blue9"
+# format = """
+# [• ](bold fg:cat_teal)\
+# [](fg:cat_surface1)[$time ](bold fg:$style bg:cat_surface1)\
+# [](fg:$style bg:cat_surface1)[ ](bold fg:cat_primary bg:$style)[](fg:$style)\
+# """
+#
+# [username]
+# style_root = "crimson bold"
+# format = "[• ](bold fg:cat_teal)[](bold fg:cat_surface1)[$user ](bold fg:cat_blue3 bg:cat_surface1)[](bold fg:cat_blue3 bg:cat_surface1)[ 󰇥 ]( fg:yellow2 bg:cat_blue3)[](bold fg:cat_blue3)"
+# disabled = false
+# show_always = true
+#
+# [directory]
+# home_symbol = "  "
+# read_only = " 󰏮 "
+# truncation_length = 3
+# truncation_symbol = "••/"
+# format = '[](fg:cat_sapphire7)[ ](bold fg:cat_primary bg:cat_sapphire7)[](fg:cat_sapphire7 bg:cat_surface1)[ $read_only$truncation_symbol$path](bold fg:cat_sapphire7 bg:cat_surface1)[](fg:cat_surface1)[─](bold fg:cat_teal)'
+#
+# [directory.substitutions]
+# "Desktop" = "  "
+# "Documents" = "  "
+# "Downloads" = "  "
+# "Music" = " 󰎈 "
+# "Pictures" = "  "
+# "Videos" = "  "
+#
+# [cmd_duration]
+# min_time = 0
+# format = '[╭─•](bold fg:cat_teal)[](bold fg:cat_sapphire9)[󱐋](fg:cat_primary bg:cat_sapphire9)[](bold fg:cat_sapphire9 bg:cat_surface1)[ $duration](bold fg:cat_sapphire9 bg:cat_surface1)[](bold fg:cat_surface1)[ ••](bold fg:cat_teal)'
+#
+# [fill]
+# symbol = '─'
+# style = 'fg:cat_teal '
+#
+# [shell]
+# format = '[  ](bold fg:cat_teal)[](fg:cat_surface1)[$indicator ](bold fg:cat_sapphire bg:cat_surface1)[](fg:cat_sapphire bg:cat_surface1)[ ](fg:cat_primary bg:cat_sapphire)[](fg:cat_sapphire)'
+# unknown_indicator = 'shell'
+# powershell_indicator = 'powershell'
+# fish_indicator = 'fish'
+# disabled = false
+#
+# # languages and tools
+#
+# [c]
+# symbol = ' '
+# detect_extensions = ['c', 'h']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sky bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [custom.cpp]
+# symbol = ' '
+# detect_extensions = ['cpp', 'hpp']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sapphire bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [rust]
+# symbol = '󱘗 '
+# detect_extensions = ['rs']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_peach bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [python]
+# symbol = ' '
+# detect_extensions = ['py']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [java]
+# symbol = ' '
+# detect_extensions = ['java']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_red bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [golang]
+# symbol = ' '
+# detect_extensions = ['go']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_teal bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [nodejs]
+# symbol = ' '
+# detect_extensions = ['js', 'jsx', 'ts', 'tsx']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [deno]
+# symbol = '🦕 '
+# detect_extensions = ['ts', 'tsx']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_mauve bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [php]
+# symbol = '󰌟 '
+# detect_extensions = ['php']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [kotlin]
+# symbol = ' '
+# detect_extensions = ['kt']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_pink bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [haskell]
+# symbol = ' '
+# detect_extensions = ['hs']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sky bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [dotnet]
+# symbol = ' '
+# detect_extensions = ['cs', 'fs', 'vb']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_mauve bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [lua]
+# symbol = ' '
+# detect_extensions = ['lua']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [zig]
+# symbol = ' '
+# detect_extensions = ['zig']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [ruby]
+# symbol = ' '
+# detect_extensions = ['rb']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:deep_crimson bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [elixir]
+# symbol = ' '
+# detect_extensions = ['ex', 'exs']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_mauve bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [julia]
+# symbol = ' '
+# detect_extensions = ['jl']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [swift]
+# symbol = ' '
+# detect_extensions = ['swift']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_peach bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [docker_context]
+# symbol = ' '
+# detect_files = ['Dockerfile', 'docker-compose.yml']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [kubernetes]
+# symbol = ' '
+# detect_files = ['.kube/config']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sapphire bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [aws]
+# symbol = ' '
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [gradle]
+# symbol = ' '
+# detect_files = ['build.gradle', 'settings.gradle']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_red bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [conda]
+# symbol = 'Conda '
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [terraform]
+# symbol = ' '
+# detect_files = ['.terraform', 'main.tf']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [bun]
+# symbol = ' '
+# detect_files = ['bunfig.toml', 'bun.lockb']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_peach bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [azure]
+# symbol = ' '
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sapphire bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [gcloud]
+# symbol = 'GCloud'
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sky bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [buf]
+# symbol = 'Buf '
+# detect_files = ['buf.yaml', 'buf.work.yaml']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [cmake]
+# symbol = ' '
+# detect_files = ['CMakeLists.txt', 'xmake.lua', 'premake5.lua']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_mauve bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [cobol]
+# symbol = 'Cobol'
+# detect_extensions = ['cob', 'cbl', 'cpy']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [crystal]
+# symbol = '󰬯 '
+# detect_extensions = ['cr']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_flamingo bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [daml]
+# symbol = 'Daml '
+# detect_extensions = ['daml']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [dart]
+# symbol = ' '
+# detect_extensions = ['dart']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_sky bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [elm]
+# symbol = ' '
+# detect_extensions = ['elm']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_teal bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [erlang]
+# symbol = ' '
+# detect_extensions = ['erl', 'hrl']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_red bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [fennel]
+# symbol = ' '
+# detect_extensions = ['fnl']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [gleam]
+# symbol = 'Gleam'
+# detect_extensions = ['gleam']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_blue bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [helm]
+# symbol = ' '
+# detect_files = ['Chart.yaml']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_cyan bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [ocaml]
+# symbol = ' '
+# detect_extensions = ['ml', 'mli']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [odin]
+# symbol = 'Odin'
+# detect_extensions = ['odin']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_cyan bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [perl]
+# symbol = ' '
+# detect_extensions = ['pl', 'pm']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_purple bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [purescript]
+# symbol = ' '
+# detect_extensions = ['purs']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_green bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [raku]
+# symbol = 'Raku '
+# detect_extensions = ['raku', 'rakumod']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_purple bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [scala]
+# symbol = ' '
+# detect_extensions = ['scala']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_red bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [solidity]
+# symbol = ' '
+# detect_extensions = ['sol']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_yellow bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [typst]
+# symbol = ' '
+# detect_extensions = ['typ']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_orange bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# [haxe]
+# symbol = ' '
+# detect_extensions = ['hx']
+# format = '[─](bold fg:cat_teal)[](fg:cat_primary)[$symbol](fg:cat_cyan bg:cat_primary)[](bold fg:cat_primary)[─](bold fg:cat_teal)'
+#
+# # dont need
+#
+# # [git_state]
+# # style = "fg"
+# # cherry_pick = '[🍒PICKING](red)'
+# # format = '\([$state( $progress_current/$progress_total)]($style)\) '
+# #
+# # [git_commit]
+# # commit_hash_length = 4
+# # tag_symbol = " "
+#
+#
+# # [hostname]
+# # ssh_only = false
+# # format = "[•$hostname](bold bg:cyan bold fg:cat_primary)[](bold fg:cyan )"
+# # trim_at = ".companyname.com"
+# # disabled = false
+#
+# # [line_break]
+# # disabled = false
+#
+# # [memory_usage]
+# # disabled = true
+# # threshold = -1
+# # symbol = " "
+# # style = "bold dimmed green"

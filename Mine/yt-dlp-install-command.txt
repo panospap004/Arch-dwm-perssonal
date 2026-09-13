@@ -16,3 +16,40 @@ cd ~/Music/new-downloads && for file in *.mp3; do
   bitrate=$(ffprobe -v error -select_streams a:0 -show_entries stream=bit_rate -of csv=p=0 "$file")
   echo "${file%.mp3} , $((bitrate / 1000)) kbps"
 done
+
+if you have a very large playlist that you want to download usualy around 300+ songs, it starts to get bot rated to stop that you will need 
+
+1. firefox with youtube connected and open in the homepages
+2. tab reloader extension installed in firefox and set to reload every 5 minutes for the youtube tab
+3. run the yt-dlp with this command (this command is made for fish shell so it might need changes for bash or zsh, also it uses my folder structure so you might also need to edit that)
+
+for start_num in (seq 1 50 3600)
+    set end_num (math $start_num + 49)
+    echo "================================================="
+    echo "Starting chunk: $start_num to $end_num"
+    echo "================================================="
+    
+    # Check how many songs are in the archive before downloading
+    set count_before 0
+    if test -f "$HOME/Music/new-downloads/completed.txt"
+        set count_before (cat "$HOME/Music/new-downloads/completed.txt" | wc -l | string trim)
+    end
+    
+    yt-dlp -x --audio-format mp3 --audio-quality 320K --embed-metadata --embed-thumbnail --no-overwrites --download-archive "$HOME/Music/new-downloads/completed.txt" --cookies-from-browser firefox --preset sleep --extractor-args "youtube:player_client=android,web" --playlist-start $start_num --playlist-end $end_num -o "$HOME/Music/new-downloads/new/%(title)s.%(ext)s" "Playlist URL here"
+    
+    # Check how many songs are in the archive after downloading
+    set count_after 0
+    if test -f "$HOME/Music/new-downloads/completed.txt"
+        set count_after (cat "$HOME/Music/new-downloads/completed.txt" | wc -l | string trim)
+    end
+    
+    echo "================================================="
+    if test $count_after -gt $count_before
+        echo "Found and downloaded missing songs! Sleeping for 5 minutes to cool down..."
+        sleep 300
+    else
+        echo "All songs in this chunk were already downloaded. Skipping the wait!"
+        sleep 2
+    end
+    echo "================================================="
+end

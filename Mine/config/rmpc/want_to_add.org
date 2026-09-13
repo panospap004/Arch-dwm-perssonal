@@ -1,0 +1,106 @@
+**** Lyrics support
+*Automatically fetch lyrics*
+Provided by wvffle on github. This script allows you to automatically download lrc files from lrclib.net. Status message is also displayed in rmpc when the operation finishes. The script assumes you have your lyrics_dir configured. The script is just an example and you are encouraged to create your own!
+
+#+begin_src shell
+#!/bin/env sh
+
+LRCLIB_INSTANCE="https://lrclib.net"
+
+if [ "$HAS_LRC" = "false" ]; then
+    mkdir -p "$(dirname "$LRC_FILE")"
+
+    LYRICS="$(curl -X GET -sG \
+        -H "Lrclib-Client: rmpc-$VERSION" \
+        --data-urlencode "artist_name=$ARTIST" \
+        --data-urlencode "track_name=$TITLE" \
+        --data-urlencode "album_name=$ALBUM" \
+        "$LRCLIB_INSTANCE/api/get" | jq -r '.syncedLyrics')"
+
+    if [ -z "$LYRICS" ]; then
+        rmpc remote --pid "$PID" status "Failed to download lyrics for $ARTIST - $TITLE" --level error
+        exit
+    fi
+
+    if [ "$LYRICS" = "null" ]; then
+        rmpc remote --pid "$PID" status "Lyrics for $ARTIST - $TITLE not found" --level warn
+        exit
+    fi
+
+    echo "[ar:$ARTIST]" >"$LRC_FILE"
+    {
+        echo "[al:$ALBUM]"
+        echo "[ti:$TITLE]"
+    } >>"$LRC_FILE"
+    echo "$LYRICS" | sed -E '/^\[(ar|al|ti):/d' >>"$LRC_FILE"
+
+    rmpc remote --pid "$PID" indexlrc --path "$LRC_FILE"
+    rmpc remote --pid "$PID" status "Downloaded lyrics for $ARTIST - $TITLE" --level info
+fi
+
+#+end_src
+
+**** general config
+✔️ *rewind_to_start_sec*
+rewind_to_start_sec: None | Some(<number>)
+PreviousTrack will rewind to start if elapsed time is past the configured value. PreviousTrack will always switch to the previous track if not configured or set to None.
+
+✔️  *wrap_navigation*
+wrap_navigation: <bool>
+Whether to wrap around on Up/Down action in queue/browser panes upon reaching bottom/top. Default is false.
+
+✔️ *enable_mouse*
+enable_mouse: <bool>
+Enables mouse support. Currently only seeking the currently playing song by clicking on the progress bar at the bottom of the screen and switching tabs is supported. Enabled by default.
+
+✔️ *select_current_song_on_change*
+select_current_song_on_change: <bool>
+If set to true, the current song is selected in the queue table when it changes. Defaults to false if not present. ( set to true to make the cursor follow the song that is playing)
+
+✔️ *center_current_song_on_change*
+center_current_song_on_change: <bool>
+Note
+
+select_current_song_on_change must also be set to true for this to work
+
+If set to true, the current song is centered in the queue when it changes while still allowing you to move in the queue table with your normal scrolloff. Defaults to false if not present.
+
+✔️ *on_exit*
+on_exit: ["rmpc", "--address", "/path/to/socket", "stop"]
+Execute given command when rmpc exits. First element of the array is the command to execute and the rest are the arguments passed to the command. Nothing will be executed if left empty.
+
+The command receives the same environment variables as on_song_change (CURRENT_SONG, STATE, PID, etc.).
+
+Examples
+Stop playback on exit:
+
+on_exit: Some(["rmpc", "--address", "/tmp/mpd_socket", "stop"]),
+
+Pause on exit:
+
+on_exit: Some(["rmpc", "--address", "/tmp/mpd_socket", "pause"]),
+
+ ✔️ *directories_sort*
+directories_sort: ModifiedTime(..) | Format(..) | SongFormat(..)
+Determines how the entries are sorted in the directories pane. All of the properties below take additional config options: group_by_type and reverse which groups the entries by directories, songs and playlists and reverse the ordering respectively.
+
+✔️ *directories_hidden_dirs*
+directories_hidden_dirs: string[]
+A list of directory names to hide from the Directories pane. Directories are matched by their name at any depth, for example [".Trash-1000"] hides every directory named .Trash-1000. Defaults to [].
+
+**** Theme
+
+https://everforest.vercel.app/palette
+
+✔️ use the everforest pallete
+
+✔️ *lyrics*
+lyrics.timestamp
+lyrics.timestamp: true | false
+Sets the visibility of the timestamps in the lyrics pane.
+
+✔️ *lyrics.alignment*
+lyrics.alignment: Left | Center | Right
+Sets the alignment of the displayed lyrics.
+
+

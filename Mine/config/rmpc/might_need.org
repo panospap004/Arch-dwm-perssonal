@@ -1,0 +1,70 @@
+**** general config
+
+✔️ *keep_state_on_song_change*
+keep_state_on_song_change: <bool>
+Whether to keep paused the current playback state when using the NextTrack/PreviousTrack actions. Defaults to true.
+
+✔️ *quit_closes_modal*
+quit_closes_modal: <bool>
+If true, Quit action will close an opened modal. Defaults to false.
+
+✔️ *enable_lyrics_index*
+enable_lyrics_index: <bool>
+Whether rmpc should index your lyrics_dir to be able to match lyrics to .lrc by the metadata (artist, title, album, length). Disabling this also disables enable_lyrics_hot_reload. Only disable this if you experience performance issues with very large number of files in your lyrics_dir. Defaults to true.
+
+✔️ *duration_format*
+duration_format: None | Some("<string>")
+Template string for formatting song durations throughout the application. Uses % tokens for time components.
+
+Available tokens:
+
+%d / %D - Days (unpadded / zero-padded to 2 digits)
+%h / %H - Hours (unpadded / zero-padded to 2 digits)
+%m / %M - Minutes (unpadded / zero-padded to 2 digits)
+%s / %S - Seconds (unpadded / zero-padded to 2 digits)
+%t - Total seconds
+%% - Literal % character
+Defaults to "%m:%S" (e.g., “5:43” for 5 minutes 43 seconds).
+
+Examples
+#+begin_src shell
+duration_format: "%m:%S",        // "5:43"
+duration_format: "%M:%S",        // "05:43" (zero-padded minutes)
+duration_format: "%h:%M:%S",     // "1:05:43" (with hours)
+duration_format: "%t seconds",   // "343 seconds"
+#+end_src
+
+✔️ *scrolloff*
+scrolloff: <number>
+Minimal number of screen lines to keep above and below the cursor. Cursor will always be in the middle of the screen if set to value bigger than half the viewport height. Default is 0.
+
+❌ *on_song_change*
+on_song_change: ["notify-send", "song changed!"]
+Execute given command when the song changes. First element of the array is the command to execute and the rest are the arguments passed to the command. Nothing will be executed if left empty. Can be used to send notifications when the song changes.
+
+❌ *artists*
+artists: <artists>
+Configures how albums are displayed and sorted in the Artists, AlbumArtists and Browser panes. Albums can display either only its name or include an album’s date as well. Additionally, albums can be sorted by their name or date.
+
+Default:
+
+artists: (
+    album_display_mode: SplitByDate,
+    album_sort_by: Date,
+    album_date_tags: [Date],
+),
+
+❌ *album_display_mode*
+Can be one of the following:
+
+SplitByDate - songs in the album will be split into separate album entries, one for each date and the album date will be displayed in front of the album name in the following format: (<date value>) <album name>
+NameOnly - only one entry for an album will be created and the album date will not be displayed
+
+❌ *album_sort_by*
+Can be one of the following:
+
+Name - albums are sorted by their name first and date second if their names are identical
+Date - albums will be simply sorted by date.
+album_date_tags
+List of metadata tags to search for album dates, in order of preference. Can be one of Date or OriginalDate. When determining an album’s date, rmpc will check each tag in order and use the first one found.
+

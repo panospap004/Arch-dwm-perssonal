@@ -259,7 +259,11 @@ end
 # A copy of fish's internal cd function. This makes it possible to use
 # `alias cd=z` without causing an infinite loop.
 if ! builtin functions --query __zoxide_cd_internal
-    string replace --regex -- '^function cd\s' 'function __zoxide_cd_internal ' <$__fish_data_dir/functions/cd.fish | source
+    if test -e $__fish_data_dir/functions/cd.fish
+        string replace --regex -- '^function cd\s' 'function __zoxide_cd_internal ' <$__fish_data_dir/functions/cd.fish | source
+    else
+        builtin functions cd | string replace --regex -- '^function cd\s' 'function __zoxide_cd_internal ' | source
+    end
 end
 
 # cd + custom logic based on the value of _ZO_ECHO.
@@ -512,4 +516,5 @@ bind up _atuin_search
 
 # bat theme
 bat cache --build > /dev/null 2>&1
-export BAT_THEME="Catppuccin Mocha"
+export BAT_THEME="everforest-dark"
+# export BAT_THEME="Catppuccin Mocha"

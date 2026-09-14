@@ -908,6 +908,10 @@ wget -P "$(bat --config-dir)/themes" "https://github.com/catppuccin/bat/raw/main
 wget -P "$(bat --config-dir)/themes" "https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Frappe.tmTheme"
 wget -P "$(bat --config-dir)/themes" "https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Macchiato.tmTheme"
 wget -P "$(bat --config-dir)/themes" "https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Mocha.tmTheme"
+git clone --depth=1 --no-tags https://github.com/vasylromanets/everforest-bat /tmp/everforest-bat
+mkdir -p "$(bat --config-dir)/themes"
+cp /tmp/everforest-bat/themes/*.tmTheme "$(bat --config-dir)/themes/"
+rm -rf /tmp/everforest-bat
 bat cache --build
 
 # Wallaper 

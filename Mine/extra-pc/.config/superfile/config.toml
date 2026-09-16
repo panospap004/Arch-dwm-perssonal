@@ -140,3 +140,9 @@ zoxide_support = true
 #   pdf = "zathura"
 #   conf = "nvim"
 [open_with]
+mp3 = "amberol"
+mp4 = "mpv"
+png = "feh"
+jpg = "feh"
+jpeg = "feh"
+csv = "kate"
